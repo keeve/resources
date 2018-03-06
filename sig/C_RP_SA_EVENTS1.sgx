@@ -1,0 +1,2380 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="USUBS" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUBSYSTEM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UVERS" seqno="3" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="4" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPARENT" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UCOMMENT" seqno="6" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2011-11-02T17:50:42.00</DAT>
+<DAT name="USUBSYSTEM">C</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:49:14.00</DAT>
+<DAT name="USUBSYSTEM">COM_OUTLOOK</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:24:25.00</DAT>
+<DAT name="USUBSYSTEM">COM_WORD</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2002-03-26T15:40:21.00</DAT>
+<DAT name="USUBSYSTEM">DISYSWEB</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2004-12-17T10:27:45.00</DAT>
+<DAT name="USUBSYSTEM">MSEXCEL</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">1998-04-01T15:03:13.00</DAT>
+<DAT name="USUBSYSTEM">USYS</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2002-01-21T09:04:27.00</DAT>
+<DAT name="USUBSYSTEM">VOA8</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2012-05-21T10:28:19.00</DAT>
+<DAT name="USUBSYSTEM">WIN32API</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2003-06-23T16:48:22.00</DAT>
+<DAT name="USUBSYSTEM">WINAPI</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2006-01-26T15:40:49.00</DAT>
+<DAT name="USUBSYSTEM">WINSIG</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:55:03.00</DAT>
+<DAT name="USUBSYSTEM">WIN_API</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USSPEC" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="3" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="4" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECID" seqno="6" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUBSYSTEM" seqno="7" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDEFIMPLNAM" seqno="8" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDEFPATH" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USYNCALLOWED" seqno="10" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USCOPE" seqno="11" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UEXECDEF" seqno="12" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USELFCONT" seqno="13" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UNOSTATE" seqno="14" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANS" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSATTR" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UMWATTR" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UHIDDDATA" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="URESDATA" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UHIDCDATA" seqno="21" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Auto Events Utilities</DAT>
+<DAT name="UVAR">SYSTEM_LIBRARY</DAT>
+<DAT name="USPECID">ID2016092215152847</DAT>
+<DAT name="UDEFIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UDEFPATH">SVC</DAT>
+<DAT name="USCOPE">PUB</DAT>
+<DAT name="UEXECDEF">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOPER" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UOPERNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UDESCR" seqno="4" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USCOPE" seqno="6" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USELFCONT" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UEXECTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UNOSTATE" seqno="9" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPRE" seqno="10" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UPOST" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="URETVAL" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">ACCEPT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">CHECKOKTODELETE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">DELETERPTSFROMUSERS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">DISABLEALERTSFROMUSERS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">EXEC</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETALERTSLISTBYCOMPCODE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEALERTS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEEVENTS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTSCOUNT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETDEFAULTDESC</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETEVENTDESCRIPTION</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETEVENTFREQUENECY</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETEVENTLIST</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETIMPORTERREPORTCOUNT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETREPORTLISTBYTYPE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETREPORTPARAMS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETREPORTSLISTBYIMP</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETUSERREPORTCOUNTIMP</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">QUIT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USPARM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UOPERNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UPARMNAM" seqno="4" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UDESCR" seqno="5" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPSEQ" seqno="7" type="N" level="2" pack="7" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_PTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDIREC" seqno="9" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="10" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_VLAB" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_TLAB" seqno="12" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UOBJNAM" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">CHECKOKTODELETE</DAT>
+<DAT name="UPARMNAM">PLIST</DAT>
+<DAT name="UPSEQ">2</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">CHECKOKTODELETE</DAT>
+<DAT name="UPARMNAM">PREPORTID</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">DELETERPTSFROMUSERS</DAT>
+<DAT name="UPARMNAM">PIMPCODE</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">DELETERPTSFROMUSERS</DAT>
+<DAT name="UPARMNAM">PRPTID</DAT>
+<DAT name="UPSEQ">2</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">DELETERPTSFROMUSERS</DAT>
+<DAT name="UPARMNAM">PSUCCESS</DAT>
+<DAT name="UPSEQ">3</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">B</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">DISABLEALERTSFROMUSERS</DAT>
+<DAT name="UPARMNAM">PCOMPCODE</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">DISABLEALERTSFROMUSERS</DAT>
+<DAT name="UPARMNAM">PCOMPTYPE</DAT>
+<DAT name="UPSEQ">2</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">DISABLEALERTSFROMUSERS</DAT>
+<DAT name="UPARMNAM">PRPTID</DAT>
+<DAT name="UPSEQ">3</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">DISABLEALERTSFROMUSERS</DAT>
+<DAT name="UPARMNAM">PSUCCESS</DAT>
+<DAT name="UPSEQ">4</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">B</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETALERTSLISTBYCOMPCODE</DAT>
+<DAT name="UPARMNAM">PCOMPCODE</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETALERTSLISTBYCOMPCODE</DAT>
+<DAT name="UPARMNAM">PCOMPTYPE</DAT>
+<DAT name="UPSEQ">2</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETALERTSLISTBYCOMPCODE</DAT>
+<DAT name="UPARMNAM">PLIST</DAT>
+<DAT name="UPSEQ">3</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEALERTS</DAT>
+<DAT name="UPARMNAM">PAVAILIBLEALERTS</DAT>
+<DAT name="UPSEQ">4</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEALERTS</DAT>
+<DAT name="UPARMNAM">PCOMPCODE</DAT>
+<DAT name="UPSEQ">2</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEALERTS</DAT>
+<DAT name="UPARMNAM">PCOMPTYPE</DAT>
+<DAT name="UPSEQ">3</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEALERTS</DAT>
+<DAT name="UPARMNAM">PUSER</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEEVENTS</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTS</DAT>
+<DAT name="UPARMNAM">PAVAILABLEREPORTS</DAT>
+<DAT name="UPSEQ">3</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTS</DAT>
+<DAT name="UPARMNAM">PCOMPTYPE</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTS</DAT>
+<DAT name="UPARMNAM">PCOUNT</DAT>
+<DAT name="UPSEQ">5</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTS</DAT>
+<DAT name="UPARMNAM">PLIST</DAT>
+<DAT name="UPSEQ">4</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTS</DAT>
+<DAT name="UPARMNAM">PREPORTTYPE</DAT>
+<DAT name="UPSEQ">2</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTSCOUNT</DAT>
+<DAT name="UPARMNAM">PAVAILIBLEREPORTS</DAT>
+<DAT name="UPSEQ">3</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTSCOUNT</DAT>
+<DAT name="UPARMNAM">PIMPORTER</DAT>
+<DAT name="UPSEQ">2</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTSCOUNT</DAT>
+<DAT name="UPARMNAM">PUSER</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETDEFAULTDESC</DAT>
+<DAT name="UPARMNAM">PID</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETEVENTDESCRIPTION</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETEVENTFREQUENECY</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETEVENTLIST</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETIMPORTERREPORTCOUNT</DAT>
+<DAT name="UPARMNAM">PREPORTCOUNT</DAT>
+<DAT name="UPSEQ">2</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETIMPORTERREPORTCOUNT</DAT>
+<DAT name="UPARMNAM">PRPTID</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETREPORTLISTBYTYPE</DAT>
+<DAT name="UPARMNAM">PCOMPCODE</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETREPORTLISTBYTYPE</DAT>
+<DAT name="UPARMNAM">PLIST</DAT>
+<DAT name="UPSEQ">3</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETREPORTLISTBYTYPE</DAT>
+<DAT name="UPARMNAM">TYPE</DAT>
+<DAT name="UPSEQ">2</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETREPORTPARAMS</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UPSEQ">2</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETREPORTPARAMS</DAT>
+<DAT name="UPARMNAM">PREPORTID</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETREPORTSLISTBYIMP</DAT>
+<DAT name="UPARMNAM">PIMPORTER</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETREPORTSLISTBYIMP</DAT>
+<DAT name="UPARMNAM">PLIST</DAT>
+<DAT name="UPSEQ">2</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETUSERREPORTCOUNTIMP</DAT>
+<DAT name="UPARMNAM">PIMPORTER</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETUSERREPORTCOUNTIMP</DAT>
+<DAT name="UPARMNAM">PREPORTCOUNT</DAT>
+<DAT name="UPSEQ">3</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UOPERNAM">GETUSERREPORTCOUNTIMP</DAT>
+<DAT name="UPARMNAM">PRPTID</DAT>
+<DAT name="UPSEQ">2</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIMPL" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="2" idxsnr="1" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UDESCR" seqno="5" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLID" seqno="7" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLSUB" seqno="8" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCNTXT" seqno="9" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USET" seqno="10" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERSCHECKING" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UTRANSATTR" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UIMPLATTR" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UIMPLID">ID2016092215152847</DAT>
+<DAT name="UCNTXT">F</DAT>
+<DAT name="UVERSCHECKING">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIOPER" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="2" idxsnr="1" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UOPERNAM" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULITOPERNAM" seqno="8" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="URETVAL" seqno="9" type="N" level="2" pack="7" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCNTXT" seqno="10" type="N" level="2" pack="7" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLEMENTED" seqno="11" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBODY" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UEXCEPT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="UOPERATTR" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="URETTYPE" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">ACCEPT</DAT>
+<DAT name="ULITOPERNAM">ACCEPT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">CHECKOKTODELETE</DAT>
+<DAT name="ULITOPERNAM">CHECKOKTODELETE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">DELETERPTSFROMUSERS</DAT>
+<DAT name="ULITOPERNAM">DELETERPTSFROMUSERS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">DISABLEALERTSFROMUSERS</DAT>
+<DAT name="ULITOPERNAM">DISABLEALERTSFROMUSERS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">EXEC</DAT>
+<DAT name="ULITOPERNAM">EXEC</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETALERTSLISTBYCOMPCODE</DAT>
+<DAT name="ULITOPERNAM">GETALERTSLISTBYCOMPCODE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEALERTS</DAT>
+<DAT name="ULITOPERNAM">GETAVAILABLEALERTS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEEVENTS</DAT>
+<DAT name="ULITOPERNAM">GETAVAILABLEEVENTS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTS</DAT>
+<DAT name="ULITOPERNAM">GETAVAILABLEREPORTS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTSCOUNT</DAT>
+<DAT name="ULITOPERNAM">GETAVAILABLEREPORTSCOUNT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETDEFAULTDESC</DAT>
+<DAT name="ULITOPERNAM">GETDEFAULTDESC</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETEVENTDESCRIPTION</DAT>
+<DAT name="ULITOPERNAM">GETEVENTDESCRIPTION</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETEVENTFREQUENECY</DAT>
+<DAT name="ULITOPERNAM">GETEVENTFREQUENECY</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETEVENTLIST</DAT>
+<DAT name="ULITOPERNAM">GETEVENTLIST</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETIMPORTERREPORTCOUNT</DAT>
+<DAT name="ULITOPERNAM">GETIMPORTERREPORTCOUNT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETREPORTLISTBYTYPE</DAT>
+<DAT name="ULITOPERNAM">GETREPORTLISTBYTYPE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETREPORTPARAMS</DAT>
+<DAT name="ULITOPERNAM">GETREPORTPARAMS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETREPORTSLISTBYIMP</DAT>
+<DAT name="ULITOPERNAM">GETREPORTSLISTBYIMP</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETUSERREPORTCOUNTIMP</DAT>
+<DAT name="ULITOPERNAM">GETUSERREPORTCOUNTIMP</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">QUIT</DAT>
+<DAT name="ULITOPERNAM">QUIT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIPARM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" mandatory="yes" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UOPERNAM" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UPARMNAM" seqno="6" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="8" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INTF" seqno="9" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UARRAYSIZ" seqno="10" type="N" level="2" pack="10" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLINTF" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCTYP" seqno="12" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULITPARMNAM" seqno="13" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_GLAB" seqno="14" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIPATTR" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UDTYPQUALIF" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">CHECKOKTODELETE</DAT>
+<DAT name="UPARMNAM">PLIST</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">CHECKOKTODELETE</DAT>
+<DAT name="UPARMNAM">PREPORTID</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">DELETERPTSFROMUSERS</DAT>
+<DAT name="UPARMNAM">PIMPCODE</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">DELETERPTSFROMUSERS</DAT>
+<DAT name="UPARMNAM">PRPTID</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">DELETERPTSFROMUSERS</DAT>
+<DAT name="UPARMNAM">PSUCCESS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">DISABLEALERTSFROMUSERS</DAT>
+<DAT name="UPARMNAM">PCOMPCODE</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">DISABLEALERTSFROMUSERS</DAT>
+<DAT name="UPARMNAM">PCOMPTYPE</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">DISABLEALERTSFROMUSERS</DAT>
+<DAT name="UPARMNAM">PRPTID</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">DISABLEALERTSFROMUSERS</DAT>
+<DAT name="UPARMNAM">PSUCCESS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETALERTSLISTBYCOMPCODE</DAT>
+<DAT name="UPARMNAM">PCOMPCODE</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETALERTSLISTBYCOMPCODE</DAT>
+<DAT name="UPARMNAM">PCOMPTYPE</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETALERTSLISTBYCOMPCODE</DAT>
+<DAT name="UPARMNAM">PLIST</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEALERTS</DAT>
+<DAT name="UPARMNAM">PAVAILIBLEALERTS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEALERTS</DAT>
+<DAT name="UPARMNAM">PCOMPCODE</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEALERTS</DAT>
+<DAT name="UPARMNAM">PCOMPTYPE</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEALERTS</DAT>
+<DAT name="UPARMNAM">PUSER</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEEVENTS</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTS</DAT>
+<DAT name="UPARMNAM">PAVAILABLEREPORTS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTS</DAT>
+<DAT name="UPARMNAM">PCOMPTYPE</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTS</DAT>
+<DAT name="UPARMNAM">PCOUNT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTS</DAT>
+<DAT name="UPARMNAM">PLIST</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTS</DAT>
+<DAT name="UPARMNAM">PREPORTTYPE</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTSCOUNT</DAT>
+<DAT name="UPARMNAM">PAVAILIBLEREPORTS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTSCOUNT</DAT>
+<DAT name="UPARMNAM">PIMPORTER</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAVAILABLEREPORTSCOUNT</DAT>
+<DAT name="UPARMNAM">PUSER</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETDEFAULTDESC</DAT>
+<DAT name="UPARMNAM">PID</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETEVENTDESCRIPTION</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETEVENTFREQUENECY</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETEVENTLIST</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETIMPORTERREPORTCOUNT</DAT>
+<DAT name="UPARMNAM">PREPORTCOUNT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETIMPORTERREPORTCOUNT</DAT>
+<DAT name="UPARMNAM">PRPTID</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETREPORTLISTBYTYPE</DAT>
+<DAT name="UPARMNAM">PCOMPCODE</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETREPORTLISTBYTYPE</DAT>
+<DAT name="UPARMNAM">PLIST</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETREPORTLISTBYTYPE</DAT>
+<DAT name="UPARMNAM">TYPE</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETREPORTPARAMS</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETREPORTPARAMS</DAT>
+<DAT name="UPARMNAM">PREPORTID</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETREPORTSLISTBYIMP</DAT>
+<DAT name="UPARMNAM">PIMPORTER</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETREPORTSLISTBYIMP</DAT>
+<DAT name="UPARMNAM">PLIST</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETUSERREPORTCOUNTIMP</DAT>
+<DAT name="UPARMNAM">PIMPORTER</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETUSERREPORTCOUNTIMP</DAT>
+<DAT name="UPARMNAM">PREPORTCOUNT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:15:28.00</DAT>
+<DAT name="USPECNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UIMPLNAM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETUSERREPORTCOUNTIMP</DAT>
+<DAT name="UPARMNAM">PRPTID</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UFORM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="3" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="FTYP" seqno="4" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="FHEAD" seqno="7" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VMAAT" seqno="8" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HMAAT" seqno="9" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOLOR" seqno="10" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="CLRSCRN" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBORDER" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBIN" seqno="17" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBOT" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="MOVABLE" seqno="19" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOINVERSE" seqno="20" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBRIGHT" seqno="21" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOUNLINE" seqno="22" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBLINK" seqno="23" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPANEL" seqno="24" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="POSPANEL" seqno="25" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPULL" seqno="26" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HIDESTACK" seqno="27" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="28" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UINHERIT" seqno="29" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LIBRAR" seqno="30" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSACT" seqno="31" type="S" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="CONSTRAINTS" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="INIT" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="CLEAR" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="RETRIEVE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="RECORD" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="STORE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DELET" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ACCEPT" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="QUIT" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="INTKEY" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="SPRINT" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="EPRINT" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ASYNC" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="FORMPIC" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="HEADER" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="LISTING" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="PERF" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="PROTO" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="TITLE" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="WINPROP" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="FRLF" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="FRGF" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="SFUNC" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="HTMLPROP" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USCONTAINED" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="UEXECDEF" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="UML_DATA" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPPROP" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="HTML_FORMAT" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_STYLES" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_H" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_BODYHOOK" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPCLASS" seqno="70" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="GETSTATE" seqno="71" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="SETSTATE" seqno="72" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UNOSTATE" seqno="73" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="CMP_EXT" seqno="74" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UCTRIGGERS" seqno="75" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="UACCESSPATH" seqno="76" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="USPLITPROP" seqno="77" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL2" seqno="78" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="USTATEMANAGEDBY" seqno="79" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="HTMLSKELETON" seqno="80" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-19T16:31:45.00</DAT>
+<DAT name="UCOMPSTAMP">2018-03-06T10:41:55.00</DAT>
+<DAT name="ULABEL">C_RP_SA_EVENTS1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Auto Events Utilities</DAT>
+<DAT name="WVPOS">1</DAT>
+<DAT name="WHPOS">1</DAT>
+<DAT name="WVSIZ">10</DAT>
+<DAT name="WHSIZ">40</DAT>
+<DAT name="CLRSCRN">N</DAT>
+<DAT name="UBORDER">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="LIBRAR">IFC</DAT>
+<DAT name="UTRANSACT">1</DAT>
+<DAT name="TPLACTUAL" xml:space='preserve'>
+#Comment ----------------------------------------------
+#Comment start_of_references
+#ifdefined TEMPLATENAME
+#info symbol TEMPLATENAME is already or also defined as a global or local constant
+#endif
+#define TEMPLATENAME=
+#Comment 
+
+#Comment end_of_references
+
+
+#Comment ----------------------------------------------
+#Comment start_of_mappings
+#Comment end_of_mappings
+
+
+#Comment ----------------------------------------------
+#Comment start_of_symbols
+#Comment end_of_symbols
+
+
+#Comment ----------------------------------------------
+</DAT>
+<DAT name="FORMPIC" xml:space='preserve'>
+ &uFRM;TYP=E&uSEP;NAM=CN_AUTO_EVENTS.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;</DAT>
+<DAT name="LISTING" xml:space='preserve'>18-JUL-16	PRB	1004663	New</DAT>
+<DAT name="SFUNC" xml:space='preserve'>operation getAvailableEvents
+	params
+		struct	pParams		: INOUT
+	endparams
+	variables
+		numeric	vCount
+		string	vAvailableEvents
+	endvariables
+
+	clear
+	EVENT_TYPE.CN_AUTO_EVENTS = pParams-&gt;in-&gt;EventType
+	retrieve/e "CN_AUTO_EVENTS"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_AUTO_EVENTS"
+			if ($item(pParams-&gt;in-&gt;CompType, AVAILABLE_TO.CN_AUTO_EVENTS) != "")
+				if ($logical("ENV") = "IFCFSCDEV")
+					putitem/id vAvailableEvents, EVENT_ID.CN_AUTO_EVENTS, $concat(DESCRIPTION.CN_AUTO_EVENTS, " - ", EVENT_ID.CN_AUTO_EVENTS)
+				else
+					putitem/id vAvailableEvents, EVENT_ID.CN_AUTO_EVENTS, DESCRIPTION.CN_AUTO_EVENTS
+				endif
+				vCount += 1
+			endif
+		endfor
+	endif		
+
+	pParams-&gt;out-&gt;AvailableEvents = vAvailableEvents
+	pParams-&gt;out-&gt;Count           = vCount
+
+	return(0)
+
+end
+
+
+operation getEventDescription
+	params
+		struct	pParams		: INOUT
+	endparams
+
+	clear
+	EVENT_ID.CN_AUTO_EVENTS = pParams-&gt;in-&gt;EventID
+
+	retrieve/e "CN_AUTO_EVENTS"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		pParams-&gt;out-&gt;Description = DESCRIPTION.CN_AUTO_EVENTS
+		pParams-&gt;out-&gt;status      = 0
+	else
+		pParams-&gt;out-&gt;status = -1
+	endif
+
+	return(0)
+
+end
+
+
+operation getEventFrequenecy
+	params
+		struct	pParams		: INOUT
+	endParams
+
+	clear
+	EVENT_ID.CN_AUTO_EVENTS = pParams-&gt;in-&gt;EventID
+
+	retrieve/e "CN_AUTO_EVENTS"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		pParams-&gt;out-&gt;Daily   = DAILY.CN_AUTO_EVENTS
+		pParams-&gt;out-&gt;Monthly = MONTHLY.CN_AUTO_EVENTS
+		pParams-&gt;out-&gt;status = 0
+	else
+		pParams-&gt;out-&gt;status = -1
+	endif
+
+	return(0)
+
+end
+
+
+operation getEventList
+	params
+		struct	pParams		: INOUT
+	endparams
+	variables
+		string	vList
+	endvariables
+
+	clear
+	EVENT_TYPE.CN_AUTO_EVENTS = pParams-&gt;in-&gt;EventType
+
+	retrieve/e "CN_AUTO_EVENTS"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		putlistitems/id vList, EVENT_ID.CN_AUTO_EVENTS, DESCRIPTION.CN_AUTO_EVENTS
+		pParams-&gt;out-&gt;List   = vList
+		pParams-&gt;out-&gt;status = 0
+	else
+		pParams-&gt;out-&gt;status = -1
+	endif
+
+	return(0)
+
+end
+
+
+; --------------------------------------------------------------------------------------------------
+
+operation getAvailableReports
+	params
+;		String	pUser					: In
+		numeric	pCompType				: In
+		numeric	pReportType			: IN
+		string	pAvailableReports : Out
+		string 	pList : OUT
+		numeric	pCount : OUT
+	endParams
+	variables
+		string vList
+		numeric vTotalRpts, vCompType
+	endVariables
+
+	clear/e "RPTHEADER"
+	TYPEFLAG.RPTHEADER = pReportType
+	retrieve/e "RPTHEADER"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "RPTHEADER"
+		if ($item(pCompType, AVAILABILITY.RPTHEADER) != "")
+			if ($logical("ENV") = "IFCFSCDEV")
+				putitem/id pAvailableReports, RPTID.RPTHEADER, $concat(RPTDESCRIPTION.RPTHEADER, " - ", RPTID.RPTHEADER)
+			else
+				putitem/id pAvailableReports, RPTID.RPTHEADER, RPTDESCRIPTION.RPTHEADER
+			endif
+			putitem pList, -1,RPTID.RPTHEADER
+			pCount = pCount + 1
+		endif
+		endfor
+	endif		
+
+	return(0)
+
+end
+
+
+;--------------------------------------------------------------------------------------------------------
+
+; Check if the report can be deleted
+operation checkOkToDelete
+params
+	string pReportID : In
+	string plist		: Out
+endParams
+	; Check if any imporets have this report assigned to them
+	clear/e "RPTCOMPANY"
+	RPTID.RPTCOMPANY= pReportID
+	retrieve/e "RPTCOMPANY"
+	if ($procerror = 0)
+		putitem/id pList, "Importer", "T"
+	else
+		putitem/id pList, "Importer", "F"
+	endif
+	; Check if any individual users have this report assigned to them
+	clear/e "RPTUSER"
+	RPTID.RPTUSER = pReportID
+	retrieve/e "RPTUSER"
+	if ($procerror = 0)
+		putitem/id pList, "User", "T"
+	else
+		putitem/id pList, "User", "F"
+	endif
+end
+
+
+
+operation getAvailableReports
+	params
+;		String	pUser					: In
+		numeric	pCompType				: In
+		numeric	pReportType			: IN
+		string	pAvailableReports : Out
+		string 	pList : OUT
+		numeric	pCount : OUT
+	endParams
+	variables
+		string vList
+		numeric vTotalRpts, vCompType
+	endVariables
+
+	clear/e "RPTHEADER"
+	TYPEFLAG.RPTHEADER = pReportType
+	retrieve/e "RPTHEADER"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "RPTHEADER"
+		if ($item(pCompType, AVAILABILITY.RPTHEADER) != "")
+			if ($logical("ENV") = "IFCFSCDEV")
+				putitem/id pAvailableReports, RPTID.RPTHEADER, $concat(RPTDESCRIPTION.RPTHEADER, " - ", RPTID.RPTHEADER)
+			else
+				putitem/id pAvailableReports, RPTID.RPTHEADER, RPTDESCRIPTION.RPTHEADER
+			endif
+			putitem pList, -1,RPTID.RPTHEADER
+			pCount = pCount + 1
+		endif
+		endfor
+	endif		
+
+	return(0)
+
+end
+
+
+
+
+
+
+operation getReportParams
+	params
+		string pReportID : IN
+		string pParams  : OUT
+	endParams
+	if (pReportID="")
+		return()
+	endif
+	clear/e "RPTHEADER"
+	RPTID.RPTHEADER = pReportID
+	retrieve/e "RPTHEADER"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		pParams = PARAMETERDESC.RPTHEADER
+	endif		
+
+	return(0)
+
+end
+
+
+operation getReportsListbyImp
+	params 
+		string pImporter : In
+		string pList : Out
+	endParams
+	variables
+		string vItemId, vItemValue, vIndex
+	endVariables
+	clear/e "RPTIMPORTER"
+	IMPCODE.RPTIMPORTER= pImporter
+	retrieve/e "RPTIMPORTER"
+	if ($procerror = 0)
+		putlistitems/id pList, RPTID.RPTIMPORTER, RPTDESCRIPTION.RPTIMPORTER
+	else
+		return -1
+	endIf
+end
+
+;; Get the count of users using a report by importer
+operation getUserReportCountImp
+	params
+		string pImporter 			: In
+		string pRptId 				: In
+		numeric pReportCount 	: Out
+	endParams
+		clear/e "RPTUSER"
+		RPTID.RPTUSER = pRptId
+		IMPCODE.RPTUSER = pImporter
+		retrieve/e "RPTUSER"
+		if ($procerror != 0)
+			pReportCount = 0
+		else
+			pReportCount = $hits(RPTUSER)
+		endIf
+end
+
+;; Get total count of importers using a specified report
+operation getImporterReportCount
+	params
+		string pRptId 				: In
+		numeric pReportCount 	: Out
+	endParams
+	clear/e "RPTCOMPANY"
+	RPTID.RPTCOMPANY = pRptId
+	retrieve/e "RPTCOMPANY"	
+	if ($procerror = 0)
+		pReportCount = $hits(RPTCOMPANY)
+	else
+		pReportCount = 0
+	endIf
+end
+
+;; Gets number of reports availible to the user
+operation getAvailableReportsCount
+	params
+		String pUser					: In
+		String pImporter				: In
+		numeric pAvailibleReports : Out
+	endParams
+	variables
+		string vList
+		numeric vTotalRpts, vCompType
+	endVariables
+	clear/e "RPTUSER"
+	clear/e "RPTHEADER"
+
+	activate "SY_SA_COMPANY1".getCompanyType(pImporter,vCompType)
+	vTotalRpts = 0
+	retrieve/e "RPTHEADER"
+	if ($procerror != 0)
+		pAvailibleReports = -1
+		return 0
+	else
+		forentity "RPTHEADER"
+		if ($item(vCompType,AVAILABILITY.RPTHEADER) != "")
+			putitem vList, -1, RPTID.RPTHEADER
+		endif
+		vTotalRpts = vTotalRpts + 1
+		endfor
+		vList = $replace(vList,1,"&uSEP;","&uOR;",-1)
+		USERCODE.RPTUSER = pUser
+		RPTID.RPTUSER = vList
+		IMPCODE.RPTUSER = pImporter
+		retrieve/e "RPTUSER"
+		if ($hits("RPTUSER") &lt; vTotalRpts)
+			pAvailibleReports = (vTotalRpts - $hits("RPTUSER"))
+		else
+			pAvailibleReports = 0
+		endif		
+	endif		
+end
+
+;; Delete reports from users - this is activated from reports-&gt;importer mantainence when deleteing a record
+operation deleteRptsFromUsers
+	params
+		string pImpCode	: In
+		string pRptId		: In
+		boolean pSuccess : Out
+	endParams
+	clear/e "RPRUSER"
+	IMPCODE.RPTUSER	= pImpCode
+	RPTID.RPTUSER 		= pRptId
+	retrieve/e "RPTUSER"
+	if ($procerror = 0)
+		pSuccess = "T"
+		forentity "RPTUSER"
+			remocc "RPTUSER", $curocc
+		endFor
+		store/e "RPTUSER"
+		if ($procerror = 0)
+			commit
+			if ($procerror = 0)
+				pSuccess = "T"
+			else
+				rollback
+				pSuccess = "F"
+			endIf
+		else
+			pSuccess = "F"
+		endIf
+	else
+		pSuccess = "F"
+	endif
+end
+
+operation getDefaultDesc
+	params
+		string pId : InOut
+	endParams
+	clear/e "RPTHEADER"
+	RPTID.RPTHEADER = pId
+	retrieve/e "RPTHEADER"
+	if ($procerror = 0)
+		pId = RPTDESCRIPTION.RPTHEADER
+	endIf
+end
+
+;## MANTIS 1654 ENDS
+
+
+operation getAlertsListbyCompCode
+	params 
+		string pCompCode : In
+		string pCompType : In
+		string pList : Out
+	endParams
+	variables
+		string vItemId, vItemValue, vIndex
+	endVariables
+	clear/e "RPTCOMPANY"
+	COMPCODE.RPTCOMPANY = pCompCode
+	COMPTYPE.RPTCOMPANY = pCompType
+	retrieve/e "RPTCOMPANY"
+	if ($procerror = 0)
+		forentity "RPTCOMPANY"
+			clear/e "RPTHEADER"
+			RPTID.RPTHEADER = RPTID.RPTCOMPANY
+			retrieve/e "RPTHEADER"	
+			;message/info "test %%$hits(RPTHEADER)%%%"
+			if ($number(TYPEFLAG.RPTHEADER) = 2)
+				putitem/id pList, RPTID.RPTCOMPANY, RPTDESCRIPTION.RPTCOMPANY
+			endif
+		endfor
+	else
+		return -1
+	endIf
+end
+
+
+
+
+
+operation getAvailableAlerts
+params
+	String pUser					: In
+	String pCompCode				: In
+	string pCompType				: In
+	numeric pAvailibleAlerts :		Out
+endParams
+variables
+	string vList
+	numeric vTotalRpts
+endVariables
+
+	clear/e "RPTUSER"
+	
+	clear/e "RPTCOMPANY"
+	COMPCODE.RPTCOMPANY = pCompCode
+	COMPTYPE.RPTCOMPANY = pCompType
+	retrieve/e "RPTCOMPANY"
+	
+	vTotalRpts = 0
+	if ($procerror != 0)
+		pAvailibleAlerts = -1
+		return 0
+	else
+		forentity "RPTCOMPANY"		
+			clear/e "RPTHEADER"
+			RPTID.RPTHEADER = RPTID.RPTCOMPANY
+			retrieve/e "RPTHEADER"	
+			
+			if (TYPEFLAG.RPTHEADER = 2)		
+				putitem vList, -1, RPTID.RPTCOMPANY
+				vTotalRpts = vTotalRpts + 1			
+			endif
+		endfor	
+		
+		if (vList != "")
+			vList = $replace(vList,1,"&uSEP;","&uOR;",-1)		
+			USERCODE.RPTUSER = pUser
+			RPTID.RPTUSER = vList
+			COMPCODE.RPTUSER = pCompCode
+			COMPTYPE.RPTUSER = pCompType
+			retrieve/e "RPTUSER"
+		 
+			if ($hits("RPTUSER") &lt; vTotalRpts)
+				pAvailibleAlerts = (vTotalRpts - $hits("RPTUSER"))
+			else
+				pAvailibleAlerts = 0
+			endif	
+		else
+			pAvailibleAlerts = -1
+			return 0
+		endif		
+	endif	
+end 
+
+operation disableAlertsFromUsers
+params
+	string pCompCode	: In
+	string pCompType	: In
+	string pRptId		: In
+	boolean pSuccess 	: Out
+endParams
+
+	clear/e "RPTUSER"
+	COMPCODE.RPTUSER		= pCompCode
+	RPTID.RPTUSER 			= pRptId
+	COMPTYPE.RPTUSER 		= pCompType
+	
+	retrieve/e "RPTUSER"
+	if ($procerror = 0)
+		pSuccess = "T"
+		forentity "RPTUSER"
+			ISDISABLED.RPTUSER = 1
+		endFor
+		store/e "RPTUSER"
+		if ($procerror = 0)
+			commit
+			if ($procerror = 0)
+				pSuccess = "T"
+			else
+				rollback
+				pSuccess = "F"
+			endIf
+		else
+			pSuccess = "F"
+		endIf
+	else
+		pSuccess = "F"
+	endif
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+operation getReportListByType
+	params
+		string pcompCode : IN
+		numeric type : IN
+		string pList : OUT
+	endParams
+	clear/e "RPTCOMPANY"
+	COMPCODE.RPTCOMPANY = pcompCode
+	retrieve/e "RPTCOMPANY"
+	if ($procerror = 0)
+		forentity "RPTCOMPANY"
+			clear/e "RPTHEADER"
+			RPTID.RPTHEADER = RPTID.RPTCOMPANY
+			retrieve/e "RPTHEADER"	
+			
+			if (TYPEFLAG.RPTHEADER = type)
+				putitem pList, -1, RPTID.RPTCOMPANY
+			endif
+		endfor
+	else
+		return -1
+	endIf
+end
+</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXGROUP" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,1" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_BORD" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DBMS" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_UPD" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINL" seqno="11" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXL" seqno="12" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINR" seqno="13" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXR" seqno="14" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLGINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INTF" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="17" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="GETOCC" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="PUTOCC" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="DELOCC" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="LCK" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UNLOCK" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="GETSEGM" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ADDOCC" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DELOCCR" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="CREOCC" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="FINDOCC" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="FLIST" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="BREAK" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="VLDE" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDK" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="UISBCLASS" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UISASSOC" seqno="43" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_OBJSVC" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="U_SVCUSE" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTPROP" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_TABTYPE" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_B" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_E" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTCLASS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="U_GLAB" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UEOINTERFACE" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UECINTERFACE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="UEOOPERS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="UECOPERS" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="UEOTRIGGERS" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="UECTRIGGERS" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETTYPE" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETCREATE" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="PRLO" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="PSLO" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="PRSO" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="PSSO" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="UPARENT" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETTYPE" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F2,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETCREATE" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-14T15:30:37.00</DAT>
+<DAT name="ULABEL">CN_AUTO_EVENTS</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_RP_SA_EVENTS1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

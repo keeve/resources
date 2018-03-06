@@ -1,0 +1,2886 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="USUBS" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUBSYSTEM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UVERS" seqno="3" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="4" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPARENT" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UCOMMENT" seqno="6" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2011-11-02T17:50:42.00</DAT>
+<DAT name="USUBSYSTEM">C</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:49:14.00</DAT>
+<DAT name="USUBSYSTEM">COM_OUTLOOK</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:24:25.00</DAT>
+<DAT name="USUBSYSTEM">COM_WORD</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2002-03-26T15:40:21.00</DAT>
+<DAT name="USUBSYSTEM">DISYSWEB</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2004-12-17T10:27:45.00</DAT>
+<DAT name="USUBSYSTEM">MSEXCEL</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">1998-04-01T15:03:13.00</DAT>
+<DAT name="USUBSYSTEM">USYS</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2002-01-21T09:04:27.00</DAT>
+<DAT name="USUBSYSTEM">VOA8</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2012-05-21T10:28:19.00</DAT>
+<DAT name="USUBSYSTEM">WIN32API</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2003-06-23T16:48:22.00</DAT>
+<DAT name="USUBSYSTEM">WINAPI</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2006-01-26T15:40:49.00</DAT>
+<DAT name="USUBSYSTEM">WINSIG</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:55:03.00</DAT>
+<DAT name="USUBSYSTEM">WIN_API</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USSPEC" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="3" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="4" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECID" seqno="6" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUBSYSTEM" seqno="7" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDEFIMPLNAM" seqno="8" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDEFPATH" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USYNCALLOWED" seqno="10" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USCOPE" seqno="11" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UEXECDEF" seqno="12" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USELFCONT" seqno="13" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UNOSTATE" seqno="14" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANS" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSATTR" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UMWATTR" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UHIDDDATA" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="URESDATA" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UHIDCDATA" seqno="21" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Company List Services</DAT>
+<DAT name="UVAR">SYSTEM_LIBRARY</DAT>
+<DAT name="USPECID">ID2017080814540720</DAT>
+<DAT name="UDEFIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UDEFPATH">SVC</DAT>
+<DAT name="USCOPE">PUB</DAT>
+<DAT name="UEXECDEF">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOPER" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UOPERNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UDESCR" seqno="4" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USCOPE" seqno="6" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USELFCONT" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UEXECTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UNOSTATE" seqno="9" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPRE" seqno="10" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UPOST" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="URETVAL" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">ACCEPT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">CHECKFILEEXISTS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">C_AD_DA_CMPFIL1_UPLOAD</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">C_AD_DA_CMPLGO1_REMOVE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">C_AD_DA_CMPLGO1_UPLOAD</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">C_AD_DA_CNTFIL1_UPLOAD</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">C_AD_DA_CNTLGO1_REMOVE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">C_AD_DA_CNTLGO1_UPLOAD</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">C_AD_SA_CMPLST1_SETSTATUS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">DELETECOMPANYTEAM</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">EXEC</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GENERIC_UPLOAD</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GETCLIENTTEAMSVALREP</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYCURRENCY</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYCURRENCYDEFAULT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYSHORTNAME</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYTEAMSVALREP</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYTYPE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GETCOMPCHARGECODEDESC</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GETCOMPCHARGECODES</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">PROXYEXCEL</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">PROXYIMAGE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">QUIT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USPARM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UOPERNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UPARMNAM" seqno="4" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UDESCR" seqno="5" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPSEQ" seqno="7" type="N" level="2" pack="7" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_PTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDIREC" seqno="9" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="10" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_VLAB" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_TLAB" seqno="12" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UOBJNAM" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">CHECKFILEEXISTS</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">C_AD_SA_CMPLST1_SETSTATUS</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">DELETECOMPANYTEAM</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GETCLIENTTEAMSVALREP</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYCURRENCY</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYCURRENCYDEFAULT</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYSHORTNAME</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYTEAMSVALREP</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYTYPE</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GETCOMPCHARGECODEDESC</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">GETCOMPCHARGECODES</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">PROXYIMAGE</DAT>
+<DAT name="UPARMNAM">VCOMPCODE</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UOPERNAM">PROXYIMAGE</DAT>
+<DAT name="UPARMNAM">VPATH</DAT>
+<DAT name="UPSEQ">2</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIMPL" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="2" idxsnr="1" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UDESCR" seqno="5" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLID" seqno="7" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLSUB" seqno="8" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCNTXT" seqno="9" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USET" seqno="10" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERSCHECKING" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UTRANSATTR" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UIMPLATTR" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UIMPLID">ID2017080814540720</DAT>
+<DAT name="UCNTXT">F</DAT>
+<DAT name="UVERSCHECKING">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIOPER" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="2" idxsnr="1" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UOPERNAM" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULITOPERNAM" seqno="8" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="URETVAL" seqno="9" type="N" level="2" pack="7" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCNTXT" seqno="10" type="N" level="2" pack="7" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLEMENTED" seqno="11" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBODY" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UEXCEPT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="UOPERATTR" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="URETTYPE" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">ACCEPT</DAT>
+<DAT name="ULITOPERNAM">ACCEPT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">CHECKFILEEXISTS</DAT>
+<DAT name="ULITOPERNAM">CHECKFILEEXISTS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">C_AD_DA_CMPFIL1_UPLOAD</DAT>
+<DAT name="ULITOPERNAM">C_AD_DA_CMPFIL1_UPLOAD</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">C_AD_DA_CMPLGO1_REMOVE</DAT>
+<DAT name="ULITOPERNAM">C_AD_DA_CMPLGO1_REMOVE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">C_AD_DA_CMPLGO1_UPLOAD</DAT>
+<DAT name="ULITOPERNAM">C_AD_DA_CMPLGO1_UPLOAD</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">C_AD_DA_CNTFIL1_UPLOAD</DAT>
+<DAT name="ULITOPERNAM">C_AD_DA_CNTFIL1_UPLOAD</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">C_AD_DA_CNTLGO1_REMOVE</DAT>
+<DAT name="ULITOPERNAM">C_AD_DA_CNTLGO1_REMOVE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">C_AD_DA_CNTLGO1_UPLOAD</DAT>
+<DAT name="ULITOPERNAM">C_AD_DA_CNTLGO1_UPLOAD</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">C_AD_SA_CMPLST1_SETSTATUS</DAT>
+<DAT name="ULITOPERNAM">C_AD_SA_CMPLST1_SETSTATUS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">DELETECOMPANYTEAM</DAT>
+<DAT name="ULITOPERNAM">DELETECOMPANYTEAM</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">EXEC</DAT>
+<DAT name="ULITOPERNAM">EXEC</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GENERIC_UPLOAD</DAT>
+<DAT name="ULITOPERNAM">GENERIC_UPLOAD</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTTEAMSVALREP</DAT>
+<DAT name="ULITOPERNAM">GETCLIENTTEAMSVALREP</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYCURRENCY</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYCURRENCY</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYCURRENCYDEFAULT</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYCURRENCYDEFAULT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYSHORTNAME</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYSHORTNAME</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYTEAMSVALREP</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYTEAMSVALREP</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYTYPE</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYTYPE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPCHARGECODEDESC</DAT>
+<DAT name="ULITOPERNAM">GETCOMPCHARGECODEDESC</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPCHARGECODES</DAT>
+<DAT name="ULITOPERNAM">GETCOMPCHARGECODES</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">PROXYEXCEL</DAT>
+<DAT name="ULITOPERNAM">PROXYEXCEL</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">PROXYIMAGE</DAT>
+<DAT name="ULITOPERNAM">PROXYIMAGE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">QUIT</DAT>
+<DAT name="ULITOPERNAM">QUIT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIPARM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" mandatory="yes" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UOPERNAM" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UPARMNAM" seqno="6" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="8" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INTF" seqno="9" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UARRAYSIZ" seqno="10" type="N" level="2" pack="10" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLINTF" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCTYP" seqno="12" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULITPARMNAM" seqno="13" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_GLAB" seqno="14" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIPATTR" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UDTYPQUALIF" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">CHECKFILEEXISTS</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">C_AD_SA_CMPLST1_SETSTATUS</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">DELETECOMPANYTEAM</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTTEAMSVALREP</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYCURRENCY</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYCURRENCYDEFAULT</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYSHORTNAME</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYTEAMSVALREP</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYTYPE</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPCHARGECODEDESC</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPCHARGECODES</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">PROXYIMAGE</DAT>
+<DAT name="UPARMNAM">VCOMPCODE</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:07.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">PROXYIMAGE</DAT>
+<DAT name="UPARMNAM">VPATH</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UFORM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="3" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="FTYP" seqno="4" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="FHEAD" seqno="7" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VMAAT" seqno="8" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HMAAT" seqno="9" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOLOR" seqno="10" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="CLRSCRN" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBORDER" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBIN" seqno="17" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBOT" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="MOVABLE" seqno="19" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOINVERSE" seqno="20" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBRIGHT" seqno="21" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOUNLINE" seqno="22" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBLINK" seqno="23" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPANEL" seqno="24" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="POSPANEL" seqno="25" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPULL" seqno="26" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HIDESTACK" seqno="27" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="28" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UINHERIT" seqno="29" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LIBRAR" seqno="30" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSACT" seqno="31" type="S" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="CONSTRAINTS" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="INIT" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="CLEAR" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="RETRIEVE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="RECORD" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="STORE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DELET" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ACCEPT" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="QUIT" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="INTKEY" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="SPRINT" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="EPRINT" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ASYNC" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="FORMPIC" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="HEADER" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="LISTING" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="PERF" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="PROTO" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="TITLE" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="WINPROP" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="FRLF" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="FRGF" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="SFUNC" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="HTMLPROP" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USCONTAINED" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="UEXECDEF" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="UML_DATA" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPPROP" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="HTML_FORMAT" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_STYLES" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_H" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_BODYHOOK" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPCLASS" seqno="70" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="GETSTATE" seqno="71" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="SETSTATE" seqno="72" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UNOSTATE" seqno="73" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="CMP_EXT" seqno="74" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UCTRIGGERS" seqno="75" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="UACCESSPATH" seqno="76" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="USPLITPROP" seqno="77" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL2" seqno="78" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="USTATEMANAGEDBY" seqno="79" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="HTMLSKELETON" seqno="80" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T14:54:06.00</DAT>
+<DAT name="UCOMPSTAMP">2018-03-06T10:41:51.00</DAT>
+<DAT name="ULABEL">C_AD_SA_CMPLST1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Company List Services</DAT>
+<DAT name="WVPOS">1</DAT>
+<DAT name="WHPOS">1</DAT>
+<DAT name="WVSIZ">10</DAT>
+<DAT name="WHSIZ">40</DAT>
+<DAT name="CLRSCRN">N</DAT>
+<DAT name="UBORDER">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="LIBRAR">IFC</DAT>
+<DAT name="UTRANSACT">1</DAT>
+<DAT name="TPLACTUAL" xml:space='preserve'>
+#Comment ----------------------------------------------
+#Comment start_of_references
+#ifdefined TEMPLATENAME
+#info symbol TEMPLATENAME is already or also defined as a global or local constant
+#endif
+#define TEMPLATENAME=
+#Comment 
+
+#Comment end_of_references
+
+
+#Comment ----------------------------------------------
+#Comment start_of_mappings
+#Comment end_of_mappings
+
+
+#Comment ----------------------------------------------
+#Comment start_of_symbols
+#Comment end_of_symbols
+
+
+#Comment ----------------------------------------------
+</DAT>
+<DAT name="GENERAL" xml:space='preserve'>entry GenerateOutput
+	params
+		string pEntity : IN
+	endparams
+	variables
+		string	vFieldList, vField, vFieldValue, vOuterEntity, vOutput, vJSONString, vraw, vb64image
+		numeric vCtr, vTotal
+	endvariables
+	
+    ;********************************************************************************************
+    ;; Build Painted Fields List
+    vOuterEntity   = pEntity ;;$componentinfo("","OUTERENTITIES")                                
+    vFieldList     = $entinfo(vOuterEntity,"PAINTEDFIELDS")
+
+    ;********************************************************************************************
+
+    ;; Loop through the retrieved records
+	
+    forentity vOuterEntity
+		if (vJSONString = "")
+			vJSONString = "{"
+		else
+			vJSONString = $concat(vJSONString , ",{")
+		endif
+    	vCtr= 0
+        forList vField in vfieldList
+			selectcase $fieldInfo(vField,"DATATYPE")
+               case "Date","LinearDate"
+                   vFieldValue = $concat(@vField[1:4],"-",@vField[5:2],$concat("-",@vField[7:2]),"T00:00:00.00")
+               case "Datetime","LinearDatetime"
+                   vFieldValue = $concat(@vField[1:4],"-",                 %\ 
+                       $concat(@vField[5:2],$concat("-",@vField[7:2]),       %\ 
+                       $concat("T",@vField[9:2],":",@vField[11:2]),          %\
+                       $concat(":",@vField[13:2],".",@vField[15:2])))  
+               case "Time","LinearTime"
+                   vFieldValue = $concat("2000-01-01T",$concat(@vField[9:2],":",@vField[11:2]),$concat(":",@vField[13:2],".",@vField[15:2]))        
+               ;; Set boolean field and struct to json boolean object
+               case "Boolean"
+                   vFieldValue = @vField         
+               ;; Set boolean field and struct to json number object              
+               case "Raw","Image"
+               ;; Raw image data with preceeding '#' Data UDI scheme encoding *****
+                   vraw=@vField[2]
+                   vb64image=$encode("BASE64", vraw)
+                   vFieldValue = vb64image               
+               elseCase
+                   vFieldValue = @vField
+            endselectcase
+
+			vCtr += 1
+			if (vCtr &gt; 1)
+				vJSONString = $concat(vJSONString, "," , "%%"%%vField%%%%%":%%"%%vFieldValue%%%%%"")
+			else
+				vJSONString = $concat(vJSONString , "%%"%%vField%%%%%":%%"%%vFieldValue%%%%%"")
+			endif
+            
+        endfor
+		
+	
+		vJSONString = $concat(vJSONString , "}")
+    endfor
+	
+	vTotal = $totocc(pEntity)
+
+	vJSONString = $concat("[",vJSONString ,"]")	
+	vOutput = $concat('{"meta":{"code":200},"data":',vJSONString ,',"total":',"%%$total$%%%}")
+    $webinfo("output") = vOutput	
+
+	
+end
+
+;===================================================================================
+
+entry getComponent
+	params
+		numeric pCompType : IN
+		string pComponent : OUT
+	endparams
+	selectcase pCompType 
+		case 2
+			pComponent = "SY_DA_COMPMNT021"
+		case 4
+			pComponent = "SY_DA_COMPMNT041"
+		case 5
+			pComponent = "SY_DA_COMPMNT051"
+		case 10
+			pComponent = "SY_DA_COMPMNT101"
+		elsecase
+			pComponent = "SY_DA_COMPBASE1"
+	endselectcase
+
+end ;getComponent
+
+;===================================================================================
+
+entry getCompTypeDesc
+	params
+		numeric pCompType : IN
+		string pCompTypeDesc : OUT
+	endparams
+	clear/e "CN_COMPANY_TYPE"
+	COMPANY_TYPE.CN_COMPANY_TYPE = pCompType 
+	retrieve/e "CN_COMPANY_TYPE"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		 pCompTypeDesc = COMPANY_TYPE_DESC.CN_COMPANY_TYPE
+	endif
+end ;getCompTypeDesc
+
+;===================================================================================
+
+entry getEnabledSpan
+	params	
+		string pCompID: IN
+		boolean pEnabled: IN
+		string pSpan : OUT
+		string pLink : OUT 
+	endparams
+	if (pEnabled)			
+		pSpan  ="&lt;span class='label label-success'&gt;Enabled&lt;/span&gt;"
+		pLink = "&lt;button class=%%"fqsbutton btsml btblue%%" style=%%"width:50px;%%" onclick=%%"uniface.getInstance('C_AD_DA_CMPLST1').activate('%%pCompID%%%', '%%pEnabled%%%')%%"&gt;DISABLE&lt;/button&gt;"
+	else			
+		pSpan  ="&lt;span class='label label-default'&gt;Disabled&lt;/span&gt;"
+		pLink = "&lt;button class=%%"fqsbutton btsml btblue%%" style=%%"width:50px;%%" onclick=%%"uniface.getInstance('C_AD_DA_CMPLST1').activate('%%pCompID%%%', '%%pEnabled%%%')%%"&gt;ENABLE&lt;/button&gt;"
+	endif
+
+end ;getEnabledSpan
+
+;===================================================================================
+
+entry getAccountSpan
+	params	
+		boolean pAccount: IN
+		string pSpan : OUT
+	endparams
+	if (pAccount)			
+		pSpan  ="&lt;span class='label label-success'&gt;Prospect&lt;/span&gt;"
+	else			
+		pSpan  ="&lt;span class='label label-default'&gt;Account&lt;/span&gt;"
+	endif
+
+end ;getAccountSpan
+
+;===================================================================================
+
+entry getCompType
+params
+	string pCompID : IN
+	string pParentID : IN
+	numeric pCompType : OUT
+endparams
+	clear/e "CN_COMPANY_RELATIONSHIP"
+	COMPANY_ID.CN_COMPANY_RELATIONSHIP = pCompID 
+	PARENT_ID.CN_COMPANY_RELATIONSHIP = pParentID 
+	retrieve/e "CN_COMPANY_RELATIONSHIP"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		COMPANY_TYPE.CN_COMPANY_RELATIONSHIP = pCompType 
+	endif
+end 
+
+;===================================================================================
+
+entry getCompOcc
+params
+	string pCompID : IN
+	string pOcc : OUT
+endparams
+	clear/e "CN_COMPANY"
+	COMPANY_ID.CN_COMPANY = pCompID 
+	retrieve/e "CN_COMPANY"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		putlistitems/occ pOcc, "CN_COMPANY" 
+	endif
+end 
+
+;===================================================================================
+
+entry getCompCode
+params
+	string pCompID : IN
+	string pParentID : IN
+	string  pCompCode : OUT
+endparams
+	clear/e "CN_COMPANY_CODE"
+	COMPANY_ID.CN_COMPANY_CODE = pCompID  
+	PARENT_ID.CN_COMPANY_CODE = pParentID 
+	CODE_TYPE.CN_COMPANY_CODE = "FQS"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		pCompCode  = COMPANY_CODE.CN_COMPANY_CODE
+	endif
+end 
+
+;===================================================================================
+
+entry getStatusStyle
+params
+	boolean pIsError : IN
+	string pStatus: OUT
+	string pSeverity: OUT
+	string pIcon: OUT
+	string pTitle: OUT
+endparams
+	if (pIsError)
+		pStatus= "error"
+		pSeverity= "danger"
+		pIcon= "exclamation-sign"	
+		pTitle= "Error! "
+	else
+		pStatus= "success"
+		pSeverity= "success"
+		pIcon= "ok"	
+		pTitle= "Success! "
+	endif	
+end	
+
+;===================================================================================
+
+entry createFile
+params
+	string pList : IN
+	string pFile : IN
+	boolean pSucc : OUT
+endparams
+variables
+	string vDirPath, vFileName, vExt, vPath
+	numeric vScan
+endvariables
+	;Check whether directory exists, if not create dir
+	vDirPath = $logical("DATA-WRITEPATH")
+	if ($item("TYPE", pList) = "CLIENT")
+		vDirPath = "%%vDirPath%%%CLIENTFILES\" 
+	else
+		vDirPath = "%%vDirPath%%%COMPANYFILES\" 
+	endif
+	if ($lfileexists(vDirPath) = 0)
+		ldircreate vDirPath 
+	endif
+
+	vFileName = $item("NAME",pList)
+	vScan = $scan(vFileName , ".")
+	vExt = vFileName[(vScan  + 1)]
+	
+	vPath = $concat($item("COMPID", pList),$item("PARENTID", pList),$item("FILEID", pList))
+	vPath = $replace(vPath, 1, "-", "_", -1 )
+	vPath = $concat(vPath,".", vExt)
+	vPath = $concat(vDirPath,vPath)
+
+	if ($lfileexists(vPath ) = 0)
+		filedump/raw pFile , vPath 
+	endif
+
+	if ($status &gt;0)
+		pSucc = "T"
+	else
+		pSucc = "F"
+	endif
+end 
+</DAT>
+<DAT name="FORMPIC" xml:space='preserve'>
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_CLIENT_FILES.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_TYPE.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_CODE.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_RELATIONSHIP.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_FILES.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_TEAM.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_CHARGE_CODES.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_DEFAULTS.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_TEAM.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=D_UPLOADFILES.CONFIG&uSEP;WID=25&uSEP;HEI=3&uSEP;HOC=25&uSEP;VOC=3&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=FILES&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=D_UPLOADLOGO.CONFIG&uSEP;WID=25&uSEP;HEI=5&uSEP;HOC=25&uSEP;VOC=5&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=FILES1&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=FILES2&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=FILES3&uSEP;WID=20&uSEP;HEI=1&uFRM;</DAT>
+<DAT name="PERF">#DEF</DAT>
+<DAT name="SFUNC" xml:space='preserve'>operation C_AD_SA_CMPLST1_setStatus
+params
+	struct pParams : INOUT
+endparams
+
+	if (pParams-&gt;in-&gt;CompID = "" | pParams-&gt;in-&gt;ParentID = "")
+		pParams-&gt;out-&gt;Success = "F"
+		return ()
+	endif
+
+	clear
+	COMPANY_ID.CN_COMPANY_RELATIONSHIP = pParams-&gt;in-&gt;CompID
+	PARENT_ID.CN_COMPANY_RELATIONSHIP = pParams-&gt;in-&gt;ParentID
+
+	retrieve/e "CN_COMPANY_RELATIONSHIP"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		if (pParams-&gt;in-&gt;Status)
+			ENABLED.CN_COMPANY_RELATIONSHIP = 0
+		else
+			ENABLED.CN_COMPANY_RELATIONSHIP = 1
+		endif
+		LAST_UPDATED_BY.CN_COMPANY_RELATIONSHIP = pParams-&gt;in-&gt;User
+		LAST_UPDATED.CN_COMPANY_RELATIONSHIP = $datim	
+		store/e "CN_COMPANY_RELATIONSHIP"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			commit
+			pParams-&gt;out-&gt;Success = "T"
+		else
+			rollback
+			pParams-&gt;out-&gt;Success = "F"
+		endif
+	endif
+end
+
+
+;=============================================================================================
+operation Generic_Upload
+	variables
+	string vWebParams, vLocation , vFilename ,vOutput 
+	any vFileBin
+	boolean vSucc
+endvariables
+	vWebParams = $webinfo("input")
+	vLocation = $item("writelocation", vWebParams)
+	vFilename = $item("FILES1", vWebParams)
+
+	
+	vOutput = '{"status":"OK"}'
+	vSucc= "T"
+
+	fileload/web "FILES1",vFileBin	
+	filedump/raw vFileBin, $concat(vLocation,"\",vFilename)
+
+	if  ($status &lt;=0)
+		vSucc="F"				
+	endif		
+
+	$11 = "NOHTML"
+	if (!vSucc)
+		vOutput = '{"status":"FAILED", "message" : "File Upload failed."}'
+	endif 
+    $webinfo("output") = vOutput 
+	$webinfo("httpresponseheaders") = "Content-Type=text/plain;Access-Control-Allow-Origin=*"
+end
+
+;=============================================================================================
+
+operation C_AD_DA_CMPLGO1_Upload
+variables
+	string vWebParams,vCompID, VParentID, vUserCode, vField, vFilename , vFileType, vFile 
+	string vOutput 
+	boolean vSucc
+	numeric vScan 
+endvariables
+	vWebParams = $webinfo("input")
+	vCompID = $item("compid", vWebParams)
+	VParentID = $item("parentid", vWebParams)
+	vUserCode = $item("usercode", vWebParams)
+
+	selectcase $item("type", vWebParams)
+		case "S"
+			vField = "FILES1"
+			vFileType = "LOGO_SML"
+			vFilename = $item("FILES1", vWebParams)
+		case "L"
+			vField = "FILES2"
+			vFileType = "LOGO_LRG"
+			vFilename = $item("FILES2", vWebParams)
+		case "A"
+			vField = "FILES3"	
+			vFileType = "LOGO_ADD"
+			vFilename = $item("FILES3", vWebParams)
+	endselectcase
+
+	vOutput = '{"status":"OK"}'
+	vSucc= "T"
+	fileload/web vField , vFile
+	if  ($status &lt;=0)
+		vSucc="F"
+	else
+		;check if file exists, if yes, delete previous 
+		clear
+		COMPANY_ID.CN_COMPANY_FILES = vCompID 
+		PARENT_ID.CN_COMPANY_FILES = VParentID 
+		FILE_TYPE.CN_COMPANY_FILES = vFileType
+		retrieve/e "CN_COMPANY_FILES"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			vScan = $scan(FILE_NAME.CN_COMPANY_FILES, ".")
+			lfiledelete $concat($logical("DATA-WRITEPATH"),"COMPANYFILES\",$concat($replace($concat(COMPANY_ID.CN_COMPANY_FILES,PARENT_ID.CN_COMPANY_FILES,FILE_ID.CN_COMPANY_FILES), 1, "-", "_", -1), ".", $lowercase(FILE_NAME.CN_COMPANY_FILES[(vScan + 1)])))
+			if  ($status = &lt;UACT_SUCCESS&gt;) 
+				remocc 	"CN_COMPANY_FILES", 0
+				store/e "CN_COMPANY_FILES"
+				if ($procerror = &lt;UACT_SUCCESS&gt;)
+					commit
+				else
+					rollback
+				endif	
+			endif
+		endif
+		clear
+		creocc "CN_COMPANY_FILES", -1
+		COMPANY_ID.CN_COMPANY_FILES = vCompID 
+		PARENT_ID.CN_COMPANY_FILES = VParentID 
+		FILE_ID.CN_COMPANY_FILES = $uuid
+		FILE_NAME.CN_COMPANY_FILES = vFileName 
+		FILE_TYPE.CN_COMPANY_FILES = vFileType 
+		FILE.CN_COMPANY_FILES = vFile
+		UPLOADED_ON.CN_COMPANY_FILES = $datim
+		UPLOADED_BY.CN_COMPANY_FILES = vUserCode 
+		store/e "CN_COMPANY_FILES"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			call createFile("TYPE=COMPANY&uSEP;COMPID=%%COMPANY_ID.CN_COMPANY_FILES%%%&uSEP;PARENTID=%%PARENT_ID.CN_COMPANY_FILES%%%&uSEP;FILEID=%%FILE_ID.CN_COMPANY_FILES%%%&uSEP;NAME=%%vFileName%%%",vFile,vSucc)
+			if (vSucc)
+				commit
+			else
+				rollback
+				vSucc="F"
+				
+
+			endif		
+		else
+			rollback
+			vSucc="F"
+			
+
+		endif	
+	endif		
+
+	$11 = "NOHTML"
+	if (!vSucc)
+		vOutput = '{"status":"FAILED", "message" : "File Upload failed."}'
+	endif 
+    $webinfo("output") = vOutput 
+	$webinfo("httpresponseheaders") = "Content-Type=text/plain;Access-Control-Allow-Origin=*"
+end 
+
+;=============================================================================================
+
+operation C_AD_DA_CMPLGO1_Remove
+variables
+	string vWebParams,vCompID, VParentID, vField, vFilename , vFileType, vOutPut
+	string 	vMessage,vSeverity,vIcon,vTitle,vStatus 
+	numeric vScan
+	boolean vSucc
+endvariables
+	vWebParams = $webinfo("input")
+	vCompID = $item("compid", vWebParams)
+	VParentID = $item("parentid", vWebParams)
+
+	
+	
+	selectcase $item("type", vWebParams)
+		case "S"
+			vFileType = "LOGO_SML"
+		case "L"
+			vFileType = "LOGO_LRG"
+		case "A"	
+			vFileType = "LOGO_ADD"
+	endselectcase
+
+	vOutput = '{"status":"OK"}'
+	vSucc = "T"
+	clear
+	COMPANY_ID.CN_COMPANY_FILES = vCompID 
+	PARENT_ID.CN_COMPANY_FILES = VParentID 
+	FILE_TYPE.CN_COMPANY_FILES = vFileType 
+	retrieve/e "CN_COMPANY_FILES"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		vScan = $scan(FILE_NAME.CN_COMPANY_FILES, ".")
+		vFileName = $concat($replace($concat(COMPANY_ID.CN_COMPANY_FILES,PARENT_ID.CN_COMPANY_FILES,FILE_ID.CN_COMPANY_FILES), 1, "-", "_", -1), ".", $lowercase(FILE_NAME.CN_COMPANY_FILES[(vScan + 1)]))
+		lfiledelete $concat($logical("DATA-WRITEPATH"),"COMPANYFILES\",vFilename)
+		if  ($status = &lt;UACT_SUCCESS&gt;) 
+			remocc "CN_COMPANY_FILES", 0
+			store/e "CN_COMPANY_FILES"
+			if ($procerror = &lt;UACT_SUCCESS&gt;)
+				commit
+			else
+				rollback
+				vSucc = "F"
+			endif
+		endif
+	endif
+
+	$11 = "NOHTML"
+	if (!vSucc)
+		vOutput = '{"status":"FAILED", "message" : "File Delete failed."}'
+	endif 
+    $webinfo("output") = vOutput 
+	$webinfo("httpresponseheaders") = "Content-Type=text/plain;Access-Control-Allow-Origin=*"
+end 
+
+;=============================================================================================
+
+operation C_AD_DA_CNTLGO1_Upload
+variables
+	string vWebParams,vClientID, vParentID, vUserCode, vField, vFilename , vFileType, vFile 
+	string vOutput 
+	boolean vSucc
+	numeric vScan 
+endvariables
+	vWebParams = $webinfo("input")
+	vClientID = $item("clientid", vWebParams)
+	vParentID = $item("parentid", vWebParams)
+	vUserCode = $item("usercode", vWebParams)
+
+	selectcase $item("type", vWebParams)
+		case "S"
+			vField = "FILES1"
+			vFileType = "LOGO_SML"
+			vFilename = $item("FILES1", vWebParams)
+		case "L"
+			vField = "FILES2"
+			vFileType = "LOGO_LRG"
+			vFilename = $item("FILES2", vWebParams)
+		case "A"
+			vField = "FILES3"	
+			vFileType = "LOGO_ADD"
+			vFilename = $item("FILES3", vWebParams)
+	endselectcase
+
+	vOutput = '{"status":"OK"}'
+	vSucc= "T"
+	fileload/web vField , vFile
+	if  ($status &lt;=0)
+		vSucc="F"
+	else
+		;check if file exists, if yes, delete previous 
+		clear
+		CLIENT_ID.CN_CLIENT_FILES = vClientID 
+		PARENT_ID.CN_CLIENT_FILES = vParentID 
+		FILE_TYPE.CN_CLIENT_FILES = vFileType
+		retrieve/e "CN_CLIENT_FILES"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			vScan = $scan(FILE_NAME.CN_CLIENT_FILES, ".")
+			lfiledelete $concat($logical("DATA-WRITEPATH"),"CLIENTFILES\",$concat($replace($concat(CLIENT_ID.CN_CLIENT_FILES,PARENT_ID.CN_CLIENT_FILES,FILE_ID.CN_CLIENT_FILES), 1, "-", "_", -1), ".", $lowercase(FILE_NAME.CN_CLIENT_FILES[(vScan + 1)])))
+			if  ($status = &lt;UACT_SUCCESS&gt;) 
+				remocc 	"CN_CLIENT_FILES", 0
+				store/e "CN_CLIENT_FILES"
+				if ($procerror = &lt;UACT_SUCCESS&gt;)
+					commit
+				else
+					rollback
+				endif	
+			endif
+		endif
+		clear
+		creocc "CN_CLIENT_FILES", -1
+		CLIENT_ID.CN_CLIENT_FILES = vClientID 
+		PARENT_ID.CN_CLIENT_FILES = vParentID 
+		FILE_ID.CN_CLIENT_FILES = $uuid
+		FILE_NAME.CN_CLIENT_FILES = vFileName 
+		FILE_TYPE.CN_CLIENT_FILES = vFileType 
+		FILE.CN_CLIENT_FILES = vFile
+		UPLOADED_ON.CN_CLIENT_FILES = $datim
+		UPLOADED_BY.CN_CLIENT_FILES = vUserCode 
+		store/e "CN_CLIENT_FILES"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			call createFile("TYPE=COMPANY&uSEP;COMPID=%%CLIENT_ID.CN_CLIENT_FILES%%%&uSEP;PARENTID=%%PARENT_ID.CN_CLIENT_FILES%%%&uSEP;FILEID=%%FILE_ID.CN_CLIENT_FILES%%%&uSEP;NAME=%%vFileName%%%",vFile,vSucc)
+			if (vSucc)
+				commit
+			else
+				rollback
+				vSucc="F"
+			endif		
+		else
+			rollback
+			vSucc="F"
+		endif	
+	endif		
+
+	$11 = "NOHTML"
+	if (!vSucc)
+		vOutput = '{"status":"FAILED", "message" : "File Upload failed."}'
+	endif 
+    $webinfo("output") = vOutput 
+	$webinfo("httpresponseheaders") = "Content-Type=text/plain;Access-Control-Allow-Origin=*"
+end 
+
+;=============================================================================================
+
+operation C_AD_DA_CNTLGO1_Remove
+variables
+	string vWebParams,vClientID, vParentID, vFilename , vFileType, vOutput	
+	numeric vScan
+	boolean vSucc
+endvariables
+	vWebParams = $webinfo("input")
+	vClientID = $item("clientid", vWebParams)
+	vParentID = $item("parentid", vWebParams)
+	
+	selectcase $item("type", vWebParams)
+		case "S"
+			vFileType = "LOGO_SML"
+		case "L"
+			vFileType = "LOGO_LRG"
+		case "A"	
+			vFileType = "LOGO_ADD"
+	endselectcase
+
+	vOutput = '{"status":"OK"}'
+	vSucc = "T"
+	
+	clear
+	CLIENT_ID.CN_CLIENT_FILES = vClientID 
+	PARENT_ID.CN_CLIENT_FILES = vParentID 
+	FILE_TYPE.CN_CLIENT_FILES = vFileType 
+	retrieve/e "CN_CLIENT_FILES"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		vScan = $scan(FILE_NAME.CN_CLIENT_FILES, ".")
+		vFileName = $concat($replace($concat(CLIENT_ID.CN_CLIENT_FILES,PARENT_ID.CN_CLIENT_FILES,FILE_ID.CN_CLIENT_FILES), 1, "-", "_", -1), ".", $lowercase(FILE_NAME.CN_CLIENT_FILES[(vScan + 1)]))
+		lfiledelete $concat($logical("DATA-WRITEPATH"),"CLIENTFILES\",vFilename)
+		if  ($status = &lt;UACT_SUCCESS&gt;) 
+			remocc "CN_CLIENT_FILES", 0
+			store/e "CN_CLIENT_FILES"
+			if ($procerror = &lt;UACT_SUCCESS&gt;)
+				commit
+			else
+				rollback
+				vSucc = "F"
+			endif
+		endif
+	endif
+
+	$11 = "NOHTML"
+	if (!vSucc)
+		vOutput = '{"status":"FAILED", "message" : "File Delete failed."}'
+	endif 
+    $webinfo("output") = vOutput 
+	$webinfo("httpresponseheaders") = "Content-Type=text/plain;Access-Control-Allow-Origin=*"
+end 
+
+;=============================================================================================
+
+operation C_AD_DA_CMPFIL1_Upload
+variables
+	string vWebParams, vFileName, vDescription, vGroup, vCompID, VParentID, vUserCode, vFile
+	string 	vMessage,vSeverity,vIcon,vTitle,vStatus 
+	string vValidTo, vValidFrom
+	boolean vValid, vSucc
+endvariables
+	vValid = "T"
+	vWebParams = $webinfo("input")
+	vCompID = $item("compid", vWebParams)
+	VParentID = $item("parentid", vWebParams)
+	vUserCode = $item("usercode", vWebParams)
+	vFileName = $item("files", vWebParams)
+	vDescription = $item("description", vWebParams)
+	vGroup = $item("group", vWebParams)
+	vValidFrom = $item("validfrom", vWebParams)
+	vValidTo = $item("validto", vWebParams)
+	
+	;validate record and check for duplicate files
+	if (vGroup != "")
+		clear
+		COMPANY_ID.CN_COMPANY_FILES = vCompID 
+		PARENT_ID.CN_COMPANY_FILES = VParentID 
+		GROUP.CN_COMPANY_FILES = vGroup 
+		FILE_NAME.CN_COMPANY_FILES = vFileName 
+		retrieve/e "CN_COMPANY_FILES"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			vValid = "F"
+			vMessage = "Upload Failed. A duplicate file exists for group selected."
+			call getStatusStyle("T", VStatus, vSeverity,vIcon,vTitle)
+		endif
+	endif
+
+	if (vValid )
+		fileload/web "FILES",vFile
+		if  ($status &lt;=0)
+			activate "SY_SA_MESSAGES1".ShowMessagesData("OT_095","","",vMessage,vSeverity,vIcon,vTitle)
+			vMessage = 	$concat("(", vFileName , ") ", vMessage )      			
+			vStatus = "error"
+		else
+			clear
+			creocc "CN_COMPANY_FILES", -1
+			COMPANY_ID.CN_COMPANY_FILES = vCompID 
+			PARENT_ID.CN_COMPANY_FILES = VParentID 
+			FILE_ID.CN_COMPANY_FILES = $uuid
+			GROUP.CN_COMPANY_FILES = vGroup 
+			FILE_NAME.CN_COMPANY_FILES = vFileName 
+			FILE_DESCRIPTION.CN_COMPANY_FILES = vDescription 
+			FILE_TYPE.CN_COMPANY_FILES = "DOCUMENT"
+			FILE.CN_COMPANY_FILES = vFile
+			VALID_FROM.CN_COMPANY_FILES = $replace(vValidFrom , 1, "-", "", -1)
+			VALID_TO.CN_COMPANY_FILES = $replace(vValidTo , 1, "-", "", -1)
+			UPLOADED_ON.CN_COMPANY_FILES = $datim
+			UPLOADED_BY.CN_COMPANY_FILES = vUserCode 
+			store/e "CN_COMPANY_FILES"
+			if ($procerror = &lt;UACT_SUCCESS&gt;)
+				vSucc="T"
+				call createFile("TYPE=COMPANY&uSEP;COMPID=%%COMPANY_ID.CN_COMPANY_FILES%%%&uSEP;PARENTID=%%PARENT_ID.CN_COMPANY_FILES%%%&uSEP;FILEID=%%FILE_ID.CN_COMPANY_FILES%%%&uSEP;NAME=%%vFileName%%%",vFile,vSucc)
+				if (vSucc)
+					commit
+					vMessage = "Upload successful."
+					call getStatusStyle("F", VStatus, vSeverity,vIcon,vTitle)
+				else
+					rollback
+					vMessage = "Upload Failed for %%vFileName%%%."
+					call getStatusStyle("T", VStatus, vSeverity,vIcon,vTitle)
+				endif		
+			else
+				rollback
+				vMessage = "Upload Failed for %%vFileName%%%."
+				call getStatusStyle("T", VStatus, vSeverity,vIcon,vTitle)
+			endif
+	   	endif	
+	endif
+
+	$11 = "NOHTML"
+	if (vStatus = "error")
+		$webinfo("STATUS") = 500	
+	endif
+    $webinfo("output") = 	$concat('{"status":"' ,vStatus, '","message":"' , vMessage, %\
+	$concat('","severity":"', vSeverity, '","icon":"', vIcon, %\
+	$concat('","title":"', vTitle, '"}' ) )) 
+	$webinfo("httpresponseheaders") = "Content-Type=text/plain;Access-Control-Allow-Origin=*"
+end 
+
+;=============================================================================================
+
+operation C_AD_DA_CNTFIL1_Upload
+variables
+	string vWebParams, vFileName, vDescription, vGroup, vClientID, VParentID, vUserCode, vFile
+	string 	vMessage,vSeverity,vIcon,vTitle,vStatus 
+	string vValidTo, vValidFrom
+	boolean vValid, vSucc
+endvariables
+
+	vValid = "T"
+	vWebParams = $webinfo("input")
+	vClientID = $item("clientid", vWebParams)
+	VParentID = $item("parentid", vWebParams)
+	vUserCode = $item("usercode", vWebParams)
+	vFileName = $item("files", vWebParams)
+	vDescription = $item("description", vWebParams)
+	vGroup = $item("group", vWebParams)
+	vValidFrom = $item("validfrom", vWebParams)
+	vValidTo = $item("validto", vWebParams)
+	
+	;validate record and check for duplicate files
+	if (vGroup != "")
+		clear
+		CLIENT_ID.CN_CLIENT_FILES = vClientID 
+		PARENT_ID.CN_CLIENT_FILES = VParentID 
+		GROUP.CN_CLIENT_FILES = vGroup 
+		FILE_NAME.CN_CLIENT_FILES = vFileName 
+		retrieve/e "CN_CLIENT_FILES"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			vValid = "F"
+			vMessage = "Upload Failed. A duplicate file exists for group selected."
+			call getStatusStyle("T", VStatus, vSeverity,vIcon,vTitle)
+		endif
+	endif
+
+	if (vValid)
+		fileload/web "FILES",vFile
+		if  ($status &lt;=0)
+			activate "SY_SA_MESSAGES1".ShowMessagesData("OT_095","","",vMessage,vSeverity,vIcon,vTitle)
+			vMessage = 	$concat("(", vFileName , ") ", vMessage )      			
+			vStatus = "error"
+		else
+			clear
+			creocc "CN_CLIENT_FILES", -1
+			CLIENT_ID.CN_CLIENT_FILES = vClientID 
+			PARENT_ID.CN_CLIENT_FILES = VParentID 
+			FILE_ID.CN_CLIENT_FILES = $uuid
+			GROUP.CN_CLIENT_FILES = vGroup 
+			FILE_NAME.CN_CLIENT_FILES = vFileName 
+			FILE_DESCRIPTION.CN_CLIENT_FILES = vDescription 
+			FILE_TYPE.CN_CLIENT_FILES = "DOCUMENT"
+			FILE.CN_CLIENT_FILES = vFile
+			VALID_FROM.CN_CLIENT_FILES = $replace(vValidFrom , 1, "-", "", -1)
+			VALID_TO.CN_CLIENT_FILES = $replace(vValidTo , 1, "-", "", -1)
+			UPLOADED_ON.CN_CLIENT_FILES = $datim
+			UPLOADED_BY.CN_CLIENT_FILES = vUserCode 
+			store/e "CN_CLIENT_FILES"
+			if ($procerror = &lt;UACT_SUCCESS&gt;)
+				vSucc="T"
+				call createFile("TYPE=CLIENT&uSEP;COMPID=%%CLIENT_ID.CN_CLIENT_FILES%%%&uSEP;PARENTID=%%PARENT_ID.CN_CLIENT_FILES%%%&uSEP;FILEID=%%FILE_ID.CN_CLIENT_FILES%%%&uSEP;NAME=%%vFileName%%%",vFile,vSucc)
+				if (vSucc)
+					commit
+					vMessage = "Upload successful."
+					call getStatusStyle("F", VStatus, vSeverity,vIcon,vTitle)
+				else
+					rollback
+					vMessage = "Upload Failed for %%vFileName%%%."
+					call getStatusStyle("T", VStatus, vSeverity,vIcon,vTitle)
+				endif		
+			else
+				rollback
+				vMessage = "Upload Failed for %%vFileName%%%."				
+				call getStatusStyle("T", VStatus, vSeverity,vIcon,vTitle)
+			endif
+	   	endif	
+	endif
+
+	$11 = "NOHTML"
+	if (vStatus = "error")
+		$webinfo("STATUS") = 500	
+	endif
+    $webinfo("output") = 	$concat('{"status":"' ,vStatus, '","message":"' , vMessage, %\
+	$concat('","severity":"', vSeverity, '","icon":"', vIcon, %\
+	$concat('","title":"', vTitle, '"}' ) )) 
+	$webinfo("httpresponseheaders") = "Content-Type=text/plain;Access-Control-Allow-Origin=*"
+end 
+
+
+;=============================================================================================
+
+operation ProxyExcel
+	variables
+		string vWebParams, vBase64, vRaw, vFileName, vContentType
+		numeric vLen
+	endvariables
+
+	vWebParams                      = $webinfo("input")
+	vBase64                         = $item("base64", vWebParams)
+	vFileName                       = $item("fileName", vWebParams)
+	vContentType                    = $item("contentType", vWebParams)
+	vRaw                            = $decode("BASE64",vBase64)
+	$10                             = "NOMENU"
+	$11                             = "NOHTML"
+	$webinfo("output")              = vRaw 
+	$webinfo("httpresponseheaders") = "Content-Type=%%vContentType%%%&uSEP;Access-Control-Allow-Origin=*&uSEP;Content-Disposition= attachment; filename=%%vFileName%%%"
+	
+end 
+
+;=============================================================================================
+
+operation proxyImage
+params 
+	string vCompCode : IN
+	string vPath : OUT
+endparams
+variables
+	string vWebParams, vContentType,  vType, vCookies, vParent, vScan, vExtension
+	numeric vLen
+	struct vStructFile
+endvariables
+	
+	vCookies   = $webinfo("usercontext")
+	vParent    = $item("compcode", vCookies)
+
+	vWebParams = $webinfo("input")
+	;vCompCode  = $item("compcode", vWebParams)
+	vType      = $item("type", vWebParams)
+	
+	clear/e "CN_CLIENT_FILES"
+	FILE_TYPE.CN_CLIENT_FILES       = "LOGO_SML" 
+	CLIENT_ID.CN_CLIENT_FILES       = vCompCode
+   ;PARENT_ID.CN_CLIENT_FILES       = vParent
+	retrieve/e "CN_CLIENT_FILES"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		vScan                       = $scan(FILE_NAME.CN_CLIENT_FILES, ".")
+		vExtension                  = $lowercase(FILE_NAME.CN_CLIENT_FILES[(vScan + 1)])
+		vPath                       = $replace($concat(CLIENT_ID.CN_CLIENT_FILES,PARENT_ID.CN_CLIENT_FILES,FILE_ID.CN_CLIENT_FILES), 1, "-", "_", -1)
+		vPath                       = $concat($logical("DATA-READPATH"),"CLIENTFILES\",vPath, ".",vExtension) 
+	else
+		vPath =  $concat($logical("DATA-READPATH"), $logical("DATA-COMPANY"),"BLANK_COMPANY.jpg") 
+	endif
+
+	;vContentType = $concat("image/",vExtension)
+	;fileload/image     vPath , $1 
+	;if ($procerror &lt; 0)
+	;	fileload/raw $concat($logical("DATA-READPATH"), $logical("DATA-COMPANY"),"BLANK_COMPANY.jpg") , $1 
+	;	vContentType = "image/jpg"
+	;endif
+
+	;$10= "NOMENU"
+	;$11 = "NOHTML"
+	
+	;$webinfo("output") =  $1 
+	;$webinfo("httpresponseheaders") = $concat("Content-Type=", vContentType,"&uSEP;Access-Control-Allow-Origin=*")
+	
+end
+
+;=============================================================================================
+
+operation checkFileExists
+params
+	struct pStruct : INOUT
+endparams
+variables
+	string vPath, vList 
+endvariables
+	
+	if (pStruct-&gt;in-&gt;FILE_ID = "") return ()
+
+	putitem/id vList, "TYPE", pStruct-&gt;in-&gt;TYPE
+	putitem/id vList, "COMPID", pStruct-&gt;in-&gt;COMPANY_ID
+	putitem/id vList, "PARENTID", pStruct-&gt;in-&gt;PARENT_ID
+	putitem/id vList, "FILEID", pStruct-&gt;in-&gt;FILE_ID
+	putitem/id vList, "NAME", pStruct-&gt;in-&gt;FILE_NAME
+	call createFile(vList, pStruct-&gt;in-&gt;FILE, "")
+end
+
+;=============================================================================================
+
+operation deleteCompanyTeam
+params
+	struct pStruct : INOUT
+endparams
+	if (pStruct-&gt;in-&gt;CompID = "" | pStruct-&gt;in-&gt;TeamID = "" | pStruct-&gt;in-&gt;UserID = "") return ()
+
+	clear/e "CN_COMPANY_TEAM"
+	COMPANY_ID.CN_COMPANY_TEAM = pStruct-&gt;in-&gt;CompID
+	TEAMID.CN_COMPANY_TEAM = pStruct-&gt;in-&gt;TeamID
+	USER_ID.CN_COMPANY_TEAM = pStruct-&gt;in-&gt;UserID 
+	retrieve/e 	"CN_COMPANY_TEAM" 	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		remocc "CN_COMPANY_TEAM" , 0
+		store/e "CN_COMPANY_TEAM"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			commit
+			pStruct-&gt;out-&gt;Success = "T"
+		else
+			rollback
+			pStruct-&gt;out-&gt;Success = "F"
+		endif
+	endif
+
+end 
+
+
+;=============================================================================================
+operation getClientTeamsValrep
+params
+	struct pStruct : INOUT
+endparams
+variables
+	string vTeamDesc, vList,vID, vFilter
+endvariables
+
+	if (pStruct-&gt;in-&gt;COMPANY_ID = "") return ()
+	
+	vFilter = pStruct-&gt;in-&gt;Team
+	
+	clear/e "CN_COMPANY_TEAM"
+	COMPANY_ID.CN_COMPANY_TEAM = pStruct-&gt;in-&gt;COMPANY_ID
+	retrieve/e "CN_COMPANY_TEAM"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_COMPANY_TEAM"
+			vID = TEAMID.CN_COMPANY_TEAM
+			activate "C_AD_SA_COMPANY1".getTeamDesc(TEAMID.CN_COMPANY_TEAM,vTeamDesc)
+			if (vFilter != "")
+				scan $uppercase(vTeamDesc),$uppercase(vFilter) 
+				if ($result &gt; 0)
+					putitem/id vList, TEAMID.CN_COMPANY_TEAM , vTeamDesc
+				endif
+			else
+				putitem/id vList, TEAMID.CN_COMPANY_TEAM , vTeamDesc
+			endif
+		;	putlistitems/id pStruct-&gt;out-&gt;List, TEAMID.CN_TEAM , TEAMDESC.CN_TEAM
+		endfor
+	endif 
+	
+	pStruct-&gt;out-&gt;List = vList
+	
+end 
+
+
+;===============================================================================================
+
+operation getCompChargeCodeDesc
+params
+	struct pParams	: INOUT
+endparams
+variables 
+	struct vStruct
+	string vValRep
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+
+	clear/e "CN_COMPANY_CHARGE_CODES"
+	COMPANY_ID.CN_COMPANY_CHARGE_CODES  = pParams-&gt;in-&gt;CompanyID
+	CHARGE_TYPE.CN_COMPANY_CHARGE_CODES = pParams-&gt;in-&gt;ChargeType
+	CHARGE_CODE.CN_COMPANY_CHARGE_CODES = pParams-&gt;in-&gt;ChargeCode
+	retrieve/e "CN_COMPANY_CHARGE_CODES"
+
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		if (ENABLED.CN_COMPANY_CHARGE_CODES)
+			pParams-&gt;out-&gt;Desc = CHARGE_DESC.CN_COMPANY_CHARGE_CODES
+		else
+			vStruct-&gt;in-&gt;ChargeCode = pParams-&gt;in-&gt;ChargeCode
+			activate "C_AD_SA_CHARGE1".getChargeDesc(vStruct)
+			pParams-&gt;out-&gt;Desc = vStruct-&gt;out-&gt;Desc
+		endif
+	else
+		vStruct-&gt;in-&gt;ChargeCode = pParams-&gt;in-&gt;ChargeCode
+		activate "C_AD_SA_CHARGE1".getChargeDesc(vStruct)
+		pParams-&gt;out-&gt;Desc = vStruct-&gt;out-&gt;Desc
+	endif
+
+	return(0)
+end
+
+;==================================================================================================================
+operation getCompChargeCodes
+params
+	struct pParams	: INOUT
+endparams
+variables 
+	struct vStruct
+	string vValRep, vChargeList, vChargeCode, vChargeDesc
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+	
+	vStruct-&gt;in-&gt;ChargeType = pParams-&gt;in-&gt;ChargeType
+	activate "C_AD_SA_CHARGE1".getChargeByType(vStruct)
+	vChargeList = vStruct-&gt;out-&gt;ValRep
+
+ 	forlist/id vChargeCode, vChargeDesc in vChargeList
+		if (vChargeCode != "")
+			clear/e "CN_COMPANY_CHARGE_CODES"
+			COMPANY_ID.CN_COMPANY_CHARGE_CODES = pParams-&gt;in-&gt;CompanyID
+			CHARGE_TYPE.CN_COMPANY_CHARGE_CODES = pParams-&gt;in-&gt;ChargeType
+			CHARGE_CODE.CN_COMPANY_CHARGE_CODES = vChargeCode
+			retrieve/e "CN_COMPANY_CHARGE_CODES"
+
+			if ($procerror = &lt;UACT_SUCCESS&gt;)
+				if (ENABLED.CN_COMPANY_CHARGE_CODES)
+					putitem/id vValRep, vChargeCode, CHARGE_DESC.CN_COMPANY_CHARGE_CODES
+				else
+					putitem/id vValRep, vChargeCode, vChargeDesc
+				endif
+			else
+				putitem/id vValRep, vChargeCode, vChargeDesc
+			endif
+
+		endif
+	endfor
+
+	pParams-&gt;out-&gt;ValRep = vValRep
+
+	return(0)
+end
+
+
+
+operation getCompanyCurrencyDefault
+params
+	struct pParams	: INOUT
+endparams
+
+	clear/e "CN_COMPANY_DEFAULTS"
+	COMPANY_ID.CN_COMPANY_DEFAULTS 	= pParams-&gt;in-&gt;CompanyID
+	DEFAULT_CODE.CN_COMPANY_DEFAULTS 	= "CURRENCY"
+	retrieve/e "CN_COMPANY_DEFAULTS"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		pParams-&gt;out-&gt;DefaultCurrency = DEFAULT_VALUE.CN_COMPANY_DEFAULTS
+	else
+		pParams-&gt;out-&gt;DefaultCurrency = ""
+	endif
+
+	return(0)
+
+end
+
+
+
+operation getCompanyCurrency
+params
+	struct pParams	: INOUT
+endparams	
+variables
+	struct vStruct
+	string vList, vCurrCode, vCurrName, vCurrencyList
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+
+	activate "C_AD_SA_CURR1".currencyValRep(vStruct)	
+	vList = vStruct-&gt;out-&gt;ValRep
+
+	forlist/id vCurrCode, vCurrName in vList 
+		clear/e "CN_COMPANY_DEFAULTS"
+		COMPANY_ID.CN_COMPANY_DEFAULTS 	= pParams-&gt;in-&gt;CompanyID
+		DEFAULT_CODE.CN_COMPANY_DEFAULTS 	= $concat("EXCHANGE:",vCurrCode)
+		retrieve/e "CN_COMPANY_DEFAULTS"
+
+		if ($procerror != &lt;UACT_SUCCESS&gt;)
+			putitem/id vCurrencyList, vCurrCode, vCurrName
+		endif  
+
+	endfor
+
+	vCurrencyList = $concat("=Select Currency&uSEP;", vCurrencyList )
+
+	pParams-&gt;out-&gt;ValRep = vCurrencyList
+end
+
+	
+		
+
+operation getCompanyType
+params
+	struct pParams	: INOUT
+endparams	
+variables
+	string vList
+endvariables
+
+	clear/e "CN_COMPANY_TYPE"  
+	ENABLED.CN_COMPANY_TYPE = 1
+	if (pParams-&gt;in-&gt;ExcludeList != "")
+		COMPANY_TYPE.CN_COMPANY_TYPE = pParams-&gt;in-&gt;ExcludeList
+	else
+		;default exlude list	
+		COMPANY_TYPE.CN_COMPANY_TYPE = "&uNOT;&uEQ;0&uNOT;&uEQ;2&uNOT;&uEQ;3&uNOT;&uEQ;4&uNOT;&uEQ;11"
+	endif
+	retrieve/e "CN_COMPANY_TYPE"
+
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_COMPANY_TYPE"			
+			putitem/id vList, COMPANY_TYPE.CN_COMPANY_TYPE, COMPANY_TYPE_DESC.CN_COMPANY_TYPE			
+		endfor
+	endif
+
+
+	pParams-&gt;out-&gt;ValRep = vList
+end
+
+	
+		
+
+
+
+
+;=============================================================================================
+operation getCompanyTeamsValrep
+params
+	struct pStruct : INOUT
+endparams
+variables
+	string vTeamDesc, vList,vID, vFilter
+endvariables
+
+	if (pStruct-&gt;in-&gt;COMPANY_ID = "") return ()
+	
+	vFilter = pStruct-&gt;in-&gt;Team
+	
+	clear/e "CN_TEAM"
+	COMPANY_ID.CN_TEAM = pStruct-&gt;in-&gt;COMPANY_ID
+	retrieve/e "CN_TEAM"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_TEAM"
+			if (vFilter != "")
+				scan $uppercase(TEAMDESC.CN_TEAM),$uppercase(vFilter) 
+				if ($result &gt; 0)
+					putitem/id vList, TEAMID.CN_TEAM , TEAMDESC.CN_TEAM
+				endif
+			else
+				putitem/id vList, TEAMID.CN_TEAM , TEAMDESC.CN_TEAM
+			endif
+		;	putlistitems/id pStruct-&gt;out-&gt;List, TEAMID.CN_TEAM , TEAMDESC.CN_TEAM
+		endfor
+	endif 
+	
+	pStruct-&gt;out-&gt;List = vList
+	
+end 
+
+;=============================================================================================
+
+operation getCompanyShortName
+params
+	struct pStruct : INOUT
+endparams
+	clear/e "CN_COMPANY_RELATIONSHIP"
+	COMPANY_ID.CN_COMPANY_RELATIONSHIP = $concat("&uEQ;", pStruct-&gt;in-&gt;COMPID)
+	PARENT_ID.CN_COMPANY_RELATIONSHIP= $concat("&uEQ;", pStruct-&gt;in-&gt;PARENTID)
+	retrieve/e "CN_COMPANY_RELATIONSHIP"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		pStruct-&gt;out-&gt;NAME = SHORT_NAME.CN_COMPANY_RELATIONSHIP
+	endif
+end
+
+
+
+</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXGROUP" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,1" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_BORD" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DBMS" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_UPD" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINL" seqno="11" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXL" seqno="12" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINR" seqno="13" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXR" seqno="14" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLGINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INTF" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="17" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="GETOCC" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="PUTOCC" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="DELOCC" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="LCK" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UNLOCK" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="GETSEGM" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ADDOCC" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DELOCCR" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="CREOCC" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="FINDOCC" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="FLIST" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="BREAK" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="VLDE" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDK" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="UISBCLASS" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UISASSOC" seqno="43" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_OBJSVC" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="U_SVCUSE" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTPROP" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_TABTYPE" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_B" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_E" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTCLASS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="U_GLAB" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UEOINTERFACE" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UECINTERFACE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="UEOOPERS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="UECOPERS" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="UEOTRIGGERS" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="UECTRIGGERS" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETTYPE" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETCREATE" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="PRLO" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="PSLO" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="PRSO" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="PSSO" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="UPARENT" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETTYPE" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F2,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETCREATE" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-14T11:54:57.00</DAT>
+<DAT name="ULABEL">CN_CLIENT_FILES</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-05-12T10:24:01.00</DAT>
+<DAT name="ULABEL">CN_COMPANY</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-02-10T09:56:29.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_CHARGE_CODES</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-10-26T20:50:51.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_CODE</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read
+
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-02-15T13:30:50.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_DEFAULTS</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-04T11:24:36.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_FILES</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-10-26T20:50:51.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_RELATIONSHIP</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-15T11:59:55.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_TEAM</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-20T10:06:22.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_TYPE</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-02-20T09:22:02.00</DAT>
+<DAT name="ULABEL">CN_TEAM</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_CMPLST1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-04T11:52:09.00</DAT>
+<DAT name="ULABEL">D_UPLOADFILES</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_CMPLST1</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-09T18:26:00.00</DAT>
+<DAT name="ULABEL">D_UPLOADLOGO</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_CMPLST1</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXFIELD" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="GRP" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UBASE" seqno="4" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UFORM" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="3" ufocc="0" mandatory="yes" idxnum="1,2,3" idxsnr="104,3,1" />
+<FLD name="U_TLAB" seqno="6" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="8" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="9" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLLAY" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LAYOUTMOD" seqno="12" type="S" level="2" pack="0" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLSYN" seqno="13" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="SYNTAXMOD" seqno="14" type="S" level="2" pack="0" scale="0" length="192"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="INTERFACEMOD" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TABSTOP" seqno="17" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WIDGETTYPE" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="19" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="20" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="STARTMOD" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="NEXTFLD" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="PREVFLD" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="ENCRYPT" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DECRYPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="UFORMAT" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="DEFORMAT" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GETFOCUS" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="VCHANGED" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="WIDGETCREATE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="VALLAB" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="INITVALUE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="VLDF" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="UISOBJID" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HTML_FLDPROP" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="HTML_CTRLTYPE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_M" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_FLDCLASS" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLCLASS" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="UFOPERS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="UFTRIGGERS" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="UFORMATS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="WEBWIDGETTYPE" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="WEBWIDGETCREATE" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-20T10:12:44.00</DAT>
+<DAT name="ULABEL">FILES</DAT>
+<DAT name="GRP">D_UPLOADFILES</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_CMPLST1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C200</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-20T10:12:23.00</DAT>
+<DAT name="ULABEL">FILES1</DAT>
+<DAT name="GRP">D_UPLOADLOGO</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_CMPLST1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C200</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-20T10:12:28.00</DAT>
+<DAT name="ULABEL">FILES2</DAT>
+<DAT name="GRP">D_UPLOADLOGO</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_CMPLST1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C200</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-20T10:12:34.00</DAT>
+<DAT name="ULABEL">FILES3</DAT>
+<DAT name="GRP">D_UPLOADLOGO</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_CMPLST1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C200</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXREGS" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_STAT" seqno="2" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_TYPE" seqno="3" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_FORMLIB" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,3" idxsnr="101,1" />
+<FLD name="U_NAME" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_LAYOUT" seqno="9" type="S" level="2" pack="0" scale="0" length="46"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DOC" seqno="10" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-06-30T18:04:01.00</DAT>
+<DAT name="U_FORMLIB">C_AD_SA_CMPLST1</DAT>
+<DAT name="U_NAME">PAGE</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-06-30T18:04:01.00</DAT>
+<DAT name="U_FORMLIB">C_AD_SA_CMPLST1</DAT>
+<DAT name="U_NAME">PAGESIZE</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-06-30T18:04:01.00</DAT>
+<DAT name="U_FORMLIB">C_AD_SA_CMPLST1</DAT>
+<DAT name="U_NAME">SKIP</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-06-30T18:04:01.00</DAT>
+<DAT name="U_FORMLIB">C_AD_SA_CMPLST1</DAT>
+<DAT name="U_NAME">TAKE</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-06-30T18:04:01.00</DAT>
+<DAT name="U_FORMLIB">C_AD_SA_CMPLST1</DAT>
+<DAT name="U_NAME">TOTAL</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

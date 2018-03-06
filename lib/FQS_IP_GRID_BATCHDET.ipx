@@ -1,0 +1,834 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="ULIBR" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULIBRARY" seqno="1" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="2" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTIMESTAMP" seqno="3" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="ULIBRARY">FQS</DAT>
+<DAT name="UDESCR" xml:space='preserve'>FQS System</DAT>
+<DAT name="UTIMESTAMP">2016-03-20T16:36:31.00</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOURCE" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USTAT" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUB" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="ULABEL" seqno="6" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="ULAN" seqno="7" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="MSGTYPE" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="AUTHORIZ" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCLASS" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LOCREF" seqno="17" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCONFIRM" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UAUDIO" seqno="19" type="N" level="2" pack="10" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UTEXT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,1,\1E,0,0,0,,0,0,0,," />
+<FLD name="UWLEVEL" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-05T14:25:22.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">FQS</DAT>
+<DAT name="ULABEL">IP_GRID_BATCHDET</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Grid Batch w row details</DAT>
+<DAT name="UTEXT" xml:space='preserve'>#include IFC:IP_GRID_FIELDLST
+#include IFC:IP_GRID_HEADRLST
+#include IFC:IP_GRID_DATAOUT
+#include IFC:IP_GRID_COLUMNS
+
+weboperation StopSpinner
+javascript
+$(".spinner").fadeOut("fast");  
+endjavascript
+end
+  
+weboperation StartSpinner
+javascript
+$(".spinner").fadeIn("fast");  
+$(".k-grid").remove();
+endjavascript
+end
+
+; Builds all Json for KendoUI
+operation BuildTableData 
+public web
+	params
+		struct pStruct : IN
+	endparams
+	variables
+		string  vCellList,vHeaderList,vOutput	,pHiddenColumns, vEditorsFull
+		string vLenValArr, vItem, vItemID , vSaveParams , pTitle, pSaveParams, pToolBar, pErrorDiv,pReadParams,vReadParams,pReadURL
+		string pInstanceName  ,vEditorList ,pExcel  , pGridName, vDateField	,pPosition, pSaveURL,pRemoteData,pPageSizes,pNoLoadState ,pServerPaging
+		numeric pGridNo,pPageSize
+		boolean pColMenu
+	endvariables
+
+	; Parameters
+	;---------------------------------------------------------------------------------------------
+	pPosition  = pStruct-&gt;in-&gt;pPosition  
+	pGridNo = pStruct-&gt;in-&gt;pGridNo 
+	pGridName = pStruct-&gt;in-&gt;pGridName
+	pTitle = pStruct-&gt;in-&gt;pTitle       ; Title of the grid/report  
+	pSaveURL = pStruct-&gt;in-&gt;pSaveURL   ;URL Which handles save and server validation 
+	pSaveParams = pStruct-&gt;in-&gt;pSaveParams ;associative list for save parameters ex compcode=2AANDA will be converted to "conpcode":"2AANDA"
+	pToolBar = pStruct-&gt;in-&gt;pToolBar ;Optional - Json string for toolbar 
+	pErrorDiv = pStruct-&gt;in-&gt;pErrorDiv ;Optional - div for success and error messages default is #errordiv
+	pInstanceName = pStruct-&gt;in-&gt;pInstanceName 
+	pExcel =  pStruct-&gt;in-&gt;pExcel ;Excel FileName (optional)
+	pRemoteData = pStruct-&gt;in-&gt;pRemoteData
+	pPageSize = pStruct-&gt;in-&gt;pPageSize 
+	pPageSizes = pStruct-&gt;in-&gt;pPageSizes  
+	pHiddenColumns = pStruct-&gt;in-&gt;pHiddenColumns   
+	pNoLoadState = pStruct-&gt;in-&gt;pNoLoadState 
+	pColMenu = pStruct-&gt;in-&gt;EnableColMenu
+	;Remote service
+	pReadURL = pStruct-&gt;in-&gt;pReadURL
+	pReadParams = pStruct-&gt;in-&gt;pReadParams
+	pServerPaging = pStruct-&gt;in-&gt;pServerPaging 
+	pRemoteData = pStruct-&gt;in-&gt;pRemoteData
+	
+	;********************************************************************************************
+
+	pPageSizes = $replace(pPageSizes, 1, "&uSEP;",",", -1)
+
+	if (pGridNo = "")
+		pGridNo = 1
+	endif
+	if (pGridName = "")
+		pGridName = "grid"
+	endif
+
+	if (pSaveParams = "")
+		pSaveParams = '"Params":"none"'
+	else
+		forlist/id vItemID, vItem in pSaveParams 
+			if (vSaveParams != "") vSaveParams = $concat(vSaveParams, ",")
+			vSaveParams = $concat(vSaveParams , '"',vItemID,'":"', $concat(vItem ,'"'))                                     
+		endfor
+		pSaveParams = vSaveParams 
+	endif
+	pSaveParams = $concat("{",pSaveParams ,"}")
+
+	if (pReadParams = "")
+		pReadParams = '"Params":"none"'
+	else
+		forlist/id vItemID, vItem in pReadParams 
+			if (vReadParams != "") vReadParams = $concat(vReadParams , ",")
+			vReadParams = $concat(vReadParams , '"',vItemID,'":"', $concat(vItem ,'"'))                                     
+		endfor
+		pReadParams = vReadParams 
+	endif
+	pReadParams = $concat("{",pReadParams ,"}")
+
+	;Local / remote data
+	if (pRemoteData = "" | pRemoteData = "F")
+		activate $instancename.BuildGridFieldList(pStruct)
+		activate $instancename.BuildGridHeader(pStruct)
+			
+		;check if output data is generated locally
+		if (pStruct-&gt;in-&gt;pOutput = "")
+			activate $instancename.BuildGridData(pStruct)			
+			vOutput = $concat('{"data":', (pStruct-&gt;out-&gt;pOutput) , ',"total":', (pStruct-&gt;out-&gt;pTotal), "}")
+		else 
+			vOutput = pStruct-&gt;in-&gt;pOutput
+		endif
+
+	else
+		;this to make sure that local data generation won't fail if data will come from remote service
+		vOutput = '{"data": [] }'
+	endif
+	
+	vCellList = pStruct-&gt;out-&gt;pCellList
+	vHeaderList = pStruct-&gt;out-&gt;pHeaderList
+	
+	vLenValArr = pStruct-&gt;out-&gt;pLenValArr
+	vDateField = pStruct-&gt;out-&gt;pDateField 
+	vEditorList = pStruct-&gt;out-&gt;pEditorList
+	vEditorsFull = $replace(pStruct-&gt;in-&gt;pEditors, 1, "&uSEP;", ",", -1)
+
+	vDateField = $replace(vDateField,1,"&uSEP;",",",-1)	
+	if (vOutput = "" | vHeaderList = "" | vCellList = "")
+		$collHandle(MESSAGELINE)-&gt;showMessage("error","Error:","Unable to generate data for grid",1,0)
+	else
+		vOutput = $replace(vOutput,1, "&uSEP;", ",", -1) ;need to replace for json parse     
+		
+
+		pHiddenColumns =  $replace(pHiddenColumns ,1, "&uSEP;", ",", -1)
+		webactivate $instancename.BuildGridBatch(vOutput,vHeaderList,vCellList, pPosition,pGridName,pGridNo,pTitle,vLenValArr, %\
+		pSaveURL,pSaveParams,pToolBar,pErrorDiv,pInstanceName, vEditorList, vEditorsFull ,pExcel, vDateField,pPageSize,pPageSizes,pHiddenColumns,pNoLoadState,pReadParams,pReadURL,pServerPaging, pColMenu)
+	endif
+end ;BuildTableData
+;#######################################################################################################
+
+
+
+weboperation BuildGridBatch
+params
+	String pJsonData    : In
+	String pTableHeader : In
+	String pFields      : In
+	string pPosition    : IN
+	string pGridName	: IN
+	numeric	pGrid : IN
+	string pTitle : IN
+	string pLenValArr : IN  ;An Array consisting of fields with length validation
+	string pSaveURL : IN
+	string pSaveParams : IN 
+	string pToolBar : IN
+	string pErrorDiv : IN
+	string pInstanceName  : IN
+	string pEditors : IN
+	string pEditorsFull : IN
+	string pExcel : IN
+	string pDateField : IN	
+	numeric pPageSize : IN
+	string pPageSizes : IN  
+	string pHiddenColumns : IN  
+	string pNoLoadState : IN
+	string pReadParams : IN
+	string pReadURL : IN
+	string pServerPaging : IN
+	string pColMenu : IN
+endparams
+javascript
+
+	//;console.log(pTableHeader);
+	//;console.log(pJsonData);
+	//;console.log(pFields);
+	//;console.log("params: " + pSaveParams);
+	//;console.log(pSaveURL);  
+	//;console.log(pEditorsFull );
+
+	var GridName = '#' + pGridName + pGrid;
+	var GridName2 = pGridName + pGrid;
+
+	if (!jQuery.contains(document, $(GridName)[0])) {
+		$(pPosition).append("&lt;div id='"+ GridName2 + "'&gt;&lt;/div&gt;")
+	}
+
+  
+	//; preserve newlines, etc - use valid JSON
+	pJsonData = pJsonData.replace(/\\n/g, "\\n")  
+		   .replace(/\\'/g, "\\'")
+		   .replace(/\\"/g, '\\"')
+		   .replace(/\\&amp;/g, "\\&amp;")
+		   .replace(/\\r/g, "\\r")
+		   .replace(/\\t/g, "\\t")
+		   .replace(/\\b/g, "\\b")
+		   .replace(/\\f/g, "\\f");
+	//; remove non-printable and other non-valid JSON chars
+	pJsonData = pJsonData.replace(/[\u0000-\u0019]+/g,""); 
+
+	var data    = $.parseJSON(pJsonData);
+	var headerList     = $.parseJSON(pTableHeader);
+	var fieldList     = $.parseJSON(pFields);
+	var vSaveParams = $.parseJSON(pSaveParams);
+	var vReadParams = $.parseJSON(pReadParams);
+
+	var vSaveURL = pSaveURL; 
+	var vReadURL = pReadURL;
+	var vErrorDiv = pErrorDiv;
+	var vInstanceName = pInstanceName ;  
+	var vServerPaging = false;
+	var vColMenu = true;
+	
+	var vPageSize =  50;
+	if (pPageSize != ""){
+		vPageSize = parseInt(pPageSize);
+	}
+    
+	if (pPageSizes == ""){
+		var vPageSizes = $.parseJSON('[10, 20, 50, 100, 500, "ALL"]');
+	}else{
+		var vPageSizes = $.parseJSON('[' + pPageSizes + ']');
+	}
+
+	
+	if (pServerPaging == "T"){
+		vServerPaging = true;
+	}
+	
+	if (pColMenu == "F") {
+		vColMenu = false;
+	}
+
+	if (pToolBar == ""){
+		//pToolBar = '["excel","create","save"]';  
+		pToolBar = '[{"name":"excel", "text":" Export"},"create","save"]';
+	}
+	vToolBar =  $.parseJSON(pToolBar );  
+	if (pNoLoadState == "T"){ 
+		vToolBar.push({"template":"&amp;nbsp;&lt;button class=\'btn btn-md btrestorestate\' id=\'BtnRestCols\'    type=\'button\' onclick=\'restorestatecust();\' &gt;&lt;/button&gt;&amp;nbsp;&lt;button type=\'button\'     class=\'btn btn-md btsavestate\' id=\'BtnSaveCols\' onclick=\'savestatecust();\'&gt;&lt;/button&gt;"});
+	}else if(pNoLoadState == "F"){
+	}else{
+		vToolBar.push({"template":"&amp;nbsp;&lt;button class=\'btn btn-md btrestorestate\' id=\'BtnRestCols\'    type=\'button\' onclick=\'restoreState(this);\' &gt;&lt;/button&gt;&amp;nbsp;&lt;button type=\'button\'     class=\'btn btn-md btsavestate\' id=\'BtnSaveCols\' onclick=\'saveState(this);\'&gt;&lt;/button&gt;"});
+	}
+
+
+	if (vSaveURL == ""){
+		vSaveURL = "save";
+	}
+	if (vErrorDiv == ""){
+		vErrorDiv = "#errordiv";
+	}
+
+	if (pExcel == ""){
+		pExcel = "Report Extract";
+	}
+
+	var opt_sortable = false;
+	window.init = false;
+	var vLenVarArr = pLenValArr ;
+
+	if (pLenValArr != ""){
+		var name = "" , vLen = "";
+		var vLenArray = pLenValArr.split("|&amp;|");
+		vLenValues = [];
+		for (i = 0; i &lt; vLenArray.length; i++) { 
+			name  = vLenArray[i];
+			vLen = fieldList["fields"][name]["validation"]["lengthvalidation"];
+			vLenValues[name] = vLen; 
+			fieldList["fields"][name]["validation"]["lengthvalidation"] = function (input){
+																		var vField = input.attr("name");
+																		var vLength = vLenValues[vField];
+																		if (input.val().length &gt; vLength ){
+																			input.attr("data-lengthvalidation-msg", "Field too large. Max(" + vLength + " characters)");
+																			return false;
+																		} return true;
+																	};
+			
+				
+		}
+	}
+
+	//; default numeric editor
+	numDefaultEditor = function (container, options) {    	
+		$('&lt;input type="number"  data-bind="value:' + options.field + '"  name="' + options.field + '" /&gt;')
+		.appendTo(container)
+		.kendoNumericTextBox({
+			spinners : false
+		});
+	}
+	
+	if (pEditors != ""){
+		var vEdArray = pEditors.split("|&amp;|");
+		for (i = 0; i &lt; headerList.length; i++) { 
+			var obj = headerList[i];
+			var fieldname = obj["field"];	
+			var index = vEdArray.indexOf(fieldname);
+			if (index &gt; -1){
+				var vEditor = obj["editor"];  
+				obj["editor"] = window[vEditor]; 
+				headerList[i] = obj;
+			}     
+		}
+	}
+	
+
+													
+	$(GridName).empty();
+	if ($(GridName).data("kendoGrid") != undefined){
+		$(GridName).data("kendoGrid").destroy();
+		//$(GridName).remove(); 
+	}
+	$(GridName).kendoGrid({       
+		toolbar: vToolBar ,
+		excel: {
+		fileName: pExcel + ".xlsx",
+		allPages: true,
+		proxyURL: "C_KE_SA_CORE1.ProxyExcel",
+		forceProxy: true
+		},
+		columns: headerList ,
+		dataSource:{ 
+			serverPaging: vServerPaging ,
+			transport: {
+				read: readTransport,
+				create: saveTransport,
+				update: saveTransport 
+			},		
+			error: function(e) {
+					alert(e.errors);
+					},
+			batch: true,
+			schema: { 	
+				data: "data",	 
+				total: "total", 
+				model: fieldList
+			   
+			}
+		},
+		height: '100%',
+		scrollable: true,
+		selectable:       true,
+		sortable:         true,
+		navigatable: 		true,
+		groupable:        true, 
+		columnMenu: vColMenu,  
+		columnMenuInit: function(e) {  
+			var menu = e.container 
+			var popup = e.container.data().kendoPopup;
+
+			var vLenArray ;    
+			var vHiddenColumnsArr = [];
+			if (pHiddenColumns != ""){
+				vHiddenColumnsArr =pHiddenColumns.split(",");
+			}
+						
+			e.container.find(".k-item &gt; span &gt; input").each(function(i, item) {							
+				if (vHiddenColumnsArr.indexOf($(item).attr("data-field")) &gt;= 0) {
+					$(item).parent().parent().remove();
+				}
+			});		    
+
+			
+
+		},
+		filterable :      vColMenu,
+		reorderable:      true,
+		resizable:        true,
+		pageable: {
+			pageSize: vPageSize ,
+			pageSizes: vPageSizes 
+		},
+		editable: true,
+		detailTemplate: kendo.template($("#batchgriddetail").html()),
+		dataBound: function(e) {
+				var data = this.dataSource.view();
+ 
+			    for (var i=0; i&lt; data.length; i++) {
+				   var dataItem = data[i];
+				   var tr = $(GridName).find("[data-uid='" + dataItem.uid + "']");
+
+ 				   if (dataItem["DETAILROW"] == "") {
+					  $(tr).find(".k-hierarchy-cell .k-icon").hide();
+				   }
+			    }
+				$("td").each(function() {	
+					if ($(this).text() == "*HIDE") {
+						$(this).next("td").addClass("hidden")
+					}
+				});
+
+				$("td").each(function() {	
+					if ($(this).text() == "NED") {
+						$(this).next("td").prop("readonly",true);
+					}
+				});
+
+				$("th").each(function() {	
+					if ($(this).text() == "Hide?") {
+						$(this).next("th").addClass("hidden")
+					}
+				});
+				$("td").each(function() {	
+					if ($(this).text() == "A") {
+						$(this).next("td").addClass("fscgreen")
+					}
+				});	
+				$("td").each(function() {
+					if ($(this).text() == "P") {
+						$(this).next("td").addClass("fscred")
+					}
+				});
+
+				var dataView = this.dataSource.view();
+				for (var i = 0; i &lt; dataView.length; i++) {
+					if (dataView[i].D_ROW!=null) {
+						var uid = dataView[i].uid;
+						$(GridName + " tbody").find("tr[data-uid=" + uid + "]").addClass(dataView[i].D_ROW);  //alarm's in my style and we call uid for each row
+					}
+				}
+
+			if ($(GridName).data("kendoGrid").dataSource.data().length) {			
+			} else {
+				$(GridName  + ".k-update").parent().hide();
+				$("#kendoDelete").hide();
+				var grid = e.sender;
+				var colCount = grid.columns.length;
+				$(e.sender.wrapper)
+				.find('tbody')
+				.append('&lt;tr class="kendo-data-row"&gt;&lt;td colspan="' + colCount + '" class="no-data"&gt;&lt;div class="subHeader" style="margin-top:50px;color:gray;font-size:20px;text-align:center;"&gt;No Records Found&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;');
+			};
+
+			$(".spinner").fadeOut("fast");  
+			if (window.init == false){
+				window.init = true;
+				$(GridName).data("kendoGrid").refresh()
+			}  
+
+			
+		}
+	});   
+
+	function readTransport(options) {
+		if (vReadURL == "") {
+			options.success(data);
+		} else {
+			$(".spinner").fadeIn("fast");  
+			$.ajax({
+			  url: vReadURL  ,
+			  dataType:"json",
+			  data: { 
+						take:options.data.take,
+						skip:options.data.skip,
+						page:options.data.page,
+						pageSize:options.data.pageSize,  
+						readparams: vReadParams 
+					} ,
+					complete: function(result) {		
+						var content = result.responseText;
+						//;console.log(content);
+						data = $.parseJSON(content);
+						options.success(data);		
+						
+						if (typeof data["coltoshow"] !== 'undefined') {
+							var showCol = data["coltoshow"];
+							var columns = showCol.split(",");
+							var grid = $(GridName).data("kendoGrid");
+							for (var i = 0; i&lt;= columns.length; i++) {
+								grid.showColumn(columns[i]);
+							}							
+						}
+						$(".spinner").fadeOut("fast");  
+					}
+			});
+		}
+	} 
+
+	if($(GridName).find("h1").length &lt; 1 &amp;&amp; pTitle !== '') {
+		$(".k-grid-toolbar", GridName).append("&lt;h1&gt;" + pTitle + "&lt;/h1&gt;");
+	} 
+   
+	if (pNoLoadState == "T" || pNoLoadState == ''){
+		uniface.getInstance(vInstanceName).activate("LoadState", GridName, vInstanceName, "", "", pEditorsFull );  	
+	}   
+
+	//; Mantis : 1021007 		
+	//;unbind events 
+	$(GridName).off("keydown","input",onGridInputKeydown);
+	$(GridName).off("keydown",".k-dropdown",onGridDropDownKeydown);
+	$(GridName).off("change keyup paste","input",onGridInputChange);	
+		
+		
+	$(GridName).find("table").off("keydown", onGridEditKeydown).on("keydown", onGridEditKeydown);  		
+	//;bind events  	
+	$(GridName).on("keydown","input",onGridInputKeydown);
+	$(GridName).on("focus click","input",function() {
+		var _input = $(this);
+		setTimeout (function(){
+			$(_input).select();
+		},100);			
+	});
+
+	$(GridName).on("keydown",".k-dropdown",onGridDropDownKeydown);
+	$(GridName).on("change keyup paste",".k-input",onGridInputChange);
+
+	//; Mantis : 1021007 
+	
+	restoreState = function(button){      
+		var name = $(button).parent().parent()["0"]["id"]; 
+		uniface.getInstance(vInstanceName).activate("RestoreState", name, vInstanceName);
+		return false;
+	}   
+
+	saveState = function(button){    
+		var name = $(button).parent().parent()["0"]["id"]; 
+		var grid = $("#" + name).data("kendoGrid");  
+		uniface.getInstance(vInstanceName).activate("SaveState", name,vInstanceName, kendo.stringify(grid.getOptions()));
+		return false;
+	}  
+
+	restorestatecust = function(){  
+		uniface.getInstance(vInstanceName).activate("RestoreStateCust");  
+		return false
+	}   
+
+	savestatecust = function(){   
+		uniface.getInstance(vInstanceName).activate("SaveStateCust");  
+		return false
+	}
+	  
+
+	function saveTransport (options) {
+		if (vSaveURL != "save") {
+			var dt = "";
+			$.each(options.data.models, function (index, elem) {
+				$.each(elem, function(id, val) {
+					if (pDateField.indexOf(id) &gt;= 0) {
+						dt = new Date(val);
+						elem[id] = kendo.toString(new Date(dt), "dd-MM-yyyy");
+					}
+				});
+				
+			});
+
+			$.ajax({
+				  url: vSaveURL,
+				  type: "POST",
+				//contentType: "application/json; charset=utf-8",
+				  dataType: "json",
+				  data: {models: kendo.stringify(options.data.models), saveparams: vSaveParams},
+				//data: {models: JSON.stringify(options.data.models), saveparams: vSaveParams},
+				  error: function(e){ console.log(e.error);  },
+				 success: function(result) {
+					options.success(result);
+					console.log(result);
+					 var vSeverity = result.severity;
+					 var vTitle = result.title;
+					 var vIcon= result.icon;
+					 var vMessage = result.message;
+
+					 if (vSeverity == "") vSeverity = "danger";
+					 if (vTitle == "") vTitle = "Danger!";
+					 if (vIcon == "") vIcon = "exclamation-sign";
+					 if (vMessage == "") vMessage = "Procedure Failed. Plese Contact the Administrator.";
+						$(vErrorDiv ).empty();
+						$(vErrorDiv ).html('&lt;div class="alert alert-' + vSeverity + 
+						'"&gt;&lt;span class="glyphicon glyphicon-' + vIcon  + '" aria-hidden="true"&gt;&lt;/span&gt;' +
+						'&amp;nbsp;&lt;strong&gt;' +
+						vTitle  + '&lt;/strong&gt;&amp;nbsp;&amp;nbsp;' + vMessage  + '&lt;/div&gt;')
+						 //; if (result.status == "error"){
+								$(".spinner").fadeIn("fast");
+								uniface.getInstance(vInstanceName).activate("LoadGrid");
+
+						 //; }			
+				 }
+				  
+			});
+		} else {
+			options.success(options.data);
+		}
+	}	
+	
+	//; Mantis : 1021007 [Start] grid navigation 
+
+	function onGridEditKeydown(e) {  
+		var grid = $(this).closest("[data-role=grid]").data("kendoGrid");
+		var current = grid.current();
+		
+		if (grid.options.editable !== 'popup' &amp;&amp; (typeof current !== 'undefined' &amp;&amp; !current.hasClass("editable-cell"))) {		 
+			if (e.keyCode === kendo.keys.TAB ) {
+				if (e.shiftKey) {	
+					var prevRow, nextEditCell;
+					var nextCell = current.prevAll(".editable-cell");
+					nextEditCell = nextCell[0];
+					if (!nextEditCell) {
+						//search the next row
+						prevRow = current.parent().prev();
+						nextCell = prevRow.children(".editable-cell:last");
+						nextEditCell = nextCell;
+					}	
+					if((typeof nextRow !== 'undefined' &amp;&amp; !nextRow.length) || !nextCell.length) {
+						nextCell = grid.tbody.find(".editable-cell:last");
+						nextEditCell = nextCell;
+					}
+					grid.current(nextCell);
+					grid.editCell(nextEditCell);
+					
+				} else {				
+					var nextRow, nextEditCell;
+					var nextCell = current.nextAll(".editable-cell");		
+					nextEditCell = nextCell[0];
+					if (!nextEditCell) {
+						//search the next row
+						nextRow = current.parent().next();
+						nextCell = current.parent().next().children(".editable-cell:first"); 
+						nextEditCell = nextCell;
+					} 
+					if((typeof nextRow !== 'undefined' &amp;&amp; !nextRow.length) || !nextCell.length) {
+						nextCell = grid.tbody.find(".editable-cell:first");
+						nextEditCell = nextCell;
+					}
+					grid.current(nextCell);
+					grid.editCell(nextEditCell);
+					
+				}														
+			} 
+		}
+	}
+
+	function onGridInputChange() {  
+		var cellObject = $(this);
+		var tr = $(cellObject).closest("tr");
+		var grid = $(tr).closest("[data-role=grid]").data("kendoGrid");
+		var name = $(cellObject).attr("name");
+		var data = grid.dataItem(tr);	
+		
+		if ((typeof name !== 'undefined' &amp;&amp; name !== null) &amp;&amp; name.length &gt; 0 &amp;&amp; data !== null ) {
+			if ($(cellObject).attr("data-role") == "datepicker") {
+				var date_picker = $(cellObject).data("kendoDatePicker");			
+				if (typeof date_picker !== 'undefined') {
+					var dt = kendo.parseDate(date_picker.element.val(), date_picker.options.parseFormats);
+					data.set(name, dt);
+				}			
+			} else {
+				data.set(name, $(cellObject).val());
+			}
+		}
+	}
+		
+		
+	function onGridInputKeydown(e) { 
+		var cellObject = $(this);
+		var tr = $(cellObject).closest("tr");
+		var td = $(cellObject).closest("td");
+		
+		var keyCode = e.keyCode || e.which;		
+		switch(keyCode) {		
+			case kendo.keys.RIGHT :
+				if ($(cellObject).attr("data-role") != "datepicker") {
+					tabNextCell(td , tr);			
+				}
+				break;
+			case kendo.keys.LEFT :
+				if ($(cellObject).attr("data-role") != "datepicker") {
+					tabPrevCell(td, tr);			
+				}
+				break;
+			case kendo.keys.UP :			
+				if ($(cellObject).attr("data-role") == "numerictextbox") {  
+					e.preventDefault();
+					e.stopImmediatePropagation();
+				}
+				tabUpCell(td, tr);		
+				break;
+			case kendo.keys.DOWN :
+				if ($(cellObject).attr("data-role") == "numerictextbox") { 
+					e.preventDefault();
+					e.stopImmediatePropagation();
+				}
+				tabDownCell(td, tr);			
+				break;		
+		}		
+			
+	}
+
+
+	function onGridDropDownKeydown(e) {
+		console.log("onGridDropDownKeydown");
+		var tr = $(this).closest("tr");
+		var td = $(this).closest("td");
+		var keyCode = e.keyCode || e.which;		
+		
+		if (keyCode === kendo.keys.TAB) {
+			if (e.shiftKey) {
+				tabPrevCell(td, tr);
+			} else { 
+				tabNextCell(td , tr);	
+			}
+		} 
+	}
+
+	function tabNextCell(td, tr) {	
+		var next_td;	
+		var next_tr;
+		if ($(td).next().index() &lt; 0) {
+			next_tr = $(tr).next("tr");		
+			if ($(next_tr).index() &lt; 0) { 
+				next_tr = $(tr).parent().find("tr:first");
+			}
+			next_td = $(next_tr).children(".editable-cell:first");
+		} else {		
+			next_td = $(td).next();
+			while (!$(next_td).hasClass("editable-cell")) {			
+				next_td = $(next_td).next();	
+			}			
+		}	
+		$(next_td).show().focus().click();
+	}
+	
+	function tabPrevCell (td, tr){			
+		if ($(td).index() &gt;= 0) {	
+			var prev_td = $(td).prev();
+			while (!$(prev_td).hasClass("editable-cell")) {	
+				if ($(prev_td).index() &lt; 0) {	
+					var prev_tr = $(tr).prev("tr");		
+					if ($(prev_tr).index() &lt; 0) { 
+						prev_tr = $(tr).parent().find("tr:last");
+					}
+					prev_td = $(prev_tr).children(".editable-cell:last");
+				} else {
+					prev_td = $(prev_td).prev();	
+				}
+			}		
+			$(prev_td).show().focus().click();
+		}
+	}
+
+	function tabDownCell(td, tr) {
+		var next_tr = $(tr).next();
+		if ($(next_tr).index() &lt; 0) { 
+			next_tr = $(tr).parent().find("tr:first");
+		}
+		var next_td = $(next_tr).find('td:eq(' + $(td).index() + ')');
+		$(next_td).show().focus().click();
+	}
+
+	function tabUpCell(td, tr) {
+		var next_tr = $(tr).prev();	
+		if ($(next_tr).index() &lt; 0) { 
+			next_tr = $(tr).parent().find("tr:last");
+		}
+		var next_td = $(next_tr).find('td:eq(' + $(td).index() + ')');
+		$(next_td).show().focus().click();
+	}
+
+	//; Mantis : 1021007 [End] grid navigation 
+	
+endjavascript
+end 
+	
+weboperation console
+	params
+		string pIn : In
+	endparams
+		javascript
+		console.log(pIn)
+	endjavascript
+end</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

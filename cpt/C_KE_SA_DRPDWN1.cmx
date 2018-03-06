@@ -1,0 +1,5411 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="UFORM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="3" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="FTYP" seqno="4" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="FHEAD" seqno="7" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VMAAT" seqno="8" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HMAAT" seqno="9" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOLOR" seqno="10" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="CLRSCRN" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBORDER" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBIN" seqno="17" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBOT" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="MOVABLE" seqno="19" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOINVERSE" seqno="20" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBRIGHT" seqno="21" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOUNLINE" seqno="22" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBLINK" seqno="23" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPANEL" seqno="24" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="POSPANEL" seqno="25" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPULL" seqno="26" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HIDESTACK" seqno="27" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="28" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UINHERIT" seqno="29" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LIBRAR" seqno="30" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSACT" seqno="31" type="S" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="CONSTRAINTS" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="INIT" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="CLEAR" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="RETRIEVE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="RECORD" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="STORE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DELET" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ACCEPT" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="QUIT" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="INTKEY" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="SPRINT" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="EPRINT" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ASYNC" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="FORMPIC" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="HEADER" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="LISTING" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="PERF" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="PROTO" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="TITLE" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="WINPROP" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="FRLF" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="FRGF" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="SFUNC" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="HTMLPROP" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USCONTAINED" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="UEXECDEF" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="UML_DATA" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPPROP" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="HTML_FORMAT" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_STYLES" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_H" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_BODYHOOK" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPCLASS" seqno="70" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="GETSTATE" seqno="71" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="SETSTATE" seqno="72" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UNOSTATE" seqno="73" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="CMP_EXT" seqno="74" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UCTRIGGERS" seqno="75" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="UACCESSPATH" seqno="76" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="USPLITPROP" seqno="77" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL2" seqno="78" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="USTATEMANAGEDBY" seqno="79" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="HTMLSKELETON" seqno="80" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-13T14:45:45.00</DAT>
+<DAT name="UCOMPSTAMP">2018-03-06T14:09:42.00</DAT>
+<DAT name="ULABEL">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Kendo service for DP</DAT>
+<DAT name="WVPOS">0</DAT>
+<DAT name="WHPOS">0</DAT>
+<DAT name="WVSIZ">10</DAT>
+<DAT name="WHSIZ">40</DAT>
+<DAT name="CLRSCRN">N</DAT>
+<DAT name="UBORDER">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="LIBRAR">IFC</DAT>
+<DAT name="UTRANSACT">1</DAT>
+<DAT name="TPLACTUAL" xml:space='preserve'>
+#Comment ----------------------------------------------
+#Comment start_of_references
+#ifdefined TEMPLATENAME
+#info symbol TEMPLATENAME is already or also defined as a global or local constant
+#endif
+#define TEMPLATENAME=
+#Comment 
+
+#Comment end_of_references
+
+
+#Comment ----------------------------------------------
+#Comment start_of_mappings
+#Comment end_of_mappings
+
+
+#Comment ----------------------------------------------
+#Comment start_of_symbols
+#Comment end_of_symbols
+
+
+#Comment ----------------------------------------------
+</DAT>
+<DAT name="GENERAL" xml:space='preserve'>entry GenerateOutputData
+returns string
+	params
+		string pEntity : IN
+	endparams
+	variables
+		string	vFieldList, vField, vFieldValue, vOuterEntity, vOutput, vJSONString, vraw, vb64image
+		numeric vCtr, vTotal
+		boolean vIsEmpty
+	endvariables
+	
+    ;********************************************************************************************
+    ;; Build Painted Fields List
+    vOuterEntity   = pEntity ;;$componentinfo("","OUTERENTITIES")                                
+    vFieldList     = $entinfo(vOuterEntity,"PAINTEDFIELDS")
+
+    ;********************************************************************************************
+
+    ;; Loop through the retrieved records
+	vTotal = 0
+	vIsEmpty= "T"
+    forentity vOuterEntity	
+		vTotal +=1 
+		if (vJSONString = "")
+			vJSONString = "{"
+		else
+			vJSONString = $concat(vJSONString , ",{")
+		endif
+    	vCtr= 0
+        forList vField in vfieldList
+			if (@vField != "")
+				vIsEmpty = "F"
+			endif
+			selectcase $fieldInfo(vField,"DATATYPE")
+               case "Date","LinearDate"
+                   vFieldValue = $concat(@vField[1:4],"-",@vField[5:2],$concat("-",@vField[7:2]),"T00:00:00.00")
+               case "Datetime","LinearDatetime"
+                   vFieldValue = $concat(@vField[1:4],"-",                 %\ 
+                       $concat(@vField[5:2],$concat("-",@vField[7:2]),       %\ 
+                       $concat("T",@vField[9:2],":",@vField[11:2]),          %\
+                       $concat(":",@vField[13:2],".",@vField[15:2])))  
+               case "Time","LinearTime"
+                   vFieldValue = $concat("2000-01-01T",$concat(@vField[9:2],":",@vField[11:2]),$concat(":",@vField[13:2],".",@vField[15:2]))        
+               ;; Set boolean field and struct to json boolean object
+               case "Boolean"
+                   vFieldValue = @vField         
+               ;; Set boolean field and struct to json number object              
+               case "Raw","Image"
+               ;; Raw image data with preceeding '#' Data UDI scheme encoding *****
+                   vraw=@vField[2]
+                   vb64image=$encode("BASE64", vraw)
+                   vFieldValue = vb64image               
+               elseCase
+                   vFieldValue = @vField
+            endselectcase
+
+			vCtr += 1
+			if (vCtr &gt; 1)
+				vJSONString = $concat(vJSONString, "," , "%%"%%vField%%%%%":%%"%%vFieldValue%%%%%"")
+			else
+				vJSONString = $concat(vJSONString , "%%"%%vField%%%%%":%%"%%vFieldValue%%%%%"")
+			endif
+            
+        endfor
+		
+
+		vJSONString = $concat(vJSONString , "}")
+    endfor
+	
+	if (vIsEmpty)
+		vTotal = 0
+	endif
+	
+	vJSONString = $concat("[",vJSONString ,"]")	
+	if ($serverpaging$)
+		vOutput  = $concat('{"meta":{"code":200},"data":',vJSONString ,',"total":',"%%$Total$%%%}")	
+	else
+		vOutput = $concat('{"meta":{"code":200},"data":',vJSONString ,',"total":',"%%vTotal%%%}")
+	endif
+	
+    return  vOutput	
+end
+
+;======================================================
+
+; Use this proc for Dropdown values from DB entities
+entry lpGenerateOutputDropDownFromEntity
+	params
+		string pEntity : IN
+	endparams
+	variables
+		string	vFieldList, vField, vOuterEntity, vOutput, vJSONString
+		numeric vCtr 
+	endvariables
+
+    ;****************************
+    ;; Build Painted Fields List
+    vOuterEntity   = pEntity ;;$componentinfo("","OUTERENTITIES")                                
+    vFieldList     = $entinfo(vOuterEntity,"PAINTEDFIELDS")
+
+    ;****************************
+
+    ;; Loop through the retrieved records
+    forentity vOuterEntity
+		if (vJSONString = "")
+			vJSONString = "{"
+		else
+			vJSONString = $concat(vJSONString , ",{")
+		endif
+    	vCtr= 0
+        forList vField in vfieldList
+			vCtr += 1
+			if (vCtr &lt; $itemcount(vfieldList))
+				vJSONString = $concat(vJSONString , "%%"%%vField%%%%%":%%"%%@vField%%%%%"", ",")
+			else
+				vJSONString = $concat(vJSONString , "%%"%%vField%%%%%":%%"%%@vField%%%%%"")
+			endif
+            
+        endfor
+		vJSONString = $concat(vJSONString , "}")
+    endfor
+
+	;only applicable if not server paging
+	if ($PageSize$ = "")		
+		if($Total$ &lt;= 1)
+			$Total$	= $totocc(pEntity)
+		endif
+	endif
+	
+
+	vJSONString = $concat("[",vJSONString ,"]")  
+	vOutput = $concat('{"meta":{"code":200},"result":',vJSONString ,',"total":',"%%$Total$%%%}")
+    $webinfo("output") = vOutput
+
+end
+
+;=============================================================
+
+;Use this proc for Dropdown with default values
+entry lpGenerateOutputDropDownFromField
+params
+	string pField : IN
+endparams
+variables
+	string vFieldList, vItemID, vItemVal, vOutput, vJSONString
+	numeric vCounter, vIndex
+endvariables
+		
+	vFieldList = $valrep(pField)
+	scan pField, "."
+	vIndex = $result
+
+	if (vIndex &gt; 0)		
+		pField = pField[1,vIndex -1]
+	endif
+	
+	forlist/id vItemID, vItemVal in vFieldList
+		vJSONString = $concat(vJSONString , $concat('{ "',pField,'ID"'), ":%%"%%vItemID%%%%%"")
+		vJSONString = $concat(vJSONString , $concat(',"',pField,'VAL"'), ":%%"%%vItemVal%%%%%" }")
+		
+		vCounter += 1
+		if (vCounter &lt; $itemcount(vFieldList))
+			vJSONString = $concat(vJSONString , ",")
+		endif
+	endfor
+	
+	vJSONString = $concat("[",vJSONString ,"]")  
+	vOutput = $concat('{"meta":{"code":200},"result":',vJSONString ,',"total":',"%%$Total$%%%}")
+    $webinfo("output") = vOutput
+		filedump vOutput  , "c:\test\c_ke_sa_drpdwn1_list.txt"	
+end
+
+;=============================================================
+</DAT>
+<DAT name="FORMPIC" xml:space='preserve'>
+ &uFRM;TYP=E&uSEP;NAM=CN_CLIENT_TEAM.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_ZONES.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_RELATIONSHIP.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_SUBURBS.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_CURRENCY.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_ROUTE.FQS_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_CONTRACTS.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_CLIENT_CONTRACTS.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_CONSORTIUMS.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=FR_CONTAINERS.FQS_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_CONTAINERS.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_TEAM.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_USER.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_USER_RELATIONSHIP.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_NOTE_CATEGORY.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_PORT.CONFIG&uSEP;WID=25&uSEP;HEI=3&uSEP;HOC=25&uSEP;VOC=3&uFRM;
+  &uFRM;TYP=E&uSEP;NAM=CN_PORT_TYPE.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_PORT.CONFIG&uSEP;WID=25&uSEP;HEI=3&uSEP;HOC=25&uSEP;VOC=3&uFRM;
+  &uFRM;TYP=E&uSEP;NAM=CN_PORT1.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COUNTRY.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_TEAM.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_CLIENT_MARKUPS.FQS_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_WORLD_AREA.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMMODITIES.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=DUMMY.DUMMY&uSEP;WID=25&uSEP;HEI=3&uSEP;HOC=25&uSEP;VOC=3&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=DROP&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=D_DROPDOWN.DUMMY&uSEP;WID=25&uSEP;HEI=4&uSEP;HOC=25&uSEP;VOC=4&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=DROPID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=DROPVAL&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=D_DROPDOWN2.DUMMY&uSEP;WID=25&uSEP;HEI=4&uSEP;HOC=25&uSEP;VOC=4&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=DROPID2&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=DROPVAL2&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=D_DROPDOWN3.DUMMY&uSEP;WID=25&uSEP;HEI=4&uSEP;HOC=25&uSEP;VOC=4&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=DROPID3&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=DROPVAL3&uSEP;WID=20&uSEP;HEI=1&uFRM;</DAT>
+<DAT name="LISTING" xml:space='preserve'>07-Dec-16   KEE   1020689     Inital dev</DAT>
+<DAT name="PERF">#DEF</DAT>
+<DAT name="SFUNC" xml:space='preserve'>operation GetAccountTypeDS
+variables
+	string vList
+endvariables
+	putitem/id vList,"","All"
+	putitem/id vList,"0","Account"
+	putitem/id vList,"1","Prospect"
+	
+	$valrep(DROP.DUMMY) = vList
+	$11 = "NOHTML"
+	$TOTAL$ = 3
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"    
+end  
+
+
+operation GetStatusDS
+variables
+	string vList
+endvariables
+	putitem/id vList,"","All"
+	putitem/id vList,"1","Enabled"
+	putitem/id vList,"0","Disabled"
+	
+	$valrep(DROP.DUMMY) = vList
+	$11 = "NOHTML"
+	$TOTAL$ = 3
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"    
+end
+
+
+operation GetPrivacyDS
+variables
+	string vList
+endvariables
+	putitem/id vList,"","Select Privacy"
+	putitem/id vList,"P","Private"
+	putitem/id vList,"I","Internal"
+	putitem/id vList,"O","Public"
+	
+	$valrep(DROP.DUMMY) = vList
+	$11 = "NOHTML"
+	$TOTAL$ = 4
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Al mn mlow-Origin=*"    
+end
+
+
+operation GetServiceTypeDS
+variables
+	string vList
+endvariables
+	putitem/id vList,"","Select Service Type"
+	putitem/id vList,"DIRECT","Direct"
+	putitem/id vList,"TRANSHIP","Tranship"
+		
+	$valrep(DROP.DUMMY) = vList
+	$11 = "NOHTML"
+	$TOTAL$ = 3
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"    
+end
+
+operation GetCntAddressTypeDS
+variables
+	string vList
+endvariables
+	putitem/id vList,"","Select Address Type"
+	putitem/id vList,"AT","AT Store"
+	putitem/id vList,"ST","ST Store"
+	putitem/id vList,"WH","Warehouse"
+	
+	
+	$valrep(DROP.DUMMY) = vList
+	$11 = "NOHTML"
+	$TOTAL$ = 4
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"    
+end  
+
+operation GetUserFunctionDS
+variables
+	string vList
+endvariables
+	putitem/id vList,"","Select User Function"
+	putitem/id vList,"TL","Team Leader"
+	putitem/id vList,"TM","Team Member"
+	
+	
+	$valrep(DROP.DUMMY) = vList
+	$11 = "NOHTML"
+	$TOTAL$ = 3
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"    
+end  
+
+
+operation GetConsortiumDS
+variables
+	string vList
+endvariables
+
+	clear/e "CN_CONSORTIUMS"
+	ENABLED.CN_CONSORTIUMS =  "T"
+	retrieve/e "CN_CONSORTIUMS"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		putlistitems/id vList, CONSORTIUM_ID.CN_CONSORTIUMS, CONSORTIUM_NAME.CN_CONSORTIUMS
+	endif
+		
+	sort/list vList, "A"
+	$valrep(DROP.DUMMY) = vList
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vList)
+
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+end
+
+operation GetCompanyZones
+variables
+	string vWebParams, vCompId, vJSON
+endvariables
+	$11 = "NOHTML"
+	vWebParams = $webInfo("input")
+	vCompId = $item("compid",vWebParams)
+	
+	clear/e "CN_COMPANY_ZONES"
+	COMPANY_ID.CN_COMPANY_ZONES = vCompId
+	ENABLED.CN_COMPANY_ZONES =  1
+	retrieve/e "CN_COMPANY_ZONES"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		sort/e "CN_COMPANY_ZONES" , "ZONE_CODE:a"
+		forentity "CN_COMPANY_ZONES"
+			putitem vJSON, -1,  "{%%"DROPID%%":%%"%%ZONE_ID.CN_COMPANY_ZONES%%%%%",%%"DROPVAL%%":%%"%%ZONE_CODE.CN_COMPANY_ZONES%%%%%" }"
+		endfor	
+	endif
+		
+	$Total$ = $itemcount(vJSON)
+	
+	vJSON = $replace(vJSON, 1, "&uSEP;", "," , -1)
+	vJSON = $concat("[",vJSON,"]")  
+	vJSON = $concat('{"meta":{"code":200},"result":',vJSON ,',"total":',"%%$Total$%%%}")
+    $webinfo("output") = vJSON 
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+end
+
+
+operation GetCurrencyDS
+variables
+	string vWebParams
+	boolean excludeDesc
+endvariables
+
+	vWebParams = $webInfo("input")
+	excludeDesc = $item("excludeDesc",vWebParams)
+	
+	clear/e "D_DROPDOWN"
+
+	clear/e "CN_CURRENCY"
+	ENABLED.CN_CURRENCY = 1
+	retrieve/e "CN_CURRENCY"
+
+	forentity "CN_CURRENCY"
+		creocc "D_DROPDOWN", -1
+		DROPID.D_DROPDOWN = CURRENCY.CN_CURRENCY
+		if (excludeDesc = "T")
+			DROPVAL.D_DROPDOWN = CURRENCY.CN_CURRENCY
+		else
+			DROPVAL.D_DROPDOWN = CURRENCY_NAME.CN_CURRENCY
+		endif
+	endfor	
+
+	$Total$ = $hits("CN_CURRENCY")
+	
+	;$Total$ = $Total$ + 1	
+	$11 = "NOHTML"
+	call lpGenerateOutputDropDownFromEntity("D_DROPDOWN")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+
+end
+
+
+operation GetFileGroupDS
+variables
+	string vWebParams, vParenID, vCompID, vList
+	struct vStruct
+endvariables
+	vWebParams = $webInfo("input")	
+	vParenID = $item("parentid", vWebParams)
+	vCompID = $item("compid", vWebParams)
+	
+	#include IFC:initStructParam
+	vStruct-&gt;in-&gt;PARENTID = vParenID 
+	vStruct-&gt;in-&gt;COMPID = vCompID 
+	activate "C_AD_SA_COMPANY1".getFileGroups(vStruct)
+	vList = vStruct-&gt;out-&gt;CODEVALREP 
+
+	$valrep(DROP.DUMMY) = vList 
+	
+	$11 = "NOHTML"
+	$total$ = $itemcount(vList)
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+
+end 
+
+
+operation GetClientFileGroupDS
+variables
+	string vWebParams, vParenID, vCompID, vList
+	struct vStruct
+endvariables
+	vWebParams = $webInfo("input")	
+	vParenID = $item("parentid", vWebParams)
+	vCompID = $item("compid", vWebParams)
+	
+	#include IFC:initStructParam
+	vStruct-&gt;in-&gt;PARENTID = vParenID 
+	vStruct-&gt;in-&gt;COMPID = vCompID 
+	activate "C_AD_SA_COMPANY1".getClientFileGroups(vStruct)
+	vList = vStruct-&gt;out-&gt;CODEVALREP 
+
+	$valrep(DROP.DUMMY) = vList 
+	
+	$11 = "NOHTML"
+	$total$ = $itemcount(vList)
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+
+end 
+
+
+operation GetNoteCategoryDS
+variables
+	string vWebParams, vFilter
+endvariables
+	vWebParams = $webInfo("input")	
+	$Take$     = $item("take",     vWebParams)
+	$Page$     = $item("page",     vWebParams)
+	$Skip$     = $item("skip",     vWebParams)
+	$PageSize$ = $item("pageSize", vWebParams)
+	vFilter = $item("filter[filters][0][value]", vWebParams)
+	
+	clear/e "D_DROPDOWN"
+	creocc "D_DROPDOWN", -1
+	DROPID.D_DROPDOWN = ""
+	DROPVAL.D_DROPDOWN = "Select Category"
+	
+	$order_by$ = "CATEGORY_DESCRIPTION"
+	clear/e "CN_NOTE_CATEGORY"
+	if (vFilter != "")
+		CATEGORY_DESCRIPTION.CN_NOTE_CATEGORY = $concat(vFilter,"&uALL;")
+	endif
+	retrieve/e "CN_NOTE_CATEGORY"
+	forentity "CN_NOTE_CATEGORY"
+		creocc "D_DROPDOWN", -1
+		DROPID.D_DROPDOWN = CATEGORY_CODE.CN_NOTE_CATEGORY
+		DROPVAL.D_DROPDOWN = CATEGORY_DESCRIPTION.CN_NOTE_CATEGORY
+	endfor	
+	if (vFilter != "")
+		$Total$ = $hits("CN_NOTE_CATEGORY")
+	else
+		selectdb count(CATEGORY_CODE) from "CN_NOTE_CATEGORY"  to $Total$
+	endif
+	$Total$ = $Total$ + 1	
+	$11 = "NOHTML"
+	call lpGenerateOutputDropDownFromEntity("D_DROPDOWN")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end
+
+operation GetUserRolesDS
+variables
+	struct vStruct
+	string vWebParams, vSystemCode,vCompType, vFilter
+	boolean isForCompany
+endvariables
+
+	vWebParams = $webInfo("input")	
+	$Take$     = $item("take",     vWebParams)
+	$Page$     = $item("page",     vWebParams)
+	$Skip$     = $item("skip",     vWebParams)
+	$PageSize$ = $item("pageSize", vWebParams)
+	vFilter = $item("filter[filters][0][value]", vWebParams)
+	
+	vSystemCode = $item("sysCode",  vWebParams)
+	vCompType = $item("comptype",  vWebParams)
+	isForCompany = $item("forCompany",  vWebParams)
+	
+	#include IFC:INITSTRUCTPARAM
+	vStruct-&gt;in-&gt;SystemCode = vSystemCode
+	vStruct-&gt;in-&gt;CompType = vCompType
+	vStruct-&gt;in-&gt;ForCompany = isForCompany
+	vStruct-&gt;in-&gt;RoleFilter = vFilter
+	
+	activate "C_AD_SA_CNUSER1".getRoles(vStruct)
+	
+	$valrep(DROP.DUMMY) = $concat("=Select Role&uSEP;",vStruct-&gt;out-&gt;RoleList)
+	
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vStruct-&gt;out-&gt;RoleList)
+	$TOTAL$ = $TOTAL$ + 1
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+end
+
+
+operation GetCountryDS
+variables
+	string vWebParams, vFilter, vReflist,vSQL
+	boolean vNoDefault 
+endvariables
+
+	$11 = "NOHTML"
+
+	vWebParams = $webInfo("input")
+	$Take$     = $item("take",     vWebParams)
+	$Page$     = $item("page",     vWebParams)
+	$Skip$     = $item("skip",     vWebParams)
+	$PageSize$ = $item("pageSize", vWebParams)
+	vFilter = $item("filter[filters][0][value]", vWebParams)
+	vReflist = $item("spctrylist", vWebParams)
+	vNoDefault = $item("nodefault", vWebParams)
+	
+	
+	$ORDER_BY$ = "COUNTRY_NAME"
+	
+	clear/e "D_DROPDOWN"
+	if (vNoDefault = "F")	
+		creocc "D_DROPDOWN", -1
+		DROPID.D_DROPDOWN = ""
+		DROPVAL.D_DROPDOWN = "Select Country" 
+	endif
+	
+	clear/e "CN_COUNTRY"
+	
+	if (vFilter != "")
+		 COUNTRY_NAME.CN_COUNTRY = $concat(vFilter,"&uALL;")
+	endif
+	if (vReflist != "")
+		 COUNTRY_CODE.CN_COUNTRY = $replace(vReflist , 1, ",", "&uSEP;", -1)
+	endif
+	
+	retrieve/e "CN_COUNTRY"	
+	forentity "CN_COUNTRY"
+		creocc "D_DROPDOWN", -1
+		DROPID.D_DROPDOWN = COUNTRY_CODE.CN_COUNTRY
+		DROPVAL.D_DROPDOWN = COUNTRY_NAME.CN_COUNTRY
+	endfor	
+	if (vFilter != "")
+		$Total$ = $hits("CN_COUNTRY")
+	elseif (vReflist != "")
+		vSQL = $concat("SELECT COUNT(COUNTRY_CODE) FROM CN_COUNTRY WHERE COUNTRY_CODE IN ('", $replace(vReflist,1,",","','",-1), "')")
+		sql/data vSQL, "DEF"
+		$Total$ = $result
+	else
+		selectdb count(COUNTRY_CODE) from "CN_COUNTRY"  to $Total$
+	endif
+	$Total$ = $Total$ + 1		
+
+	call lpGenerateOutputDropDownFromEntity("D_DROPDOWN")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+
+end ;GetCountryDS
+
+operation GetCountryFromWADSUni
+params
+	struct pStruct : INOUT 
+endparams
+variables
+	string vCountryList, vList
+endvariables
+	clear/e "CN_PORT"
+	WORLD_AREA.CN_PORT = pStruct-&gt;in-&gt;WORLDAREA
+	PORT_TYPE.CN_PORT = pStruct-&gt;in-&gt;PORTTYPE
+	ENABLED.CN_PORT = 1
+	retrieve/e "CN_PORT"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		putlistitems vCountryList, COUNTRY_CODE.CN_PORT
+	endif	
+	sort/list vCountryList,"U"
+
+	if (vCountryList != "")
+		clear/e "CN_COUNTRY"
+		COUNTRY_CODE.CN_COUNTRY = vCountryList
+		retrieve/e "CN_COUNTRY"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			putlistitems/id vList, COUNTRY_CODE.CN_COUNTRY, COUNTRY_NAME.CN_COUNTRY
+		endif
+		sort/list vList, "A"
+	endif
+	
+	pStruct-&gt;out-&gt;VALREP = vList
+end 
+
+operation GetCountryFromWADS
+;get country from World Area
+variables
+	string vWebParams, vFilter, vWorldArea,vPortType, vCountryList, vRefList, vPlaceHolder, vSQL, vValRep, vJSON
+	boolean vExact
+	numeric vTotal
+endvariables
+
+	$11 = "NOHTML"
+
+	vWebParams = $webInfo("input")
+	vWorldArea = $item("worldarea", vWebParams)
+	vExact = $item("exact", vWebParams)
+	vPortType =  $item("porttype", vWebParams)
+	vPlaceHolder = $item("placeholder", vWebParams)
+	vRefList = $item("reflist", vWebParams)
+	vFilter = $item("filter[filters][0][value]", vWebParams)	
+
+	vRefList = $replace(vRefList, 1,";","&uSEP;", -1)
+	
+	$Total$ = 0
+	if (vPlaceHolder != "")
+		putitem vJSON, -1,  "{%%"DROPID%%":%%"%%",%%"DROPVAL%%":%%"%%vPlaceHolder%%%%%" }"
+		$Total$ += 1
+	endif
+	if (vWorldArea != "")
+		;get port list 
+		$ORDER_BY$ = "COUNTRY_CODE"
+		clear/e "CN_PORT"
+		WORLD_AREA.CN_PORT =  $replace(vWorldArea , 1, ",", "&uOR;", -1) 
+		PORT_TYPE.CN_PORT = vPortType
+		ENABLED.CN_PORT = 1
+		retrieve/e "CN_PORT"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			putlistitems vCountryList, COUNTRY_CODE.CN_PORT
+		endif	
+		sort/list vCountryList,"U"
+	endif
+	;do not retrieve countries if you want to validate for worldarea and is null 
+	if (vExact != "T" | (vExact = "T" &amp; vWorldArea != ""))
+		$ORDER_BY$ = "COUNTRY_NAME"
+		
+		$Take$     = $item("take",     vWebParams)
+		$Page$     = $item("page",     vWebParams)
+		$Skip$     = $item("skip",     vWebParams)
+		$PageSize$ = $item("pageSize", vWebParams)
+				
+		clear/e "CN_COUNTRY"
+		if (vCountryList != "")
+			COUNTRY_CODE.CN_COUNTRY = vCountryList
+		endif
+		if (vFilter != "")
+			 COUNTRY_NAME.CN_COUNTRY = $concat(vFilter,"&uALL;")
+		endif	
+		retrieve/e "CN_COUNTRY"	
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			forentity "CN_COUNTRY"
+				if (vRefList != "")
+					if ($item(COUNTRY_CODE.CN_COUNTRY,vRefList) != "")	
+						putitem vJSON, -1,  "{%%"DROPID%%":%%"%%COUNTRY_CODE.CN_COUNTRY%%%%%",%%"DROPVAL%%":%%"%%COUNTRY_NAME.CN_COUNTRY%%%%%" }"	
+						putitem/id vValRep, COUNTRY_CODE.CN_COUNTRY, COUNTRY_NAME.CN_COUNTRY
+						$Total$ += 1
+					endif
+				else
+					putitem vJSON, -1,  "{%%"DROPID%%":%%"%%COUNTRY_CODE.CN_COUNTRY%%%%%",%%"DROPVAL%%":%%"%%COUNTRY_NAME.CN_COUNTRY%%%%%" }"	
+					putitem/id vValRep, COUNTRY_CODE.CN_COUNTRY, COUNTRY_NAME.CN_COUNTRY
+					$Total$ += 1
+				endif
+			endfor	
+		endif				
+	
+		if (vFilter != "" | vRefList != "")
+			$Total$ = $Total$ - 1
+		else
+			if (vWorldArea != "")
+				vSQL = "SELECT COUNT(DISTINCT cc.COUNTRY_CODE) from CN_COUNTRY cc LEFT JOIN CN_PORT cp ON cp.COUNTRY_CODE = cc.COUNTRY_CODE WHERE ENABLED  = 1"
+				if (vWorldArea != "")
+					vSQL = $concat(vSQL, " AND WORLD_AREA IN ('", $replace(vWorldArea,1,"&uSEP;","','",-1) ,"')")
+				endif
+				if (vPortType != "")
+					vSQL = $concat(vSQL, " AND PORT_TYPE = '",vPortType,"'")
+				endif
+				
+				sql/data vSQL, "DEF"
+				$Total$ = $result				
+			else
+				selectdb count(COUNTRY_CODE) from "CN_COUNTRY"  to $Total$
+			endif
+	
+		endif
+		if (vPlaceHolder != "" &amp; $PageSize$ != "")
+			$Total$ = $Total$ + 1
+		endif	
+	endif	
+	
+	vValRep= $replace(vValRep, 1, "&uSEP;", ",", -1)
+	vJSON = $replace(vJSON, 1, "&uSEP;", "," , -1)
+
+	vJSON = $concat("[",vJSON,"]")  
+	vJSON = $concat("{%%"meta%%":{%%"code%%":200},%%"result%%":",vJSON, ",%%"countryvalrep%%":%%"",vValRep, "%%",%%"total%%":%%$Total$%%%}")
+    $webinfo("output") = vJSON 
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+
+end ;GetCountryFromWADS
+
+
+operation GetMarginDS
+variables
+	string vWebParams, vSellerCode, vMarginList, vWorldArea, vKey, vValue
+endvariables
+
+	$11 = "NOHTML"
+
+	vWebParams = $webInfo("input")
+	vSellerCode = $item("sellercode", vWebParams)
+	vWorldArea= $item("worldarea", vWebParams)
+	vWorldArea = $replace(vWorldArea, 1, "&uSEP;", ",", -1)
+
+	vMarginList	= "1=Smallest Margin&uSEP;2=Medium Margin&uSEP;3=Largest Margin"
+	
+	clear/e "CN_CLIENT_MARKUPS"
+	SELLER.CN_CLIENT_MARKUPS = vSellerCode 
+	WORLD_AREA.CN_CLIENT_MARKUPS =vWorldArea  
+	VALID_FROM.CN_CLIENT_MARKUPS = $concat("&uLT;&uEQ;", $datim)
+	VALID_TO.CN_CLIENT_MARKUPS= $concat("&uGT;&uEQ;", $datim)
+	retrieve/e "CN_CLIENT_MARKUPS"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		putitem/id vMarginList, "client", "Client Agreed Markups"
+	endif
+
+	clear/e "D_DROPDOWN3"
+	forlist/id vKey, vValue in vMarginList
+		creocc "D_DROPDOWN3", -1
+		DROPID3.D_DROPDOWN3 = vKey
+		DROPVAL3.D_DROPDOWN3 = vValue 
+	endfor
+
+	call lpGenerateOutputDropDownFromEntity("D_DROPDOWN3")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+
+end ;GetMarginDS
+
+
+operation GetStatesPerCountry
+variables
+	string vWebParams, vIso, vList , vSQL, vJSON 
+endvariables
+
+	$11 = "NOHTML"
+		
+	vWebParams = $webInfo("input")
+	vIso = $item("iso",  vWebParams)
+
+	vSQL = $concat("select json from ( select distinct '{%%"DROPID%%":%%"' + upper(REGION1) + '%%", %%"DROPVAL%%":%%"' + REGION1 + '%%"}' as json,region1 from cn_suburbs where iso = '",vIso ,"' )a order by region1") 
+
+	sql/data vSQL, "DEF"
+	vJSON = $result
+	
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vJSON)
+
+	vJSON = $replace(vJSON, 1, "&uSEP;", "," , -1)
+	vJSON = $concat("[",vJSON,"]")  
+	vJSON = $concat("{%%"meta%%":{%%"code%%":200},%%"result%%":",vJSON, ",%%"total%%":%%$Total$%%%}")
+    $webinfo("output") = vJSON 
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+
+
+end ;GetStatesPerCountry
+
+operation GetPortTypeDS
+variables
+	struct vStruct
+endvariables
+	#include IFC:INITSTRUCTPARAM
+	activate "C_AD_SA_PORT1".getPortTypeValRep(vStruct)
+	$valrep(DROP.DUMMY) =  vStruct-&gt;out-&gt;ValRep
+	
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vStruct-&gt;out-&gt;ValRep)	
+
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+	
+end
+
+
+operation GetRouteDS
+variables
+	string vWebParams, vLoadPorts, vDestPorts, vCompID, vImportExport, vRefMode, vPlaceHolder, vPortType
+	string vSQL, vJSON, vDropVal, vRecord
+	struct vStruct
+endvariables
+
+	vWebParams = $webInfo("input")
+	vRefMode = $item("refmode",  vWebParams)
+	vPortType = $item("port_type",  vWebParams)
+	vPlaceHolder = $item("placeholder",  vWebParams)
+	vCompID	   = $item("companyid", vWebParams)	
+	vImportExport   = $item("importexport",  vWebParams)	
+
+	
+	if (vPlaceHolder != "") 
+		vDropVal = vPlaceHolder
+	else
+		vDropVal = "Select Route" 		
+	endif
+	putitem vJSON, -1,  "{ %%"DROPID%%":%%"%%",%%"DROPVAL%%":%%"%%vDropVal%%%%%" }"	
+			
+	;Get Ports by Company if vCompID is not empty
+	if (vImportExport != "" &amp; vCompID != "" )
+		#include IFC:initStructParam
+		vStruct-&gt;in-&gt;CompCode = vCompID
+		vStruct-&gt;in-&gt;PortType = 1
+		vStruct-&gt;in-&gt;IncImportExportList = "T"
+		
+		activate "C_AD_SA_PORT1".getCompanyPortList(vStruct)
+		if (vImportExport = "I")
+			vLoadPorts = vStruct-&gt;out-&gt;ImportList 
+			vDestPorts = vStruct-&gt;out-&gt;ExportList 
+		else
+			vLoadPorts = vStruct-&gt;out-&gt;ExportList
+			vDestPorts = vStruct-&gt;out-&gt;ImportList 			 
+		endif		
+	endif
+	
+	vSQL = "SELECT cr.ROUTE_CODE,cr.LOAD_PORT,cr.DEST_PORT, cp1.name as lname, cp2.name as dname FROM CN_ROUTE cr %\
+			LEFT JOIN (SELECT CONCAT(COUNTRY_CODE,'-', PORT_CODE) as LOAD_PORT, NAME_WO_DIACRITICS as name %\ 
+			FROM CN_PORT where PORT_TYPE = %%vPortType%%%) cp1 on  cp1.LOAD_PORT = cr.LOAD_PORT %\
+			LEFT JOIN (SELECT CONCAT(COUNTRY_CODE,'-', PORT_CODE) as DEST_PORT, NAME_WO_DIACRITICS as name %\
+			FROM CN_PORT where PORT_TYPE = %%vPortType%%%) cp2 on  cp2.DEST_PORT = cr.DEST_PORT %\
+			WHERE cr.ROUTE_MODE = 'S' %\
+			AND cr.ENABLED = 1 "
+			
+	selectcase vRefMode
+		case "S"
+			vSQL = $concat(vSQL, " AND cr.ROUTE_CODE IN (SELECT ROUTE_CODE FROM FR_FREIGHT_HEADER WHERE BUYER_CODE = '", vCompID, "' AND VALID_TO &gt;= GETDATE()) ")
+		case "L"
+			vSQL = $concat(vSQL, " AND cr.ROUTE_CODE IN (SELECT ROUTE_UUID FROM FR_PORT_CHARGE_HEADER WHERE BUYER_UUID = '", vCompID, "' AND VALID_TO &gt;= GETDATE()) ")
+	endselectcase
+	
+	if (vLoadPorts != "")
+		vSQL = $concat(vSQL, " AND cr.LOAD_PORT IN ('", $replace(vLoadPorts,1,"&uSEP;","','",-1) ,"')")
+	endif
+	if (vDestPorts != "")
+		vSQL = $concat(vSQL, " AND cr.DEST_PORT IN ('", $replace(vDestPorts,1,"&uSEP;","','",-1) ,"')")
+	endif
+	
+	filedump/append $concat("SQL - ", vSQL, "%%^"), "c:\test\test.txt"
+	
+	sql/data vSQL, "DEF" 		
+	forlist vRecord in $result	
+		vDropVal = 	$concat("( ", $concat($itemnr(2, vRecord), " - ", $itemnr(3, vRecord)) , " ) ", $concat($itemnr(4, vRecord), " - ", $itemnr(5, vRecord)))
+		putitem vJSON, -1,  "{%%"DROPID%%":%%"%%$itemnr(1, vRecord)%%%%%",%%"DROPVAL%%":%%"%%vDropVal%%%%%" }"
+	endfor
+		
+	$Total$ = $itemcount(vJSON)
+
+	$11 = "NOHTML"
+	vJSON = $replace(vJSON, 1, "&uSEP;", "," , -1)
+	vJSON = $concat("[",vJSON,"]")  
+	vJSON = $concat("{%%"meta%%":{%%"code%%":200},%%"result%%":",vJSON, ",%%"total%%":%%$Total$%%%}")
+    $webinfo("output") = vJSON 
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end 
+
+
+operation GetPortByCompUni
+params
+	struct pStruct : INOUT
+endparams
+variables
+	string vList, vPortCode, vSubDiv, vCountryList, vPortList, vListNoID
+endvariables
+	clear/e "CN_COMPANY_PORT"
+	COMPANY_ID.CN_COMPANY_PORT = $concat("&uEQ;", pStruct-&gt;in-&gt;COMPID)
+	PORT_TYPE.CN_COMPANY_PORT = $replace(pStruct-&gt;in-&gt;PORTTYPE ,1,",","&uSEP;",-1)
+	COUNTRY_CODE.CN_COMPANY_PORT = pStruct-&gt;in-&gt;COUNTRY
+	if (pStruct-&gt;in-&gt;ISIMPORT = "T")
+		IMPORT.CN_COMPANY_PORT =  pStruct-&gt;in-&gt;ISIMPORT
+	else
+		EXPORT.CN_COMPANY_PORT =  pStruct-&gt;in-&gt;ISEXPORT
+	endif
+	retrieve/e "CN_COMPANY_PORT"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_COMPANY_PORT"
+			
+			clear/e "CN_PORT"
+			COUNTRY_CODE.CN_PORT = $concat("&uEQ;",COUNTRY_CODE.CN_COMPANY_PORT)
+			PORT_CODE.CN_PORT = $concat("&uEQ;",PORT_CODE.CN_COMPANY_PORT)
+			PORT_TYPE.CN_PORT = $concat("&uEQ;",PORT_TYPE.CN_COMPANY_PORT)
+			WORLD_AREA.CN_PORT = pStruct-&gt;in-&gt;WORLDAREA
+			retrieve/e "CN_PORT"
+			if ($procerror = &lt;UACT_SUCCESS&gt;)
+				forentity "CN_PORT"
+					vPortCode = $concat(COUNTRY_CODE.CN_PORT,"-",PORT_CODE.CN_PORT)
+					vSubDiv  = ""
+					if (SUB_DIVISION.CN_PORT != "") 
+						vSubDiv = " [%%SUB_DIVISION.CN_PORT%%%]"
+					endif
+					vSubDiv = $concat("(%%vPortCode%%%) ",NAME.CN_PORT,vSubDiv )	
+					putitem/id vList, vPortCode, vSubDiv 
+					putitem vListNoID, -1, vPortCode
+				endfor
+			endif	
+		endfor	
+	endif
+	sort/list vList, "A"
+	sort/list vListNoID, "U"
+	pStruct-&gt;out-&gt;VALREP = vList
+	pStruct-&gt;out-&gt;LIST = vListNoID
+end 
+
+
+operation GetPortByCompanyDS
+variables
+	string vWebParams, vCompanyId, vPortType, vPortCode, vSubDiv, vFirstRecord
+	string vInPortType, vPlaceHolder, vArea, vCountry, vPortList, vValRep
+	string vJSON, vDropVal
+	string vSQL, vBaseSQL, vFrontSQL, vBackSQL, vAddNameField, vFilter, vImportSQL, vExportSQL, vPortTypeSQL, vCountrySQL, vCountSQL, vWASQL, vRecord 
+	;numeric vPageCount, vRetrieveCount
+	boolean vImport, vExport, vNoMatch
+endvariables
+
+	vWebParams = $webInfo("input")
+	vCompanyId = $item("compid",  vWebParams)
+	
+	$Take$     = $item("take",     vWebParams)
+	$Page$     = $item("page",     vWebParams)
+	$Skip$     = $item("skip",     vWebParams)
+	
+	$Filter$ = $item("filter[filters][0][value]", vWebParams)
+	$Area$ = $item("area",  vWebParams)
+	
+	vPortType = $item("porttype",  vWebParams)
+	vPlaceHolder = $item("placeholder",  vWebParams)
+	vFirstRecord = $item("firstrecord", vWebParams)
+	
+	vCountry = $item("country",  vWebParams)
+	vImport = $item("import",  vWebParams)
+	vExport = $item("export",  vWebParams)
+	
+		
+	$PageSize$ = $item("pageSize", vWebParams) 
+	$ORDER_BY$ = "PORT_CODE"
+
+
+	if ($PageSize$ = "")
+		vFrontSQL = "select port_code,name from ( "
+		vBackSQL = "  ) tb order by name "
+	else
+		vFrontSQL = "select top %%$PageSize$%%% port_code, name from (select ROW_NUMBER() over (order by name) as rw, port_code, name from ( select port_code,name from ( "
+		vFilter = $concat("where name like '%" ,$Filter$, "%' ")
+		vBackSQL = " ) tb %%vFilter%%% ) tb2 ) tb3 where rw &gt; %%$Skip$%%%"
+		vAddNameField = ", name"
+		vCountSQL = "select count(1) from ( "
+	endif
+
+	if (vPortType != "")
+		vPortTypeSQL = $concat(" and a.port_type in ('", $replace(vPortType,1,",","','",-1), "')")
+	endif 
+
+	if (vCountry != "")
+		vCountrySQL = $concat(" and a.country_code in ('", $replace(vCountry ,1,",","','",-1), "')")
+	endif
+
+	if (vImport != "")
+		if (vImport = "T")
+			vImportSQL = " and a.import = 1 "
+		else
+			vImportSQL = " and a.import = 0 "
+		endif			
+	endif
+
+	if (vExport != "")
+		if (vExport = "T")
+			vExportSQL = " and a.export = 1 "
+		else		
+			vExportSQL = " and a.export = 0 "
+		endif	
+	endif	
+
+	if ($Area$ != "")
+		vWASQL = " and b.WORLD_AREA = '%%$Area$%%%' "
+	endif 
+	
+	
+	vBaseSQL = "select distinct (coalesce(rtrim(a.country_code),'') + '-' + coalesce(a.port_code,'')) as port_code, "
+	vBaseSQL = $concat(vBaseSQL, "rtrim(coalesce(b.name + ' ','')) + ' ' + coalesce('[' + rtrim(b.SUB_DIVISION) + '] ', '')  + ('('+ a.country_code + '-' + a.port_code + ')') as name " )
+	vBaseSQL = $concat(vBaseSQL, "from cn_company_port a inner join CN_PORT b on a.country_code = b.COUNTRY_CODE " )
+	vBaseSQL = $concat(vBaseSQL, "and a.port_code = b.PORT_CODE and a.port_type = b.PORT_TYPE and b.ENABLED = 1 and a.company_id = '%%vCompanyId%%%' " )
+	
+	vSQL = $concat(vFrontSQL , vBaseSQL ,vImportSQL ,vExportSQL, $concat(vPortTypeSQL , vCountrySQL, vWASQL , vBackSQL   ) )
+	
+	sql/data vSQL, "DEF" 		
+	forlist vRecord in $result
+		putitem vJSON, -1,  "{%%"DROPID%%":%%"%%($itemnr(1, vRecord ))%%%%%",%%"DROPVAL%%":%%"%%($itemnr(2, vRecord ))%%%%%" }"
+		putitem vPortList, -1, $itemnr(1, vRecord )	
+		putitem/id vValRep, $itemnr(1, vRecord ), $itemnr(2, vRecord )
+	endfor 
+
+	;get total
+	if ($PageSize$ = "")
+		$total$ = $itemcount(vJSON)
+	else
+		vSQL = $concat(vCountSQL , vBaseSQL ,vImportSQL ,vExportSQL, $concat(vPortTypeSQL , vCountrySQL, vWASQL , "  ) tb %%vFilter%%% "))
+		sql/data vSQL, "DEF" 	
+		$total$ = $result
+	endif
+
+	$11 = "NOHTML"
+	;call lpGenerateOutputDropDownFromEntity("D_DROPDOWN")
+	vPortList = $replace(vPortList, 1, "&uSEP;", ",", -1)
+	vValRep= $replace(vValRep, 1, "&uSEP;", ",", -1)
+	vJSON = $replace(vJSON, 1, "&uSEP;", "," , -1)
+
+	vJSON = $concat("[",vJSON,"]")  
+	vJSON = $concat("{%%"meta%%":{%%"code%%":200},%%"result%%":",vJSON, $concat(",%%"portlist%%":%%"",vPortList, "%%",%%"portvalrep%%":%%"" , vValRep) , "%%",%%"total%%":%%$Total$%%%}")
+    $webinfo("output") = vJSON 
+
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end  
+
+operation GetAllPorts
+variables
+	string vWebParams , vPortType, vFilter, vJSON
+	string vSQL
+endvariables
+	vWebParams = $webInfo("input")
+
+	$Take$     = $item("take",     vWebParams)
+	$Page$     = $item("page",     vWebParams)
+	$Skip$     = $item("skip",     vWebParams)
+	
+	$Filter$ = $item("filter[filters][0][value]", vWebParams)
+	
+	vPortType = $item("porttype",  vWebParams)
+	$PageSize$ = $item("pageSize", vWebParams)   
+
+	vPortType = $replace(vPortType , 1, "&uSEP;", ",", -1)
+	vPortType = $replace(vPortType , 1, ",", "','", -1)
+	vPortType  = $concat("('", vPortType , "')")
+	
+	if ($Filter$ != "") 
+		vFilter = $concat(" AND NAME LIKE '%",$Filter$ ,"%'")
+	endif
+ 
+	$total$ = 0
+
+	if (vPortType != "")
+		vSQL = "SELECT "
+		vSQL = $concat(vSQL,"'{%%"DROPID%%":%%"' + COUNTRY_CODE + '-' + PORT_CODE  +   '%%", %%"DROPVAL%%":%%"' + COALESCE(RTRIM(NAME),'') + ' [' + COALESCE(RTRIM(SUB_DIVISION),'') + '] ' + COALESCE(COUNTRY_CODE,'') + '-' + COALESCE(PORT_CODE,'')  +  '%%"}' ")
+		vSQL = $concat(vSQL, "FROM cn_port where PORT_TYPE in %%vPortType%%% %%vFilter%%% ")
+		vSQL = $concat(vSQL,"ORDER BY name ")
+		vSQL = $concat(vSQL,"OFFSET ",$Skip$ ,"  ROWS FETCH NEXT ",$concat($PageSize$," ROWS ONLY "))
+		sql/data vSQL, "DEF" 
+		vJSON = $result 
+
+	
+		vSQL = "SELECT count(1)"
+		vSQL = $concat(vSQL, "FROM cn_port where PORT_TYPE in %%vPortType%%% %%vFilter%%% ")
+		sql/data vSQL, "DEF" 
+		$total$ = $result 
+	endif
+
+
+	$11 = "NOHTML"
+	vJSON = $replace(vJSON, 1, "&uSEP;", "," , -1)
+
+	vJSON = $concat("[",vJSON,"]")  
+	vJSON = $concat("{%%"meta%%":{%%"code%%":200},%%"result%%":",vJSON, ",%%"total%%":%%$Total$%%%}")
+    $webinfo("output") = vJSON 
+
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+
+end 
+
+
+operation GetPortDS
+variables
+	string vWebParams, vSQL, vJSON, vView, vID, vVal, vDropId, vDropVal, vCompId
+	boolean vNoCreate
+endvariables
+
+	vWebParams = $webInfo("input")
+	vView 		= $item("view", vWebParams )
+	vCompId    = $item("compid", vWebParams )
+	$Take$     = $item("take",     vWebParams)
+	$Page$     = $item("page",     vWebParams)
+	$Skip$     = $item("skip",     vWebParams)
+	$PageSize$ = $item("pageSize", vWebParams)	
+	$Filter$ = $item("filter[filters][0][value]", vWebParams)
+	
+	if (vView = "maint")
+		vID = "LOAD_PORTID"
+		vVal = "LOAD_PORTVAL"
+	else
+		vID = "DROPID"
+		vVal = "DROPVAL"
+	endif
+	
+	putitem vJSON, -1,  "{%%"%%vID%%%%%":%%"%%",%%"%%vVal%%%%%":%%"Select Port%%"}"
+	
+	$Total$ = 0
+	$ORDER_BY$ = "COUNTRY_CODE,PORT_CODE,PORT_TYPE"
+	clear/e "CN_PORT"
+	ENABLED.CN_PORT = 1
+	if ($Filter$ != "")
+		NAME_WO_DIACRITICS.CN_PORT = "%%$Filter$%%%&uALL;"
+	endif	
+	retrieve/e "CN_PORT"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_PORT"
+			vNoCreate = 0
+			if (vCompId != "")
+				clear/e "CN_COMPANY_PORT"
+				COMPANY_ID.CN_COMPANY_PORT = vCompId
+				COUNTRY_CODE.CN_COMPANY_PORT = COUNTRY_CODE.CN_PORT
+				PORT_CODE.CN_COMPANY_PORT = PORT_CODE.CN_PORT
+				PORT_TYPE.CN_COMPANY_PORT = PORT_TYPE.CN_PORT
+				retrieve/e "CN_COMPANY_PORT"
+				if ($procerror = &lt;UACT_SUCCESS&gt;)
+					vNoCreate = 1
+				endif
+			endif
+			if (!vNoCreate)
+				vDropId = $concat(COUNTRY_CODE.CN_PORT, "-", PORT_CODE.CN_PORT, "||", PORT_TYPE.CN_PORT)
+				vDropVal = $concat("%%COUNTRY_CODE.CN_PORT%%%-%%PORT_CODE.CN_PORT%%%"," ", NAME_WO_DIACRITICS.CN_PORT, " (%%PORT_DESCRIPTION.CN_PORT_TYPE%%%)")
+			
+				putitem vJSON, -1,  "{%%"%%vID%%%%%":%%"%%vDropId%%%%%",%%"%%vVal%%%%%":%%"%%vDropVal%%%%%"}"
+			endif
+		endfor
+	endif
+	
+	vSQL = "SELECT COUNT(P.PORT_CODE) FROM CN_PORT P"	
+	if (vCompId != "")
+		;the left join will give null values on company_id if no record found in cn_company_port
+		vSQL = $concat(vSQL, " LEFT JOIN CN_COMPANY_PORT C ON C.COUNTRY_CODE = P.COUNTRY_CODE AND C.PORT_CODE = P.PORT_CODE AND C.PORT_TYPE = P.PORT_TYPE AND C.COMPANY_ID = '",vCompId,"' WHERE C.COMPANY_ID IS NULL AND P.ENABLED = 1")
+	else
+		vSQL = $concat(vSQL, " WHERE P.ENABLED = 1")
+	endif
+
+	if ($Filter$ != "")
+		vSQL = $concat(vSQL, " AND P.NAME_WO_DIACRITICS like '",$Filter$,"%'")
+	endif	
+	
+	sql/data vSQL, "DEF" 		
+	$Total$ = $result 
+	
+	$11 = "NOHTML" 
+	vJSON = $replace(vJSON, 1, "&uSEP;", "," , -1)
+	vJSON = $concat("[",vJSON,"]")  
+	vJSON = $concat('{"meta":{"code":200},"result":',vJSON ,',"total":',"%%$Total$%%%}")
+    $webinfo("output") = vJSON 
+
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end
+
+
+operation GetTransportCompaniesDS
+variables
+	struct vStruct
+	string vWebParams, vFilter , vCookie, vCompanyID
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+
+	$11 = "NOHTML"
+		
+	vCookie = $webInfo("usercontext")
+	vWebParams 	= $webInfo("input")
+	$Take$     	= $item("take",     vWebParams)
+	$Page$     	= $item("page",     vWebParams)
+	$Skip$     	= $item("skip",     vWebParams)
+	$PageSize$ 	= $item("pageSize", vWebParams)
+	vFilter 	 = $item("filter[filters][0][value]", vWebParams)
+	vCompanyID  = $item("compCode",     vCookie)	; this is the company of the logged in user
+	
+	
+	if (vFilter != "")
+		vStruct-&gt;in-&gt;CompanyName = vFilter
+	endif
+		vStruct-&gt;in-&gt;CompanyID = vCompanyID
+
+	activate "C_AD_SA_COMPANY1".getTransCompanyList(vStruct)	
+;activate "Q_FR_SA_CARRATE1".getTransCompanyList(vStruct)	
+
+	$valrep(DROP.DUMMY) = $concat("=Select Transport Company&uSEP;",vStruct-&gt;out-&gt;List)
+	
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vStruct-&gt;out-&gt;List)
+	$TOTAL$ = $TOTAL$ + 1
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+
+end 
+
+
+operation GetTransportPortsDS
+variables
+	struct vStruct
+	string vWebParams, vFilter, vCompanyID
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+	
+	$11 = "NOHTML"
+		
+	vWebParams 	= $webInfo("input")
+	vStruct-&gt;in-&gt;CompanyID = $item("compid",  vWebParams)
+
+	$Take$     	= $item("take",     vWebParams)
+	$Page$     	= $item("page",     vWebParams)
+	$Skip$     	= $item("skip",     vWebParams)
+	$PageSize$ 	= $item("pageSize", vWebParams)
+	vFilter 		= $item("filter[filters][0][value]", vWebParams)
+	
+	if (vFilter != "")
+		vStruct-&gt;in-&gt;PortName = vFilter
+	endif
+	
+	activate "C_AD_SA_COMPANY1".getTransDestPort(vStruct)	
+	$valrep(DROP.DUMMY) = $concat("=Select Port&uSEP;",vStruct-&gt;out-&gt;List)
+	
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vStruct-&gt;out-&gt;List)
+	$TOTAL$ = $TOTAL$ + 1
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+
+end 
+
+operation GetTeamDS
+variables
+	string vCompID, vWebParams
+endvariables
+	$11 = "NOHTML"
+
+	vWebParams = $webinfo("input")
+	vCompID    = $item("compid",   vWebParams)   
+
+	$order_by$ = "TEAMDESC"
+
+	clear/e "D_DROPDOWN"
+	creocc "D_DROPDOWN", -1
+	DROPID.D_DROPDOWN = ""
+	DROPVAL.D_DROPDOWN = "Select Team"
+
+	clear/e "CN_TEAM"
+	COMPANY_ID.CN_TEAM = vCompID    
+	retrieve/e "CN_TEAM"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_TEAM"
+			creocc "D_DROPDOWN", -1
+			DROPID.D_DROPDOWN = TEAMID.CN_TEAM
+			DROPVAL.D_DROPDOWN = TEAMDESC.CN_TEAM
+		endfor
+	endif
+
+	call lpGenerateOutputDropDownFromEntity("D_DROPDOWN")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+end
+
+
+operation GetCartageZoneDS
+variables
+	struct vStruct
+	string vWebParams, vFilter, vSeller, vDestPort
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+	
+	$11 = "NOHTML"
+		
+	vWebParams 							= $webInfo("input")
+	vStruct-&gt;in-&gt;SellerCode	= $item("sellercode",  vWebParams)
+	vStruct-&gt;in-&gt;DestPort		= $item("destport",  vWebParams)
+	vSeller = $item("sellercode",  vWebParams)
+	vDestport = $item("destport",  vWebParams)
+
+
+	$Take$     	= $item("take",     vWebParams)
+	$Page$     	= $item("page",     vWebParams)
+	$Skip$     	= $item("skip",     vWebParams)
+	$PageSize$ 	= $item("pageSize", vWebParams)
+	vFilter 		= $item("filter[filters][0][value]", vWebParams)
+	
+	if (vFilter != "")
+		vStruct-&gt;in-&gt;ZoneDistance = vFilter
+	endif
+	
+	activate "Q_FR_SA_CARRATE1".C_AD_GetZoneCartageDDW(vStruct)	
+	$valrep(DROP.DUMMY) = $concat("=Select Zone Distance&uSEP;",vStruct-&gt;out-&gt;List)
+	;$valrep(DROP.DUMMY) = vStruct-&gt;out-&gt;List
+	
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vStruct-&gt;out-&gt;List)
+	$TOTAL$ = $TOTAL$ + 1
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+
+end 
+
+
+operation GetContainerCartageDS
+variables
+	struct vStruct
+	string vWebParams, vFilter, vSeller, vDestPort
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+	
+	$11 = "NOHTML"
+		
+	vWebParams 	 = $webInfo("input")
+	vStruct-&gt;in-&gt;SellerCode	= $item("sellercode",  vWebParams)
+	vStruct-&gt;in-&gt;DestPort		= $item("destport",  vWebParams)
+	vStruct-&gt;in-&gt;ChargeCode	= $item("chargecode",  vWebParams)
+	vStruct-&gt;in-&gt;ActionMode	= $item("actionmode",  vWebParams)
+	
+	
+	$Take$     	= $item("take",     vWebParams)
+	$Page$     	= $item("page",     vWebParams)
+	$Skip$     	= $item("skip",     vWebParams)
+	$PageSize$ 	= $item("pageSize", vWebParams)
+	vFilter 	= $item("filter[filters][0][value]", vWebParams)
+	
+	if (vFilter != "")
+		vStruct-&gt;in-&gt;Container = vFilter
+	endif
+	
+	activate "Q_FR_SA_CARRATE1".C_AD_GetCntrCartageDDW(vStruct)	
+	$valrep(DROP.DUMMY) = $concat("=Select Container&uSEP;",vStruct-&gt;out-&gt;List)
+	;$valrep(DROP.DUMMY) = vStruct-&gt;out-&gt;List
+	
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vStruct-&gt;out-&gt;List)
+	$TOTAL$ = $TOTAL$ + 1
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+
+end 
+
+
+operation GetUsersByCompanyClientDS
+variables
+	struct vStruct
+	string vWebParams, vFilter, vParentCode, vCompCode, vType, vList
+endvariables
+
+	vWebParams 	 = $webInfo("input")
+	$Take$     	= $item("take",     vWebParams)
+	$Page$     	= $item("page",     vWebParams)
+	$Skip$     	= $item("skip",     vWebParams)
+	$PageSize$ 	= $item("pageSize", vWebParams)
+	vFilter 	= $item("filter[filters][0][value]", vWebParams)
+	
+	vParentCode = $item("parent", vWebParams)
+	;compcode can be either company or client
+	vCompCode   = $item("comp", vWebParams)
+	
+	;if set, id = primary email
+	vType       = $item("type", vWebParams)
+	
+	$ORDER_BY$ = "FIRST_NAME" 
+
+	clear/e "D_DROPDOWN"
+	if (vType = "")
+		creocc "D_DROPDOWN", -1
+		DROPID.D_DROPDOWN = ""
+		DROPVAL.D_DROPDOWN = "Select User"
+	endif
+	
+	if (vCompCode = "")
+		vCompCode = "&uALL;"
+	endif
+	
+	#include IFC:initStructParam
+	vStruct-&gt;in-&gt;ParentCode = vParentCode
+	vStruct-&gt;in-&gt;CompCode = vCompCode
+	activate "C_AD_SA_CNUSER1".getUserListByComp(vStruct);
+	vList = vStruct-&gt;out-&gt;List
+	
+	clear/e "CN_USER"
+	if (vList != "")
+		USER_ID.CN_USER = vList
+	endif
+	if (vFilter != "")
+		FIRST_NAME.CN_USER = $concat(vFilter,"&uALL;")
+	endif
+	retrieve/e "CN_USER"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_USER"			
+			if (vType != "")
+				;dont create user if no email available
+				if (PRIMARY_EMAIL.CN_USER != "")
+					creocc "D_DROPDOWN", -1
+					DROPID.D_DROPDOWN = PRIMARY_EMAIL.CN_USER
+					DROPVAL.D_DROPDOWN = $concat("( ",USER_CODE.CN_USER," ) ",$concat(FIRST_NAME.CN_USER," ", LAST_NAME.CN_USER))
+				endif				
+			else
+				creocc "D_DROPDOWN", -1
+				DROPID.D_DROPDOWN = USER_ID.CN_USER
+				DROPVAL.D_DROPDOWN = $concat("( ",USER_CODE.CN_USER," ) ",$concat(FIRST_NAME.CN_USER," ", LAST_NAME.CN_USER))
+			endif
+		endfor
+	endif
+	$11 = "NOHTML"
+	$Total$ = $totocc("D_DROPDOWN")
+
+	call lpGenerateOutputDropDownFromEntity("D_DROPDOWN")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+	
+end	
+
+operation GetWorldAreaUni
+params
+	struct pStruct : INOUT
+endparams
+variables
+	string vList 
+endvariables
+	clear/e "CN_WORLD_AREA"
+	retrieve/e "CN_WORLD_AREA"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		putlistitems/id vList ,  AREA_CODE.CN_WORLD_AREA, AREA_DESC.CN_WORLD_AREA
+	endif
+	sort/list vList , "A"
+	pStruct-&gt;out-&gt;VALREP = vList 
+end
+
+
+operation GetWorldAreaDS
+variables
+	string vWebParams, vList, vPlaceHolder, vFilter, vJSON, vWAValRep
+	numeric vTotal
+endvariables
+
+	vWebParams 	 = $webInfo("input")
+	vPlaceHolder = $item("placeholder", vWebParams)
+	vFilter = $item("filter[filters][0][value]", vWebParams)
+	
+	vList = $item("arealist", vWebParams)
+	vList = $replace(vList, 1,";","&uSEP;", -1)
+	
+	$Order_By$ = "AREA_CODE"
+	vTotal = 0
+	if (vPlaceHolder != ""	)
+		putitem vJSON, -1,  "{%%"DROPID2%%":%%"%%",%%"DROPVAL2%%":%%"%%vPlaceHolder%%%%%" }"
+		vTotal += 1
+	endif
+	
+	clear/e "CN_WORLD_AREA"
+	if (vList != "")
+		AREA_CODE.CN_WORLD_AREA = vList
+	endif
+	if (vFilter != "")
+		AREA_DESC.CN_WORLD_AREA = $concat(vFilter,"&uALL;")
+	endif
+	retrieve/e "CN_WORLD_AREA"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_WORLD_AREA"
+			putitem vJSON, -1,  "{%%"DROPID2%%":%%"%%AREA_CODE.CN_WORLD_AREA%%%%%",%%"DROPVAL2%%":%%"%%($uppercase(AREA_DESC.CN_WORLD_AREA))%%%%%" }"	
+			putitem/id vWAValRep, AREA_CODE.CN_WORLD_AREA, $uppercase(AREA_DESC.CN_WORLD_AREA)
+			vTotal += 1
+		endfor
+	endif
+	$total$ = vTotal
+	
+	$11 = "NOHTML"
+	vWAValRep= $replace(vWAValRep, 1, "&uSEP;", ",", -1)
+	vJSON = $replace(vJSON, 1, "&uSEP;", "," , -1)
+
+	vJSON = $concat("[",vJSON,"]")  
+	vJSON = $concat("{%%"meta%%":{%%"code%%":200},%%"result%%":",vJSON, ",%%"worldareavalrep%%":%%"",vWAValRep, "%%",%%"total%%":%%$Total$%%%}")
+    $webinfo("output") = vJSON 
+
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end
+	
+
+operation GetClientTeamDS
+variables
+	struct vStruct
+	string vWebParams, vFilter, vSeller, vDestPort
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+	
+	$11 = "NOHTML"
+		
+	vWebParams = $webInfo("input")
+	vStruct-&gt;in-&gt;COMPANY_ID	= $item("parentid",  vWebParams)
+		
+	$Take$     	= $item("take",     vWebParams)
+	$Page$     	= $item("page",     vWebParams)
+	$Skip$     	= $item("skip",     vWebParams)
+	$PageSize$ 	= $item("pageSize", vWebParams)
+	vFilter 	= $item("filter[filters][0][value]", vWebParams)
+	
+	if (vFilter != "")
+		vStruct-&gt;in-&gt;Team = vFilter
+	endif
+	
+	activate "C_AD_SA_CMPLST1".getClientTeamsValrep(vStruct)
+	$valrep(DROP.DUMMY) = $concat("=Select Team&uSEP;",vStruct-&gt;out-&gt;List)
+	
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vStruct-&gt;out-&gt;List)
+	$TOTAL$ = $TOTAL$ + 1
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+
+end 
+
+operation GetCompTeamForClientDS
+variables
+	string vWebParams, vFilter, vCompId
+endvariables
+	
+	$11 = "NOHTML"
+		
+	vWebParams = $webInfo("input")
+	vCompId	= $item("compid",  vWebParams)
+		
+	$Take$     	= $item("take",     vWebParams)
+	$Page$     	= $item("page",     vWebParams)
+	$Skip$     	= $item("skip",     vWebParams)
+	$PageSize$ 	= $item("pageSize", vWebParams)
+	vFilter 	= $item("filter[filters][0][value]", vWebParams)
+	
+	clear/e "D_DROPDOWN"
+	creocc "D_DROPDOWN", -1
+	DROPID.D_DROPDOWN = ""
+	DROPVAL.D_DROPDOWN = "Select Team"
+	
+	clear/e "CN_TEAM"
+	COMPANY_ID.CN_TEAM = vCompId
+	if (vFilter != "")
+		TEAMDESC.CN_TEAM = $concat(vFilter,"&uALL;")
+	endif
+	retrieve/e "CN_TEAM"
+	
+
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_TEAM"
+			creocc "D_DROPDOWN", -1
+			DROPID.D_DROPDOWN = TEAMID.CN_TEAM
+			DROPVAL.D_DROPDOWN = TEAMDESC.CN_TEAM	
+		endfor
+	endif
+	
+	$TOTAL$ = $hits("CN_TEAM")
+	$TOTAL$ = $TOTAL$ + 1
+	$11 = "NOHTML"
+	
+	call lpGenerateOutputDropDownFromEntity("D_DROPDOWN")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+
+end 
+
+operation GetCompTeamUsersForClientDS
+variables
+	string vWebParams, vFilter, vCompId,vClientId, vTeamId, vUserList, vJSON
+endvariables
+	
+	$11 = "NOHTML"
+		
+	vWebParams = $webInfo("input")
+	vCompId	= $item("compid",  vWebParams)	
+	vTeamId	= $item("teamid",  vWebParams)
+	
+	vClientId = $item("clientid",  vWebParams)	
+	vFilter 	= $item("filter[filters][0][value]", vWebParams)
+	
+	putitem vJSON, -1,  "{%%"DROPID%%":%%"%%",%%"DROPVAL%%":%%"Select Users%%" }"
+	
+	clear/e "CN_COMPANY_TEAM"
+	COMPANY_ID.CN_COMPANY_TEAM = vCompId
+	if (vTeamId != "") 
+		TEAMID.CN_COMPANY_TEAM = vTeamId
+	endif
+	retrieve/e "CN_COMPANY_TEAM"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		putlistitems vUserList, USER_ID.CN_COMPANY_TEAM		
+	endif
+
+	clear/e "CN_CLIENT_TEAM"
+	PARENT_ID.CN_CLIENT_TEAM = vCompId
+	CLIENT_ID.CN_CLIENT_TEAM = vClientId 
+	if (vTeamId != "") 
+		TEAMID.CN_CLIENT_TEAM = vTeamId
+	endif
+	retrieve/e "CN_CLIENT_TEAM"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		;get rid of already in the team	
+		forentity  "CN_CLIENT_TEAM"
+			delitem/id vUserList, USER_ID.CN_CLIENT_TEAM		
+		endfor
+	endif
+
+	clear/e "CN_USER"
+	if (vUserList != "")
+		$ORDER_BY$ = "FIRST_NAME" 		
+		USER_ID.CN_USER = vUserList
+	
+		if (vFilter != "")
+			FIRST_NAME.CN_USER = $concat(vFilter,"&uALL;")
+		endif
+	
+		retrieve/e "CN_USER"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			forentity "CN_USER"		
+				putitem vJSON, -1,  $concat('{ "DROPID":"',USER_ID.CN_USER,'","DROPVAL":"', $concat(FIRST_NAME.CN_USER," ", LAST_NAME.CN_USER), '" }')
+			endfor
+		endif
+	endif
+	$TOTAL$ = $hits("CN_USER")
+	$TOTAL$ = $TOTAL$ + 1
+	$11 = "NOHTML"
+	
+	
+	vJSON = $replace(vJSON, 1, "&uSEP;", "," , -1)
+	vJSON = $concat("[",vJSON,"]")  
+	vJSON = $concat("{%%"meta%%":{%%"code%%":200},%%"result%%":",vJSON, ",%%"total%%":%%$Total$%%%}")
+    $webinfo("output") = vJSON 
+	
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+
+end
+
+
+operation GetCompTeamMembers
+variables
+	string vWebParams, vFilter, vCompId, vTeamId, vTeamLeadId, vUserList, vJSON
+endvariables
+	
+	$11 = "NOHTML"
+		
+	vWebParams = $webInfo("input")
+	vCompId	= $item("compid",  vWebParams)	
+	vTeamId	= $item("teamid",  vWebParams)	
+	vTeamLeadId = $item("teamLeadId",vWebParams)
+	vFilter 	= $item("filter[filters][0][value]", vWebParams)
+		
+	clear/e "CN_COMPANY_TEAM"
+	COMPANY_ID.CN_COMPANY_TEAM = vCompId
+	TEAMID.CN_COMPANY_TEAM = $replace(vTeamId, 1, ",","&uOR;",-1)
+	USER_ID.CN_COMPANY_TEAM = $concat("&uNOT;&uEQ;",vTeamLeadId)
+	USERFUNCTION.CN_COMPANY_TEAM = "TM"
+	retrieve/e "CN_COMPANY_TEAM"
+		
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		putlistitems vUserList, USER_ID.CN_COMPANY_TEAM		
+	endif
+
+	clear/e "CN_USER"
+	if (vUserList != "")
+		$ORDER_BY$ = "FIRST_NAME" 		
+		USER_ID.CN_USER = vUserList
+	
+		if (vFilter != "")
+			FIRST_NAME.CN_USER = $concat(vFilter,"&uALL;")
+		endif
+	
+		retrieve/e "CN_USER"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			forentity "CN_USER"		
+				putitem vJSON, -1,  $concat('{ "DROPID":"',USER_ID.CN_USER,'","DROPVAL":"', $concat(FIRST_NAME.CN_USER," ", LAST_NAME.CN_USER), '" }')
+			endfor
+		endif
+	endif
+	$TOTAL$ = $hits("CN_USER")
+	$TOTAL$ = $TOTAL$ + 1
+	$11 = "NOHTML"
+	
+	
+	vJSON = $replace(vJSON, 1, "&uSEP;", "," , -1)
+	vJSON = $concat("[",vJSON,"]")  
+	vJSON = $concat("{%%"meta%%":{%%"code%%":200},%%"result%%":",vJSON, ",%%"total%%":%%$Total$%%%}")
+    $webinfo("output") = vJSON 
+	
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+
+end
+
+
+operation GetCartageAddFeeDS
+variables
+	struct vStruct
+	string vWebParams, vFilter, vSeller, vDestPort
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+	
+	$11 = "NOHTML"
+		
+	vWebParams 					= $webInfo("input")
+	vStruct-&gt;in-&gt;SellerCode		= $item("sellercode",  vWebParams)
+	vStruct-&gt;in-&gt;DestPort			= $item("destport",  vWebParams)
+	vStruct-&gt;in-&gt;ActionMode		= "AddCharge"
+	
+	
+	$Take$     	= $item("take",     vWebParams)
+	$Page$     	= $item("page",     vWebParams)
+	$Skip$     	= $item("skip",     vWebParams)
+	$PageSize$ 	= $item("pageSize", vWebParams)
+	vFilter 		= $item("filter[filters][0][value]", vWebParams)
+
+	
+	activate "Q_FR_SA_CARRATE1".C_AD_GetChargeAddCartageDDW(vStruct)	
+	;$valrep(DROP.DUMMY) = $concat("=Select Additional Fee&uSEP;",vStruct-&gt;out-&gt;List)
+	$valrep(DROP.DUMMY) = vStruct-&gt;out-&gt;List
+	
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vStruct-&gt;out-&gt;List)
+	$TOTAL$ = $TOTAL$ + 1
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+
+end 
+
+
+;==V===A====L===U===E===M===A===P===P===E===R=======================
+operation UserValueMapper
+variables
+	struct vStruct
+	string vWebParams, vParentCode, vCompCode, vUserValue, vList
+	numeric vRowIndex
+endvariables
+
+	vWebParams 	= $webInfo("input")
+	vParentCode = $item("parent", vWebParams)
+	;compcode can be either company or client
+	vCompCode   = $item("comp", vWebParams)
+	vUserValue  = $item("val",  vWebParams)
+	
+	;set this for proper retrieve
+	$Skip$     = 0
+	$PageSize$ = 100
+	
+	$ORDER_BY$ = "FIRST_NAME" 
+	
+	#include IFC:initStructParam
+	vStruct-&gt;in-&gt;ParentCode = vParentCode
+	vStruct-&gt;in-&gt;CompCode = vCompCode
+	activate "C_AD_SA_CNUSER1".getUserListByComp(vStruct);
+	vList = vStruct-&gt;out-&gt;List
+	
+	clear/e "CN_USER"
+	if (vList != "")
+		USER_ID.CN_USER = vList
+	endif
+	retrieve/e "CN_USER"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity  "CN_USER"
+			vRowIndex += 1
+			if (USER_ID.CN_USER = vUserValue)
+				break
+			endif
+		endfor
+	endif
+	
+	$11 = "NOHTML"
+	$webinfo("output") = $concat("[",vRowIndex,"]")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+	
+end
+
+operation CountryWAMultiValueMapper
+;country from world area multi select value mapper
+variables
+	string vWebParams, vKey, vValue, vWorldArea , vCountryList
+	string vRowNoList
+	numeric vRowNumber 
+endvariables
+	$11 = "NOHTML"
+	
+	vWebParams = $webInfo("input")
+	vWorldArea = $item("worldarea", vWebParams)
+	vWorldArea = $replace(vWorldArea , 1, ",", "&uSEP;", -1)	
+	$Total$ = 0
+	vRowNumber = 0
+	if (vWorldArea != "")
+		;get port list 
+		$ORDER_BY$ = "COUNTRY_CODE"
+		clear/e "CN_PORT"
+		WORLD_AREA.CN_PORT = vWorldArea 
+		retrieve/e "CN_PORT"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			putlistitems vCountryList, COUNTRY_CODE.CN_PORT
+		endif	
+
+		sort/list vCountryList,"U"
+
+		$ORDER_BY$ = "COUNTRY_NAME"
+
+		forlist/id vKey, vValue in vWebParams
+			if(vKey = "values[]")
+				clear/e "CN_COUNTRY"
+				COUNTRY_CODE.CN_COUNTRY = vCountryList
+				retrieve/e "CN_COUNTRY"
+				if ($procerror = &lt;UACT_SUCCESS&gt;)
+					vRowNumber = 0
+					forentity  "CN_COUNTRY"
+						vRowNumber += 1									
+						if (COUNTRY_CODE.CN_COUNTRY = vValue )					
+							break
+						endif											
+					endfor
+					putitem vRowNoList, -1, vRowNumber 
+				endif
+			endif
+		endfor 
+		vRowNoList = $replace(vRowNoList,1,"&uSEP;",",", -1)
+	endif
+
+	$webinfo("output") =$concat("[",vRowNoList,"]")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end
+
+
+operation RouteValueMapper
+variables
+	numeric vRowIndex 
+	string vWebParams, vRouteId, vRouteList, vIndexList, vGetRouteRef, vRefMode, vCompID
+	struct vStruct
+endvariables
+
+	vWebParams = $webInfo("input")
+	vRouteList = $item("route",  vWebParams)	
+	vRouteId = $item("val",  vWebParams)
+	vGetRouteRef = $item("routeRef",  vWebParams)
+	vRefMode = $item("refmode",  vWebParams)
+	vCompID	   = $item("companyid", vWebParams)	
+
+	
+	$PageSize$ = ""	
+	$Order_By$ = "LOAD_PORT"
+	
+	vRouteId = $replace(vRouteId,1,";","&uSEP;",-1)
+	vRowIndex = 1 
+	
+	if (vGetRouteRef != "" &amp; vGetRouteRef = "T" &amp; vCompID != "")
+		activate "Q_KE_SA_CORE1".GetReferenceRoutes(vRefMode, vCompID, vRouteList)
+	endif	
+	
+	clear/e "CN_ROUTE"
+	if (vRouteList != "")
+		vRouteList = $replace(vRouteList,1,",","&uSEP;",-1)
+		ROUTE_CODE.CN_ROUTE = vRouteList
+	endif
+	ENABLED.CN_ROUTE = "T"
+	retrieve/e "CN_ROUTE"	
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity  "CN_ROUTE"
+			vRowIndex += 1		
+			if ($itemcount(vRouteId) &gt; 1)
+				if ($item(ROUTE_CODE.CN_ROUTE,vRouteId) != "")
+				putitem vIndexList, -1, vRowIndex
+			endif
+			else
+				if (ROUTE_CODE.CN_ROUTE = vRouteId)
+					vIndexList = vRowIndex
+					break;
+				endif
+			endif		
+		endfor
+	endif		
+
+	$11 = "NOHTML"
+	$webinfo("output") = $concat("[", $replace(vIndexList,1,"&uSEP;",",",-1) ,"]")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end
+
+
+
+
+operation PortByCompanyValueMapper
+variables
+	string vWebParams, vCompanyId, vPortType, vPortCode
+	string  vArea, vCountryList, vPortList, vList,vCountry, vImport, vExport,vPortValue, vIndexList
+	numeric vRowIndex
+endvariables
+
+	vWebParams = $webInfo("input")
+	vCompanyId = $item("compid",  vWebParams)	
+	vPortType = $item("porttype",  vWebParams)
+	vArea = $item("area",  vWebParams)
+	vCountry = $item("country",  vWebParams)
+	vImport = $item("import",  vWebParams)
+	vExport = $item("export",  vWebParams)
+	
+	vPortValue = $item("val",  vWebParams)
+	
+	vPortValue = $replace(vPortValue,1,";","&uSEP;",-1)
+	vRowIndex = 1 
+	
+	$PageSize$ = "" ; clear pagesize for cn_company_port as this is used as reference
+	$ORDER_BY$ = "PORT_CODE"
+	clear/e "CN_COMPANY_PORT"
+	COMPANY_ID.CN_COMPANY_PORT = vCompanyId
+	if (vPortType != "")
+		PORT_TYPE.CN_COMPANY_PORT = $replace(vPortType,1,",","&uOR;",-1)
+	endif
+	if (vCountry != "")
+		COUNTRY_CODE.CN_COMPANY_PORT = vCountry
+	endif
+	if (vImport != "")
+		IMPORT.CN_COMPANY_PORT = vImport 
+	endif
+	if (vExport != "")
+		EXPORT.CN_COMPANY_PORT = vExport
+	endif
+	retrieve/e "CN_COMPANY_PORT" 
+		
+	if ($procerror = &lt;UACT_SUCCESS&gt;)					
+		forentity "CN_COMPANY_PORT"					
+			forentity "CN_PORT1"			
+				vPortCode = $concat(COUNTRY_CODE.CN_PORT1,"-",PORT_CODE.CN_PORT1)	
+				vRowIndex += 1					
+				if ($itemcount(vPortValue) &gt; 1)
+					if ($item(vPortCode,vPortValue) != "")
+						putitem vIndexList, -1, vRowIndex
+					endif
+				else
+					if (vPortCode = vPortValue)
+						vIndexList = vRowIndex
+						break;
+					endif
+				endif	
+			endfor
+		endfor
+	endif
+		
+	$11 = "NOHTML"
+	$webinfo("output") = $concat("[", $replace(vIndexList,1,"&uSEP;",",",-1) ,"]")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end 
+
+
+operation SuburbsPerCountryValueMapper
+variables
+	string vWebParams, vIso, vState ,vSuburbVal, vValueExact, vIndexList
+	numeric vRowIndex
+endvariables	
+	
+	$11 = "NOHTML"
+	$ORDER_BY$ = "SUBURB"
+	vWebParams = $webInfo("input")
+	vIso 	   = $item("iso",  vWebParams)
+	vState     = $item("state", vWebParams)
+	vValueExact = $item("ValueExact", vWebParams)	
+	$PageSize$ = ""
+	vSuburbVal    = $item("val",  vWebParams)
+	
+	if (vSuburbVal != "")
+		vRowIndex = 1
+		clear/e "CN_SUBURBS"
+		if (vValueExact = "")
+			if (vIso != "")
+				ISO.CN_SUBURBS = vIso
+			endif
+			if (vState != "")
+				REGION1.CN_SUBURBS = vState
+			endif
+		else
+			ISO.CN_SUBURBS = $concat("&uEQ;",vIso)
+			REGION1.CN_SUBURBS = $concat("&uEQ;",vState)
+		endif
+		
+		retrieve/e "CN_SUBURBS"	
+		if ($procerror = &lt;UACT_SUCCESS&gt;)		
+			forentity "CN_SUBURBS"			
+				vRowIndex += 1		
+				if ($itemcount(vSuburbVal) &gt; 1)
+					if ($item(ID.CN_SUBURBS,vSuburbVal) != "")
+					putitem vIndexList, -1, vRowIndex
+				endif
+				else
+					if (ID.CN_SUBURBS = vSuburbVal)
+						vIndexList = vRowIndex
+						break;
+					endif
+				endif	
+			endfor		
+		endif
+	endif
+	
+	$11 = "NOHTML"
+	$webinfo("output") = $concat("[", $replace(vIndexList,1,"&uSEP;",",",-1) ,"]")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+
+end
+;==V===A====L===U===E===M===A===P===P===E===R=======================
+
+operation GetFRContainersCompanyDS
+variables
+	string vList, vCompID, vWebParams, vContType
+endvariables
+
+	vWebParams = $webInfo("input")
+	vCompId	= $item("compid",  vWebParams)
+	vContType = $item("conttype",vWebParams)
+
+	clear/e "D_DROPDOWN"	
+	creocc "D_DROPDOWN", -1
+	DROPID.D_DROPDOWN = ""
+	DROPVAL.D_DROPDOWN = " Select Container"
+
+	$ORDER_BY$ = "CONT_CODE"
+
+	clear/e "FR_CONTAINERS"	
+	CONT_TYPE.FR_CONTAINERS = vContType
+	retrieve/e "FR_CONTAINERS"
+	sort/e "FR_CONTAINERS","CONT_TYPE.FR_CONTAINERS:a&uSEP;CONT_CODE.FR_CONTAINERS:a"
+
+	forentity "FR_CONTAINERS"
+		clear/e "CN_COMPANY_CONTAINERS"
+		COMPANY_ID.CN_COMPANY_CONTAINERS = vCompId
+		CONT_TYPE.CN_COMPANY_CONTAINERS = CONT_TYPE.FR_CONTAINERS
+		CONT_CODE.CN_COMPANY_CONTAINERS = CONT_CODE.FR_CONTAINERS
+		retrieve/e "CN_COMPANY_CONTAINERS"
+
+		if ($procerror != &lt;UACT_SUCCESS&gt;)
+			creocc "D_DROPDOWN", -1
+			DROPID.D_DROPDOWN = CONT_CODE.FR_CONTAINERS
+			DROPVAL.D_DROPDOWN = CONT_DESC.FR_CONTAINERS
+		endif
+
+	endfor
+
+	sort/e "D_DROPDOWN", "DROPVAL.D_DROPDOWN:A,DROPVAL.D_DROPDOWN:U"
+		
+	$TOTAL$ = $hits("D_DROPDOWN")
+	$TOTAL$ = $TOTAL$ + 1
+	$11 = "NOHTML"
+	
+	call lpGenerateOutputDropDownFromEntity("D_DROPDOWN")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+
+end  
+
+
+operation GetPortByCountryDS
+variables
+	struct vStruct
+	string vWebParams
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+
+	$11 = "NOHTML"
+		
+	vWebParams = $webInfo("input")
+	vStruct-&gt;in-&gt;Country 	= $item("country",  vWebParams)
+	vStruct-&gt;in-&gt;Type 	= $item("porttype",  vWebParams)
+
+	activate "C_AD_SA_COUNTRY1".getCountryPortsValRep2(vStruct)
+	$valrep(DROP.DUMMY) =  vStruct-&gt;out-&gt;ValRep
+
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vStruct-&gt;out-&gt;ValRep)	
+	
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+	
+end
+ 
+
+operation GetChargeCodeTypeDS
+variables
+	struct vStruct
+	string vWebParams, vFilter, vList
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+	
+	$11 = "NOHTML"
+		
+	vWebParams 	= $webInfo("input")
+	
+	$Take$     	= $item("take",     vWebParams)
+	$Page$     	= $item("page",     vWebParams)
+	$Skip$     	= $item("skip",     vWebParams)
+	$PageSize$ 	= $item("pageSize", vWebParams)
+	vFilter 		= $item("filter[filters][0][value]", vWebParams)
+	
+	activate "C_AD_SA_CHARGE1".ChargeTypeValRep(vStruct)	
+	;$valrep(DROP.DUMMY) = vStruct-&gt;out-&gt;ValRep
+	vList = vStruct-&gt;out-&gt;ValRep
+	vList = $concat("=Select Charge Type&uSEP;",vList)
+	$valrep(DROP.DUMMY) = vList
+	
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vStruct-&gt;out-&gt;ValRep)
+	$TOTAL$ = $TOTAL$ + 1
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+
+end 
+
+
+operation GetChargeByTypeDS
+variables
+	struct vStruct
+	string vWebParams, vFilter, vList
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+	
+	$11 = "NOHTML"
+		
+	vWebParams 	= $webInfo("input")
+	
+	$Take$     	= $item("take",     vWebParams)
+	$Page$     	= $item("page",     vWebParams)
+	$Skip$     	= $item("skip",     vWebParams)
+	$PageSize$ 	= $item("pageSize", vWebParams)
+	vFilter 	= $item("filter[filters][0][value]", vWebParams)
+	
+	vStruct-&gt;in-&gt;ChargeType = $item("chargetype", vWebParams)	
+	activate "C_AD_SA_CHARGE1".getChargeByType(vStruct)	
+	vList = vStruct-&gt;out-&gt;ValRep
+	vList = $concat("=Select Charge Code&uSEP;",vList)
+	$valrep(DROP.DUMMY) = vList
+
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vStruct-&gt;out-&gt;ValRep)
+	$TOTAL$ = $TOTAL$ + 1
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+
+end
+
+
+
+operation GetAddCurrencyCodesDS
+variables
+	struct vStruct
+	string vWebParams, vFilter, vList, vCompany
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+	
+	$11 = "NOHTML"
+		
+	vWebParams 	= $webInfo("input")
+	
+	$Take$     	= $item("take",     vWebParams)
+	$Page$     	= $item("page",     vWebParams)
+	$Skip$     	= $item("skip",     vWebParams)
+	$PageSize$ 	= $item("pageSize", vWebParams)
+	vCompany	= $item("company", vWebParams)
+	vFilter 		= $item("filter[filters][0][value]", vWebParams)
+	
+	;activate "C_AD_SA_CURR1".currencyValRep(vStruct)	
+	;$valrep(DROP.DUMMY) = vStruct-&gt;out-&gt;ValRep
+	;vList = vStruct-&gt;out-&gt;ValRep
+	vStruct-&gt;in-&gt;CompanyID = vCompany
+	activate "C_AD_SA_CMPLST1".getCompanyCurrency(vStruct)
+	$valrep(DROP.DUMMY) = vStruct-&gt;out-&gt;ValRep
+
+	$TOTAL$ = $itemcount(vStruct-&gt;out-&gt;ValRep)
+	$TOTAL$ = $TOTAL$ + 1
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+end
+
+
+
+operation GetCurrencyCodesDS
+variables
+	struct vStruct
+	string vWebParams, vFilter, vList
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+	
+	$11 = "NOHTML"
+		
+	vWebParams 	= $webInfo("input")
+	
+	$Take$     	= $item("take",     vWebParams)
+	$Page$     	= $item("page",     vWebParams)
+	$Skip$     	= $item("skip",     vWebParams)
+	$PageSize$ 	= $item("pageSize", vWebParams)
+	vFilter 	= $item("filter[filters][0][value]", vWebParams)
+	
+	activate "C_AD_SA_CURR1".currencyValRep(vStruct)	
+	vList = vStruct-&gt;out-&gt;ValRep
+	vList = $concat("=Select Currency&uSEP;",vList)
+
+	$valrep(DROP.DUMMY) = vList
+	
+	$TOTAL$ = $itemcount(vStruct-&gt;out-&gt;ValRep)
+	$TOTAL$ = $TOTAL$ + 1
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+end
+
+
+
+
+operation GetCompanyTypeDS
+variables
+	struct vStruct
+	string vWebParams, vFilter, vList,vExludeList 
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+	
+	$11 = "NOHTML"
+		
+	vWebParams 	= $webInfo("input")
+	
+	$Take$     	= $item("take",     vWebParams)
+	$Page$     	= $item("page",     vWebParams)
+	$Skip$     	= $item("skip",     vWebParams)
+	$PageSize$ 	= $item("pageSize", vWebParams)
+	vFilter 	= $item("filter[filters][0][value]", vWebParams)
+	vExludeList 	= $item("exclude", vWebParams)
+
+
+	if (vExludeList != "")
+		vStruct-&gt;in-&gt;ExcludeList = $concat("&uNOT;&uEQ;",$replace(vExludeList,1,",","&uNOT;&uEQ;",-1 ))
+	endif 
+	
+	activate "C_AD_SA_CMPLST1".getCompanyType(vStruct)	
+	vList = vStruct-&gt;out-&gt;ValRep
+
+	sort/list vList, "A" ; tracker#1021307, acv, 17072017
+
+	vList = $concat("=Select Company Type&uSEP;",vList)
+
+	$valrep(DROP.DUMMY) = vList
+	
+	$TOTAL$ = $itemcount(vStruct-&gt;out-&gt;ValRep)
+	$TOTAL$ = $TOTAL$ + 1
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+end
+
+
+operation GetAuthorityLevelDS
+
+	$11 = "NOHTML"
+
+	clear/e "D_DROPDOWN"
+
+	creocc "D_DROPDOWN", -1
+	DROPID.D_DROPDOWN = ""
+	DROPVAL.D_DROPDOWN = "Select Authority Level"
+
+	creocc "D_DROPDOWN", -1
+	DROPID.D_DROPDOWN 	= "LEVEL1"
+	DROPVAL.D_DROPDOWN = "Smallest Margin"
+
+	creocc "D_DROPDOWN", -1
+	DROPID.D_DROPDOWN 	= "LEVEL2"
+	DROPVAL.D_DROPDOWN = "Medium Margin"
+
+	creocc "D_DROPDOWN", -1
+	DROPID.D_DROPDOWN 	= "LEVEL3"
+	DROPVAL.D_DROPDOWN = "Largest Margin"
+
+	call lpGenerateOutputDropDownFromEntity("D_DROPDOWN")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+end
+
+
+operation GetCompanyTeamDS
+variables
+	struct vStruct
+	string vWebParams, vFilter, vList, vCompany
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+	
+	$11 = "NOHTML"
+		
+	vWebParams 	= $webInfo("input")
+	
+	$Take$     	= $item("take",     vWebParams)
+	$Page$     	= $item("page",     vWebParams)
+	$Skip$     	= $item("skip",     vWebParams)
+	$PageSize$ 	= $item("pageSize", vWebParams)
+	vCompany	= $item("company", vWebParams)
+	vFilter 	= $item("filter[filters][0][value]", vWebParams)
+
+	vStruct-&gt;in-&gt;COMPANY_ID = vCompany
+	activate "C_AD_SA_CMPLST1".getCompanyTeamsValrep(vStruct)
+	vList = $concat("=Select Team&uSEP;",vStruct-&gt;out-&gt;List)
+	$valrep(DROP.DUMMY) = $concat("=Select Team&uSEP;",vStruct-&gt;out-&gt;List)
+
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vStruct-&gt;out-&gt;List)
+	$TOTAL$ = $TOTAL$ + 1
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+end
+
+operation GetUserFunctionDS
+
+	$11 = "NOHTML"
+
+	clear/e "D_DROPDOWN"
+
+	creocc "D_DROPDOWN", -1
+	DROPID.D_DROPDOWN = ""
+	DROPVAL.D_DROPDOWN = "Select User Function"
+
+	creocc "D_DROPDOWN", -1
+	DROPID.D_DROPDOWN 	= "TL"
+	DROPVAL.D_DROPDOWN = "Team Leader"
+
+	creocc "D_DROPDOWN", -1
+	DROPID.D_DROPDOWN 	= "TM"
+	DROPVAL.D_DROPDOWN = "Team Member"
+
+	call lpGenerateOutputDropDownFromEntity("D_DROPDOWN")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+end
+
+
+operation GetSubUrbsDS
+variables
+	struct vStruct
+	string vWebParams, vFilter, vList, vCountry
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+	
+	$11 = "NOHTML"
+		
+	vWebParams 	= $webInfo("input")
+	
+	$Take$     	= $item("take",     vWebParams)
+	$Page$     	= $item("page",     vWebParams)
+	$Skip$     	= $item("skip",     vWebParams)
+	$PageSize$ 	= $item("pageSize", vWebParams)
+	vCountry	= $item("country", vWebParams)
+	vFilter 	= $item("filter[filters][0][value]", vWebParams)
+
+	vStruct-&gt;in-&gt;Country = vCountry
+	activate "C_AD_SA_COUNTRY1".getSubrurbs(vStruct)
+	vList = $concat("=Select SubUrb&uSEP;",vStruct-&gt;out-&gt;List)
+	$valrep(DROP.DUMMY) = vList
+
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vStruct-&gt;out-&gt;List)
+	$TOTAL$ = $TOTAL$ + 1
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+end
+
+
+operation GetSuburbsPerCountry
+variables
+	string vWebParams, vIso, vState, vFilter , vValueExact, vPlaceHolder,vSQL
+endvariables
+
+	$11 = "NOHTML"
+	$ORDER_BY$ = "SUBURB"
+
+	vWebParams = $webInfo("input")
+	vIso 	   = $item("iso",  vWebParams)
+	vState     = $item("state", vWebParams)
+	vValueExact = $item("ValueExact", vWebParams)
+	$Take$     = $item("take",     vWebParams)
+	$Page$     = $item("page",     vWebParams)
+	$Skip$     = $item("skip",     vWebParams)
+	$PageSize$ = $item("pageSize", vWebParams)
+	vFilter = $item("filter[filters][0][value]", vWebParams)
+	
+
+	if ($item("placeholder",  vWebParams) = "") 
+		vPlaceHolder = "Select All" 
+	else
+		 vPlaceHolder = $item("placeholder",  vWebParams) 
+	endif
+
+	if (vPlaceHolder  != "none")
+		clear/e "CN_SUBURBS"
+		creocc "D_DROPDOWN", -1
+		DROPID.D_DROPDOWN = ""
+		DROPVAL.D_DROPDOWN = vPlaceHolder 
+	endif
+	
+	clear/e "CN_SUBURBS"
+	if (vValueExact = "")
+		if (vIso != "")
+			ISO.CN_SUBURBS = vIso
+		endif
+		if (vState != "")
+			REGION1.CN_SUBURBS = vState
+		endif
+	else
+		ISO.CN_SUBURBS = $concat("&uEQ;",vIso)
+		REGION1.CN_SUBURBS = $concat("&uEQ;",vState)
+	endif
+	
+	if (vFilter != "")
+		 SUBURB.CN_SUBURBS = $concat(vFilter,"&uALL;")
+	endif
+	
+	retrieve/e "CN_SUBURBS"	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_SUBURBS"
+			creocc "D_DROPDOWN", -1
+			DROPID.D_DROPDOWN = ID.CN_SUBURBS
+			DROPVAL.D_DROPDOWN = $CONCAT(SUBURB.CN_SUBURBS, " ( ", $CONCAT(LOCALITY.CN_SUBURBS,", ", REGION3.CN_SUBURBS, " ", REGION2.CN_SUBURBS) ," ) ", POSTCODE.CN_SUBURBS)		
+		endfor	
+	endif
+		
+	if (vFilter != "")
+		$total$ = $hits("CN_SUBURBS")
+	else
+		
+		vSQL = "SELECT COUNT(ID) from CN_SUBURBS "
+		if (vIso != "")
+			vSQL = $concat(vSQL, " WHERE ISO = '%%vIso%%%'")
+		endif
+		if (vState != "")
+			vSQL = $concat(vSQL, " AND REGION1 = '%%vState%%%'")
+		endif
+
+		sql/data vSQL, "DEF" 
+		$total$ = $result
+
+	endif
+	
+	if (vPlaceHolder  != "none" | vPlaceHolder != "") 
+		$total$ += 1 	
+	endif	
+
+	call lpGenerateOutputDropDownFromEntity("D_DROPDOWN")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+
+end ;GetSuburbsPerCountry
+
+
+
+
+operation GetRoutePortSuburbDS
+variables
+	string vWebParams, vFilter, vRouteList, vPortType, vPlaceHolder, vCntry, vPort, vLoadPortNm, vDestPortNm
+	string vLoadPorts, vDestPorts, vCompID, vList, vRList
+	string vMainSQL, vSQL, vRecord
+	numeric vtotal
+	boolean vCompanyRequired 
+	struct vStruct
+endvariables
+
+	clear
+	#include IFC:initStructParam
+	
+	vWebParams = $webInfo("input")
+	vPlaceHolder = $item("placeholder",  vWebParams)
+	vCompID	   = $item("companyid", vWebParams)	
+	vCompanyRequired = $item("iscompreq", vWebParams)	
+
+	;Server paging parameters
+	;----------------------------------------------------------
+	$Take$     = $item("take",     vWebParams)
+	$Page$     = $item("page",     vWebParams)
+	$Skip$     = $item("skip",     vWebParams)
+	$PageSize$ = $item("pageSize", vWebParams)
+	vFilter = $item("filter[filters][0][value]", vWebParams)
+	;----------------------------------------------------------
+
+	
+	
+	;$Order_By$ = "LOAD_PORT"
+	clear/e "D_DROPDOWN"
+	creocc "D_DROPDOWN", -1
+	DROPID.D_DROPDOWN = ""
+	if (vPlaceHolder != "")
+		DROPVAL.D_DROPDOWN = vPlaceHolder 
+	else
+		DROPVAL.D_DROPDOWN = "Select Route" 
+	endif
+	
+	;Get Ports by Company if vCompID is not empty
+	if (vCompID != "")
+		vStruct-&gt;in-&gt;CompCode = vCompID
+		vStruct-&gt;in-&gt;PortType = 1
+		
+		activate "C_AD_SA_PORT1".getCompanyPortList(vStruct)
+		vLoadPorts = vStruct-&gt;out-&gt;List 
+	endif
+
+
+	if ($PageSize$ = "")
+		;NOT SERVER PAGING
+		;----------------------------------------------------------
+		clear/e "CN_ROUTE"
+		;ROUTE_CODE.CN_ROUTE = "&uEQ;000A4C49-EBC0-448A-8071-84A6B8B255F5&uOR;&uEQ;E8DD2B80-4387-4A47-BFDD-FE4EAF6A7A7F&uOR;&uEQ;87486DC2-A0EB-42A7-B49E-548C4ECC1D8A"
+		if (vLoadPorts != "")
+			LOAD_PORT.CN_ROUTE = vLoadPorts
+		endif
+	
+		if (vFilter != "")
+			LOAD_PORT.CN_ROUTE = $concat(vFilter,"&uALL;")
+		endif
+		
+		ROUTE_MODE.CN_ROUTE = "L"
+		ENABLED.CN_ROUTE = "T"
+		retrieve/e "CN_ROUTE"	
+		
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			forentity "CN_ROUTE"
+				$status = $split(LOAD_PORT.CN_ROUTE, 1, "-",vCntry,vPort)
+				#include IFC:initStructParam
+				vStruct-&gt;in-&gt;CountryCode = vCntry
+				vStruct-&gt;in-&gt;PortCode = vPort
+				vStruct-&gt;in-&gt;PortType = 1
+				
+				activate "C_AD_SA_PORT1".getPortName(vStruct)
+				vLoadPortNm = vStruct-&gt;out-&gt;Name
+	
+				#include IFC:initStructParam
+				vStruct-&gt;in-&gt;ID = DEST_PORT.CN_ROUTE
+				
+				activate "C_AD_SA_SUBURB1".getSuburbInfo(vStruct)
+				vDestPortNm = vStruct-&gt;out-&gt;NAME	
+				
+				creocc "D_DROPDOWN", -1
+				DROPID.D_DROPDOWN = ROUTE_CODE.CN_ROUTE
+				DROPVAL.D_DROPDOWN = $concat(vLoadPortNm, " - ", vDestPortNm)
+			endfor
+		endif
+	else
+		;SERVER PAGING
+		;----------------------------------------------------------
+		$total$ = 1
+		if (vCompanyRequired != "T" | (vCompanyRequired = "T" &amp; vLoadPorts != ""))
+			vLoadPorts = $concat("'", $replace(vLoadPorts, 1, "&uSEP;", "','", -1), "'")
+			vMainSQL = "from (select ROUTE_CODE, ((select (COUNTRY_CODE + '-' + PORT_CODE + ' ' + NAME) from CN_PORT where (COUNTRY_CODE + '-' + PORT_CODE) = a.LOAD_PORT and PORT_TYPE in ('S',1)) + ' - ' + "
+			vMainSQL = $concat(vMainSQL, "(select RTRIM(SUBURB) + ', ' + REGION1 from CN_SUBURBS where ID= a.DEST_PORT)) as ROUTE_NAME from " )
+			vMainSQL = $concat(vMainSQL, "(select * from CN_ROUTE where ROUTE_MODE = 'L' and enabled = 1 ")
+			if (vLoadPorts != "")    
+				vMainSQL = $concat(vMainSQL, " and LOAD_PORT in (",vLoadPorts ,")")
+			endif
+			vMainSQL = $concat(vMainSQL, " ) a  ) b where ROUTE_NAME is not null ")
+			if (vFilter != "")
+				vMainSQL = $concat(vMainSQL, " and ROUTE_NAME like '%",vFilter ,"%' ")
+			endif
+	
+			;Get Total
+			;----------------------------------------------------------
+			vSQL = $concat("select COUNT(1) ", vMainSQL)
+			sql/data vSQL, "DEF" 
+			$total$ = ($result + 1)
+			
+			
+			vSQL = $concat("select TOP ",$PageSize$,"  ROUTE_CODE, ROUTE_NAME from (select ROW_NUMBER() over (order by ROUTE_NAME) rw , * ", vMainSQL)
+			vSQL = $concat(vSQL , " ) c where rw &gt; ", $Skip$ ," order by rw")
+			sql/data vSQL, "DEF" 
+			forlist vRecord in $result
+				
+				creocc "D_DROPDOWN", -1
+				DROPID.D_DROPDOWN = $itemnr(1, vRecord)
+				DROPVAL.D_DROPDOWN = $itemnr(2, vRecord)
+			endfor
+				
+		endif
+		
+	endif
+
+	$11 = "NOHTML"
+	call lpGenerateOutputDropDownFromEntity("D_DROPDOWN")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+
+end
+
+operation RoutePortSuburbDSValueMapper
+variables
+	numeric vRowIndex 
+	string vWebParams, vRouteId, vMainSQL, vFilter, vLoadPorts , vCompID
+	struct vStruct 
+endvariables
+
+	vWebParams = $webInfo("input")
+	vRouteId = $item("val",  vWebParams)
+	vCompID	   = $item("companyid", vWebParams)	
+	vFilter = $item("filter[filters][0][value]", vWebParams)
+
+	#include IFC:initStructParam
+	vStruct-&gt;in-&gt;CompCode = vCompID
+	vStruct-&gt;in-&gt;PortType = 1
+	activate "C_AD_SA_PORT1".getCompanyPortList(vStruct)
+	vLoadPorts = vStruct-&gt;out-&gt;List 
+
+	vLoadPorts = $concat("'", $replace(vLoadPorts, 1, "&uSEP;", "','", -1), "'")
+	vMainSQL = "select rw from (select ROW_NUMBER() over (order by ROUTE_NAME) rw , * from (select ROUTE_CODE, ((select (COUNTRY_CODE + '-' + PORT_CODE + ' ' + NAME) from CN_PORT where (COUNTRY_CODE + '-' + PORT_CODE) = a.LOAD_PORT and PORT_TYPE in ('S',1)) + ' - ' + "
+	vMainSQL = $concat(vMainSQL, "(select RTRIM(SUBURB) + ', ' + REGION1 from CN_SUBURBS where ID= a.DEST_PORT)) as ROUTE_NAME from " )
+	vMainSQL = $concat(vMainSQL, "(select * from CN_ROUTE where ROUTE_MODE = 'L' and enabled = 1 ")
+	if (vLoadPorts != "")    
+		vMainSQL = $concat(vMainSQL, " and LOAD_PORT in (",vLoadPorts ,")")
+	endif
+	vMainSQL = $concat(vMainSQL, " ) a  ) b where ROUTE_NAME is not null ")
+	if (vFilter != "")
+		vMainSQL = $concat(vMainSQL, " and ROUTE_NAME like '%",vFilter ,"%' ")
+	endif
+	vMainSQL = $concat(vMainSQL , " ) c where ROUTE_CODE = '", vRouteId ,"'")
+	sql/data vMainSQL , "DEF" 
+	vRowIndex = $result
+	vRowIndex += 1 ;since an extra first row is being created
+
+	
+	$11 = "NOHTML"
+	$webinfo("output") = $concat("[",vRowIndex,"]")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end 
+
+
+operation GetCompanyListPerTypeDS
+variables
+	struct vStruct
+	string vWebParams, vFilter, vCompList,  vExcludeType , vExcludeParent
+	string vPlaceholder, vType, vParent,  vJSON, vSQL
+endvariables
+
+	#include IFC:INITSTRUCTPARAM
+	
+	vWebParams 	= $webInfo("input")
+	
+	$Take$     	= $item("take",     vWebParams)
+	$Page$     	= $item("page",     vWebParams)
+	$Skip$     	= $item("skip",     vWebParams)
+	$PageSize$ 	= $item("pageSize", vWebParams)
+	vPlaceHolder = $item("placeholder",  vWebParams)
+	vFilter 	= $item("filter[filters][0][value]", vWebParams)
+	vType 		= $item("type", vWebParams)
+	vParent 	= $item("parentcode", vWebParams)	
+	vExcludeType =  $item("exclude",  vWebParams)
+	vExcludeParent = $item("exclude_parent",  vWebParams)
+	
+	vStruct-&gt;in-&gt;Type = $replace(vType,1,",","&uOR;",-1 )
+	if (vExcludeType != "")
+		;overrides type
+		vStruct-&gt;in-&gt;Type =  $concat("&uNOT;&uEQ;",$replace(vExcludeType,1,",","&uNOT;&uEQ;",-1 ))
+	endif
+		
+	vStruct-&gt;in-&gt;ParentCode	= vParent
+	activate "C_AD_SA_COMPANY1".getCompanyListPerType(vStruct)	
+	vCompList = vStruct-&gt;out-&gt;List
+	if (vExcludeParent != "" &amp; vExcludeParent = "T")
+		delitem/id vCompList, vParent ;DO NOT INCLUDE OWN COMPANY IN THE LIST
+	endif
+	
+	putitem vJSON, -1,  "{%%"DROPID%%":%%"%%",%%"DROPVAL%%":%%"%%vPlaceHolder%%%%%" }"
+	
+	$ORDER_BY$ = "COMPANY_NAME"
+	clear/e "CN_COMPANY"
+	ENABLED.CN_COMPANY = 1
+	COMPANY_ID.CN_COMPANY = vCompList
+	
+	if (vFilter != "")
+		COMPANY_NAME.CN_COMPANY = $concat(vFilter,"&uALL;")
+	endif
+	retrieve/e "CN_COMPANY"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)	
+		forentity "CN_COMPANY"			
+			putitem vJSON, -1,  "{%%"DROPID%%":%%"%%COMPANY_ID.CN_COMPANY%%%%%",%%"DROPVAL%%":%%"%%COMPANY_NAME.CN_COMPANY%%%%%" }"
+		endfor
+	endif	
+	if (vFilter != "")
+		$Total$ = $hits("CN_COMPANY")	
+	else
+		vSQL = " SELECT COUNT(DISTINCT CR.COMPANY_ID) FROM CN_COMPANY_RELATIONSHIP CR %\
+				LEFT JOIN CN_COMPANY C ON CR.COMPANY_ID = C.COMPANY_ID %\
+				WHERE CR.PARENT_ID = '%%vParent%%%' %\
+				AND CR.ENABLED = 1  %\
+				AND C.ENABLED = 1 %\
+				AND CR.COMPANY_ID != '%%vParent%%%'"
+				
+		if (vExcludeType)
+			vSQL = $concat(vSQL, " AND CR.COMPANY_TYPE NOT IN (",vExcludeType ,")")
+		else
+			vSQL = $concat(vSQL, " AND CR.COMPANY_TYPE IN (", vType , ")" )
+		endif
+				
+		sql/data vSQL, "DEF" 
+		$Total$ = $result
+	endif
+	$Total$ = $Total$ + 1
+	
+	$11 = "NOHTML"
+	vJSON = $replace(vJSON, 1, "&uSEP;", "," , -1)
+	vJSON = $concat("[",vJSON,"]")  
+	vJSON = $concat("{%%"meta%%":{%%"code%%":200},%%"result%%":",vJSON, ",%%"total%%":%%$Total$%%%}")
+    $webinfo("output") = vJSON 
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end
+
+
+
+operation getContractsPerCarrierDS
+variables
+	string vList, vCarrier, vFilter, vWebParams, vPlaceHolder
+endvariables
+
+	vWebParams 	= $webInfo("input")
+	
+	vFilter 	= $item("filter[filters][0][value]", vWebParams)
+	vCarrier 	= $item("carrier", vWebParams)
+	vPlaceHolder = $item("placeholder",  vWebParams)
+
+	putitem/id vList,"","Select Contract"
+	clear/e "CN_CONTRACTS"
+	CARRIER_CODE.CN_CONTRACTS = vCarrier 
+	ENABLED.CN_CONTRACTS = 1
+	retrieve/e "CN_CONTRACTS"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_CONTRACTS"
+			putitem/id  vList, CONTRACT_NUMBER.CN_CONTRACTS, CONTRACT_NUMBER.CN_CONTRACTS
+		endfor
+	endif 
+
+	sort/list vList, "A"
+;	$valrep(DROP.DUMMY) = vList
+
+	;if (vList != "")
+		$valrep(DROP.DUMMY) = vList 
+	;else
+	;	$valrep(DROP.DUMMY) = "=%%vPlaceholder%%%" 
+	;endif
+
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vList)
+
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+end
+
+
+operation getContractsForClientsDS
+variables
+	string vList, vParentCode, vClientCode, vFilter, vWebParams, vPlaceHolder
+endvariables
+
+	vWebParams 	= $webInfo("input")
+	
+	vFilter 	= $item("filter[filters][0][value]", vWebParams)
+	vParentCode 	= $item("parentcode", vWebParams)
+	vClientCode 	= $item("clientcode", vWebParams)
+	vPlaceHolder = $item("placeholder",  vWebParams)
+
+	clear/e "CN_CONTRACTS"
+	ENABLED.CN_CONTRACTS 	= "1"
+	VALID_FROM.CN_CONTRACTS = $concat("&uLT;&uEQ;", $datim)
+	VALID_TO.CN_CONTRACTS = $concat("&uGT;&uEQ;", $datim)
+	retrieve/e "CN_CONTRACTS" 
+
+	forentity "CN_CONTRACTS"		
+
+		clear/e "CN_CLIENT_CONTRACTS"
+		CONTRACT_UUID.CN_CLIENT_CONTRACTS = CONTRACT_UUID.CN_CONTRACTS
+		PARENT_CODE.CN_CLIENT_CONTRACTS 	= vParentCode
+		CLIENT_CODE.CN_CLIENT_CONTRACTS  	= vClientCode
+		retrieve/e "CN_CLIENT_CONTRACTS"
+
+		if ($procerror != &lt;UACT_SUCCESS&gt;)
+			putitem/id vList, CONTRACT_UUID.CN_CONTRACTS, CONTRACT_NUMBER.CN_CONTRACTS
+		endif
+
+	endfor
+
+	sort/list vList, "A"
+;	$valrep(DROP.DUMMY) = vList
+	$valrep(DROP.DUMMY) = "=%%vPlaceholder%%%&uSEP;%%vList%%%" 
+
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vList)
+
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+end
+
+
+
+operation getCommoditiesDS
+variables
+	string vList, vFilter, vWebParams, vPlaceHolder
+endvariables
+
+	vWebParams 	= $webInfo("input")
+	vFilter 	= $item("filter[filters][0][value]", vWebParams)
+	vPlaceHolder = $item("placeholder",  vWebParams)
+
+	clear/e "CN_COMMODITIES"
+	ENABLED.CN_COMMODITIES 	= "1"
+	retrieve/e "CN_COMMODITIES" 
+	
+	;putitem/id vList, "", "Select Commodity"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_COMMODITIES"
+			putitem/id vList, COMMODITY.CN_COMMODITIES, COMMODITY.CN_COMMODITIES
+		endfor
+	;	putlistitems/id vList, COMMODITY.CN_COMMODITIES, COMMODITY.CN_COMMODITIES
+		
+	endif
+
+
+	sort/list vList, "A"
+ 	vList = "=Select Commodity&uSEP;%%vList%%%" 
+	$valrep(DROP.DUMMY) = vList
+
+	$11 = "NOHTML"
+	$TOTAL$ = $itemcount(vList)
+
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*" 
+end
+
+
+operation GetFRContainerTypesDS
+variables
+	string vList
+endvariables
+	putitem/id vList,"","Select Container Type"
+	putitem/id vList,"C","Cartage"
+	putitem/id vList,"L","Local Port"
+	putitem/id vList,"F","Ocean Freight"
+	
+	$valrep(DROP.DUMMY) = vList
+	$11 = "NOHTML"
+	$TOTAL$ = 4
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"    
+end  
+
+
+operation GetNetworkStatDS
+variables
+	string vList
+endvariables
+	putitem/id vList,"","Select Network Status"
+	putitem/id vList,"A","Associate"
+	putitem/id vList,"X","Cloudies"
+	putitem/id vList,"P","Network Partner"
+
+	
+	$valrep(DROP.DUMMY) = vList
+	$11 = "NOHTML"
+	$TOTAL$ = 4
+	call lpGenerateOutputDropDownFromField("DROP.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"    
+end  
+
+
+</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXGROUP" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,1" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_BORD" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DBMS" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_UPD" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINL" seqno="11" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXL" seqno="12" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINR" seqno="13" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXR" seqno="14" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLGINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INTF" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="17" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="GETOCC" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="PUTOCC" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="DELOCC" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="LCK" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UNLOCK" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="GETSEGM" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ADDOCC" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DELOCCR" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="CREOCC" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="FINDOCC" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="FLIST" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="BREAK" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="VLDE" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDK" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="UISBCLASS" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UISASSOC" seqno="43" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_OBJSVC" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="U_SVCUSE" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTPROP" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_TABTYPE" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_B" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_E" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTCLASS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="U_GLAB" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UEOINTERFACE" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UECINTERFACE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="UEOOPERS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="UECOPERS" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="UEOTRIGGERS" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="UECTRIGGERS" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETTYPE" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETCREATE" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="PRLO" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="PSLO" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="PRSO" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="PSSO" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="UPARENT" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETTYPE" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F2,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETCREATE" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-10T13:48:59.00</DAT>
+<DAT name="ULABEL">CN_CLIENT_CONTRACTS</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-21T19:30:05.00</DAT>
+<DAT name="ULABEL">CN_CLIENT_MARKUPS</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T09:43:14.00</DAT>
+<DAT name="ULABEL">CN_CLIENT_TEAM</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-14T14:42:35.00</DAT>
+<DAT name="ULABEL">CN_COMMODITIES</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-05-12T11:52:18.00</DAT>
+<DAT name="ULABEL">CN_COMPANY</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>if ($PageSize$ != "")
+	read options "maxhits=%%$PageSize$%%%&uSEP;offset=%%$Skip$%%%" order by $Order_By$	
+else
+	read order by $Order_By$
+endif
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-01-30T12:01:46.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_CONTAINERS</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-01T09:19:25.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_PORT</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>if ($PageSize$ != "" &amp; $FILTER$ = "")
+	read options "maxhits=%%$PageSize$%%%&uSEP;offset=%%$Skip$%%%" order by $Order_By$	
+else
+	read order by $Order_By$
+endif
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-05-12T11:52:18.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_RELATIONSHIP</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read 
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-01-04T13:09:08.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_TEAM</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-16T16:13:55.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_ZONES</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-01-24T09:03:28.00</DAT>
+<DAT name="ULABEL">CN_CONSORTIUMS</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-05-30T12:45:10.00</DAT>
+<DAT name="ULABEL">CN_CONTRACTS</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-20T21:41:56.00</DAT>
+<DAT name="ULABEL">CN_COUNTRY</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>if ($PageSize$ != "")
+	read options "maxhits=%%$PageSize$%%%&uSEP;offset=%%$Skip$%%%" order by $Order_By$	
+else
+	read order by $Order_By$
+endif
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-02-06T11:33:47.00</DAT>
+<DAT name="ULABEL">CN_CURRENCY</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-09T10:18:16.00</DAT>
+<DAT name="ULABEL">CN_NOTE_CATEGORY</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Note categgory</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read options "maxhits=%%$PageSize$%%%&uSEP;offset=%%$Skip$%%%"   order by $Order_By$</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-01-04T11:01:06.00</DAT>
+<DAT name="ULABEL">CN_PORT</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>if ($PageSize$ != "")
+	read options "maxhits=%%$PageSize$%%%&uSEP;offset=%%$Skip$%%%" order by $Order_By$	
+else
+	read order by $Order_By$
+endif
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-01T09:16:59.00</DAT>
+<DAT name="ULABEL">CN_PORT1</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read  u_where (COUNTRY_CODE.CN_PORT1 = COUNTRY_CODE.CN_COMPANY_PORT &amp; PORT_CODE.CN_PORT1 = PORT_CODE.CN_COMPANY_PORT &amp; PORT_TYPE.CN_PORT1 = PORT_TYPE.CN_COMPANY_PORT &amp; WORLD_AREA.CN_PORT1 = $concat($AREA$,"&uALL;") &amp; NAME_WO_DIACRITICS.CN_PORT1 = $concat($FILTER$,"&uALL;"))
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-08T11:23:26.00</DAT>
+<DAT name="ULABEL">CN_PORT_TYPE</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read u_where (PORT_TYPE.CN_PORT_TYPE = PORT_TYPE.CN_PORT)</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-12T13:24:37.00</DAT>
+<DAT name="ULABEL">CN_ROUTE</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>;if ($PageSize$ != "")
+;	read options "maxhits=%%$PageSize$%%%&uSEP;offset=%%$Skip$%%%" order by $Order_By$	
+;else
+	read order by $Order_By$
+;endif
+;read
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-26T10:55:22.00</DAT>
+<DAT name="ULABEL">CN_ROUTE1</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-17T10:03:43.00</DAT>
+<DAT name="ULABEL">CN_SUBURBS</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>if ($PageSize$ != "")
+	read options "maxhits=%%$PageSize$%%%&uSEP;offset=%%$Skip$%%%" order by $Order_By$	
+elseif ($Order_By$ != "")
+	read order by $Order_By$
+else
+	read
+endif
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-09T19:30:36.00</DAT>
+<DAT name="ULABEL">CN_TEAM</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>if ($serverpaging$)
+	read options "maxhits=%%$PageSize$%%%&uSEP;offset=%%$Skip$%%%" order by $Order_By$
+else
+	read order by $Order_By$
+endif</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-25T14:22:18.00</DAT>
+<DAT name="ULABEL">CN_USER</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>if ($PageSize$ != "")
+	read options "maxhits=%%$PageSize$%%%&uSEP;offset=%%$Skip$%%%" order by $Order_By$	
+else
+	read order by $Order_By$
+endif
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-25T14:22:33.00</DAT>
+<DAT name="ULABEL">CN_USER_RELATIONSHIP</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>if ($PageSize$ != "")
+	read options "maxhits=%%$PageSize$%%%&uSEP;offset=%%$Skip$%%%" order by $Order_By$	
+else
+	read order by $Order_By$
+endif
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-22T14:41:11.00</DAT>
+<DAT name="ULABEL">CN_WORLD_AREA</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-07T09:58:12.00</DAT>
+<DAT name="ULABEL">DUMMY</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-07T09:57:34.00</DAT>
+<DAT name="ULABEL">D_DROPDOWN</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-20T00:56:46.00</DAT>
+<DAT name="ULABEL">D_DROPDOWN2</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-21T19:25:26.00</DAT>
+<DAT name="ULABEL">D_DROPDOWN3</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-11T16:20:39.00</DAT>
+<DAT name="ULABEL">FR_CONTAINERS</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read order by "code_desc"</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXFIELD" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="GRP" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UBASE" seqno="4" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UFORM" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="3" ufocc="0" mandatory="yes" idxnum="1,2,3" idxsnr="104,3,1" />
+<FLD name="U_TLAB" seqno="6" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="8" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="9" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLLAY" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LAYOUTMOD" seqno="12" type="S" level="2" pack="0" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLSYN" seqno="13" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="SYNTAXMOD" seqno="14" type="S" level="2" pack="0" scale="0" length="192"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="INTERFACEMOD" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TABSTOP" seqno="17" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WIDGETTYPE" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="19" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="20" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="STARTMOD" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="NEXTFLD" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="PREVFLD" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="ENCRYPT" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DECRYPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="UFORMAT" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="DEFORMAT" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GETFOCUS" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="VCHANGED" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="WIDGETCREATE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="VALLAB" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="INITVALUE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="VLDF" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="UISOBJID" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HTML_FLDPROP" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="HTML_CTRLTYPE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_M" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_FLDCLASS" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLCLASS" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="UFOPERS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="UFTRIGGERS" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="UFORMATS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="WEBWIDGETTYPE" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="WEBWIDGETCREATE" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-01-04T14:27:14.00</DAT>
+<DAT name="ULABEL">CNTRYPORT</DAT>
+<DAT name="GRP">CN_COMPANY_PORT</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-07T09:59:49.00</DAT>
+<DAT name="ULABEL">DROP</DAT>
+<DAT name="GRP">DUMMY</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-21T19:26:46.00</DAT>
+<DAT name="ULABEL">DROPID</DAT>
+<DAT name="GRP">D_DROPDOWN</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C60</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-21T19:26:53.00</DAT>
+<DAT name="ULABEL">DROPID2</DAT>
+<DAT name="GRP">D_DROPDOWN2</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C60</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-21T19:26:59.00</DAT>
+<DAT name="ULABEL">DROPID3</DAT>
+<DAT name="GRP">D_DROPDOWN3</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C60</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-21T19:27:05.00</DAT>
+<DAT name="ULABEL">DROPVAL</DAT>
+<DAT name="GRP">D_DROPDOWN</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C300</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-21T19:26:38.00</DAT>
+<DAT name="ULABEL">DROPVAL2</DAT>
+<DAT name="GRP">D_DROPDOWN2</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C300</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-21T19:26:29.00</DAT>
+<DAT name="ULABEL">DROPVAL3</DAT>
+<DAT name="GRP">D_DROPDOWN3</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C300</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXREGS" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_STAT" seqno="2" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_TYPE" seqno="3" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_FORMLIB" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,3" idxsnr="101,1" />
+<FLD name="U_NAME" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_LAYOUT" seqno="9" type="S" level="2" pack="0" scale="0" length="46"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DOC" seqno="10" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-26T12:27:51.00</DAT>
+<DAT name="U_FORMLIB">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_NAME">AREA</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-08T19:19:39.00</DAT>
+<DAT name="U_FORMLIB">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_NAME">FILTER</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-07T10:06:33.00</DAT>
+<DAT name="U_FORMLIB">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_NAME">ORDER_BY</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-07T10:06:33.00</DAT>
+<DAT name="U_FORMLIB">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_NAME">PAGE</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-07T10:06:33.00</DAT>
+<DAT name="U_FORMLIB">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_NAME">PAGESIZE</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-25T14:08:34.00</DAT>
+<DAT name="U_FORMLIB">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_NAME">SERVERPAGING</DAT>
+<DAT name="U_DTYP">B</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-07T10:06:33.00</DAT>
+<DAT name="U_FORMLIB">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_NAME">SKIP</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-07T10:06:33.00</DAT>
+<DAT name="U_FORMLIB">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_NAME">TAKE</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-07T10:06:33.00</DAT>
+<DAT name="U_FORMLIB">C_KE_SA_DRPDWN1</DAT>
+<DAT name="U_NAME">TOTAL</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USUBS" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUBSYSTEM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UVERS" seqno="3" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="4" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPARENT" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UCOMMENT" seqno="6" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2011-11-02T17:50:42.00</DAT>
+<DAT name="USUBSYSTEM">C</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:49:14.00</DAT>
+<DAT name="USUBSYSTEM">COM_OUTLOOK</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:24:25.00</DAT>
+<DAT name="USUBSYSTEM">COM_WORD</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2002-03-26T15:40:21.00</DAT>
+<DAT name="USUBSYSTEM">DISYSWEB</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2004-12-17T10:27:45.00</DAT>
+<DAT name="USUBSYSTEM">MSEXCEL</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">1998-04-01T15:03:13.00</DAT>
+<DAT name="USUBSYSTEM">USYS</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2002-01-21T09:04:27.00</DAT>
+<DAT name="USUBSYSTEM">VOA8</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2012-05-21T10:28:19.00</DAT>
+<DAT name="USUBSYSTEM">WIN32API</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2003-06-23T16:48:22.00</DAT>
+<DAT name="USUBSYSTEM">WINAPI</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2006-01-26T15:40:49.00</DAT>
+<DAT name="USUBSYSTEM">WINSIG</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:55:03.00</DAT>
+<DAT name="USUBSYSTEM">WIN_API</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USSPEC" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="3" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="4" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECID" seqno="6" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUBSYSTEM" seqno="7" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDEFIMPLNAM" seqno="8" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDEFPATH" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USYNCALLOWED" seqno="10" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USCOPE" seqno="11" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UEXECDEF" seqno="12" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USELFCONT" seqno="13" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UNOSTATE" seqno="14" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANS" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSATTR" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UMWATTR" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UHIDDDATA" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="URESDATA" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UHIDCDATA" seqno="21" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Kendo service for DP</DAT>
+<DAT name="UVAR">SYSTEM_LIBRARY</DAT>
+<DAT name="USPECID">ID2017100315561358</DAT>
+<DAT name="UDEFIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UDEFPATH">SVC</DAT>
+<DAT name="USCOPE">PUB</DAT>
+<DAT name="UEXECDEF">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOPER" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UOPERNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UDESCR" seqno="4" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USCOPE" seqno="6" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USELFCONT" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UEXECTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UNOSTATE" seqno="9" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPRE" seqno="10" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UPOST" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="URETVAL" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">ACCEPT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">COUNTRYWAMULTIVALUEMAPPER</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">EXEC</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETACCOUNTTYPEDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETADDCURRENCYCODESDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETALLPORTS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETAUTHORITYLEVELDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCARTAGEADDFEEDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCARTAGEZONEDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCHARGEBYTYPEDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCHARGECODETYPEDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCLIENTFILEGROUPDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCLIENTTEAMDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCNTADDRESSTYPEDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCOMMODITIESDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYLISTPERTYPEDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYTEAMDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYTYPEDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYZONES</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCOMPTEAMFORCLIENTDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCOMPTEAMMEMBERS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCOMPTEAMUSERSFORCLIENTDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCONSORTIUMDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCONTAINERCARTAGEDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCONTRACTSFORCLIENTSDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCONTRACTSPERCARRIERDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCOUNTRYDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCOUNTRYFROMWADS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCOUNTRYFROMWADSUNI</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCURRENCYCODESDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCURRENCYDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETFILEGROUPDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETFRCONTAINERSCOMPANYDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETFRCONTAINERTYPESDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETMARGINDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETNETWORKSTATDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETNOTECATEGORYDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETPORTBYCOMPANYDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETPORTBYCOMPUNI</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETPORTBYCOUNTRYDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETPORTDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETPORTTYPEDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETPRIVACYDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETROUTEDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETROUTEPORTSUBURBDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETSERVICETYPEDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETSTATESPERCOUNTRY</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETSTATUSDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETSUBURBSDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETSUBURBSPERCOUNTRY</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETTEAMDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETTRANSPORTCOMPANIESDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETTRANSPORTPORTSDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETUSERFUNCTIONDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETUSERROLESDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETUSERSBYCOMPANYCLIENTDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETWORLDAREADS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETWORLDAREAUNI</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">PORTBYCOMPANYVALUEMAPPER</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">QUIT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">ROUTEPORTSUBURBDSVALUEMAPPER</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">ROUTEVALUEMAPPER</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">SUBURBSPERCOUNTRYVALUEMAPPER</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">USERVALUEMAPPER</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USPARM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UOPERNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UPARMNAM" seqno="4" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UDESCR" seqno="5" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPSEQ" seqno="7" type="N" level="2" pack="7" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_PTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDIREC" seqno="9" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="10" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_VLAB" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_TLAB" seqno="12" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UOBJNAM" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETCOUNTRYFROMWADSUNI</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETPORTBYCOMPUNI</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UOPERNAM">GETWORLDAREAUNI</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIMPL" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="2" idxsnr="1" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UDESCR" seqno="5" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLID" seqno="7" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLSUB" seqno="8" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCNTXT" seqno="9" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USET" seqno="10" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERSCHECKING" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UTRANSATTR" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UIMPLATTR" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UIMPLID">ID2017100315561358</DAT>
+<DAT name="UCNTXT">F</DAT>
+<DAT name="UVERSCHECKING">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIOPER" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="2" idxsnr="1" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UOPERNAM" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULITOPERNAM" seqno="8" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="URETVAL" seqno="9" type="N" level="2" pack="7" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCNTXT" seqno="10" type="N" level="2" pack="7" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLEMENTED" seqno="11" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBODY" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UEXCEPT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="UOPERATTR" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="URETTYPE" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">ACCEPT</DAT>
+<DAT name="ULITOPERNAM">ACCEPT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">COUNTRYWAMULTIVALUEMAPPER</DAT>
+<DAT name="ULITOPERNAM">COUNTRYWAMULTIVALUEMAPPER</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">EXEC</DAT>
+<DAT name="ULITOPERNAM">EXEC</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETACCOUNTTYPEDS</DAT>
+<DAT name="ULITOPERNAM">GETACCOUNTTYPEDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETADDCURRENCYCODESDS</DAT>
+<DAT name="ULITOPERNAM">GETADDCURRENCYCODESDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETALLPORTS</DAT>
+<DAT name="ULITOPERNAM">GETALLPORTS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETAUTHORITYLEVELDS</DAT>
+<DAT name="ULITOPERNAM">GETAUTHORITYLEVELDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCARTAGEADDFEEDS</DAT>
+<DAT name="ULITOPERNAM">GETCARTAGEADDFEEDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCARTAGEZONEDS</DAT>
+<DAT name="ULITOPERNAM">GETCARTAGEZONEDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCHARGEBYTYPEDS</DAT>
+<DAT name="ULITOPERNAM">GETCHARGEBYTYPEDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCHARGECODETYPEDS</DAT>
+<DAT name="ULITOPERNAM">GETCHARGECODETYPEDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTFILEGROUPDS</DAT>
+<DAT name="ULITOPERNAM">GETCLIENTFILEGROUPDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTTEAMDS</DAT>
+<DAT name="ULITOPERNAM">GETCLIENTTEAMDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCNTADDRESSTYPEDS</DAT>
+<DAT name="ULITOPERNAM">GETCNTADDRESSTYPEDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMMODITIESDS</DAT>
+<DAT name="ULITOPERNAM">GETCOMMODITIESDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYLISTPERTYPEDS</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYLISTPERTYPEDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYTEAMDS</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYTEAMDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYTYPEDS</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYTYPEDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYZONES</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYZONES</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPTEAMFORCLIENTDS</DAT>
+<DAT name="ULITOPERNAM">GETCOMPTEAMFORCLIENTDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPTEAMMEMBERS</DAT>
+<DAT name="ULITOPERNAM">GETCOMPTEAMMEMBERS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPTEAMUSERSFORCLIENTDS</DAT>
+<DAT name="ULITOPERNAM">GETCOMPTEAMUSERSFORCLIENTDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCONSORTIUMDS</DAT>
+<DAT name="ULITOPERNAM">GETCONSORTIUMDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCONTAINERCARTAGEDS</DAT>
+<DAT name="ULITOPERNAM">GETCONTAINERCARTAGEDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCONTRACTSFORCLIENTSDS</DAT>
+<DAT name="ULITOPERNAM">GETCONTRACTSFORCLIENTSDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCONTRACTSPERCARRIERDS</DAT>
+<DAT name="ULITOPERNAM">GETCONTRACTSPERCARRIERDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOUNTRYDS</DAT>
+<DAT name="ULITOPERNAM">GETCOUNTRYDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOUNTRYFROMWADS</DAT>
+<DAT name="ULITOPERNAM">GETCOUNTRYFROMWADS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOUNTRYFROMWADSUNI</DAT>
+<DAT name="ULITOPERNAM">GETCOUNTRYFROMWADSUNI</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCURRENCYCODESDS</DAT>
+<DAT name="ULITOPERNAM">GETCURRENCYCODESDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCURRENCYDS</DAT>
+<DAT name="ULITOPERNAM">GETCURRENCYDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETFILEGROUPDS</DAT>
+<DAT name="ULITOPERNAM">GETFILEGROUPDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETFRCONTAINERSCOMPANYDS</DAT>
+<DAT name="ULITOPERNAM">GETFRCONTAINERSCOMPANYDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETFRCONTAINERTYPESDS</DAT>
+<DAT name="ULITOPERNAM">GETFRCONTAINERTYPESDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETMARGINDS</DAT>
+<DAT name="ULITOPERNAM">GETMARGINDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETNETWORKSTATDS</DAT>
+<DAT name="ULITOPERNAM">GETNETWORKSTATDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETNOTECATEGORYDS</DAT>
+<DAT name="ULITOPERNAM">GETNOTECATEGORYDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETPORTBYCOMPANYDS</DAT>
+<DAT name="ULITOPERNAM">GETPORTBYCOMPANYDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETPORTBYCOMPUNI</DAT>
+<DAT name="ULITOPERNAM">GETPORTBYCOMPUNI</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETPORTBYCOUNTRYDS</DAT>
+<DAT name="ULITOPERNAM">GETPORTBYCOUNTRYDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETPORTDS</DAT>
+<DAT name="ULITOPERNAM">GETPORTDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETPORTTYPEDS</DAT>
+<DAT name="ULITOPERNAM">GETPORTTYPEDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETPRIVACYDS</DAT>
+<DAT name="ULITOPERNAM">GETPRIVACYDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETROUTEDS</DAT>
+<DAT name="ULITOPERNAM">GETROUTEDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETROUTEPORTSUBURBDS</DAT>
+<DAT name="ULITOPERNAM">GETROUTEPORTSUBURBDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETSERVICETYPEDS</DAT>
+<DAT name="ULITOPERNAM">GETSERVICETYPEDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETSTATESPERCOUNTRY</DAT>
+<DAT name="ULITOPERNAM">GETSTATESPERCOUNTRY</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETSTATUSDS</DAT>
+<DAT name="ULITOPERNAM">GETSTATUSDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETSUBURBSDS</DAT>
+<DAT name="ULITOPERNAM">GETSUBURBSDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETSUBURBSPERCOUNTRY</DAT>
+<DAT name="ULITOPERNAM">GETSUBURBSPERCOUNTRY</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTEAMDS</DAT>
+<DAT name="ULITOPERNAM">GETTEAMDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTRANSPORTCOMPANIESDS</DAT>
+<DAT name="ULITOPERNAM">GETTRANSPORTCOMPANIESDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTRANSPORTPORTSDS</DAT>
+<DAT name="ULITOPERNAM">GETTRANSPORTPORTSDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETUSERFUNCTIONDS</DAT>
+<DAT name="ULITOPERNAM">GETUSERFUNCTIONDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETUSERROLESDS</DAT>
+<DAT name="ULITOPERNAM">GETUSERROLESDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETUSERSBYCOMPANYCLIENTDS</DAT>
+<DAT name="ULITOPERNAM">GETUSERSBYCOMPANYCLIENTDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETWORLDAREADS</DAT>
+<DAT name="ULITOPERNAM">GETWORLDAREADS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETWORLDAREAUNI</DAT>
+<DAT name="ULITOPERNAM">GETWORLDAREAUNI</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">PORTBYCOMPANYVALUEMAPPER</DAT>
+<DAT name="ULITOPERNAM">PORTBYCOMPANYVALUEMAPPER</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">QUIT</DAT>
+<DAT name="ULITOPERNAM">QUIT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">ROUTEPORTSUBURBDSVALUEMAPPER</DAT>
+<DAT name="ULITOPERNAM">ROUTEPORTSUBURBDSVALUEMAPPER</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">ROUTEVALUEMAPPER</DAT>
+<DAT name="ULITOPERNAM">ROUTEVALUEMAPPER</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">SUBURBSPERCOUNTRYVALUEMAPPER</DAT>
+<DAT name="ULITOPERNAM">SUBURBSPERCOUNTRYVALUEMAPPER</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">USERVALUEMAPPER</DAT>
+<DAT name="ULITOPERNAM">USERVALUEMAPPER</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIPARM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" mandatory="yes" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UOPERNAM" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UPARMNAM" seqno="6" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="8" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INTF" seqno="9" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UARRAYSIZ" seqno="10" type="N" level="2" pack="10" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLINTF" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCTYP" seqno="12" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULITPARMNAM" seqno="13" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_GLAB" seqno="14" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIPATTR" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UDTYPQUALIF" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOUNTRYFROMWADSUNI</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETPORTBYCOMPUNI</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-03T15:56:13.00</DAT>
+<DAT name="USPECNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UIMPLNAM">C_KE_SA_DRPDWN1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETWORLDAREAUNI</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

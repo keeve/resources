@@ -1,0 +1,1564 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="UFORM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="3" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="FTYP" seqno="4" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="FHEAD" seqno="7" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VMAAT" seqno="8" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HMAAT" seqno="9" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOLOR" seqno="10" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="CLRSCRN" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBORDER" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBIN" seqno="17" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBOT" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="MOVABLE" seqno="19" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOINVERSE" seqno="20" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBRIGHT" seqno="21" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOUNLINE" seqno="22" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBLINK" seqno="23" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPANEL" seqno="24" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="POSPANEL" seqno="25" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPULL" seqno="26" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HIDESTACK" seqno="27" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="28" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UINHERIT" seqno="29" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LIBRAR" seqno="30" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSACT" seqno="31" type="S" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="CONSTRAINTS" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="INIT" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="CLEAR" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="RETRIEVE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="RECORD" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="STORE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DELET" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ACCEPT" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="QUIT" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="INTKEY" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="SPRINT" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="EPRINT" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ASYNC" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="FORMPIC" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="HEADER" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="LISTING" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="PERF" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="PROTO" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="TITLE" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="WINPROP" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="FRLF" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="FRGF" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="SFUNC" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="HTMLPROP" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USCONTAINED" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="UEXECDEF" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="UML_DATA" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPPROP" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="HTML_FORMAT" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_STYLES" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_H" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_BODYHOOK" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPCLASS" seqno="70" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="GETSTATE" seqno="71" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="SETSTATE" seqno="72" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UNOSTATE" seqno="73" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="CMP_EXT" seqno="74" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UCTRIGGERS" seqno="75" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="UACCESSPATH" seqno="76" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="USPLITPROP" seqno="77" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL2" seqno="78" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="USTATEMANAGEDBY" seqno="79" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="HTMLSKELETON" seqno="80" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-15T09:32:32.00</DAT>
+<DAT name="UCOMPSTAMP">2018-03-06T10:41:56.00</DAT>
+<DAT name="ULABEL">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>GK SOX: ALLOC to BLP</DAT>
+<DAT name="WVPOS">1</DAT>
+<DAT name="WHPOS">1</DAT>
+<DAT name="WVSIZ">10</DAT>
+<DAT name="WHSIZ">40</DAT>
+<DAT name="CLRSCRN">N</DAT>
+<DAT name="UBORDER">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="LIBRAR">IFC</DAT>
+<DAT name="UTRANSACT">1</DAT>
+<DAT name="TPLACTUAL" xml:space='preserve'>
+#Comment ----------------------------------------------
+#Comment start_of_references
+#ifdefined TEMPLATENAME
+#info symbol TEMPLATENAME is already or also defined as a global or local constant
+#endif
+#define TEMPLATENAME=
+#Comment 
+
+#Comment end_of_references
+
+
+#Comment ----------------------------------------------
+#Comment start_of_mappings
+#Comment end_of_mappings
+
+
+#Comment ----------------------------------------------
+#Comment start_of_symbols
+#Comment end_of_symbols
+
+
+#Comment ----------------------------------------------
+</DAT>
+<DAT name="GENERAL" xml:space='preserve'>#include IFC:dateTimeFuncs
+
+entry documentInformation
+	params
+		string	pImpCode			: IN
+		string	pWarehouseOwner		: IN
+		date	pDocDate			: IN
+		time	pDocTime			: IN
+		struct	pDocument			: INOUT
+	endparams
+
+	pDocument-&gt;DocumentInformation-&gt;DocumentType   = "ShippingOrder"
+	pDocument-&gt;DocumentInformation-&gt;DocumentNumber = getDocNo(pImpCode)
+	pDocument-&gt;DocumentInformation-&gt;DocumentDate   = $concat(lfdatetostring(pDocDate, 0, 1), lfTimeToString(pDocTime, 0))
+	pDocument-&gt;DocumentInformation-&gt;Sender         = pImpCode
+	pDocument-&gt;DocumentInformation-&gt;Receiver       = pWarehouseOwner
+
+	return(0)
+
+end    ; entry documentInformation
+
+
+entry generalInformation
+	params
+		string	pShipNumber	: IN
+		string	pWarehouse	: IN
+		string	pDestPort	: IN
+		struct	pDocument	: INOUT
+	endparams
+	variables
+		struct	vRef
+		string	vOcc
+	endvariables
+
+	&lt;generalInformation&gt;-&gt;PlantCode            = pWarehouse
+	&lt;generalInformation&gt;-&gt;ShipmentDate         = $concat(lfdatetostring(SHIPDATE.PURCHASE, 0, 1), "000000")
+
+	; need to check if there is a bulk po number in VEND_REF_NO
+	; if there is, get the PO details for the bulk and see if it says 'new store' in text3
+	; if it does, custodian should be 'new store'
+	if (VEND_REF_NO.PURCHASE != "")    ; we have the bulk PO
+		activate "SYSPUR_S01".GetPOCustomDtls(IMPCODE.PURCHASE, "", "", "", VEND_REF_NO.PURCHASE, "", vOcc)
+		if ($item("TEXT3",vOcc) = "new stores")
+			&lt;generalInformation&gt;-&gt;Custodian = "new stores"
+		else
+			&lt;generalInformation&gt;-&gt;Custodian = ""
+		endif
+	else
+		&lt;generalInformation&gt;-&gt;Custodian = ""
+	endif
+
+	&lt;generalInformation&gt;-&gt;PurchaseOrderNumber  = ""
+	&lt;generalInformation&gt;-&gt;ShippingOrderNumber  = ""
+	&lt;generalInformation&gt;-&gt;ReferenceOrderNumber = ""
+	&lt;generalInformation&gt;-&gt;InvoiceNumber        = ""
+
+	&lt;generalInformation&gt;-&gt;References = $newstruct
+
+	vRef                        = $newstruct
+	vRef-&gt;$tags-&gt;xmlClass       = "element"
+	vref-&gt;type                  = "OrderType"
+	vref-&gt;type-&gt;$tags-&gt;xmlClass = "attribute"
+	vRef-&gt;*{-1}                 = TEXT1.PURCHASE
+
+	&lt;generalInformation&gt;-&gt;References-&gt;Reference{-1} = vRef
+
+	vRef                        = $newstruct
+	vRef-&gt;$tags-&gt;xmlClass       = "element"
+	vref-&gt;type                  = "BookingReference"
+	vref-&gt;type-&gt;$tags-&gt;xmlClass = "attribute"
+	vRef-&gt;*{-1}                 = ""
+
+	&lt;generalInformation&gt;-&gt;References-&gt;Reference{-1} = vRef
+
+	vRef                        = $newstruct
+	vRef-&gt;$tags-&gt;xmlClass       = "element"
+	vref-&gt;type                  = "PortOfDischarge"
+	vref-&gt;type-&gt;$tags-&gt;xmlClass = "attribute"
+	vRef-&gt;*{-1}                 = pDestPort
+
+	&lt;generalInformation&gt;-&gt;References-&gt;Reference{-1} = vRef
+
+	vRef                        = $newstruct
+	vRef-&gt;$tags-&gt;xmlClass       = "element"
+	vref-&gt;type                  = "ShipmentNumber"
+	vref-&gt;type-&gt;$tags-&gt;xmlClass = "attribute"
+	vRef-&gt;*{-1}                 = pShipNumber
+
+	&lt;generalInformation&gt;-&gt;References-&gt;Reference{-1} = vRef
+
+	&lt;generalInformation&gt;-&gt;Remarks = ""
+
+	return(0)
+
+end    ;entry generalInformation
+
+
+;mantis 1004714 - start
+;entry getBLPDetails
+;	params
+;		string    pOriginPort    : IN
+;		string    pWarehouse    : OUT
+;		string    pBLP        : OUT
+;	endparams
+	
+	; leave in for backward compatibility?
+;	selectcase pOriginPort
+;		case "CN-S?A", "CN-SGH"
+;			pBLP = "KERRYEAS"
+;			pWarehouse = "70"
+;		case "CN-SZX", "CN-YTN"
+;			pBLP = "KERRYEAS"
+;			pWarehouse = "71"
+;		case "CN-QIN", "CN-TAO"
+;			pBLP = "KERRYEAS"
+;			pWarehouse = "72"
+;		case "CN-SWA"
+;			pBLP = "KERRYEAS"
+;			pWarehouse = "74"
+;		case "CN-NGB", "CN-NBO"
+;			pBLP = "KERRYEAS"
+;			pWarehouse = "75"
+;		elsecase
+;			pBLP       = ""
+;			pWarehouse = ""
+;	endselectcase
+	
+;	return(0)
+	
+;end    ;entry getBLPDetails
+;mantis 1004714 - end
+
+
+entry getDocNo
+	returns numeric
+	params
+		string    pImpCode    : IN
+	endparams
+	variables
+		numeric    vDocNo
+	endvariables
+	
+	clear/e "sysImpPref"
+	IMPCODE.SYSIMPPREF  = pImpCode
+	FUNCTYPE.SYSIMPPREF = "IMPPREF"
+	FUNCID.SYSIMPPREF   = "DOCNO"
+	retrieve/e "SYSIMPPREF"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		vDocNo                = FUNCVALUE.SYSIMPPREF
+		FUNCVALUE.SYSIMPPREF += 1
+		store/e "SYSIMPPREF"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			commit
+		endif
+	else
+		vDocNo = 0
+		FUNCVALUE.SYSIMPPREF = 1
+		store/e "SYSIMPPREF"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			commit
+		endif
+	endif
+	
+	return(vDocNo)
+	
+end    ;entry getDocNo
+
+
+entry shippingDetails
+	params
+		string    pPackSize    : IN
+		numeric    pQuantity    : IN
+		struct    pDocument    : INOUT
+	endparams
+	variables
+		struct    vShipItem, vRef
+	endvariables
+	
+	vShipItem                     = $newstruct
+	vShipItem-&gt;ShippingItemNumber = pDocument-&gt;ShippingOrder-&gt;ShippingDetails-&gt;ShippingItems-&gt;ShippingItem-&gt;$collsize + 1
+	vShipItem-&gt;SKU                = PRODCODEIMP.PURCHASELINE
+	vShipItem-&gt;Quantity               = pQuantity
+	vShipItem-&gt;PackCode           = pPackSize
+	vShipItem-&gt;StorageLocation    = "NOR"
+	vShipItem-&gt;References         = $newstruct
+	
+	vRef                                 = $newstruct
+	vRef-&gt;$tags-&gt;xmlClass                = "element"
+	vref-&gt;type                           = "DeliveryNoteNumber"
+	vref-&gt;type-&gt;$tags-&gt;xmlClass          = "attribute"
+	vRef-&gt;*{-1}                          = MANUAL_ORDNUMBER.PURCHASE
+	vShipItem-&gt;References-&gt;Reference{-1} = vRef
+	
+	vRef                                 = $newstruct
+	vRef-&gt;$tags-&gt;xmlClass                = "element"
+	vref-&gt;type                           = "SKU"
+	vref-&gt;type-&gt;$tags-&gt;xmlClass          = "attribute"
+	vRef-&gt;*{-1}                          = PRODCODEIMP.PURCHASELINE
+	vShipItem-&gt;References-&gt;Reference{-1} = vRef
+	
+	vRef                                 = $newstruct
+	vRef-&gt;$tags-&gt;xmlClass                = "element"
+	vref-&gt;type                           = "CubicPerPack"
+	vref-&gt;type-&gt;$tags-&gt;xmlClass          = "attribute"
+	selectcase pPackSize
+		case "CARTON"
+			vRef-&gt;*{-1}                      = PRODVOLUME.SYSVENDORPRODUCT
+		case "INNER"
+			vRef-&gt;*{-1}                      = ((PRODVOLUME.SYSVENDORPRODUCT/PRODPACKITEMS.SYSVENDORPRODUCT)*PRODPACKITEMS_INNER.SYSVENDORPRODUCT)[round, 4]
+		elsecase
+			vRef-&gt;*{-1}                      = (PRODVOLUME.SYSVENDORPRODUCT/PRODPACKITEMS.SYSVENDORPRODUCT)[round, 4]
+	endselectcase
+	vShipItem-&gt;References-&gt;Reference{-1} = vRef
+	
+	vRef                                 = $newstruct
+	vRef-&gt;$tags-&gt;xmlClass                = "element"
+	vref-&gt;type                           = "ItemPerPack"
+	vref-&gt;type-&gt;$tags-&gt;xmlClass          = "attribute"
+	selectcase pPackSize
+		case "CARTON"
+			vRef-&gt;*{-1}                      = PRODPACKITEMS.SYSVENDORPRODUCT
+		case "INNER"
+			vRef-&gt;*{-1}                      = PRODPACKITEMS_INNER.SYSVENDORPRODUCT
+		elsecase
+			vRef-&gt;*{-1}                      = 1
+	endselectcase
+	vShipItem-&gt;References-&gt;Reference{-1} = vRef
+	
+	vRef                                 = $newstruct
+	vRef-&gt;$tags-&gt;xmlClass                = "element"
+	vref-&gt;type                           = "PrimaryUOM"
+	vref-&gt;type-&gt;$tags-&gt;xmlClass          = "attribute"
+	vRef-&gt;*{-1}                          = pPackSize
+	vShipItem-&gt;References-&gt;Reference{-1} = vRef
+	
+	vRef                                 = $newstruct
+	vRef-&gt;$tags-&gt;xmlClass                = "element"
+	vref-&gt;type                           = "LineNo"
+	vref-&gt;type-&gt;$tags-&gt;xmlClass          = "attribute"
+	vRef-&gt;*{-1}                          = LINENO.PURCHASELINE
+	vShipItem-&gt;References-&gt;Reference{-1} = vRef
+	
+	vRef                                 = $newstruct
+	vRef-&gt;$tags-&gt;xmlClass                = "element"
+	vref-&gt;type                           = "EventCode"
+	vref-&gt;type-&gt;$tags-&gt;xmlClass          = "attribute"
+	vRef-&gt;*{-1}                          = "0"
+	vShipItem-&gt;References-&gt;Reference{-1} = vRef
+	
+	pDocument-&gt;ShippingOrder-&gt;ShippingDetails-&gt;ShippingItems-&gt;ShippingItem{-1} = vShipItem
+	
+	return(0)
+	
+end    ;entry shippingDetails
+
+
+entry shippingParties
+	params
+		struct    pDocument    : INOUT
+	endparams
+	
+	&lt;shippingParty&gt;                        = $newstruct
+	&lt;shippingParty&gt;-&gt;$tags-&gt;xmlClass       = "element"
+	&lt;shippingParty&gt;-&gt;type                  = "ShipTo"
+	&lt;shippingParty&gt;-&gt;type-&gt;$tags-&gt;xmlClass = "attribute"
+	&lt;shippingParty&gt;-&gt;PartyName             = ADDRLINE1.SYSIMPADDR[1:30]
+	&lt;shippingParty&gt;-&gt;PartyCode             = STOREID.PURCHASE
+	&lt;shippingParty&gt;-&gt;ContactName           = ADDRCONTACTPERSON.SYSIMPADDR
+	&lt;shippingParty&gt;-&gt;ContactTel            = ADDRTEL.SYSIMPADDR
+	&lt;shippingParty&gt;-&gt;AddressLine1          = ADDRLINE2.SYSIMPADDR
+	&lt;shippingParty&gt;-&gt;AddressLine2          = ADDRLINE3.SYSIMPADDR
+	&lt;shippingParty&gt;-&gt;AddressLine3          = ADDRLINE4.SYSIMPADDR
+	&lt;shippingParty&gt;-&gt;AddressLine4          = STATE.SYSIMPADDR
+	&lt;shippingParty&gt;-&gt;AddressLine5          = COUNTRY.SYSIMPADDR
+	&lt;shippingParty&gt;-&gt;Zip                   = POSTCODE.SYSIMPADDR
+	&lt;shippingParty&gt;-&gt;Zone                  = ""
+	
+	return(0)
+	
+end    ;entry shippingParties
+
+
+entry writeLog
+	params
+		string    pMessage    : IN
+	endparams
+	variables
+		string    vIn
+	endvariables
+	
+	vIn  = ""
+	putitem/id vIn, "FilePath", $logical("GKP_SOX")
+	putitem/id vIn, "Text",     pMessage
+	putitem/id vIn, "Process",  "SOX"
+	
+	activate "GK_SA_FUNCTIONS1".writeLogFile(vIn, "")
+	
+	return(0)
+	
+end</DAT>
+<DAT name="FORMPIC" xml:space='preserve'>
+ &uFRM;TYP=E&uSEP;NAM=PUJOB.FSC_SYSTEM&uSEP;WID=30&uSEP;HEI=11&uSEP;HOC=30&uSEP;VOC=11&uFRM;
+  &uFRM;TYP=E&uSEP;NAM=JOB.FSC_SYSTEM&uSEP;WID=25&uSEP;HEI=3&uSEP;HOC=25&uSEP;VOC=3&uFRM;
+   &uFRM;TYP=E&uSEP;NAM=IMPADDR_COLLECT.FSC_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+
+  &uFRM;TYP=E&uSEP;NAM=JOBSHIPMENT.FSC_SYSTEM&uSEP;WID=25&uSEP;HEI=3&uSEP;HOC=25&uSEP;VOC=3&uFRM;
+   &uFRM;TYP=E&uSEP;NAM=SHIPMENTS.FSC_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+
+  &uFRM;TYP=E&uSEP;NAM=PURCHASE_SUB.FSC_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=PURCHASE.FSC_SYSTEM&uSEP;WID=30&uSEP;HEI=7&uSEP;HOC=30&uSEP;VOC=7&uFRM;
+  &uFRM;TYP=E&uSEP;NAM=SYSIMPADDR.FSC_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+  &uFRM;TYP=E&uSEP;NAM=PURCHASELINE.FSC_SYSTEM&uSEP;WID=25&uSEP;HEI=3&uSEP;HOC=25&uSEP;VOC=3&uFRM;
+   &uFRM;TYP=E&uSEP;NAM=SYSVENDORPRODUCT.FSC_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+
+
+ &uFRM;TYP=E&uSEP;NAM=SYSIMPPREF.FSC_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;</DAT>
+<DAT name="LISTING" xml:space='preserve'>Date		Intials		Mantis		Comments
+01-AUG-16	PRB		1004776	New
+24-AUG-16	PRB		1020456	Model changed from IFCSYSTEM to FSC_SYSTEM for all entities
+02-SEP-16	PRB		1020487	Complete PURCHASE hitlist before looping.
+15-SEP-16	PRB		1004714	Remove port hardcoding.</DAT>
+<DAT name="SFUNC" xml:space='preserve'>operation generateSOX
+	params
+		struct	pParams		: INOUT
+	endparams
+	variables
+		boolean		vHeader
+		date		vDocDate
+		numeric		vJobNumber, vEaches, vInners, vOuters
+		string		vImpCode, vOriginPort, vDestPort, vWarehouse, vWarehouseOwner, vPOList, vStoreList, vItem, vValue, vUOMPref, vMessage
+		struct		vDocument, vDataOut
+		time		vDocTime
+		XMLStream	vSOXData
+	endvariables
+
+	call writeLog($concat("Request made for job: ", pParams-&gt;in-&gt;JobNumber))
+
+	clear
+	vJobNumber = pParams-&gt;in-&gt;JobNumber
+
+	JOBNUMBER.PUJOB = vJobNumber
+	retrieve/e "PUJOB"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		vImpCode    = IMPCODE.PUJOB
+		vOriginPort = SHPPORTORIGIN.SHIPMENTS
+		vDestPort   = SHPDESTPORT.SHIPMENTS
+		forentity "PUJOB"
+			if (MANUCODE.PURCHASE_SUB = "ALLOC")
+				if (STOREID.PURCHASE_SUB = "")
+					vMessage = $concat(vMessage, "%%^Order ", MANUAL_ORDNUMBER.PURCHASE_SUB, " has no Store Id")
+					call writeLog($concat("  Order ", MANUAL_ORDNUMBER.PURCHASE_SUB, " has no Store Id"))
+					pParams-&gt;out-&gt;status = "error"
+				else
+					vPOList = $item(STOREID.PURCHASE_SUB, vStoreList)
+					putitem vPOList, -1, INC_ORDNUMBER.PURCHASE_SUB
+					putitem/id vStoreList, STOREID.PURCHASE_SUB, vPOList
+				endif
+			else
+				vMessage = $concat(vMessage, "%%^Order ", MANUAL_ORDNUMBER.PURCHASE_SUB, " ignored.  It is not an allocation order.")
+				call writeLog($concat("  Order ", MANUAL_ORDNUMBER.PURCHASE_SUB, " ignored.  It is not an allocation order."))
+			endif
+		endfor
+	endif
+;mantis 1004714 - start
+	if (ADDRESSTYPE.IMPADDR_COLLECT != "WH")
+		call writeLog("  The collection address is not a warehouse.")
+		pParams-&gt;out-&gt;Response = "%%^The collection address is not a warehouse."
+		pParams-&gt;out-&gt;status   = "error"
+		return(0)
+	endif
+
+	if (!INTERFACE.IMPADDR_COLLECT)
+		call writeLog("  The collection warehouse does not accept interfacing files.")
+		pParams-&gt;out-&gt;Response = "%%^The collection warehouse does not accept interfacing files."
+		pParams-&gt;out-&gt;status   = "error"
+		return(0)
+	endif
+
+	vWarehouse      = OWNERID.IMPADDR_COLLECT
+	vWarehouseOwner = ADDRESSOWNER.IMPADDR_COLLECT
+;mantis 1004714 - end
+	clear/e "PUJOB"
+
+	if (pParams-&gt;out-&gt;status = "error")
+		pParams-&gt;out-&gt;Response = vMessage
+		return(0)
+	elseif (vStoreList = "")
+		call writeLog("  No orders found to send to the BLP.")
+		pParams-&gt;out-&gt;Response = "%%^No orders found to send to the BLP."
+		pParams-&gt;out-&gt;status   = "error"
+		return(0)
+	else
+		if ($logical("GKP_SOX") = "")
+			putmess $concat(lfDateToString($date, 1, 0), " ", lfTimeToString($clock, 1), " ERROR - Logical GKP_SOX is undefined")
+			call writeLog("  ERROR - Logical GK_SOX is undefined")
+			pParams-&gt;out-&gt;Response = "%%^The output file location %%"GKP_SOX%%" is not defined.  Unable to produce files."
+			pParams-&gt;out-&gt;status   = "error"
+			return(0)
+		endif
+		if ($logical("ExchXMLBLPOut") = "")
+			putmess $concat(lfDateToString($date, 1, 0), " ", lfTimeToString($clock, 1), " ERROR - Logical ExchXMLBLPOut is undefined")
+			call writeLog("  ERROR - Logical ExchXMLBLPOut is undefined")
+			pParams-&gt;out-&gt;Response = "%%^The output file location %%"ExchXMLBLPOut%%" is not defined.  Unable to produce files."
+			pParams-&gt;out-&gt;status   = "error"
+			return(0)
+		endif
+
+		vDocDate = $date
+		vDocTime = $clock
+
+;mantis 1004714 - start
+;		call getBLPDetails(vOriginPort, vWarehouse, vWarehouseOwner)
+;		if (vWarehouse = "" | vWarehouseOwner = "")
+;			call writeLog("  The receipting warehouse is not set or the warehouse does not accept interfacing files.")
+;			pParams-&gt;out-&gt;Response = "%%^The receipting warehouse is not set or the warehouse does not accept interfacing files."
+;			pParams-&gt;out-&gt;status   = "error"
+;			return(0)
+;		endif
+;mantis 1004714 - end
+
+		activate "PREFERENCES".Importer_Pref_Values(vImpCode, "IMPPREF", "GK-SOX1", "", vUOMPref, "", "", "", "")
+
+		forlist/id vItem, vValue in vStoreList
+
+			call writeLog($concat("    Processing data for store: ", vItem, ".  Orders: ", $replace(vValue, 1, "&uSEP;", ",", -1)))
+
+			vDocument        = $newstruct		
+			vDocument-&gt;$name = "Document"
+
+			selectcase vWarehouseOwner
+			case "KERRYEAS"
+				vDocument-&gt;$tags-&gt;xmlClass = "element"
+;				if (vImpCode = "3TOTTOOL")
+;					vDocument-&gt;xmlns = "http://www.kerrylogistics.com/WMS/TOTALTOOLS/ShippingOrder"
+;				else
+					vDocument-&gt;xmlns = "http://www.kerrylogistics.com/WMS/%%vImpCode%%%/ShippingOrder"
+;				endif
+				vDocument-&gt;xmlns-&gt;$tags-&gt;xmlClass = "attribute"
+			elsecase
+				pParams-&gt;out-&gt;Response = $concat("%%^The receipting warehouse owner (", vWarehouseOwner, ") is not recognised.")
+				pParams-&gt;out-&gt;status   = "error"
+				return(0)
+			endselectcase
+
+			vDocument-&gt;DocumentInformation                           = $newstruct
+			vDocument-&gt;ShippingOrder                                 = $newstruct
+			vDocument-&gt;ShippingOrder-&gt;GeneralInformation             = $newstruct
+			vDocument-&gt;ShippingOrder-&gt;ShippingParties                = $newstruct
+			vDocument-&gt;ShippingOrder-&gt;ShippingDetails                = $newstruct
+			vDocument-&gt;ShippingOrder-&gt;ShippingDetails-&gt;ShippingItems = $newstruct
+
+			vHeader = 0
+
+			clear/e "PURCHASE"
+			IMPCODE.PURCHASE       = vImpCode
+			INC_ORDNUMBER.PURCHASE = $replace(vValue, 1, "&uSEP;", "&uOR;", -1)
+			ORDERFINAL.PURCHASE    = 1
+			retrieve/e "PURCHASE"
+			if ($procerror = &lt;UACT_SUCCESS&gt;)
+;mantis 1020487 - start
+				setocc "PURCHASE", -1
+;mantis 1020487 - end
+				forentity "PURCHASE"
+					if (!vHeader)
+						call documentInformation(vImpCode, vWarehouseOwner, vDocDate, vDocTime, vDocument)
+						call generalInformation($concat(vJobNumber, "-", STOREID.PURCHASE), vWarehouse, vDestPort, vDocument)
+						call shippingParties(vDocument)
+						vHeader = 1
+					endif
+
+					forentity "PURCHASELINE"
+						selectcase vUOMPref
+						case "ALL"
+							vOuters    = 0
+							vInners    = 0
+							vEaches    = 0
+
+							if (PRODPACKITEMS.SYSVENDORPRODUCT &gt; 0 )
+								vOuters = $int(QUANTITY.PURCHASELINE/PRODPACKITEMS.SYSVENDORPRODUCT)
+							endif
+
+							if ((QUANTITY.PURCHASELINE - (vOuters * PRODPACKITEMS.SYSVENDORPRODUCT)) &gt; 0)
+								if (PRODPACKITEMS_INNER.SYSVENDORPRODUCT &gt; 0 )
+									vInners = $int((QUANTITY.PURCHASELINE - (vOuters * PRODPACKITEMS.SYSVENDORPRODUCT))/PRODPACKITEMS_Inner.SYSVENDORPRODUCT)
+								endif
+							endif 
+	
+							vEaches = QUANTITY.PURCHASELINE - ((vOuters * PRODPACKITEMS.SYSVENDORPRODUCT) +  (vInners * PRODPACKITEMS_Inner.SYSVENDORPRODUCT))
+
+							if (vOuters &gt; 0)
+								call shippingDetails("CARTON", vOuters, vDocument)
+							endif
+							if (vInners  &gt; 0)
+								call shippingDetails("INNER", vInners, vDocument)
+							endif
+							if (vEaches &gt; 0)
+								call shippingDetails("EACH", vEaches, vDocument)
+							endif
+						elsecase
+							call shippingDetails("EACH", QUANTITY.PURCHASELINE, vDocument)
+						endselectcase
+					endfor
+				endfor
+			endif
+
+			vDataOut-&gt;Document	= vDocument
+			structtoxml vSOXData, vDataOut
+			$FILESTAMP$ = $datim
+			filedump vSOXData, $concat($logical("GKP_SOX"), "Processed\SOX_", vImpCode, "-", $concat(vWarehouseOwner, "_", vItem, "_", $concat($FILESTAMP$, ".XML")))
+			filedump vSOXData, $concat($logical("ExchXMLBLPOut"), vWarehouseOwner, "\SOX_", vImpCode, $concat("-", vWarehouseOwner, "_", vItem, $concat("_", $FILESTAMP$, ".XML")))
+			call writeLog($concat("  File written: SOX_", vImpCode, "-", vWarehouseOwner, $concat("_", vItem, "_", $FILESTAMP$, ".XML")))
+			pParams-&gt;out-&gt;status = "OK"
+		endfor
+	endif
+
+	call writeLog("Process completed%%^=======================================================")
+
+	pParams-&gt;out-&gt;Response = vMessage
+
+	return(0)
+
+end</DAT>
+<DAT name="TPLACTUAL2" xml:space='preserve'>#define generalInformation = pDocument-&gt;ShippingOrder-&gt;GeneralInformation
+#define shippingParty      = pDocument-&gt;ShippingOrder-&gt;ShippingParties-&gt;ShippingParty</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXGROUP" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,1" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_BORD" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DBMS" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_UPD" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINL" seqno="11" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXL" seqno="12" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINR" seqno="13" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXR" seqno="14" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLGINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INTF" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="17" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="GETOCC" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="PUTOCC" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="DELOCC" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="LCK" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UNLOCK" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="GETSEGM" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ADDOCC" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DELOCCR" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="CREOCC" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="FINDOCC" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="FLIST" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="BREAK" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="VLDE" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDK" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="UISBCLASS" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UISASSOC" seqno="43" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_OBJSVC" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="U_SVCUSE" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTPROP" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_TABTYPE" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_B" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_E" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTCLASS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="U_GLAB" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UEOINTERFACE" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UECINTERFACE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="UEOOPERS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="UECOPERS" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="UEOTRIGGERS" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="UECTRIGGERS" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETTYPE" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETCREATE" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="PRLO" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="PSLO" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="PRSO" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="PSSO" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="UPARENT" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETTYPE" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F2,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETCREATE" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-15T09:31:03.00</DAT>
+<DAT name="ULABEL">IMPADDR_COLLECT</DAT>
+<DAT name="UBASE">FSC_SYSTEM</DAT>
+<DAT name="UFORM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read u_where (IMPCODE.IMPADDR_COLLECT = IMPCODE.PUJOB &amp; ADDRNO.IMPADDR_COLLECT = COLLECTADDRNO.JOB)</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-15T09:08:55.00</DAT>
+<DAT name="ULABEL">JOB</DAT>
+<DAT name="UBASE">FSC_SYSTEM</DAT>
+<DAT name="UFORM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-08-24T11:49:02.00</DAT>
+<DAT name="ULABEL">JOBSHIPMENT</DAT>
+<DAT name="UBASE">FSC_SYSTEM</DAT>
+<DAT name="UFORM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Job Shipment</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">Y</DAT>
+<DAT name="U_UPD">O</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read u_where (JOBNUMBER.JOBSHIPMENT = JOBNUMBER.PUJOB)</DAT>
+<DAT name="FINDOCC" xml:space='preserve'>retrieve/o
+if ($status &lt; 0)
+   if ($status=-15) message $text(2202) ;Multiple hits:in foreign entity
+   if ($status=-14) message $text(2205) ;Multiple hits:not in foreign entity
+   if ($status=-11) message $text(2009) ;Occurrence currently locked
+   if ($status=-7)  message $text(2006) ;Duplicate key
+   if ($status=-4)  message $text(2003) ;Cannot open table or file
+   if ($status=-3)  message $text(2002) ;Exceptional I/O error
+   if ($status=-2)  message $text(2200) ;Key not found:in foreign entity
+else
+   if ($status=1)   message $text(2201) ;Key not found:foreign entity w/WRITE UP
+   if ($status=2)   ;One occurrence found in foreign entity
+      retrieve/e
+      if ($status &lt; 0) message $text(2002);I/O error detected
+   endif
+   if ($status=3)   message $text(2203) ;Occurrence un-removed
+   if ($status=4)   message $text(2204) ;Key found:occurrence repositioned
+endif
+return ($status)
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="U_SVCUSE">N</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+<DAT name="UEOINTERFACE">JOBSHIPMENTOCC</DAT>
+<DAT name="UECINTERFACE">JOBSHIPMENTCOLL</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-08-24T11:46:23.00</DAT>
+<DAT name="ULABEL">PUJOB</DAT>
+<DAT name="UBASE">FSC_SYSTEM</DAT>
+<DAT name="UFORM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-08-24T11:53:24.00</DAT>
+<DAT name="ULABEL">PURCHASE</DAT>
+<DAT name="UBASE">FSC_SYSTEM</DAT>
+<DAT name="UFORM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-08-24T11:56:26.00</DAT>
+<DAT name="ULABEL">PURCHASELINE</DAT>
+<DAT name="UBASE">FSC_SYSTEM</DAT>
+<DAT name="UFORM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Purchase Order Line</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">Y</DAT>
+<DAT name="U_UPD">O</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FINDOCC" xml:space='preserve'>retrieve/o
+if ($status &lt; 0)
+   if ($status=-15) message $text(2202) ;Multiple hits:in foreign entity
+   if ($status=-14) message $text(2205) ;Multiple hits:not in foreign entity
+   if ($status=-11) message $text(2009) ;Occurrence currently locked
+   if ($status=-7)  message $text(2006) ;Duplicate key
+   if ($status=-4)  message $text(2003) ;Cannot open table or file
+   if ($status=-3)  message $text(2002) ;Exceptional I/O error
+   if ($status=-2)  message $text(2200) ;Key not found:in foreign entity
+else
+   if ($status=1)   message $text(2201) ;Key not found:foreign entity w/WRITE UP
+   if ($status=2)   ;One occurrence found in foreign entity
+      retrieve/e
+      if ($status &lt; 0) message $text(2002);I/O error detected
+   endif
+   if ($status=3)   message $text(2203) ;Occurrence un-removed
+   if ($status=4)   message $text(2204) ;Key found:occurrence repositioned
+endif
+return ($status)
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="U_SVCUSE">N</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+<DAT name="UEOINTERFACE">PURCHASELINEOCC</DAT>
+<DAT name="UECINTERFACE">PURCHASELINECOLL</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-08-24T11:53:24.00</DAT>
+<DAT name="ULABEL">PURCHASE_SUB</DAT>
+<DAT name="UBASE">FSC_SYSTEM</DAT>
+<DAT name="UFORM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Purchase Order Sub1</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">Y</DAT>
+<DAT name="U_UPD">O</DAT>
+<DAT name="U_INTF">C*</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read u_where (IMPCODE.PURCHASE_SUB = IMPCODE.PUJOB &amp; INC_ORDNUMBER.PURCHASE_SUB = INC_ORDNUMBER.PUJOB &amp; ITERATION.PURCHASE_SUB = ORDITERATIONNO.PUJOB)</DAT>
+<DAT name="FINDOCC" xml:space='preserve'>retrieve/o
+if ($status &lt; 0)
+   if ($status=-15) message $text(2202) ;Multiple hits:in foreign entity
+   if ($status=-14) message $text(2205) ;Multiple hits:not in foreign entity
+   if ($status=-11) message $text(2009) ;Occurrence currently locked
+   if ($status=-7)  message $text(2006) ;Duplicate key
+   if ($status=-4)  message $text(2003) ;Cannot open table or file
+   if ($status=-3)  message $text(2002) ;Exceptional I/O error
+   if ($status=-2)  message $text(2200) ;Key not found:in foreign entity
+else
+   if ($status=1)   message $text(2201) ;Key not found:foreign entity w/WRITE UP
+   if ($status=2)   ;One occurrence found in foreign entity
+      retrieve/e
+      if ($status &lt; 0) message $text(2002);I/O error detected
+   endif
+   if ($status=3)   message $text(2203) ;Occurrence un-removed
+   if ($status=4)   message $text(2204) ;Key found:occurrence repositioned
+endif
+return ($status)
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="U_SVCUSE">N</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+<DAT name="UEOINTERFACE">PURCHASE_SUBOCC</DAT>
+<DAT name="UECINTERFACE">PURCHASE_SUBCOLL</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-08-24T11:51:07.00</DAT>
+<DAT name="ULABEL">SHIPMENTS</DAT>
+<DAT name="UBASE">FSC_SYSTEM</DAT>
+<DAT name="UFORM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Shipments Information</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">Y</DAT>
+<DAT name="U_UPD">O</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read u_where (SHPNO.SHIPMENTS = SHPNO.JOBSHIPMENT)</DAT>
+<DAT name="FINDOCC" xml:space='preserve'>retrieve/o
+if ($status &lt; 0)
+   if ($status=-15) message $text(2202) ;Multiple hits:in foreign entity
+   if ($status=-14) message $text(2205) ;Multiple hits:not in foreign entity
+   if ($status=-11) message $text(2009) ;Occurrence currently locked
+   if ($status=-7)  message $text(2006) ;Duplicate key
+   if ($status=-4)  message $text(2003) ;Cannot open table or file
+   if ($status=-3)  message $text(2002) ;Exceptional I/O error
+   if ($status=-2)  message $text(2200) ;Key not found:in foreign entity
+else
+   if ($status=1)   message $text(2201) ;Key not found:foreign entity w/WRITE UP
+   if ($status=2)   ;One occurrence found in foreign entity
+      retrieve/e
+      if ($status &lt; 0) message $text(2002);I/O error detected
+   endif
+   if ($status=3)   message $text(2203) ;Occurrence un-removed
+   if ($status=4)   message $text(2204) ;Key found:occurrence repositioned
+endif
+return ($status)
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="U_SVCUSE">N</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+<DAT name="UEOINTERFACE">SHIPMENTSOCC</DAT>
+<DAT name="UECINTERFACE">SHIPMENTSCOLL</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-08-24T11:56:26.00</DAT>
+<DAT name="ULABEL">SYSIMPADDR</DAT>
+<DAT name="UBASE">FSC_SYSTEM</DAT>
+<DAT name="UFORM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Importer Address</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">Y</DAT>
+<DAT name="U_UPD">O</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read u_where (IMPCODE.SYSIMPADDR = IMPCODE.PURCHASE &amp; ADDRNO.SYSIMPADDR = IMPDELIVADDRNO.PURCHASE)</DAT>
+<DAT name="FINDOCC" xml:space='preserve'>retrieve/o
+if ($status &lt; 0)
+   if ($status=-15) message $text(2202) ;Multiple hits:in foreign entity
+   if ($status=-14) message $text(2205) ;Multiple hits:not in foreign entity
+   if ($status=-11) message $text(2009) ;Occurrence currently locked
+   if ($status=-7)  message $text(2006) ;Duplicate key
+   if ($status=-4)  message $text(2003) ;Cannot open table or file
+   if ($status=-3)  message $text(2002) ;Exceptional I/O error
+   if ($status=-2)  message $text(2200) ;Key not found:in foreign entity
+else
+   if ($status=1)   message $text(2201) ;Key not found:foreign entity w/WRITE UP
+   if ($status=2)   ;One occurrence found in foreign entity
+      retrieve/e
+      if ($status &lt; 0) message $text(2002);I/O error detected
+   endif
+   if ($status=3)   message $text(2203) ;Occurrence un-removed
+   if ($status=4)   message $text(2204) ;Key found:occurrence repositioned
+endif
+return ($status)
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="U_SVCUSE">N</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+<DAT name="UEOINTERFACE">SYSIMPADDROCC</DAT>
+<DAT name="UECINTERFACE">SYSIMPADDRCOLL</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-08-24T11:55:19.00</DAT>
+<DAT name="ULABEL">SYSIMPPREF</DAT>
+<DAT name="UBASE">FSC_SYSTEM</DAT>
+<DAT name="UFORM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-08-24T11:54:53.00</DAT>
+<DAT name="ULABEL">SYSVENDORPRODUCT</DAT>
+<DAT name="UBASE">FSC_SYSTEM</DAT>
+<DAT name="UFORM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXREGS" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_STAT" seqno="2" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_TYPE" seqno="3" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_FORMLIB" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,3" idxsnr="101,1" />
+<FLD name="U_NAME" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_LAYOUT" seqno="9" type="S" level="2" pack="0" scale="0" length="46"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DOC" seqno="10" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-08-01T13:01:26.00</DAT>
+<DAT name="U_FORMLIB">G_PO_SB_SOXOUT1</DAT>
+<DAT name="U_NAME">FILESTAMP</DAT>
+<DAT name="U_DTYP">E</DAT>
+<DAT name="U_LAYOUT">DIS(yyyymmddhhnnss)</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USUBS" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUBSYSTEM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UVERS" seqno="3" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="4" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPARENT" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UCOMMENT" seqno="6" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2011-11-02T17:50:42.00</DAT>
+<DAT name="USUBSYSTEM">C</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:49:14.00</DAT>
+<DAT name="USUBSYSTEM">COM_OUTLOOK</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:24:25.00</DAT>
+<DAT name="USUBSYSTEM">COM_WORD</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2002-03-26T15:40:21.00</DAT>
+<DAT name="USUBSYSTEM">DISYSWEB</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2004-12-17T10:27:45.00</DAT>
+<DAT name="USUBSYSTEM">MSEXCEL</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">1998-04-01T15:03:13.00</DAT>
+<DAT name="USUBSYSTEM">USYS</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2002-01-21T09:04:27.00</DAT>
+<DAT name="USUBSYSTEM">VOA8</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2012-05-21T10:28:19.00</DAT>
+<DAT name="USUBSYSTEM">WIN32API</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2003-06-23T16:48:22.00</DAT>
+<DAT name="USUBSYSTEM">WINAPI</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2006-01-26T15:40:49.00</DAT>
+<DAT name="USUBSYSTEM">WINSIG</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:55:03.00</DAT>
+<DAT name="USUBSYSTEM">WIN_API</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USSPEC" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="3" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="4" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECID" seqno="6" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUBSYSTEM" seqno="7" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDEFIMPLNAM" seqno="8" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDEFPATH" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USYNCALLOWED" seqno="10" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USCOPE" seqno="11" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UEXECDEF" seqno="12" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USELFCONT" seqno="13" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UNOSTATE" seqno="14" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANS" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSATTR" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UMWATTR" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UHIDDDATA" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="URESDATA" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UHIDCDATA" seqno="21" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:16:11.00</DAT>
+<DAT name="USPECNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>GK SOX: ALLOC to BLP</DAT>
+<DAT name="UVAR">SYSTEM_LIBRARY</DAT>
+<DAT name="USPECID">ID2016092215161155</DAT>
+<DAT name="UDEFIMPLNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UDEFPATH">SVC</DAT>
+<DAT name="USCOPE">PUB</DAT>
+<DAT name="UEXECDEF">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOPER" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UOPERNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UDESCR" seqno="4" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USCOPE" seqno="6" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USELFCONT" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UEXECTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UNOSTATE" seqno="9" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPRE" seqno="10" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UPOST" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="URETVAL" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:16:11.00</DAT>
+<DAT name="USPECNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UOPERNAM">ACCEPT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:16:11.00</DAT>
+<DAT name="USPECNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UOPERNAM">EXEC</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:16:11.00</DAT>
+<DAT name="USPECNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UOPERNAM">GENERATESOX</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:16:11.00</DAT>
+<DAT name="USPECNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UOPERNAM">QUIT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USPARM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UOPERNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UPARMNAM" seqno="4" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UDESCR" seqno="5" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPSEQ" seqno="7" type="N" level="2" pack="7" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_PTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDIREC" seqno="9" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="10" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_VLAB" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_TLAB" seqno="12" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UOBJNAM" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:16:11.00</DAT>
+<DAT name="USPECNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UOPERNAM">GENERATESOX</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIMPL" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="2" idxsnr="1" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UDESCR" seqno="5" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLID" seqno="7" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLSUB" seqno="8" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCNTXT" seqno="9" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USET" seqno="10" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERSCHECKING" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UTRANSATTR" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UIMPLATTR" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:16:11.00</DAT>
+<DAT name="USPECNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UIMPLNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UIMPLID">ID2016092215161155</DAT>
+<DAT name="UCNTXT">F</DAT>
+<DAT name="UVERSCHECKING">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIOPER" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="2" idxsnr="1" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UOPERNAM" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULITOPERNAM" seqno="8" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="URETVAL" seqno="9" type="N" level="2" pack="7" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCNTXT" seqno="10" type="N" level="2" pack="7" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLEMENTED" seqno="11" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBODY" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UEXCEPT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="UOPERATTR" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="URETTYPE" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:16:11.00</DAT>
+<DAT name="USPECNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UIMPLNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">ACCEPT</DAT>
+<DAT name="ULITOPERNAM">ACCEPT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:16:11.00</DAT>
+<DAT name="USPECNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UIMPLNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">EXEC</DAT>
+<DAT name="ULITOPERNAM">EXEC</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:16:11.00</DAT>
+<DAT name="USPECNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UIMPLNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GENERATESOX</DAT>
+<DAT name="ULITOPERNAM">GENERATESOX</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:16:11.00</DAT>
+<DAT name="USPECNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UIMPLNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">QUIT</DAT>
+<DAT name="ULITOPERNAM">QUIT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIPARM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" mandatory="yes" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UOPERNAM" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UPARMNAM" seqno="6" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="8" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INTF" seqno="9" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UARRAYSIZ" seqno="10" type="N" level="2" pack="10" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLINTF" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCTYP" seqno="12" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULITPARMNAM" seqno="13" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_GLAB" seqno="14" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIPATTR" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UDTYPQUALIF" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-22T15:16:11.00</DAT>
+<DAT name="USPECNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UIMPLNAM">G_PO_SB_SOXOUT1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GENERATESOX</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

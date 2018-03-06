@@ -1,0 +1,131 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="ULIBR" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULIBRARY" seqno="1" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="2" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTIMESTAMP" seqno="3" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="ULIBRARY">IFC</DAT>
+<DAT name="UDESCR" xml:space='preserve'>IFC Library</DAT>
+<DAT name="UTIMESTAMP">2014-01-21T10:22:41.00</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOURCE" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USTAT" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUB" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="ULABEL" seqno="6" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="ULAN" seqno="7" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="MSGTYPE" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="AUTHORIZ" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCLASS" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LOCREF" seqno="17" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCONFIRM" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UAUDIO" seqno="19" type="N" level="2" pack="10" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UTEXT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,1,\1E,0,0,0,,0,0,0,," />
+<FLD name="UWLEVEL" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-12-30T11:17:37.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">IFC</DAT>
+<DAT name="ULABEL">FIELDVALIDATION</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UTEXT" xml:space='preserve'>variables
+	String vMessage, vField
+endvariables
+vField = $fieldname(&lt;$fieldname&gt;.&lt;$entname&gt;)
+selectcase $error
+	case 0105 
+		vMessage = "Not allowed to change primary key field" 
+	case 0119 
+		vmessage = "illegal ValRep value" 
+	case 0120 
+		vmessage = "contains too many characters"
+	case 0121 
+		vmessage = "contains too few characters"
+	case 0122 
+		vmessage = "contains incorrect checkdigit" 
+	case 0123
+		vmessage = "does not contain NUMERICAL data" 
+	case 0124 
+		vmessage = "does not contain a correct DATE value" 
+	case 0125 
+		vmessage = "does not contain a correct TIME value"
+	case 0126 
+		vMessage = "contains an illegal syntax format" 
+	case 0127
+		vmessage = "contains an illegal entry format" 
+	case 0128 
+		vMessage = "subfield too large to check" 
+	case 0129
+		vmessage = "cannot be blank" 
+	case 0130
+		vmessage = "too many subfields specified" 
+	case 0131
+		vmessage = "font not allowed" 
+	case 0133 
+		vmessage = "ruler/frames not allowed" 
+	case 0134 
+		vmessage = "italic not allowed" 
+	case 0135
+		vmessage = "underline not allowed" 
+	case 0136
+		vmessage = "bold not allowed" 
+	case 0137
+		vmessage = "open/close brackets do not match" 
+	case 0138
+		vmessage = "contains an illegal format for FLOATING field" 
+	case 0140
+		vmessage = "Validation failed for field"
+	case 0150
+		vmessage = "requested number of '&amp;' and '|' operators not supported."
+		elsecase
+		vMessage = "status retuned unknown (%%$status%%%)"
+endselectcase 
+vMessage = $concat("Field:&lt;$fieldName&gt; failed validation:",vMessage)
+call log(vMessage)</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

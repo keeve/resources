@@ -1,0 +1,4876 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="USUBS" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUBSYSTEM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UVERS" seqno="3" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="4" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPARENT" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UCOMMENT" seqno="6" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2011-11-02T17:50:42.00</DAT>
+<DAT name="USUBSYSTEM">C</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:49:14.00</DAT>
+<DAT name="USUBSYSTEM">COM_OUTLOOK</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:24:25.00</DAT>
+<DAT name="USUBSYSTEM">COM_WORD</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2002-03-26T15:40:21.00</DAT>
+<DAT name="USUBSYSTEM">DISYSWEB</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2004-12-17T10:27:45.00</DAT>
+<DAT name="USUBSYSTEM">MSEXCEL</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">1998-04-01T15:03:13.00</DAT>
+<DAT name="USUBSYSTEM">USYS</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2002-01-21T09:04:27.00</DAT>
+<DAT name="USUBSYSTEM">VOA8</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2012-05-21T10:28:19.00</DAT>
+<DAT name="USUBSYSTEM">WIN32API</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2003-06-23T16:48:22.00</DAT>
+<DAT name="USUBSYSTEM">WINAPI</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2006-01-26T15:40:49.00</DAT>
+<DAT name="USUBSYSTEM">WINSIG</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:55:03.00</DAT>
+<DAT name="USUBSYSTEM">WIN_API</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USSPEC" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="3" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="4" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECID" seqno="6" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUBSYSTEM" seqno="7" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDEFIMPLNAM" seqno="8" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDEFPATH" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USYNCALLOWED" seqno="10" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USCOPE" seqno="11" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UEXECDEF" seqno="12" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USELFCONT" seqno="13" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UNOSTATE" seqno="14" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANS" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSATTR" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UMWATTR" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UHIDDDATA" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="URESDATA" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UHIDCDATA" seqno="21" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>FQS Kendo Service</DAT>
+<DAT name="UVAR">SYSTEM_LIBRARY</DAT>
+<DAT name="USPECID">ID2017082817051771</DAT>
+<DAT name="UDEFIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UDEFPATH">SVC</DAT>
+<DAT name="USCOPE">PUB</DAT>
+<DAT name="UEXECDEF">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOPER" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UOPERNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UDESCR" seqno="4" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USCOPE" seqno="6" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USELFCONT" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UEXECTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UNOSTATE" seqno="9" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPRE" seqno="10" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UPOST" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="URETVAL" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">ACCEPT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">CLIENTVALUEMAPPER</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">COMPANYCLIENTVALUEMAPPER</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">COMPANYVALUEMAPPER</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">C_AD_DI_CMPAGN1_SAVERECORDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">EXEC</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETCHARGECONTONCLIENTMARKUP</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETCHARGEIDPERSHPROUTE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETCLIENTDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETCLIENTMARKUPPERAREA</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETCLIENTMARKUPPERROUTE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETCLIENTMARKUPS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYORCLIENTDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETCONTAINERDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETLATESTRATESBYROUTE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETREFERENCEROUTES</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETSAVEDCOLUMNS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETTIERDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETTRANSITTYPEDS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETWORLAREADS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">LOADSTATE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">NOTESGENERATEGRID</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">QUIT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">Q_FR_DA_ABCHRG1</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">Q_FR_DA_CARRATE4_UPDATERECORD</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">Q_FR_DA_CNTRCT1</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">Q_FR_DA_SEAFR1</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">Q_QT_DA_PORTS1_CARRIERS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">Q_QT_DA_PORTS1_DESTVALUEMAPPER</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">Q_QT_DA_PORTS1_FROMPORT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">Q_QT_DA_PORTS1_LOADVALUEMAPPER</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">Q_QT_DA_PORTS1_TOPORT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">RESTORESTATE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">SAVESTATE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USPARM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UOPERNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UPARMNAM" seqno="4" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UDESCR" seqno="5" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPSEQ" seqno="7" type="N" level="2" pack="7" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_PTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDIREC" seqno="9" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="10" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_VLAB" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_TLAB" seqno="12" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UOBJNAM" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETCHARGECONTONCLIENTMARKUP</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETCHARGEIDPERSHPROUTE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETCLIENTMARKUPPERAREA</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETCLIENTMARKUPPERROUTE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETCLIENTMARKUPS</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETLATESTRATESBYROUTE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETREFERENCEROUTES</DAT>
+<DAT name="UPARMNAM">PCOMPCODE</DAT>
+<DAT name="UPSEQ">2</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETREFERENCEROUTES</DAT>
+<DAT name="UPARMNAM">PROUTES</DAT>
+<DAT name="UPSEQ">3</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETREFERENCEROUTES</DAT>
+<DAT name="UPARMNAM">PTYPE</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">GETSAVEDCOLUMNS</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">LOADSTATE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">RESTORESTATE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UOPERNAM">SAVESTATE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIMPL" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="2" idxsnr="1" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UDESCR" seqno="5" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLID" seqno="7" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLSUB" seqno="8" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCNTXT" seqno="9" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USET" seqno="10" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERSCHECKING" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UTRANSATTR" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UIMPLATTR" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UIMPLID">ID2017082817051771</DAT>
+<DAT name="UCNTXT">F</DAT>
+<DAT name="UVERSCHECKING">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIOPER" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="2" idxsnr="1" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UOPERNAM" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULITOPERNAM" seqno="8" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="URETVAL" seqno="9" type="N" level="2" pack="7" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCNTXT" seqno="10" type="N" level="2" pack="7" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLEMENTED" seqno="11" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBODY" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UEXCEPT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="UOPERATTR" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="URETTYPE" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">ACCEPT</DAT>
+<DAT name="ULITOPERNAM">ACCEPT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">CLIENTVALUEMAPPER</DAT>
+<DAT name="ULITOPERNAM">CLIENTVALUEMAPPER</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">COMPANYCLIENTVALUEMAPPER</DAT>
+<DAT name="ULITOPERNAM">COMPANYCLIENTVALUEMAPPER</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">COMPANYVALUEMAPPER</DAT>
+<DAT name="ULITOPERNAM">COMPANYVALUEMAPPER</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">C_AD_DI_CMPAGN1_SAVERECORDS</DAT>
+<DAT name="ULITOPERNAM">C_AD_DI_CMPAGN1_SAVERECORDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">EXEC</DAT>
+<DAT name="ULITOPERNAM">EXEC</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCHARGECONTONCLIENTMARKUP</DAT>
+<DAT name="ULITOPERNAM">GETCHARGECONTONCLIENTMARKUP</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCHARGEIDPERSHPROUTE</DAT>
+<DAT name="ULITOPERNAM">GETCHARGEIDPERSHPROUTE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTDS</DAT>
+<DAT name="ULITOPERNAM">GETCLIENTDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTMARKUPPERAREA</DAT>
+<DAT name="ULITOPERNAM">GETCLIENTMARKUPPERAREA</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTMARKUPPERROUTE</DAT>
+<DAT name="ULITOPERNAM">GETCLIENTMARKUPPERROUTE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTMARKUPS</DAT>
+<DAT name="ULITOPERNAM">GETCLIENTMARKUPS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYDS</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYORCLIENTDS</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYORCLIENTDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCONTAINERDS</DAT>
+<DAT name="ULITOPERNAM">GETCONTAINERDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETLATESTRATESBYROUTE</DAT>
+<DAT name="ULITOPERNAM">GETLATESTRATESBYROUTE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETREFERENCEROUTES</DAT>
+<DAT name="ULITOPERNAM">GETREFERENCEROUTES</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETSAVEDCOLUMNS</DAT>
+<DAT name="ULITOPERNAM">GETSAVEDCOLUMNS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTIERDS</DAT>
+<DAT name="ULITOPERNAM">GETTIERDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTRANSITTYPEDS</DAT>
+<DAT name="ULITOPERNAM">GETTRANSITTYPEDS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETWORLAREADS</DAT>
+<DAT name="ULITOPERNAM">GETWORLAREADS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">LOADSTATE</DAT>
+<DAT name="ULITOPERNAM">LOADSTATE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">NOTESGENERATEGRID</DAT>
+<DAT name="ULITOPERNAM">NOTESGENERATEGRID</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">QUIT</DAT>
+<DAT name="ULITOPERNAM">QUIT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">Q_FR_DA_ABCHRG1</DAT>
+<DAT name="ULITOPERNAM">Q_FR_DA_ABCHRG1</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">Q_FR_DA_CARRATE4_UPDATERECORD</DAT>
+<DAT name="ULITOPERNAM">Q_FR_DA_CARRATE4_UPDATERECORD</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">Q_FR_DA_CNTRCT1</DAT>
+<DAT name="ULITOPERNAM">Q_FR_DA_CNTRCT1</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">Q_FR_DA_SEAFR1</DAT>
+<DAT name="ULITOPERNAM">Q_FR_DA_SEAFR1</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">Q_QT_DA_PORTS1_CARRIERS</DAT>
+<DAT name="ULITOPERNAM">Q_QT_DA_PORTS1_CARRIERS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">Q_QT_DA_PORTS1_DESTVALUEMAPPER</DAT>
+<DAT name="ULITOPERNAM">Q_QT_DA_PORTS1_DESTVALUEMAPPER</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">Q_QT_DA_PORTS1_FROMPORT</DAT>
+<DAT name="ULITOPERNAM">Q_QT_DA_PORTS1_FROMPORT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">Q_QT_DA_PORTS1_LOADVALUEMAPPER</DAT>
+<DAT name="ULITOPERNAM">Q_QT_DA_PORTS1_LOADVALUEMAPPER</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">Q_QT_DA_PORTS1_TOPORT</DAT>
+<DAT name="ULITOPERNAM">Q_QT_DA_PORTS1_TOPORT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">RESTORESTATE</DAT>
+<DAT name="ULITOPERNAM">RESTORESTATE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">SAVESTATE</DAT>
+<DAT name="ULITOPERNAM">SAVESTATE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIPARM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" mandatory="yes" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UOPERNAM" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UPARMNAM" seqno="6" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="8" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INTF" seqno="9" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UARRAYSIZ" seqno="10" type="N" level="2" pack="10" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLINTF" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCTYP" seqno="12" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULITPARMNAM" seqno="13" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_GLAB" seqno="14" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIPATTR" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UDTYPQUALIF" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCHARGECONTONCLIENTMARKUP</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCHARGEIDPERSHPROUTE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTMARKUPPERAREA</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTMARKUPPERROUTE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTMARKUPS</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETLATESTRATESBYROUTE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETREFERENCEROUTES</DAT>
+<DAT name="UPARMNAM">PCOMPCODE</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETREFERENCEROUTES</DAT>
+<DAT name="UPARMNAM">PROUTES</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETREFERENCEROUTES</DAT>
+<DAT name="UPARMNAM">PTYPE</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETSAVEDCOLUMNS</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">LOADSTATE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">RESTORESTATE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-28T17:05:17.00</DAT>
+<DAT name="USPECNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UIMPLNAM">Q_KE_SA_CORE1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">SAVESTATE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UFORM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="3" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="FTYP" seqno="4" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="FHEAD" seqno="7" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VMAAT" seqno="8" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HMAAT" seqno="9" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOLOR" seqno="10" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="CLRSCRN" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBORDER" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBIN" seqno="17" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBOT" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="MOVABLE" seqno="19" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOINVERSE" seqno="20" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBRIGHT" seqno="21" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOUNLINE" seqno="22" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBLINK" seqno="23" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPANEL" seqno="24" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="POSPANEL" seqno="25" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPULL" seqno="26" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HIDESTACK" seqno="27" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="28" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UINHERIT" seqno="29" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LIBRAR" seqno="30" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSACT" seqno="31" type="S" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="CONSTRAINTS" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="INIT" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="CLEAR" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="RETRIEVE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="RECORD" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="STORE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DELET" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ACCEPT" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="QUIT" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="INTKEY" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="SPRINT" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="EPRINT" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ASYNC" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="FORMPIC" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="HEADER" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="LISTING" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="PERF" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="PROTO" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="TITLE" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="WINPROP" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="FRLF" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="FRGF" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="SFUNC" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="HTMLPROP" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USCONTAINED" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="UEXECDEF" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="UML_DATA" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPPROP" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="HTML_FORMAT" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_STYLES" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_H" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_BODYHOOK" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPCLASS" seqno="70" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="GETSTATE" seqno="71" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="SETSTATE" seqno="72" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UNOSTATE" seqno="73" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="CMP_EXT" seqno="74" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UCTRIGGERS" seqno="75" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="UACCESSPATH" seqno="76" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="USPLITPROP" seqno="77" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL2" seqno="78" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="USTATEMANAGEDBY" seqno="79" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="HTMLSKELETON" seqno="80" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-13T11:26:12.00</DAT>
+<DAT name="UCOMPSTAMP">2018-03-06T10:42:09.00</DAT>
+<DAT name="ULABEL">Q_KE_SA_CORE1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>FQS Kendo Service</DAT>
+<DAT name="WVPOS">1</DAT>
+<DAT name="WHPOS">1</DAT>
+<DAT name="WVSIZ">10</DAT>
+<DAT name="WHSIZ">40</DAT>
+<DAT name="CLRSCRN">N</DAT>
+<DAT name="UBORDER">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="LIBRAR">IFC</DAT>
+<DAT name="UTRANSACT">1</DAT>
+<DAT name="TPLACTUAL" xml:space='preserve'>
+#Comment ----------------------------------------------
+#Comment start_of_references
+#ifdefined TEMPLATENAME
+#info symbol TEMPLATENAME is already or also defined as a global or local constant
+#endif
+#define TEMPLATENAME=
+#Comment 
+
+#Comment end_of_references
+
+
+#Comment ----------------------------------------------
+#Comment start_of_mappings
+#Comment end_of_mappings
+
+
+#Comment ----------------------------------------------
+#Comment start_of_symbols
+#Comment end_of_symbols
+
+
+#Comment ----------------------------------------------
+</DAT>
+<DAT name="GENERAL" xml:space='preserve'>; lp for markups : check what type of markup (%/U/V)
+entry lpGetMarkupType
+params
+	string pValue : IN
+	string pType : OUT
+endParams
+	scan pValue, "%" 
+	if ($result &gt; 0) 
+		pType = 'P'
+	else  
+		scan pValue, "+"
+		if ($result &gt; 0)
+			pType = 'M'
+		else	
+			pType = 'R'
+		endif
+	endif
+end
+
+;=============================================================
+
+entry GenerateOutputData
+returns string
+	params
+		string pEntity : IN
+	endparams
+	variables
+		string	vFieldList, vField, vFieldValue, vOuterEntity, vOutput, vJSONString, vraw, vb64image
+		numeric vCtr, vTotal
+		boolean vIsEmpty
+	endvariables
+	
+    ;********************************************************************************************
+    ;; Build Painted Fields List
+    vOuterEntity   = pEntity ;;$componentinfo("","OUTERENTITIES")                                
+    vFieldList     = $entinfo(vOuterEntity,"PAINTEDFIELDS")
+
+    ;********************************************************************************************
+
+    ;; Loop through the retrieved records
+	vTotal = 0
+	vIsEmpty= "T"
+    forentity vOuterEntity	
+		vTotal +=1 
+		if (vJSONString = "")
+			vJSONString = "{"
+		else
+			vJSONString = $concat(vJSONString , ",{")
+		endif
+    	vCtr= 0
+        forList vField in vfieldList
+			if (@vField != "")
+				vIsEmpty = "F"
+			endif
+			selectcase $fieldInfo(vField,"DATATYPE")
+               case "Date","LinearDate"
+                   vFieldValue = $concat(@vField[1:4],"-",@vField[5:2],$concat("-",@vField[7:2]),"T00:00:00.00")
+               case "Datetime","LinearDatetime"
+                   vFieldValue = $concat(@vField[1:4],"-",                 %\ 
+                       $concat(@vField[5:2],$concat("-",@vField[7:2]),       %\ 
+                       $concat("T",@vField[9:2],":",@vField[11:2]),          %\
+                       $concat(":",@vField[13:2],".",@vField[15:2])))  
+               case "Time","LinearTime"
+                   vFieldValue = $concat("2000-01-01T",$concat(@vField[9:2],":",@vField[11:2]),$concat(":",@vField[13:2],".",@vField[15:2]))        
+               ;; Set boolean field and struct to json boolean object
+               case "Boolean"
+                   vFieldValue = @vField         
+               ;; Set boolean field and struct to json number object              
+               case "Raw","Image"
+               ;; Raw image data with preceeding '#' Data UDI scheme encoding *****
+                   vraw=@vField[2]
+                   vb64image=$encode("BASE64", vraw)
+                   vFieldValue = vb64image               
+               elseCase
+                   vFieldValue = @vField
+            endselectcase
+
+			vCtr += 1
+			if (vCtr &gt; 1)
+				vJSONString = $concat(vJSONString, "," , "%%"%%vField%%%%%":%%"%%vFieldValue%%%%%"")
+			else
+				vJSONString = $concat(vJSONString , "%%"%%vField%%%%%":%%"%%vFieldValue%%%%%"")
+			endif
+            
+        endfor
+		
+
+		vJSONString = $concat(vJSONString , "}")
+    endfor
+	
+	if (vIsEmpty)
+		vTotal = 0
+	endif
+
+	vJSONString = $concat("[",vJSONString ,"]")	
+	if ($serverpaging$)
+		vOutput = $concat('{"meta":{"code":200},"data":',vJSONString ,',"total":',"%%$total$%%%}")	
+	else
+		vOutput = $concat('{"meta":{"code":200},"data":',vJSONString ,',"total":',"%%vTotal%%%}")
+	endif
+	
+    return  vOutput	
+end
+
+;======================================================
+
+; Use this proc for Dropdown values from DB entities
+entry lpGenerateOutputDropDownFromEntity
+	params
+		string pEntity : IN
+	endparams
+	variables
+		string	vFieldList, vField, vOuterEntity, vOutput, vJSONString
+		numeric vCtr 
+	endvariables
+
+    ;********************************************************************************************
+    ;; Build Painted Fields List
+    vOuterEntity   = pEntity ;;$componentinfo("","OUTERENTITIES")                                
+    vFieldList     = $entinfo(vOuterEntity,"PAINTEDFIELDS")
+
+    ;********************************************************************************************
+
+    ;; Loop through the retrieved records
+    forentity vOuterEntity
+		if (vJSONString = "")
+			vJSONString = "{"
+		else
+			vJSONString = $concat(vJSONString , ",{")
+		endif
+    	vCtr= 0
+        forList vField in vfieldList
+			vCtr += 1
+			if (vCtr &lt; $itemcount(vfieldList))
+				vJSONString = $concat(vJSONString , "%%"%%vField%%%%%":%%"%%@vField%%%%%"", ",")
+			else
+				vJSONString = $concat(vJSONString , "%%"%%vField%%%%%":%%"%%@vField%%%%%"")
+			endif
+            
+        endfor
+		vJSONString = $concat(vJSONString , "}")
+    endfor
+
+	if($Total$ &lt;= 1)
+		$Total$	= $totocc(pEntity)
+	endif
+
+	vJSONString = $concat("[",vJSONString ,"]")  
+	vOutput = $concat('{"meta":{"code":200},"result":',vJSONString ,',"total":',"%%$Total$%%%}")
+    $webinfo("output") = vOutput
+	
+end
+
+;=============================================================
+
+;Use this proc for Dropdown with default values
+entry lpGenerateOutputDropDownFromField
+params
+	string pField : IN
+endparams
+variables
+	string vFieldList, vItemID, vItemVal, vOutput, vJSONString
+	numeric vCounter, vIndex
+endvariables
+		
+	vFieldList = $valrep(pField)
+	scan pField, "."
+	vIndex = $result
+
+	if (vIndex &gt; 0)		
+		pField = pField[1,vIndex -1]
+	endif
+	
+	forlist/id vItemID, vItemVal in vFieldList
+		vJSONString = $concat(vJSONString , $concat('{ "',pField,'ID"'), ":%%"%%vItemID%%%%%"")
+		vJSONString = $concat(vJSONString , $concat(',"',pField,'VAL"'), ":%%"%%vItemVal%%%%%" }")
+		
+		vCounter += 1
+		if (vCounter &lt; $itemcount(vFieldList))
+			vJSONString = $concat(vJSONString , ",")
+		endif
+	endfor
+	$Total$ = $itemcount(vFieldList)
+	vJSONString = $concat("[",vJSONString ,"]")  
+	vOutput = $concat('{"meta":{"code":200},"result":',vJSONString ,',"total":',"%%$Total$%%%}")
+    $webinfo("output") = vOutput
+end
+
+;=============================================================
+
+entry lpGetExistingMarkupTier
+returns string
+params
+	string pSeller : IN
+endparams
+variables
+	string vList
+endvariables
+	clear/e "CN_MARKUPS"
+	SELLER.CN_MARKUPS = pSeller
+	retrieve/e "CN_MARKUPS"
+
+	if ($procerror = &lt;UACT_SUCCESS&gt;) 
+		
+		sort "CN_MARKUPS.TIER", "TIER:u"
+		forentity  "CN_MARKUPS"
+			putitem/id vList, TIER.CN_MARKUPS, TIER.CN_MARKUPS
+		endfor
+	endif
+	return vList
+end
+
+;=============================================================
+
+entry lpSendResponse
+params
+	boolean pStatus : IN
+endparams
+variables
+	string vMessage, vSeverity, vTitle, vStatus, vIcon
+endvariables
+	
+	if (pStatus)
+		vMessage = "Data Saved."	
+		vSeverity = "success"	
+		vIcon = "ok"	
+		vTitle = "Success! "
+		vStatus = "success"
+	else		
+		vMessage = "Save Failed."
+		vSeverity = "danger"	
+		vIcon = "exclamation-sign"	
+		vTitle = "Danger! "      			
+		vStatus = "error"
+	endif
+
+	$10= "NOMENU"
+	$11 = "NOHTML"
+	$webinfo("output") = $concat('{"status":"' ,vStatus, '","message":"' , vMessage, %\
+	$concat('","severity":"', vSeverity, '","icon":"', vIcon, %\
+	$concat('","title":"', vTitle, '"}' ) )) 
+	$webinfo("httpresponseheaders") = "Content-Type=text/plain;Access-Control-Allow-Origin=*"
+end
+
+;=============================================================
+
+entry lpSendResponseWithMsg
+params
+	boolean pStatus : IN
+	string pMessage : IN
+endparams
+variables
+	string vMessage, vSeverity, vTitle, vStatus, vIcon
+endvariables
+	
+	vMessage = pMessage 
+	if (pStatus)
+		vSeverity = "success"	
+		vIcon = "ok"	
+		vTitle = "Success! "
+		vStatus = "success"
+	else		
+		vSeverity = "danger"	
+		vIcon = "exclamation-sign"	
+		vTitle = "Danger! "      			
+		vStatus = "error"
+	endif
+
+	$10= "NOMENU"
+	$11 = "NOHTML"
+	$webinfo("output") = $concat('{"status":"' ,vStatus, '","message":"' , vMessage, %\
+	$concat('","severity":"', vSeverity, '","icon":"', vIcon, %\
+	$concat('","title":"', vTitle, '"}' ) )) 
+	$webinfo("httpresponseheaders") = "Content-Type=text/plain;Access-Control-Allow-Origin=*"
+end
+
+;=============================================================
+
+entry lpGetUserName 
+params
+	string pUserId : IN
+	string pUserName : OUT
+endparams
+
+	clear/e "CN_USER"
+	USER_ID.CN_USER = pUserId
+	retrieve/e "CN_USER"
+
+	pUserName = $concat(FIRST_NAME.CN_USER, " ", LAST_NAME.CN_USER)
+
+end
+
+;=============================================================
+
+entry lpFormatDate
+returns string
+params
+	date pDate : IN
+endparams
+	return $concat(pDate[D]," ", pDate[Mmm], " " ,pDate[Y])
+end
+
+;=============================================================
+
+entry lpIntoList
+params
+	string pList : INOUT
+endparams
+	pList = $replace(pList, 1, "{", "" , -1 )
+	pList = $replace(pList, 1, "}", "" , -1 )
+	pList = $replace(pList, 1, ",", "&uSEP;" , -1 )
+	pList = $replace(pList, 1, ":", "=" , -1 )
+end
+
+;=============================================================
+
+entry lpParseModel
+returns string
+params
+	string pModel : IN
+endparams
+	pModel = $replace(pModel, 1, "},{", "&uSEP;", -1 )
+	
+	pModel =  $replace(pModel , 1, "[", "", -1 )
+	pModel =  $replace(pModel , 1, "]", "", -1 )
+	pModel =  $replace(pModel , 1, "{", "", -1 )
+	pModel =  $replace(pModel , 1, "}", "", -1 )
+	
+	pModel =  $replace(pModel , 1, '","', '"&uSEP;"', -1 )
+	pModel =  $replace(pModel , 1, ',"', '&uSEP;"', -1 )
+	pModel =  $replace(pModel, 1, "null,", "&uSEP;", -1 )
+	pModel =  $replace(pModel , 1, '":"', '"="', -1 )
+	pModel =  $replace(pModel , 1, '":', '"=', -1 )
+	pModel =  $replace(pModel , 1, '"', '', -1 )
+	pModel =  $replace(pModel , 1, 'null', '', -1 )
+	
+	;parse JS to uniface boolean
+	pModel =  $replace(pModel , 1, 'true', 'T', -1 )
+	pModel =  $replace(pModel , 1, 'false', 'F', -1 )
+
+	return pModel
+end 
+
+;=============================================================
+
+entry getPortName
+params
+	string pPortCode : IN
+	string pCountryCode : IN
+	string pPortName : OUT
+	string pSubDivision : OUT
+endparams
+	clear/e "CN_PORT"
+	COUNTRY_CODE.CN_PORT = pCountryCode 
+	PORT_CODE.CN_PORT =pPortCode 
+	PORT_TYPE.CN_PORT = "1&uSEP;S"
+	retrieve/e "CN_PORT" 
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		pPortName = NAME.CN_PORT
+		pSubDivision  = SUB_DIVISION.CN_PORT
+	endif
+end
+
+;=============================================================
+entry isPortInWorldArea
+params
+	string pCountryCode : IN
+	string pPortCode : IN
+	string pWorldArea : IN
+endparams
+
+	if (pWorldArea = "") return (1)
+
+	clear/e "CN_PORT"
+	WORLD_AREA.CN_PORT =  pWorldArea 
+	COUNTRY_CODE.CN_PORT = pCountryCode 
+	PORT_CODE.CN_PORT = pPortCode 
+	retrievE/e "CN_PORT"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		return(1)
+	else
+		return(0)
+	endif
+end
+
+;=============================================================
+
+entry isPortImpEx
+returns boolean
+params
+	string pCountryCode : IN
+	string pPortCode : IN
+	string pImpEx : IN
+endparams
+variables
+	string vCompID
+endvariables
+	vCompID = $item("compcode",$webinfo("usercontext"))
+
+	clear/e "CN_COMPANY_PORT"
+	COMPANY_ID.CN_COMPANY_PORT =vCompID 
+	COUNTRY_CODE.CN_COMPANY_PORT = pCountryCode 
+	PORT_CODE.CN_COMPANY_PORT = pPortCode 
+	PORT_TYPE.CN_COMPANY_PORT = "S&uSEP;1"
+	if (pImpEx = "I")
+		IMPORT.CN_COMPANY_PORT = 1
+	elseif (pImpEx = "E")
+		EXPORT.CN_COMPANY_PORT = 1
+	endif
+	retrieve/e "CN_COMPANY_PORT"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		return "T"
+	else
+		return "F"
+	endif
+end 
+
+
+;=============================================================
+entry isCompanyPort
+returns boolean
+params
+	string pCountryCode : IN
+	string pPortCode : IN
+endparams
+variables
+	string vCompID
+endvariables
+	vCompID = $item("compcode",$webinfo("usercontext"))
+
+	clear/e "CN_COMPANY_PORT"
+	COMPANY_ID.CN_COMPANY_PORT =vCompID 
+	COUNTRY_CODE.CN_COMPANY_PORT = pCountryCode 
+	PORT_CODE.CN_COMPANY_PORT = pPortCode 
+	PORT_TYPE.CN_COMPANY_PORT = "S&uSEP;1"
+	retrieve/e "CN_COMPANY_PORT"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		return "T"
+	else
+		return "F"
+	endif
+end
+</DAT>
+<DAT name="FORMPIC" xml:space='preserve'>
+ &uFRM;TYP=E&uSEP;NAM=FR_ARBITRARY_HEADER.FQS_SYSTEM&uSEP;WID=25&uSEP;HEI=3&uSEP;HOC=25&uSEP;VOC=3&uFRM;
+  &uFRM;TYP=E&uSEP;NAM=FR_ARBITRARY_DETAIL.FQS_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=CN_CLIENT_PARTY.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_PORT.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_RELATIONSHIP.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY.CONFIG&uSEP;WID=25&uSEP;HEI=3&uSEP;HOC=25&uSEP;VOC=3&uFRM;
+  &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_CODE.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=CN_TIERS.FQS_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_CLIENT.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_USER.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=FR_CONTAINERS.FQS_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CR_NOTES.CRM_SYSTEM&uSEP;WID=25&uSEP;HEI=9&uSEP;HOC=25&uSEP;VOC=9&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=NOTE_ID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=NOTE_USER&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=D_NOTE_USER&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=NOTE_TEXT&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=NOTE_PRIVACY&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=NOTE_CLIENT_ID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=D_PRIVACY&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=FR_PORT_CHARGE_HEADER.FQS_SYSTEM&uSEP;WID=25&uSEP;HEI=3&uSEP;HOC=25&uSEP;VOC=3&uFRM;
+  &uFRM;TYP=E&uSEP;NAM=FR_PORT_CHARGE_DETAIL.FQS_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=CN_CLIENT_CONTRACTS.FQS_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_CLIENT_MARKUPS.FQS_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_MARKUPS.FQS_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_WORLD_AREA.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_PORT.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_ROUTE.FQS_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COUNTRY.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CONTAINERDUM.DUMMY&uSEP;WID=25&uSEP;HEI=4&uSEP;HOC=25&uSEP;VOC=4&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CONTAINERID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CONTAINERVAL&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=D_DROPDOWN.CONFIG&uSEP;WID=25&uSEP;HEI=4&uSEP;HOC=25&uSEP;VOC=4&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=DROPDOWNID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=DROPDOWNVAL&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=D_PORT.CONFIG&uSEP;WID=25&uSEP;HEI=4&uSEP;HOC=25&uSEP;VOC=4&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=PORTID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=PORTVAL&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=D_CARRIER.CONFIG&uSEP;WID=25&uSEP;HEI=4&uSEP;HOC=25&uSEP;VOC=4&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CARRIERID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CARRIERVAL&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=CN_CHARGE_TYPE.FQS_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=COMPANYLIST.DUMMY&uSEP;WID=25&uSEP;HEI=4&uSEP;HOC=25&uSEP;VOC=4&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=COMPID&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=COMPVAL&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=DUMMY.DUMMY&uSEP;WID=25&uSEP;HEI=8&uSEP;HOC=25&uSEP;VOC=8&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=TIER&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=VALIDITY&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=WORLD_AREA&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CONTAINER_CODE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CHARGE_CODE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=TRANSIT_TYPE&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=FR_FREIGHT_HEADER.FQS_SYSTEM&uSEP;WID=25&uSEP;HEI=3&uSEP;HOC=25&uSEP;VOC=3&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=CONSORTIUM&uSEP;WID=20&uSEP;HEI=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=FR_FREIGHT_DETAIL.FQS_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_CLIENT_MARKUPS_TOSUBURB.FQS_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_USER_DEFAULTS.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_USER_FILES.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_CONTRACTS.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;</DAT>
+<DAT name="LISTING" xml:space='preserve'>06-22-16    KESO                              Initial</DAT>
+<DAT name="PERF">#DEF</DAT>
+<DAT name="SFUNC" xml:space='preserve'>;--------------------------------
+; Sea Freight Rate Edit only 
+;--------------------------------
+operation Q_FR_DA_SEAFR1
+	variables
+		string vWebParams, vModels, vUser, vField, vValue, vFieldContainer, vModelItem, vRouteList, vFreightHeaderOcc, vFreightDetailOcc, vFreightDetailList
+		string vChargeCode, vContainerCode, vContCode, vFreightDetails, vFreightCode, vRouteCode, vSeller, vUUid, vItem,vKey,  vBuyer, vCreator, vTransports
+		numeric vDetailIndex, vCounter, vModelCount, vCreatedCnt, vChargeAmt
+		boolean vIsOk, vIsNew, vNotSaved, vIsOverLapping
+		struct  vStruct
+		string vMessage
+	endvariables
+	
+	vIsOk = "T"
+	vMessage = "Data successfully saved."
+
+	vWebParams= $webInfo("input")
+	
+	vUser = $item("saveparams[usercode]", vWebParams)
+	vSeller = $item("saveparams[seller]",vWebParams)
+	vBuyer = $item("saveparams[buyer]",vWebParams)
+	vCreator = $item("saveparams[compcode]",vWebParams)
+	filedump vWebParams , "c:\test\q_ke_sa_core1_q_fr_da_seafr1.txt"
+
+	;Parse Model 
+	vModels = $item("models", vWebParams )    
+	vCounter = 1
+	if ($scan(vModels,"},{") &gt; 0)
+		vModels = $replace(vModels, 1, "},{", "&uSEP;", -1 )
+		vModelCount = $itemcount(vModels)
+		vModelItem = $itemnr(1,vModels)
+	else
+		vModelItem = vModels
+		vModelCount = 1
+	endif
+	
+	while(vCounter &lt;= vModelCount)
+		vModelItem = lpParseModel(vModelItem)
+		vFreightCode = $item("FREIGHT_CODE",vModelItem)
+		delitem/id vModelItem, "FREIGHT_CODE"
+		
+		clear/e "FR_FREIGHT_HEADER"
+		FREIGHT_CODE.FR_FREIGHT_HEADER = vFreightCode 
+		retrieve/e "FR_FREIGHT_HEADER"
+		if($procerror = &lt;UACT_SUCCESS&gt;)
+
+			;before proceeding with saving, validate if dates are overlapping
+			#include IFC:initStructParam
+			vStruct-&gt;in-&gt;FREIGHT_CODE = FREIGHT_CODE.FR_FREIGHT_HEADER
+			vStruct-&gt;in-&gt;ROUTE = ROUTE_CODE.FR_FREIGHT_HEADER
+			vStruct-&gt;in-&gt;SELLER = $item("SELLER_CODE",vModelItem)
+			vStruct-&gt;in-&gt;BUYER = $item("BUYER_CODE",vModelItem)
+			vStruct-&gt;in-&gt;CARRIER = $item("CARRIER_CODE",vModelItem)
+			vStruct-&gt;in-&gt;VALIDFROM = $date($item("VALID_FROM",vModelItem))
+			vStruct-&gt;in-&gt;VALIDTO = $date($item("VALID_TO",vModelItem))
+			activate "Q_FR_SA_SEAFR1".checkOverLappingRates(vStruct)
+			vIsOverLapping = vStruct-&gt;out-&gt;OVERLAPS 
+			if (vIsOverLapping)
+				vIsOk = "F"
+				vMessage = "Date is overlapping with validity date range of an existing rate."
+			endif
+
+			if (vIsOk )
+				vTransports	= $replace($item("TRANSPORTS_VAL",vModelItem), 1, "\", "", -1)
+				vTransports	= $replace(vTransports, 1, ",", "&uSEP;", -1)
+				getlistitems/occ vModelItem "FR_FREIGHT_HEADER"
+				LAST_UPDATED_BY.FR_FREIGHT_HEADER = vUser 
+				LAST_UPDATED.FR_FREIGHT_HEADER = $datim
+				TRANS_PORTS.FR_FREIGHT_HEADER = vTransports 
+				store/e "FR_FREIGHT_HEADER"
+				if ($procerror = &lt;UACT_SUCCESS&gt;)
+					commit
+				else
+					rollback
+					vIsOk = "F"
+					vMessage = "Save Failed."
+				endif
+			endif			
+		endif
+
+		if (vIsOk)
+			forlist/id vKey, vItem in vModelItem
+				if ($scan(vKey, "CHARGEAMOUNT") &gt; 0)
+					vChargeAmt = vItem 
+					vDetailIndex = vKey[13]
+
+					vChargeCode = $item($concat("CHARGE_CODE",vDetailIndex),vModelItem)
+					vContainerCode = $item($concat("CONTAINER_CODE",vDetailIndex ),vModelItem)
+					vNotSaved  = "F"
+					clear/e "FR_FREIGHT_DETAIL"
+					FREIGHT_CODE.FR_FREIGHT_DETAIL = vFreightCode 
+					CONTAINER_CODE.FR_FREIGHT_DETAIL = vContainerCode 
+					CHARGE_CODE.FR_FREIGHT_DETAIL = vChargeCode 
+					retrieve/e "FR_FREIGHT_DETAIL"
+					if ($procerror = &lt;UACT_SUCCESS&gt;)
+						if (vChargeAmt = 0 | vChargeAmt = "")
+							remocc "FR_FREIGHT_DETAIL", 0 
+						else	
+							LAST_UPDATED_BY.FR_FREIGHT_DETAIL =vUser 
+							LAST_UPDATED.FR_FREIGHT_DETAIL = $datim
+							CHARGE_AMOUNT.FR_FREIGHT_DETAIL = vChargeAmt 
+						endif		
+					else
+						if (vChargeAmt != 0 &amp; vChargeAmt != "")
+							clear/e "FR_FREIGHT_DETAIL"
+							creocc "FR_FREIGHT_DETAIL", -1
+							FREIGHT_CODE.FR_FREIGHT_DETAIL = vFreightCode 
+							FREIGHT_RATE_CODE.FR_FREIGHT_DETAIL = $uuid
+							CONTAINER_CODE.FR_FREIGHT_DETAIL = vContainerCode 
+							CHARGE_CODE.FR_FREIGHT_DETAIL = vChargeCode 
+							CHARGE_AMOUNT.FR_FREIGHT_DETAIL = vChargeAmt 
+							LAST_UPDATED_BY.FR_FREIGHT_DETAIL = vUser 
+							LAST_UPDATED.FR_FREIGHT_DETAIL	= $datim
+						else
+							vNotSaved = "T"
+						endif
+					endif
+					if (!vNotSaved)
+						store/e "FR_FREIGHT_DETAIL"
+						if ($procerror = &lt;UACT_SUCCESS&gt;)
+							commit
+						else
+							rollback
+							vIsOk = "F"
+							vMessage = "Save Failed."
+						endif
+					endif
+				endif
+			endfor
+		endif
+	
+		vCounter = vCounter + 1
+		vModelItem = $itemnr(vCounter,vModels)
+	endwhile
+	if (vIsOk) vMessage = "Data Saved."
+	call lpSendResponseWithMsg(vIsOk, vMessage)
+end
+
+;--------------------------------
+; FF Ancilliary Charges Save/Update 
+;--------------------------------
+operation Q_FR_DA_ABCHRG1
+variables
+	string vWebParams, vModels, vModelItem, vReturnMessage, vUser, vRecordIdentity, vCode, vContainerValRep, vContainer, vChargeCode, vItem, vAmount
+	date vRecordDtFrom, vRecordDtTo, vDateFrom, vDateTo
+	numeric vCounter, vModelCount,vIndex, vDetailCount
+	boolean vCreate, vIsOk
+endvariables
+	
+	vWebParams = $webInfo("input")
+	vUser = $item("saveparams[usercode]", vWebParams)
+	vDetailCount = $item("saveparams[detailcount]", vWebParams)
+	
+	;Parse Model 
+	vModels = $item("models", vWebParams )    
+	vCounter = 1
+	if ($scan(vModels,"},{") &gt; 0)
+		vModels = $replace(vModels, 1, "},{", "&uSEP;", -1 )
+		vModelCount = $itemcount(vModels)
+		vModelItem = $itemnr(1,vModels)
+	else
+		vModelItem = vModels
+		vModelCount = 1
+	endif
+	
+	vIsOk = "T"
+	while (vCounter &lt;= vModelCount)		
+		vModelItem = lpParseModel(vModelItem)
+		vContainerValRep = ""
+		
+		vCreate = "T"
+		vDateFrom = $date($item("VALID_FROM", vModelItem))
+		vDateTo = $date($item("VALID_TO", vModelItem))
+		
+		clear/e "FR_ARBITRARY_HEADER"
+		ARBITRARY_CODE.FR_ARBITRARY_HEADER = $item("ARBITRARY_CODE", vModelItem)
+		retrieve/e "FR_ARBITRARY_HEADER"
+		
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			vRecordDtFrom = $date($concat(VALID_FROM.FR_ARBITRARY_HEADER[7,8],"-",VALID_FROM.FR_ARBITRARY_HEADER[5,6],"-",VALID_FROM.FR_ARBITRARY_HEADER[1,4]))
+			vRecordDtTo = $date($concat(VALID_TO.FR_ARBITRARY_HEADER[7,8],"-",VALID_TO.FR_ARBITRARY_HEADER[5,6],"-",VALID_TO.FR_ARBITRARY_HEADER[1,4]))
+			vRecordIdentity = $concat($item("LOADING_PORT", vModelItem)," - ",$item("DESTINATION_PORT", vModelItem), " | ", $concat(vRecordDtFrom," - ",vRecordDtTo))
+			
+			;get charges
+			vIndex = 1
+			while (vIndex &lt;= vDetailCount)
+				vChargeCode = $item($concat("CHARGE_CODE",vIndex), vModelItem)
+				vContainer = $item($concat("CONTAINER_CODE",vIndex), vModelItem)
+				putitem/id vContainerValRep, $concat(vChargeCode,"|",vContainer), $item($concat("CHARGEAMOUNT",vIndex), vModelItem)
+				vIndex = vIndex + 1
+			endwhile
+			
+			;check date validity
+			if (vRecordDtFrom != vDateFrom)				
+				if (vDateFrom &gt; $date)				
+					if (vDateFrom &lt; vRecordDtTo)
+						;case 1 [Submitted start date is greater than today and less than record end date ]
+						vRecordDtTo = vDateFrom - 1
+						vReturnMessage = $concat(vReturnMessage, "Found date overlap on record - ", vRecordIdentity, ". Existing charges have been expired to one day less than the submitted start date. %%^")
+					else
+						;case 2 [Submitted start date is greater than today and greater than record end date ]	
+						vDateFrom = vRecordDtTo + 1
+						if (vDateTo &lt; vDateFrom)
+							vDateTo = vDateFrom + 1
+						endif
+						vReturnMessage = $concat(vReturnMessage, "Found a gap on date validity on record - ", vRecordIdentity ," . Submitted charges have been modified and are now valid from ", $concat($concat(vDateFrom[7,8],"-",vDateFrom[5,6],"-",vDateFrom[1,4]) , " to ", $concat(vDateTo[7,8],"-",vDateTo[5,6],"-",vDateTo[1,4]) ,"%%^"))
+					endif			
+				else 
+					;case 3 [Submitted start date is less/equal than today]
+					vDateFrom = $date
+					vRecordDtTo = vDateFrom - 1
+					
+					vReturnMessage = $concat(vReturnMessage, "The submitted start validity date is less than today. Charges for - ", vRecordIdentity ," has been expired to today and submitted charges are now valid from ",$concat($concat(vDateFrom[7,8],"-",vDateFrom[5,6],"-",vDateFrom[1,4]) , " to ", $concat(vDateTo[7,8],"-",vDateTo[5,6],"-",vDateTo[1,4]),"%%^"))
+				endif
+			else
+				;[Submitted start date is equal to record start date]
+				if (vDateTo &lt;= $date)
+					;case 4 [Submitted end date is less than or equal today] - expiring record
+					vCreate = "F"
+					vRecordDtTo = vDateTo
+					vReturnMessage = $concat(vReturnMessage,"Record - ", vRecordIdentity , " has been expired. Please note that expired charges will no longer be shown when retrieved. %%^")	
+				else 
+					;[Submitted validity dates are equal to record validity dates or has extended valid to date]
+					vCreate = "F"
+				endif
+			endif
+			
+			;update record
+			VALID_FROM.FR_ARBITRARY_HEADER = vRecordDtFrom
+			VALID_TO.FR_ARBITRARY_HEADER = vRecordDtTo
+			LAST_UPDATED_BY.FR_ARBITRARY_HEADER =  vUser
+			LAST_UPDATED.FR_ARBITRARY_HEADER = $datim
+			
+			if (vCreate = "F")
+				vCode = $item("ARBITRARY_CODE", vModelItem)
+				;update details
+				forentity "FR_ARBITRARY_DETAIL"
+					vAmount = $item($concat(CHARGE_CODE.FR_ARBITRARY_DETAIL,"|", CONTAINER_CODE.FR_ARBITRARY_DETAIL),vContainerValRep)
+					if (vAmount != "")
+						CHARGE_AMOUNT.FR_ARBITRARY_DETAIL = vAmount
+						LAST_UPDATED_BY.FR_ARBITRARY_DETAIL = vUser
+						LAST_UPDATED.FR_ARBITRARY_DETAIL = $datim
+						
+						delitem/id $concat(CHARGE_CODE.FR_ARBITRARY_DETAIL,"|", CONTAINER_CODE.FR_ARBITRARY_DETAIL), vContainerValRep
+					endif
+				endfor
+			else
+				;create new records
+				vCode = $uuid		
+				creocc "FR_ARBITRARY_HEADER", -1
+				ARBITRARY_CODE.FR_ARBITRARY_HEADER = vCode 
+				ROUTE_CODE.FR_ARBITRARY_HEADER = $item("ROUTE_CODE", vModelItem) 
+				SELLER_CODE.FR_ARBITRARY_HEADER = $item("SELLER_CODE", vModelItem)
+				BUYER_CODE.FR_ARBITRARY_HEADER = $item("BUYER_CODE", vModelItem)
+				CARRIER_CODE.FR_ARBITRARY_HEADER = $item("CARRIER_CODE", vModelItem)	
+				VALID_FROM.FR_ARBITRARY_HEADER = vDateFrom
+				VALID_TO.FR_ARBITRARY_HEADER = vDateTo
+				LAST_UPDATED_BY.FR_ARBITRARY_HEADER =  vUser
+				LAST_UPDATED.FR_ARBITRARY_HEADER = $datim			
+			endif		
+			
+			;save details
+			forlist/id vItem, vAmount in vContainerValRep
+				$status = $split(vItem,1,"|",vChargeCode,vContainer)
+				if (vAmount != "" | vAmount != "0")
+					creocc "FR_ARBITRARY_DETAIL", -1
+					ARBITRARY_RATE_CODE.FR_ARBITRARY_DETAIL = $uuid
+					ARBITRARY_CODE.FR_ARBITRARY_DETAIL = vCode 
+					CONTAINER_CODE.FR_ARBITRARY_DETAIL = vContainer
+					CHARGE_CODE.FR_ARBITRARY_DETAIL= vChargeCode
+					CHARGE_AMOUNT.FR_ARBITRARY_DETAIL = vAmount
+					LAST_UPDATED_BY.FR_ARBITRARY_DETAIL = vUser
+					LAST_UPDATED.FR_ARBITRARY_DETAIL = $datim
+				endif	
+			endfor 
+		endif
+		
+		vCounter = vCounter + 1
+		vModelItem = $itemnr(vCounter,vModels)
+		
+		store/e "FR_ARBITRARY_HEADER"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			commit
+		else
+			rollback
+			vIsOk = "F"
+			vReturnMessage = $concat(vReturnMessage, " Saving failed.")
+			break
+		endif						
+	endwhile
+	
+	if (vIsOk) vReturnMessage = $concat(vReturnMessage, "Data Saved.")
+	call lpSendResponseWithMsg(vIsOk, vReturnMessage)
+end
+
+
+;-------------------------START DATASOURCE---------------------------------------
+
+operation CompanyValueMapper
+	variables
+		struct vStruct
+		string vWebParams , vCode, vCompType, vCompId , vList
+		numeric vRowIndex
+	endvariables
+	$11 = "NOHTML"
+	
+	$order_by$ = "COMPANY_NAME"
+
+	vWebParams = $webInfo("input")
+	vCode = $item("val", vWebParams)
+	vCompType = $item("compType", vWebParams)
+	vCompId = $item("compId", vWebParams)
+	
+	vRowIndex = 0
+	
+	if (vCompType = "")
+		vCompType = "&uALL;"
+	endif
+	if ($scan(vCompType,",") &gt; 0) 
+		vCompType = $replace(vCompType,1, ",","&uSEP;", -1)
+	endif
+		
+	#include IFC:initStructParam
+	vStruct-&gt;in-&gt;ParentCode = vCompId
+	vStruct-&gt;in-&gt;Type = vCompType
+	activate "C_AD_SA_COMPANY1".getCompanyListPerType(vStruct);
+	vList = vStruct-&gt;out-&gt;List
+	
+	clear/e "CN_COMPANY"
+	if (vList != "")
+		COMPANY_ID.CN_COMPANY = vList
+	endif
+	retrieve/e "CN_COMPANY"
+		
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		;sort/e "CN_COMPANY","COMPANY_NAME.CN_COMPANY:a"
+		forentity  "CN_COMPANY"
+			vRowIndex += 1
+			if (COMPANY_ID.CN_COMPANY = vCode)
+				break
+			endif
+		endfor
+	endif
+	
+		
+	$webinfo("output") = $concat("[",vRowIndex,"]")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end
+
+
+operation CompanyClientValueMapper
+variables
+	string vWebParams, vParentId
+	numeric vRowNumber
+    boolean vIsFound 
+endvariables
+	vWebParams = $webInfo("input")
+	vRowNumber = 0
+	$order_by$ = "COMPANY_NAME"
+	
+	clear/e "CN_COMPANY"
+	ENABLED.CN_COMPANY = 1
+	retrieve/e "CN_COMPANY"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity  "CN_COMPANY"
+			vRowNumber += 1		
+			if (COMPANY_ID.CN_COMPANY =  $item("val",vWebParams))
+				vIsFound = "T"
+				break
+			endif
+		endfor
+	endif
+	
+	if(!vIsFound)
+		;START CLIENT	
+		vParentId = $item("parentid", vWebParams)
+		clear/e "CN_CLIENT"
+		PARENT_ID.CN_CLIENT = vParentId
+		ENABLED.CN_CLIENT = 1
+		retrieve/e "CN_CLIENT"
+
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			forentity  "CN_CLIENT"
+				vRowNumber += 1		
+				if (CLIENT_ID.CN_CLIENT =  $item("val",vWebParams))
+					break
+				endif
+			endfor
+		endif
+	endif
+
+	$11 = "NOHTML"
+	$webinfo("output") ="[%%vRowNumber%%%]"
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end
+
+operation clientValueMapper
+variables
+	string vWebParams
+	numeric vRowNumber 
+endvariables
+
+	clear
+
+	$order_by$ = "COMPANY_NAME"
+	$11 = "NOHTML"
+	vWebParams = $webInfo("input")
+	vRowNumber = 0
+	PARENT_ID.CN_CLIENT = $item("parentid",vWebParams)
+	if ($item("prospect",vWebParams) = "T")
+		PROSPECT.CN_CLIENT = 1
+	else
+		PROSPECT.CN_CLIENT= $concat("&uNOT;&uEQ;", 1)
+	endif
+	ENABLED.CN_CLIENT= 1
+	retrieve/e "CN_CLIENT"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity  "CN_CLIENT"
+			vRowNumber += 1		
+			if (CLIENT_ID.CN_CLIENT =  $item("value",vWebParams))
+				break
+			endif
+		endfor
+	endif
+	$webinfo("output") ="[%%vRowNumber%%%]"
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end
+
+
+operation GetClientDS
+variables
+	string vWebParams, vFilter ,vParentId , vIncPP, vJSON
+endvariables
+	
+	$11 = "NOHTML"
+	$order_by$ = "COMPANY_NAME"
+	
+	vWebParams = $webinfo("input")
+	vParentId = $item("parentid", vWebParams)
+	vIncPP = $item("incl_prospect", vWebParams)
+
+	clear/e "CN_CLIENT"
+	PARENT_ID.CN_CLIENT = vParentId
+	if (vIncPP = "")
+		PROSPECT.CN_CLIENT = 0
+	endif
+	ENABLED.CN_CLIENT = 1	
+	retrieve/e "CN_CLIENT"
+
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_CLIENT"				
+			putitem vJSON, -1  $concat('{ "COMPID":"',CLIENT_ID.CN_CLIENT,'","COMPVAL":"', COMPANY_NAME.CN_CLIENT , '" }')	
+		endfor		
+	endif
+	$Total$ = $hits("CN_CLIENT")
+
+	vJSON = $replace(vJSON, 1, "&uSEP;", "," , -1)
+	vJSON = $concat("[",vJSON,"]")  
+	vJSON = $concat("{%%"meta%%":{%%"code%%":200},%%"result%%":",vJSON, ",%%"total%%":%%$Total$%%%}")
+    $webinfo("output") = vJSON 
+	
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+
+end
+
+
+operation GetCompanyDS
+variables
+	struct vStruct
+	string vWebParams, vCompType, vFilter, vPlaceHolder, vCompId , vList, vExclude, vExcludeList
+	string vOnlyThisID
+	numeric vCount
+endvariables
+	
+	$11 = "NOHTML"
+	
+	vWebParams = $webInfo("input")
+	$Take$     = $item("take",     vWebParams)
+	$Page$     = $item("page",     vWebParams)
+	$Skip$     = $item("skip",     vWebParams)
+	$PageSize$ = $item("pageSize", vWebParams)
+	vFilter = $item("filter[filters][0][value]", vWebParams)
+	vCompType = $item("compType", vWebParams)
+	vCompId = $item("compId", vWebParams)
+	vExcludeList = $item("excludelist", vWebParams)
+	vPlaceHolder = $item("placeholder",  vWebParams)   
+	vOnlyThisID = $item("onlythisID",  vWebParams)  
+	
+	if (vPlaceHolder = "")
+		clear/e "COMPANYLIST"
+		creocc "COMPANYLIST", -1
+		COMPID.COMPANYLIST= ""
+		COMPVAL.COMPANYLIST = "Select"
+	else
+		clear/e "COMPANYLIST"
+		creocc "COMPANYLIST", -1
+		COMPID.COMPANYLIST= ""
+		COMPVAL.COMPANYLIST = vPlaceHolder  		
+    endif
+	
+	if (vCompType = "")
+		vCompType = "&uALL;"
+	endif
+	if ($scan(vCompType,",") &gt; 0) 
+		vCompType = $replace(vCompType,1, ",","&uOR;", -1)
+	endif
+	#include IFC:initStructParam
+	vStruct-&gt;in-&gt;ParentCode = vCompId
+	vStruct-&gt;in-&gt;Type = vCompType
+	activate "C_AD_SA_COMPANY1".getCompanyListPerType(vStruct);
+	vList = vStruct-&gt;out-&gt;List  
+
+	if (vOnlyThisID != "")
+		vList = $replace(vOnlyThisID,1,",","&uOR;", -1)
+	endif
+
+	if (vList != "" &amp; vExcludeList != "")
+		vExcludeList = $replace( vExcludeList ,1,";","&uOR;", -1)
+		;exclude these companies
+		if ($itemcount(vExcludeList) &gt; 1)
+			forlist vExclude in vExcludeList
+				delitem/id vList, vExclude
+			endfor
+		else
+			delitem/id vList, vExcludeList
+		endif
+	endif
+
+	$order_by$ = "COMPANY_NAME"
+	clear/e "CN_COMPANY"
+	ENABLED.CN_COMPANY = 1
+	if (vList != "")		
+		COMPANY_ID.CN_COMPANY = vList
+	endif
+	if (vFilter != "")
+		COMPANY_NAME.CN_COMPANY = $concat("&uALL;",vFilter,"&uALL;")
+	endif 
+	retrieve/e "CN_COMPANY"
+	;sort/e "CN_COMPANY","COMPANY_NAME.CN_COMPANY:a"
+		
+	
+	$Total$ = $hits("CN_COMPANY")		
+	
+	
+	if (vPlaceHolder != "")
+		$Total$ = $Total$ + 1
+	endif
+	if ($pageSize$ != "")
+		if ($Total$  &lt; $pageSize$)
+			$pageSize$ = $Total$
+		endif
+		
+		if ($pageSize$ != "" &amp; vList != "")
+			setocc "CN_COMPANY", $skip$ + 1
+			vCount = 1
+			
+			while  ((vCount &lt;= $pageSize$) &amp; (($skip$ + vCount) &lt; $Total$)) 	  
+				creocc "COMPANYLIST", -1
+				COMPID.COMPANYLIST= COMPANY_ID.CN_COMPANY
+				COMPVAL.COMPANYLIST= COMPANY_NAME.CN_COMPANY 
+			
+				vCount = vCount + 1    
+				setocc "CN_COMPANY", $skip$ + vCount
+			endwhile
+		endif
+	else
+		forentity  "CN_COMPANY"
+			creocc "COMPANYLIST", -1
+			COMPID.COMPANYLIST= COMPANY_ID.CN_COMPANY
+			COMPVAL.COMPANYLIST= COMPANY_NAME.CN_COMPANY 
+
+		endfor
+	endif
+		
+	
+	call lpGenerateOutputDropDownFromEntity("COMPANYLIST")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+	
+end
+
+operation GetCompanyOrClientDS
+variables
+	string vWebParams, vFilter ,vParentId 
+	numeric vCount,vClientCount, vClientSkip
+endvariables
+	
+	$11 = "NOHTML"
+	$order_by$ = "COMPANY_NAME"
+	
+	vWebParams = $webinfo("input")
+	$Take$     = $item("take",     vWebParams)
+	$Page$     = $item("page",     vWebParams)
+	$Skip$     = $item("skip",     vWebParams)
+	$PageSize$ = $item("pageSize", vWebParams)
+	vFilter = $item("filter[filters][0][value]", vWebParams)
+	
+	clear/e "COMPANYLIST"
+	creocc "COMPANYLIST", -1
+	COMPID.COMPANYLIST= ""
+	COMPVAL.COMPANYLIST= "Select Company / Client" 
+	
+	clear/e "CN_COMPANY"
+	ENABLED.CN_COMPANY = 1
+	if (vFilter != "")
+		COMPANY_NAME.CN_COMPANY = $concat(vFilter,"&uALL;")
+	endif 
+	retrieve/e "CN_COMPANY"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)		
+		$Total$ = $hits("CN_COMPANY")		
+	endif
+	$Total$ = $Total$ + 1
+	if ($Total$  &lt; $pageSize$)
+		$pageSize$ = $Total$
+	endif
+	
+	if ($pageSize$ != "")
+		setocc "CN_COMPANY", $skip$ + 1
+		vCount = 1
+		
+		while  ((vCount &lt;= $pageSize$) &amp; (($skip$ + vCount) &lt; $Total$)) 	  
+			creocc "COMPANYLIST", -1
+			COMPID.COMPANYLIST= COMPANY_ID.CN_COMPANY
+			COMPVAL.COMPANYLIST= COMPANY_NAME.CN_COMPANY 
+		
+			vCount = vCount + 1    
+			setocc "CN_COMPANY", $skip$ + vCount
+		endwhile
+	endif
+	
+	if ($skip$ &gt; $Total$) 
+		vClientSkip = $skip$ - ($Total$ - 1)
+	endif
+	
+	;START CLIENT	
+	vParentId = $item("parentid", vWebParams)
+	clear/e "CN_CLIENT"
+	PARENT_ID.CN_CLIENT = vParentId
+	ENABLED.CN_CLIENT = 1
+	
+	if (vFilter != "")
+		COMPANY_NAME.CN_CLIENT = "%%vFilter%%%&uALL;"
+	endif
+	retrieve/e "CN_CLIENT"
+
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		$Total$ = $Total$ + $hits("CN_CLIENT")
+	endif
+	if ($Total$  &lt; $pageSize$)
+		$pageSize$ = $Total$
+	endif
+	
+	if ($pageSize$ != "")		
+		vClientCount = 1
+		setocc "CN_CLIENT", vClientSkip 
+		while  (((vCount + vClientCount) &lt;= $pageSize$) &amp; (($skip$ + vCount + vClientCount) &lt; $Total$)) 
+			creocc "COMPANYLIST", -1
+			COMPID.COMPANYLIST= CLIENT_ID.CN_CLIENT
+			COMPVAL.COMPANYLIST= COMPANY_NAME.CN_CLIENT 
+			
+			vClientCount = vClientCount + 1    
+			setocc "CN_CLIENT", vClientSkip + vClientCount
+		endwhile
+	endif
+	
+	
+	call lpGenerateOutputDropDownFromEntity("COMPANYLIST")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end
+
+
+operation GetTransitTypeDS
+	variables
+		string vList, vWebParams, vPlaceholder
+	endvariables
+	vWebParams = $webinfo("input")
+	vPlaceholder = $item("placeholder",vWebParams )
+
+	if (vPlaceholder = "") putitem/id vList,"","Select Transit type"
+	putitem/id vList,"D","Direct"
+	putitem/id vList,"T","Transhipment"
+	
+	$valrep(TRANSIT_TYPE.DUMMY) = vList
+	$11 = "NOHTML"
+	call lpGenerateOutputDropDownFromField("TRANSIT_TYPE.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"    
+end 
+
+
+operation GetContainerDS
+	variables
+		string vWebParams, vContType, vFilter
+		numeric vCount
+	endvariables
+	
+	$11 = "NOHTML"
+	
+	vWebParams = $webInfo("input")
+	vContType = $item("conttype",  vWebParams)
+	$Take$     = $item("take",     vWebParams)
+	$Page$     = $item("page",     vWebParams)
+	$Skip$     = $item("skip",     vWebParams)
+	$PageSize$ = $item("pageSize", vWebParams)
+	vFilter = $item("filter[filters][0][value]", vWebParams)
+	
+	clear/e "CONTAINERDUM"
+	creocc "CONTAINERDUM", -1
+	CONTAINERID.CONTAINERDUM = ""
+	CONTAINERVAL.CONTAINERDUM = "Select Container" 
+	
+	clear/e "FR_CONTAINERS"
+	if (vContType != "")
+		CONT_TYPE.FR_CONTAINERS = vContType
+	endif
+	if (vFilter != "")
+		CONT_CODE.FR_CONTAINERS = "%%vFilter%%%&uALL;"
+	endif
+	
+	retrieve/e "FR_CONTAINERS"    
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		$Total$ = $hits("FR_CONTAINERS")
+	endif
+	$Total$ = $Total$ + 1
+	if ($Total$  &lt; $pageSize$)
+		$pageSize$ = $Total$
+	endif
+	
+	if ($pageSize$ != "")
+		setocc "FR_CONTAINERS", $skip$ + 1
+		vCount = 1
+		while  ((vCount &lt;= $pageSize$) &amp; (($skip$ + vCount) &lt; $Total$)) 
+			creocc "CONTAINERDUM", -1
+			CONTAINERID.CONTAINERDUM = CONT_CODE.FR_CONTAINERS
+			CONTAINERVAL.CONTAINERDUM = CONT_DESC.FR_CONTAINERS 
+			
+			vCount= vCount + 1    
+			setocc "FR_CONTAINERS", $skip$ + vCount
+		endwhile
+	endif
+	
+	call lpGenerateOutputDropDownFromEntity("CONTAINERDUM")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end
+
+operation GetWorlAreaDS
+	variables
+		string vWebParams, vIncludeAll, vPlaceHolder,vFilter
+		string vList
+	endvariables
+	vWebParams = $webInfo("input")
+	vIncludeAll = $item("include", vWebParams)
+	vPlaceHolder = $item("placeholder",vWebParams)
+	vFilter = $item("filter[filters][0][value]", vWebParams)
+	
+	if (vPlaceHolder != "")
+		putitem/id vList,"",vPlaceHolder   
+	else
+		putitem/id vList,"","Select World Area"    
+	endif
+	
+	if (vIncludeAll != "")
+		putitem/id vList,"ALL","Across Area"        
+	endif
+	
+	clear/e "CN_WORLD_AREA"
+	if (vFilter != "")
+		 AREA_DESC.CN_WORLD_AREA = $concat(vFilter,"&uALL;")
+	endif
+	retrieve/e "CN_WORLD_AREA"
+	
+	forentity "CN_WORLD_AREA"
+		putitem/id vList, AREA_CODE.CN_WORLD_AREA, AREA_DESC.CN_WORLD_AREA
+	endfor
+	
+	$valrep(WORLD_AREA.DUMMY) = vList
+	$total$ = $itemcount(WORLD_AREA.DUMMY)
+	$11 = "NOHTML"
+	call lpGenerateOutputDropDownFromField("WORLD_AREA.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"    
+end 
+
+
+operation GetTierDS
+variables
+	string vList, vExistingList
+	string vWebParams, vSeller, vTier
+endvariables
+	vWebParams = $webInfo("input")
+	vSeller = $item("seller",vWebParams)
+	
+	if (vSeller != "")
+		vExistingList = lpGetExistingMarkupTier(vSeller)
+	endif
+	
+	putitem/id vList,"","Select Tier"  
+	clear/e "CN_TIERS"
+	retrieve/e "CN_TIERS"
+	
+	forentity "CN_TIERS"
+;		if ($item(TIER.CN_TIERS,vExistingList) = "")
+			putitem/id vList, TIER.CN_TIERS, TIER_DESCRIPTION.CN_TIERS
+;		endif
+	endfor
+	
+	$valrep(TIER.DUMMY) = vList
+	
+	$11 = "NOHTML"
+	call lpGenerateOutputDropDownFromField("TIER.DUMMY")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"  
+
+end
+
+;-------------------------END DATASOURCE---------------------------------------
+
+
+operation GetLatestRatesByRoute
+params
+	struct pStruct : INOUT
+endparams
+variables
+	string vSLine, vList,vRouteList, vChargesPerShp, vRoutesPerShp
+endvariables
+	
+	clear/e "FR_PORT_CHARGE_HEADER"
+	ROUTE_UUID.FR_PORT_CHARGE_HEADER = pStruct-&gt;in-&gt;Routes
+	BUYER_UUID.FR_PORT_CHARGE_HEADER = pStruct-&gt;in-&gt;BuyerUUID
+	VALID_TO.FR_PORT_CHARGE_HEADER = $concat("&uGT;&uEQ;", $datim)
+	if ((pStruct-&gt;in-&gt;ShippingLine) != "")
+		CARRIER_CODE.FR_PORT_CHARGE_HEADER = pStruct-&gt;in-&gt;ShippingLine
+	endif
+	retrieve/e "FR_PORT_CHARGE_HEADER"
+
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		sort/e "FR_PORT_CHARGE_HEADER", "CARRIER_CODE.FR_PORT_CHARGE_HEADER:a"
+		forentity "FR_PORT_CHARGE_HEADER"			
+			if (vSLine != "" &amp; vSLine != CARRIER_CODE.FR_PORT_CHARGE_HEADER)
+				putitem/id vList, vSLine, vChargesPerShp
+				putitem/id vRouteList, vSLine,vRoutesPerShp
+				vChargesPerShp = ""
+				vRoutesPerShp = ""
+			endif
+			putitem vChargesPerShp, -1, PORT_CHARGE_UUID.FR_PORT_CHARGE_HEADER
+			putitem vRoutesPerShp, -1, ROUTE_UUID.FR_PORT_CHARGE_HEADER
+			vSLine = CARRIER_CODE.FR_PORT_CHARGE_HEADER
+		endfor
+		;put the last list
+		putitem/id vList, vSLine, vChargesPerShp
+		putitem/id vRouteList, vSLine, vRoutesPerShp
+	endif
+	
+	pStruct-&gt;out-&gt;PortCharges = vList
+	pStruct-&gt;out-&gt;ShpRoutes = vRouteList
+end
+
+operation GetChargeIdPerShpRoute
+params
+	struct pStruct : INOUT
+endparams
+	
+	clear/e "FR_PORT_CHARGE_HEADER"
+	ROUTE_UUID.FR_PORT_CHARGE_HEADER = pStruct-&gt;in-&gt;Routes
+	BUYER_UUID.FR_PORT_CHARGE_HEADER = pStruct-&gt;in-&gt;BuyerUUID
+	VALID_TO.FR_PORT_CHARGE_HEADER = $concat("&uGT;&uEQ;", $datim)
+	CARRIER_CODE.FR_PORT_CHARGE_HEADER = pStruct-&gt;in-&gt;ShippingLine
+	ROUTE_UUID.FR_PORT_CHARGE_HEADER = pStruct-&gt;in-&gt;RouteUUID
+	retrieve/e "FR_PORT_CHARGE_HEADER"
+
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		pStruct-&gt;out-&gt;ChargeId = PORT_CHARGE_UUID.FR_PORT_CHARGE_HEADER		
+	endif
+	return (0)
+end
+
+
+
+;===============================================
+
+operation GetClientMarkups
+params
+	struct pStruct : INOUT
+endparams
+variables
+	string vSeller, vAreaCode, vClientCode, vClientTier
+	string vList, vListValRep, vValue, vCodeTypeID
+	date vValidFrom, vValidTo
+endvariables
+	
+	vSeller = pStruct-&gt;in-&gt;seller
+	vAreaCode = pStruct-&gt;in-&gt;areacode
+	vClientCode = pStruct-&gt;in-&gt;clientcode
+	vClientTier = pStruct-&gt;in-&gt;clientTier
+		
+	;get default markups first
+	clear/e "CN_MARKUPS"
+	SELLER.CN_MARKUPS  = vSeller
+	WORLD_AREA.CN_MARKUPS = vAreaCode
+	CHARGE_TYPE.CN_MARKUPS = pStruct-&gt;in-&gt;type
+	TIER.CN_MARKUPS = vClientTier
+	VALID_TO.CN_MARKUPS = $concat("&uGT;&uEQ;", $datim)
+	retrieve/e "CN_MARKUPS"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_MARKUPS"
+			vListValRep = ""
+			vValidFrom =  VALID_FROM.CN_MARKUPS 
+			vValidTo =  VALID_TO.CN_MARKUPS 
+			
+			vCodeTypeID = $concat(CHARGE_CODE.CN_MARKUPS,"|", CONTAINER_CODE.CN_MARKUPS)
+			putitem/id vListValRep , "TYPE", TYPE.CN_MARKUPS 
+			putitem/id vListValRep , "VALUE", VALUE.CN_MARKUPS
+			putitem/id vListValRep , "ISCLIENTSPECIFIC", "F"    
+			putitem/id vList , vCodeTypeID, vListValRep
+		endfor
+	endif
+	
+	;get client specific markups and override default
+	clear/e "CN_CLIENT_MARKUPS"
+	SELLER.CN_CLIENT_MARKUPS  = vSeller
+	WORLD_AREA.CN_CLIENT_MARKUPS = vAreaCode
+	CLIENT.CN_CLIENT_MARKUPS = vClientCode
+	CHARGE_TYPE.CN_CLIENT_MARKUPS = pStruct-&gt;in-&gt;type
+	DEFAULT_TIER.CN_CLIENT_MARKUPS = vClientTier
+	VALID_TO.CN_CLIENT_MARKUPS = $concat("&uGT;&uEQ;", $datim)
+	retrieve/e "CN_CLIENT_MARKUPS"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_CLIENT_MARKUPS"
+			vListValRep = ""
+			vValidFrom =  VALID_FROM.CN_CLIENT_MARKUPS 
+			vValidTo =  VALID_TO.CN_CLIENT_MARKUPS 
+			
+			vCodeTypeID = $concat(CHARGE_CODE.CN_CLIENT_MARKUPS,"|", CONTAINER_CODE.CN_CLIENT_MARKUPS)
+			putitem/id vListValRep , "TYPE", TYPE.CN_CLIENT_MARKUPS 
+			putitem/id vListValRep , "VALUE", VALUE.CN_CLIENT_MARKUPS
+			putitem/id vListValRep , "ISCLIENTSPECIFIC", "T"    
+			putitem/id vList , vCodeTypeID, vListValRep
+		endfor
+	endif
+	
+	pStruct-&gt;out-&gt;validfrom = vValidFrom
+	pStruct-&gt;out-&gt;validto = vValidTo
+	pStruct-&gt;out-&gt;result = vList
+end
+
+;===============================================
+
+operation GetClientMarkupPerArea
+params
+	struct pStruct : INOUT
+endparams
+variables
+	string vList, vOcc,  vChargeCode, vAreaChargeList, vAreaValidList
+	date vValidDt
+	numeric vIdIndex
+endvariables
+	
+	;get default markups first
+	clear/e "CN_MARKUPS"
+	SELLER.CN_MARKUPS  = pStruct-&gt;in-&gt;seller	
+	CHARGE_TYPE.CN_MARKUPS = pStruct-&gt;in-&gt;type
+	TIER.CN_MARKUPS = pStruct-&gt;in-&gt;clientTier
+	ROUTE_ID.CN_MARKUPS = '0'
+	VALID_TO.CN_MARKUPS = $concat("&uGT;&uEQ;", $datim)
+	retrieve/e "CN_MARKUPS"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		sort/e "CN_MARKUPS", "VALID_TO.CN_MARKUPS:a"		
+		forentity "CN_MARKUPS"						
+			vAreaValidList = $item(WORLD_AREA.CN_MARKUPS,vAreaChargeList)	
+			vList = $item(1, vAreaValidList)		
+			vChargeCode = $concat(CHARGE_CODE.CN_MARKUPS,"|", CONTAINER_CODE.CN_MARKUPS)
+			
+			putlistitems/occ vOcc, "CN_MARKUPS"    
+			putitem/id vOcc, "ISCLIENTSPECIFIC", "F"
+			putitem/id vList , vChargeCode, vOcc			
+
+			putitem/id vAreaValidList, 1, vList
+			putitem/id vAreaChargeList, WORLD_AREA.CN_MARKUPS, vAreaValidList
+		endfor
+	endif
+	
+	;get client specific markups and override default
+	clear/e "CN_CLIENT_MARKUPS"
+	SELLER.CN_CLIENT_MARKUPS  =  pStruct-&gt;in-&gt;seller
+	CLIENT.CN_CLIENT_MARKUPS = pStruct-&gt;in-&gt;clientcode
+	CHARGE_TYPE.CN_CLIENT_MARKUPS = pStruct-&gt;in-&gt;type
+	DEFAULT_TIER.CN_CLIENT_MARKUPS = pStruct-&gt;in-&gt;clientTier
+	ROUTE_ID.CN_CLIENT_MARKUPS = '0'
+	VALID_TO.CN_CLIENT_MARKUPS = $concat("&uGT;&uEQ;", $datim)	
+	retrieve/e "CN_CLIENT_MARKUPS"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		sort/e "CN_CLIENT_MARKUPS", "VALID_TO.CN_CLIENT_MARKUPS:a"
+		forentity "CN_CLIENT_MARKUPS"			
+			if (vValidDt != VALID_TO.CN_CLIENT_MARKUPS)
+				vIdIndex = vIdIndex + 1				
+			endif
+			
+			vAreaValidList = $item(WORLD_AREA.CN_CLIENT_MARKUPS,vAreaChargeList)	
+			vList = $item(vIdIndex, vAreaValidList)	
+			vChargeCode = $concat(CHARGE_CODE.CN_CLIENT_MARKUPS,"|", CONTAINER_CODE.CN_CLIENT_MARKUPS)			
+			
+			putlistitems/occ vOcc, "CN_CLIENT_MARKUPS"   
+			putitem/id vOcc, "ISCLIENTSPECIFIC", "T"
+			
+			putitem/id vList , vChargeCode, vOcc
+			putitem/id vAreaValidList, vIdIndex, vList
+			
+			putitem/id vAreaChargeList, WORLD_AREA.CN_CLIENT_MARKUPS, vAreaValidList
+
+			vValidDt = VALID_TO.CN_CLIENT_MARKUPS
+		endfor
+	endif
+	
+	pStruct-&gt;out-&gt;MarkupAreaCharges = vAreaChargeList
+end
+ 
+
+
+;===============================================
+
+operation GetClientMarkupPerRoute
+params
+	struct pStruct : INOUT
+endparams
+variables
+	string vList, vOcc,  vChargeCode, vRouteList, vRouteChargeList, vRouteValidList
+	date vValidDt
+	numeric vIdIndex
+endvariables
+	
+	;get default markups first
+	clear/e "CN_MARKUPS"
+	SELLER.CN_MARKUPS  = pStruct-&gt;in-&gt;seller	
+	CHARGE_TYPE.CN_MARKUPS = pStruct-&gt;in-&gt;type
+	TIER.CN_MARKUPS = pStruct-&gt;in-&gt;clientTier
+	VALID_TO.CN_MARKUPS = $concat("&uGT;&uEQ;", $datim)
+	retrieve/e "CN_MARKUPS"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		sort/e "CN_MARKUPS", "VALID_TO.CN_MARKUPS:a"		
+		forentity "CN_MARKUPS"						
+			vRouteValidList = $item(ROUTE_ID.CN_MARKUPS,vRouteChargeList)	
+			vList = $item(1, vRouteValidList)		
+			vChargeCode = $concat(CHARGE_CODE.CN_MARKUPS,"|", CONTAINER_CODE.CN_MARKUPS)
+			
+			putlistitems/occ vOcc, "CN_MARKUPS"    
+			putitem/id vOcc, "ISCLIENTSPECIFIC", "F"
+			putitem/id vList , vChargeCode, vOcc			
+
+			putitem/id vRouteValidList, 1, vList
+			putitem vRouteList, -1, ROUTE_ID.CN_MARKUPS
+			putitem/id vRouteChargeList, ROUTE_ID.CN_MARKUPS, vRouteValidList
+		endfor
+	endif
+	
+	;vIdIndex = 1
+	;get client specific markups and override default
+	clear/e "CN_CLIENT_MARKUPS"
+	SELLER.CN_CLIENT_MARKUPS  =  pStruct-&gt;in-&gt;seller
+	CLIENT.CN_CLIENT_MARKUPS = pStruct-&gt;in-&gt;clientcode
+	CHARGE_TYPE.CN_CLIENT_MARKUPS = pStruct-&gt;in-&gt;type
+	DEFAULT_TIER.CN_CLIENT_MARKUPS = pStruct-&gt;in-&gt;clientTier
+	VALID_TO.CN_CLIENT_MARKUPS = $concat("&uGT;&uEQ;", $datim)	
+	retrieve/e "CN_CLIENT_MARKUPS"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		sort/e "CN_CLIENT_MARKUPS", "VALID_TO.CN_CLIENT_MARKUPS:a"
+		forentity "CN_CLIENT_MARKUPS"			
+			if (vValidDt != VALID_TO.CN_CLIENT_MARKUPS)
+				vIdIndex = vIdIndex + 1				
+			endif
+			
+			vRouteValidList = $item(ROUTE_ID.CN_CLIENT_MARKUPS,vRouteChargeList)	
+			vList = $item(vIdIndex, vRouteValidList)	
+			vChargeCode = $concat(CHARGE_CODE.CN_CLIENT_MARKUPS,"|", CONTAINER_CODE.CN_CLIENT_MARKUPS)			
+			
+			putlistitems/occ vOcc, "CN_CLIENT_MARKUPS"   
+			putitem/id vOcc, "ISCLIENTSPECIFIC", "T"
+			
+			putitem/id vList , vChargeCode, vOcc
+			putitem/id vRouteValidList, vIdIndex, vList
+			
+			putitem vRouteList, -1, ROUTE_ID.CN_CLIENT_MARKUPS
+			putitem/id vRouteChargeList, ROUTE_ID.CN_CLIENT_MARKUPS, vRouteValidList
+
+			vValidDt = VALID_TO.CN_CLIENT_MARKUPS
+		endfor
+	endif
+	
+	sort/list vRouteList, "U"
+	
+	pStruct-&gt;out-&gt;Routes = vRouteList
+	pStruct-&gt;out-&gt;MarkupRouteCharges = vRouteChargeList
+end
+;===============================================
+
+
+operation GetChargeContOnClientMarkup
+params
+	struct pStruct : INOUT
+endparams
+variables
+	struct vStruct
+	string vChargeCodeList, vChargeList,vContainerList,vCode, vCodeName,vCont,vContDesc
+endvariables
+
+	;get charges and container combination for port to suburb markups	
+	#include IFC:initStructParam
+	vStruct-&gt;in-&gt;CompCode = pStruct-&gt;in-&gt;seller
+	vStruct-&gt;in-&gt;ChargeType = pStruct-&gt;in-&gt;type
+	activate "C_AD_SA_CHARGE1".getChargeByType(vStruct)
+
+	vChargeList = vStruct-&gt;out-&gt;ValRep
+	
+	#include IFC:initStructParam
+	vStruct-&gt;in-&gt;CompanyID = pStruct-&gt;in-&gt;seller
+	vStruct-&gt;in-&gt;ContType = pStruct-&gt;in-&gt;type
+	activate "C_AD_SA_COMPANY1".getCompanyContainers(vStruct)
+
+	vContainerList = vStruct-&gt;out-&gt;ValRep
+	
+	forlist/id  vCode, vCodeName in vChargeList
+		forlist/id vCont,vContDesc in vContainerList			
+			putitem vChargeCodeList, -1 , $concat(vCode,"|", vCont)	
+		endfor
+	endfor
+	pStruct-&gt;out-&gt;ChargeCodeMarkupList = vChargeCodeList
+end
+
+;===============================================
+
+operation NotesGenerateGrid
+	variables
+		struct    vStruct
+		string    vWebParams, vOutput, vUser, vCompCode, vSeller
+		numeric i
+	endvariables
+	
+	#include IFC:initStructParam
+	vStruct-&gt;in-&gt;RecSet       = 500
+	vStruct-&gt;in-&gt;CompCode     = 'IFC'    
+	vStruct-&gt;in-&gt;UserCompCode = 'DAWN'   
+	vStruct-&gt;in-&gt;UserCompType = 'IFC'
+	
+	vWebParams = $webInfo("input")
+	vCompCode = $item("compcode", vWebParams)
+	vSeller   = $item("usercompcode", vWebParams)
+	vUser     = $item("usercode", vWebParams)
+	
+	clear/e "CR_NOTES"
+	
+	if (vCompCode != "" &amp; vUser != "")
+		NOTE_CLIENT_ID.CR_NOTES = vCompCode 
+		retrieve/e "CR_NOTES"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			setocc "CR_NOTES", -1
+			i=1
+			while i &lt;= $totocc( "CR_NOTES")
+				setocc "CR_NOTES", i
+				call lpGetUserName(NOTE_USER.CR_NOTES, D_NOTE_USER.CR_NOTES)
+				if (NOTE_PRIVACY = "" &amp; NOTE_USER != vUser)
+					discard "CR_NOTES"
+				else				
+					i = i + 1
+				endif
+			endwhile
+		endif
+	endif
+	
+	$11 = "NOHTML"
+	$10 = "NOMENU"
+	vOutput =  GenerateOutputData("CR_NOTES")
+	$webinfo("output") = vOutput
+	
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"    
+end 
+
+
+;==========================================================================================================
+
+operation Q_QT_DA_PORTS1_FromPort
+variables
+	string vWebParams, vWorldArea, vOutput, vCountry , vCompID, vSubDiv  
+endvariables
+	
+	vWebParams = $webinfo("input")
+	vWorldArea =  $item("worldarea", vWebParams )
+	vCountry = $item("country", vWebParams)
+	vCompID  = $item("compid", vWebParams)
+
+	vWorldArea  = $replace(vWorldArea ,1,",","&uSEP;", -1)
+	vCountry = $replace(vCountry ,1,",","&uSEP;", -1)
+
+	clear/e "D_DROPDOWN"
+	if (vWorldArea != "")
+		
+		clear/e "CN_COMPANY_PORT"
+		COMPANY_ID.CN_COMPANY_PORT = vCompID  
+		PORT_TYPE.CN_COMPANY_PORT = "1&uSEP;S"
+		retrieve/e "CN_COMPANY_PORT"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			forentity "CN_COMPANY_PORT"
+				clear/e "CN_PORT"
+				PORT_TYPE.CN_PORT = PORT_TYPE.CN_COMPANY_PORT
+				COUNTRY_CODE.CN_PORT = COUNTRY_CODE.CN_COMPANY_PORT 
+				PORT_CODE.CN_PORT = PORT_CODE.CN_COMPANY_PORT
+				retrieve/e "CN_PORT"
+				if ($procerror = &lt;UACT_SUCCESS&gt;)
+					vSubDiv  = ""
+					if (SUB_DIVISION.CN_PORT != "") vSubDiv = " [%%SUB_DIVISION.CN_PORT%%%]"
+	
+					if (isPortInWorldArea(COUNTRY_CODE.CN_PORT,PORT_CODE.CN_PORT,vWorldArea) = 1)
+						if (vCountry = "")
+							creocc "D_DROPDOWN", -1
+							DROPDOWNID.D_DROPDOWN = $concat(COUNTRY_CODE.CN_PORT,"-",PORT_CODE.CN_PORT) 
+							call getPortName(PORT_CODE.CN_PORT,COUNTRY_CODE.CN_PORT,DROPDOWNVAL.D_DROPDOWN, "")
+							DROPDOWNVAL.D_DROPDOWN = $concat("(",$concat(COUNTRY_CODE.CN_PORT,"-",PORT_CODE.CN_PORT) , ") ", DROPDOWNVAL.D_DROPDOWN, vSubDiv  )
+						else
+							if ($item(COUNTRY_CODE.CN_PORT, vCountry ) != "")
+								creocc "D_DROPDOWN", -1
+								DROPDOWNID.D_DROPDOWN = $concat(COUNTRY_CODE.CN_PORT,"-",PORT_CODE.CN_PORT) 
+								call getPortName(PORT_CODE.CN_PORT,COUNTRY_CODE.CN_PORT,DROPDOWNVAL.D_DROPDOWN, "")
+								DROPDOWNVAL.D_DROPDOWN = $concat( "(",$concat(COUNTRY_CODE.CN_PORT,"-",PORT_CODE.CN_PORT) , ") ", DROPDOWNVAL.D_DROPDOWN,vSubDiv  )
+							endif
+						endif			
+					endif
+				endif
+			endfor
+		endif
+		sort/e "D_DROPDOWN", "DROPDOWNVAL:a"
+	endif
+	
+	$11 = "NOHTML"
+	vOutput =  GenerateOutputData("D_DROPDOWN")
+	$webinfo("output") = vOutput
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"   
+end
+
+;==========================================================================================================
+
+operation Q_QT_DA_PORTS1_ToPort
+variables
+	string vWebParams, vWorldArea,vFromPort, vCountryCode, vPortCode, vOutput,vPortList,ViTEM, vPortName, vSubDiv, vImpExp
+	boolean vIncludePort, vIsPortImpEx, vIsCompanyPort
+	numeric vScan
+endvariables
+	vWebParams = $webinfo("input")
+	vFromPort =  $item("fromport", vWebParams )  
+	vImpExp =  $item("impexp", vWebParams )  
+
+	
+	;vWorldArea =  $item("worldarea", vWebParams )
+
+	;vWorldArea = $replace(vWorldArea , 1, ",", "&uSEP;", -1)
+	vFromPort = $replace(vFromPort , 1, ",", "&uSEP;", -1)  
+	
+
+	if (vFromPort != "")
+		;GETTING DESTINATION PORTS
+		clear/e "CN_ROUTE"
+		LOAD_PORT.CN_ROUTE = vFromPort 
+		ROUTE_MODE.CN_ROUTE = "S"
+		ENABLED.CN_ROUTE = 1
+		retrieve/e "CN_ROUTE"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			putlistitems vPortList, DEST_PORT.CN_ROUTE
+		endif
+		sort/list vPortList, "U"
+		
+		forlist vItem in vPortList
+			vScan=$split(vItem , 1, "-",vCountryCode, vPortCode)
+			;if (isPortInWorldArea(vCountryCode,vPortCode,vWorldArea) = 1)  
+			vIncludePort = "T"
+			vIsCompanyPort = isCompanyPort(vCountryCode,vPortCode)
+			if (vIsCompanyPort)
+				if (vImpExp != "")
+					vIsPortImpEx=  isPortImpEx(vCountryCode,vPortCode,vImpExp )
+					if (!vIsPortImpEx) vIncludePort = "F"
+				endif 
+				
+				vSubDiv  = ""
+				call getPortName(vPortCode,vCountryCode,vPortName, vSubDiv)
+				if (SUB_DIVISION.CN_PORT != "") vSubDiv = " [%%vSubDiv%%%]"
+	
+				if(vIncludePort)
+					if (vPortName != "")
+						creocc "D_PORT", -1
+						PORTID.D_PORT= vItem 					
+						PORTVAL.D_PORT= $concat( "(",vItem, ") ", vPortName,vSubDiv  )	
+					endif
+				endif
+			endif
+										
+			;endif
+		endfor
+		sort/e "D_PORT", "PORTVAL:a"
+	endif
+	
+	
+	$11 = "NOHTML"
+	vOutput =  GenerateOutputData("D_PORT")
+	$webinfo("output") = vOutput
+	
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"   
+end
+
+;==========================================================================================================
+
+operation Q_QT_DA_PORTS1_Carriers
+variables
+	string vWebParams, vID, vValue, vDropList, vCompID, vOutput
+	struct vStruct
+endvariables
+
+	vWebParams = $webinfo("input")
+	vCompID =  $item("compid", vWebParams )
+
+	#include IFC:initStructParam
+	vStruct-&gt;in-&gt;PARENT_ID = vCompID
+	activate "Q_AD_SA_QUOTES1".getCarriers(vStruct)
+	vDropList = vStruct-&gt;out-&gt;VALREP
+	
+	forlist/id vID, vValue in vDropList 
+		creocc "D_CARRIER", -1
+	    CARRIERID.D_CARRIER = vID
+		CARRIERVAL.D_CARRIER = vValue 		
+	endfor
+
+	$11 = "NOHTML"
+	vOutput =  GenerateOutputData("D_CARRIER")
+	$webinfo("output") = vOutput
+	
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end
+
+;===========================================================================================================
+
+operation Q_QT_DA_PORTS1_loadValueMapper
+variables
+	string vWebParams, vKey, vValue, vWorldArea, vCountryParm
+	string vCountry, vPort, vRowNoList
+	numeric vRowNumber , vScan
+endvariables
+	$11 = "NOHTML"
+	$serverpaging$ = "F"	
+	vWebParams = $webInfo("input")
+	vWorldArea = $item("worldarea", vWebParams)	
+	vCountryParm= $item("country", vWebParams)
+
+	vWorldArea  = $replace(vWorldArea ,1,",","&uSEP;", -1)
+	vCountryParm= $replace(vCountryParm,1,",","&uSEP;", -1)
+
+	forlist/id vKey, vValue in vWebParams
+		if(vKey = "values[]")
+			clear/e "CN_PORT"
+			WORLD_AREA.CN_PORT = vWorldArea 
+			COUNTRY_CODE.CN_PORT = vCountryParm			
+			retrieve/e "CN_PORT"
+			if ($procerror = &lt;UACT_SUCCESS&gt;)
+				
+				vScan= $split(vValue,1,"-", vCountry, vPort)
+				vRowNumber = 0
+				forentity  "CN_PORT"								
+					if (COUNTRY_CODE.CN_PORT = vCountry &amp; PORT_CODE.CN_PORT = vPort)					
+						break
+					endif	
+					vRowNumber += 1							
+				endfor
+				putitem vRowNoList, -1, vRowNumber 
+			endif
+		endif
+	endfor 
+	
+	vRowNoList = $replace(vRowNoList,1,"&uSEP;",",", -1)
+	
+	$webinfo("output") =$concat("[",vRowNoList,"]")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end
+
+;===========================================================================================================
+
+operation Q_QT_DA_PORTS1_destValueMapper
+variables
+	string vWebParams, vKey, vValue, vWorldArea, vFrom, vItem, vCountryCode, vPortCode
+	string vCountry, vPort, vRowNoList,vToCountryCodeList,vToPortCodeList
+	numeric vRowNumber , vScan
+endvariables
+	$11 = "NOHTML"
+	$serverpaging$ = "F"	
+	vWebParams = $webInfo("input")
+	vWorldArea = $item("worldarea", vWebParams)	
+	vFrom= $item("fromport", vWebParams)	
+	vFrom =  $replace(vFrom ,1,",","&uSEP;", -1)
+
+	forlist vItem in vFrom 
+		vScan= $split(vItem ,1, "-",vCountryCode,vPortCode)
+		if (vCountryCode != "") putitem vToCountryCodeList, -1, vCountryCode
+		if (vPortCode != "") putitem vToPortCodeList, -1, vPortCode
+	endfor	
+
+
+	forlist/id vKey, vValue in vWebParams
+		if(vKey = "values[]")
+			clear/e "CN_PORT"
+			WORLD_AREA.CN_PORT = vWorldArea 
+			COUNTRY_CODE.CN_PORT = vToCountryCodeList
+			PORT_CODE.CN_PORT = vToPortCodeList
+			retrieve/e "CN_PORT"
+			if ($procerror = &lt;UACT_SUCCESS&gt;)
+				sort/e "CN_PORT", ""
+				vScan= $split(vValue,1,"-", vCountry, vPort)
+				vRowNumber = 0
+				forentity  "CN_PORT"								
+					if (COUNTRY_CODE.CN_PORT = vCountry &amp; PORT_CODE.CN_PORT = vPort)					
+						break
+					endif	
+					vRowNumber += 1							
+				endfor
+				putitem vRowNoList, -1, vRowNumber 
+			endif
+		endif
+	endfor 
+	
+	vRowNoList = $replace(vRowNoList,1,"&uSEP;",",", -1)
+	
+	$webinfo("output") =$concat("[",vRowNoList,"]")
+	$webinfo("httpresponseheaders") = "Content-Type=text/json&uSEP;Access-Control-Allow-Origin=*"
+end
+
+;===========================================================================================================
+operation C_AD_DI_CMPAGN1_SaveRecords
+variables
+	string vWebParams, vModels, vModelListId, vModelItem, vParentId, vCompId, vOSAId, vUser, vPortCode
+	boolean vIsOk
+endvariables
+
+	vWebParams = $webInfo("input")
+	vParentId = $item("saveparams[parentid]", vWebParams)
+	vCompId = $item("saveparams[compid]", vWebParams)
+	vOSAId = $item("saveparams[OSA]", vWebParams)
+	vUser = $item("saveparams[user]", vWebParams)
+	
+	filedump/append $concat("Params : ", vWebParams, "%%^"),"c:\test\q_ke_sa_core1.txt"
+	vModels = $item("models", vWebParams )    
+
+
+	if ($scan(vModels,"},{") &gt; 0)
+		vModels = $replace(vModels, 1, "},{", "&uSEP;", -1 )
+		forlist vModelItem in vModels
+			vModelItem = lpParseModel(vModelItem)
+			if ($item("COUNTRY_CODE",vModelItem) != "")
+				vPortCode = $concat($item("COUNTRY_CODE",vModelItem),"-", $item("PORTCODE",vModelItem))
+			else
+				vPortCode =  $item("PORTCODE",vModelItem)
+			endif
+			;put portcode as identifier
+			putitem/id vModelListId, vPortCode, vModelItem
+		endfor
+	
+	else
+		vModelItem = lpParseModel(vModels)
+		if ($item("COUNTRY_CODE",vModelItem) != "")
+			vPortCode = $concat($item("COUNTRY_CODE",vModelItem),"-", $item("PORTCODE",vModelItem))
+		else
+			vPortCode =  $item("PORTCODE",vModelItem)
+		endif
+		;put portcode as identifier
+		putitem/id vModelListId, vPortCode, vModelItem
+	endif
+	
+	;Process saving	
+	clear/e "CN_COMPANY_PORT"
+	
+	clear/e "CN_CLIENT_PARTY"
+	PARENT_ID.CN_CLIENT_PARTY = vParentId
+	CLIENT_ID.CN_CLIENT_PARTY = vCompId
+	PARTY_ID.CN_CLIENT_PARTY = vOSAId
+	PARTY_TYPE.CN_CLIENT_PARTY = "OSA"
+	retrieve/e "CN_CLIENT_PARTY"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		;update existing records
+		forentity "CN_CLIENT_PARTY"
+			if ( $item(PARTY_REFERENCE_1.CN_CLIENT_PARTY, vModelListId) != "")
+				PARTY_REFERENCE_2.CN_CLIENT_PARTY = $item("OSAPORTAGENT",vModelItem)
+				LAST_UPDATED.CN_CLIENT_PARTY = $datim
+				LAST_UPDATED_BY.CN_CLIENT_PARTY = vUser
+				
+				delitem/id vModelListId, PARTY_REFERENCE_1.CN_CLIENT_PARTY
+			endif
+		endfor
+	else
+		clear/e "CN_CLIENT_PARTY"
+	endif
+	
+	;create new
+	forlist/id vPortCode,vModelItem in vModelListId
+	
+		if ($item("COUNTRY_CODE",vModelItem) != "")
+			creocc "CN_COMPANY_PORT", -1
+			COMPANY_ID.CN_COMPANY_PORT = vOSAId
+			COUNTRY_CODE.CN_COMPANY_PORT = $item("COUNTRY_CODE",vModelItem) 
+			PORT_CODE.CN_COMPANY_PORT = $item("PORTCODE",vModelItem) 
+			PORT_TYPE.CN_COMPANY_PORT = $item("PORT_TYPE",vModelItem) 
+			IMPORT.CN_COMPANY_PORT = $item("IMPORT",vModelItem) 
+			EXPORT.CN_COMPANY_PORT = $item("EXPORT",vModelItem) 
+			LAST_UPDATED.CN_COMPANY_PORT = $datim
+			LAST_UPDATED_BY.CN_COMPANY_PORT = vUser			
+		endif 
+		
+		creocc "CN_CLIENT_PARTY", -1
+		PARENT_ID.CN_CLIENT_PARTY = vParentId
+		CLIENT_ID.CN_CLIENT_PARTY = vCompId
+		PARTY_ID.CN_CLIENT_PARTY = vOSAId
+		PARTY_TYPE.CN_CLIENT_PARTY = "OSA"
+		PARTY_REFERENCE_1.CN_CLIENT_PARTY = vPortCode
+		PARTY_REFERENCE_2.CN_CLIENT_PARTY = $item("OSAPORTAGENT",vModelItem)
+		LAST_UPDATED.CN_CLIENT_PARTY = $datim
+		LAST_UPDATED_BY.CN_CLIENT_PARTY = vUser
+	endfor
+	
+	$11 = "NOHTML"
+	
+	;store changes
+	if ($curocc(CN_COMPANY_PORT) &gt;= 1)
+		store/e "CN_COMPANY_PORT"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			vIsOk = "T"        
+			commit
+		else
+			filedump/append $concat("Error: ", $procerrorcontext, $dataerrorcontext ,"%%^"),"c:\test\q_ke_sa_core1.txt"	
+			vIsOk = "F"
+			rollback
+		endif	
+	endif
+	
+	if (vIsOk)
+		store/e "CN_CLIENT_PARTY"	
+		;store changes
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			vIsOk = "T"        
+			commit
+		else
+			filedump/append $concat("Error: ", $procerrorcontext, $dataerrorcontext ,"%%^"),"c:\test\q_ke_sa_core1.txt"	
+			vIsOk = "F"
+			rollback
+		endif	
+	endif
+
+	call lpSendResponse(vIsOk)	
+	
+end
+
+
+
+;========================================================
+
+operation Q_FR_DA_CARRATE4_UpdateRecord
+	variables
+		string 	vWebParams, vModels, vModelItem, vSeller, vUser, vClient, vContValueList
+		string  vValue, vAmount,  vContainer, vClientSuburbID, vChargeCode, vChargeType
+		string 	vPort, vSuburb, vfrom, vto
+		numeric vCounter, vModelCount, vIndex
+		boolean vIsOk
+	endvariables
+	
+	vWebParams= $webInfo("input")
+
+	vUser 	= $item("saveparams[usercode]", vWebParams)
+	vSeller 	= $item("saveparams[seller]", vWebParams)
+	vClient 	= $item("saveparams[client]", vWebParams)
+	vPort 	= $item("saveparams[port]", vWebParams)	 
+	vSuburb	= $item("saveparams[suburb]", vWebParams)	
+	
+	vClientSuburbID = $uuid	
+	vModels = $item("models", vWebParams )    
+
+	;filedump/append "vWebParams -%%vWebParams%%%,%%^%%^","c:\test\jul2.txt"
+
+	vCounter = 1
+	if ($scan(vModels,"},{") &gt; 0)
+		vModels = $replace(vModels, 1, "},{", "&uSEP;", -1 )
+		vModelCount = $itemcount(vModels)
+		vModelItem = $itemnr(1,vModels)
+	else
+		vModelItem = vModels
+		vModelCount = 1
+	endif
+	
+	while(vCounter &lt;= vModelCount)
+	
+		vModelItem = lpParseModel(vModelItem)		
+		vContValueList = ""
+		
+		;get all container-value pair first
+		vIndex = 1
+		while (vIndex &lt; 7) 
+			putitem/id vContValueList, $item($concat("CONTAINER",vIndex), vModelItem), $item($concat("CHARGE_AMOUNT",vIndex), vModelItem)
+			vIndex = vIndex + 1
+		endwhile
+
+		clear/e "CN_CLIENT_MARKUPS_TOSUBURB"
+		SELLER.CN_CLIENT_MARKUPS_TOSUBURB 	= vSeller
+		CLIENT.CN_CLIENT_MARKUPS_TOSUBURB 	= vClient
+		PORT.CN_CLIENT_MARKUPS_TOSUBURB 	= vPort
+		SUBURB_ID.CN_CLIENT_MARKUPS_TOSUBURB 	= vSuburb
+		retrieve/e "CN_CLIENT_MARKUPS_TOSUBURB"
+		
+		if ($procerror = &lt;UACT_SUCCESS&gt;) 
+			forentity "CN_CLIENT_MARKUPS_TOSUBURB"
+			
+				if ( (VALID_FROM.CN_CLIENT_MARKUPS_TOSUBURB &gt;= $date($item("D_VALIDFROM",vModelItem))) &amp; (VALID_TO.CN_CLIENT_MARKUPS_TOSUBURB &lt;= $date($item("D_VALIDTO",vModelItem))) )
+					vValue = $item(CONTAINER_CODE.CN_CLIENT_MARKUPS_TOSUBURB,vContValueList)
+					if (CHARGE_CODE.CN_CLIENT_MARKUPS_TOSUBURB = $item("D_CHARGECODE",vModelItem) &amp; CHARGE_TYPE.CN_CLIENT_MARKUPS_TOSUBURB =  $item("D_CTYPE", vModelItem) &amp; vValue != "")
+						scan vValue, '#' 
+						vAmount = $number(vValue[$result]) 
+					
+						VALUE.CN_CLIENT_MARKUPS_TOSUBURB = vAmount 
+						delitem/id vContValueList, CONTAINER_CODE.CN_CLIENT_MARKUPS_TOSUBURB
+					endif
+
+				;	VALID_FROM.CN_CLIENT_MARKUPS_TOSUBURB 		= $date($item("D_VALIDFROM",vModelItem))
+				;	VALID_TO.CN_CLIENT_MARKUPS_TOSUBURB 		= $date($item("D_VALIDTO",vModelItem))
+					LAST_UPDATED.CN_CLIENT_MARKUPS_TOSUBURB 	= $datim
+					LAST_UPDATED_BY.CN_CLIENT_MARKUPS_TOSUBURB 	= vUser 
+				endif
+			endfor
+		else
+			clear/e "CN_CLIENT_MARKUPS_TOSUBURB"
+		endif
+	
+		;create new markups		
+		forlist/id vContainer, vValue in vContValueList		
+	
+			if (vValue != "")         
+
+				creocc "CN_CLIENT_MARKUPS_TOSUBURB", -1  
+				CLIENT_SUBURB_ID.CN_CLIENT_MARKUPS_TOSUBURB = vClientSuburbID
+				CLIENT.CN_CLIENT_MARKUPS_TOSUBURB 			= vClient
+				SELLER.CN_CLIENT_MARKUPS_TOSUBURB 			= vSeller
+				PORT.CN_CLIENT_MARKUPS_TOSUBURB 			= vPort
+				SUBURB_ID.CN_CLIENT_MARKUPS_TOSUBURB 		= vSuburb
+				CHARGE_CODE.CN_CLIENT_MARKUPS_TOSUBURB 		= $item("D_CHARGECODE",vModelItem)
+				CHARGE_TYPE.CN_CLIENT_MARKUPS_TOSUBURB 		= $item("D_CTYPE", vModelItem)
+				CONTAINER_CODE.CN_CLIENT_MARKUPS_TOSUBURB 	= vContainer
+								
+				scan vValue, '#' 
+				vAmount = $number(vValue[$result]) 
+				VALUE.CN_CLIENT_MARKUPS_TOSUBURB 			= vAmount 
+	
+				VALID_FROM.CN_CLIENT_MARKUPS_TOSUBURB 		= $date($item("D_VALIDFROM",vModelItem))
+				VALID_TO.CN_CLIENT_MARKUPS_TOSUBURB 		= $date($item("D_VALIDTO",vModelItem))
+				LAST_UPDATED.CN_CLIENT_MARKUPS_TOSUBURB 	= $datim
+				LAST_UPDATED_BY.CN_CLIENT_MARKUPS_TOSUBURB 	= vUser  
+		
+			endif
+		endfor
+		vCounter = vCounter + 1
+
+		vModelItem = $itemnr(vCounter,vModels)
+
+		;store changes
+		store/e "CN_CLIENT_MARKUPS_TOSUBURB"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)	
+		                    
+			vIsOk = "T"        
+			commit   
+		else		
+			vIsOk = "F"
+			rollback
+		endif
+
+	
+	endwhile
+	call lpSendResponse(vIsOk)	
+
+end
+
+operation GetReferenceRoutes
+params
+	string pType : IN
+	string pCompCode : IN
+	string pRoutes : OUT
+endparams
+	
+	selectcase pType
+		case "S","O" ;sea freight
+			clear/e "FR_FREIGHT_HEADER"
+			BUYER_CODE.FR_FREIGHT_HEADER = pCompCode
+			VALID_TO.FR_FREIGHT_HEADER = $concat("&uGT;&uEQ;", $date)
+			retrieve/e "FR_FREIGHT_HEADER"
+			if ($procerror = &lt;UACT_SUCCESS&gt;)	
+				forentity "FR_FREIGHT_HEADER"
+					putitem pRoutes, -1 , ROUTE_CODE.FR_FREIGHT_HEADER
+				endfor
+			endif
+			sort/list pRoutes, "U"
+		case "L" ; local port
+			clear/e "FR_PORT_CHARGE_HEADER"
+			BUYER_UUID.FR_PORT_CHARGE_HEADER = pCompCode
+			VALID_TO.FR_PORT_CHARGE_HEADER = $concat("&uGT;&uEQ;", $date)
+			retrieve/e "FR_PORT_CHARGE_HEADER"
+			if ($procerror = &lt;UACT_SUCCESS&gt;)	
+				forentity "FR_PORT_CHARGE_HEADER"
+					putitem pRoutes, -1 , ROUTE_UUID.FR_PORT_CHARGE_HEADER
+				endfor
+			endif
+			sort/list pRoutes, "U"
+		case "C" ; cartage
+			clear/e "CN_CLIENT_MARKUPS"
+			CLIENT.CN_CLIENT_MARKUPS = pCompCode
+			CHARGE_TYPE.CN_CLIENT_MARKUPS = pType
+			VALID_TO.CN_CLIENT_MARKUPS = $concat("&uGT;&uEQ;", $date)
+			retrieve/e "CN_CLIENT_MARKUPS"
+			if ($procerror = &lt;UACT_SUCCESS&gt;)	
+				forentity "CN_CLIENT_MARKUPS"
+					putitem pRoutes, -1 , ROUTE_ID.CN_CLIENT_MARKUPS
+				endfor
+			endif
+			sort/list pRoutes, "U"
+		elsecase
+			pRoutes = ""
+	endselectcase
+end
+
+operation GetSavedColumns
+params
+	struct pStruct : INOUT
+endparams
+variables
+	string vSavedCols
+endvariables
+	clear/e "CN_USER_DEFAULTS"
+	USER_ID.CN_USER_DEFAULTS = $concat("&uEQ;", pStruct-&gt;in-&gt;UserID)
+	DEFAULT_CODE.CN_USER_DEFAULTS = $concat("&uEQ;", pStruct-&gt;in-&gt;Component)
+	retrieve/e "CN_USER_DEFAULTS"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		vSavedCols = $replace(DEFAULT_VALUE.CN_USER_DEFAULTS, 1,"&uSEP;",";", -1)
+	else
+		vSavedCols = ""	
+	endif
+
+	pStruct-&gt;out-&gt;SavedCols = vSavedCols
+end 
+  
+
+operation SaveState
+params
+	struct pStruct : INOUT
+endparams
+variables
+	string vWebParams, vFile   
+endvariables 
+
+	vWebParams = $webinfo("usercontext")
+	pStruct-&gt;out-&gt;OK = "T"	  
+	filedump pStruct-&gt;in-&gt;GridOptions, "c:\test\q_ke_sa_core1_savestate.txt"     
+
+	clear/e "CN_USER_FILES"
+	COMPANY_ID.CN_USER_FILES = $item("compcode",vWebParams)
+	PARENT_ID.CN_USER_FILES =  $item("parentcode",vWebParams)
+	USER_ID.CN_USER_FILES =  $concat("&uEQ;", pStruct-&gt;in-&gt;UserID)
+	FILE_TYPE.CN_USER_FILES =   $concat("&uEQ;", pStruct-&gt;in-&gt;Component, ";", pStruct-&gt;in-&gt;GridName)  
+	retrieve/e "CN_USER_FILES"
+	if ($procerror != &lt;UACT_SUCCESS&gt;)  
+		clear/e "CN_USER_FILES"
+		COMPANY_ID.CN_USER_FILES = $item("compcode",vWebParams)
+		PARENT_ID.CN_USER_FILES =  $item("parentcode",vWebParams)
+		USER_ID.CN_USER_FILES = pStruct-&gt;in-&gt;UserID
+		FILE_ID.CN_USER_FILES = $uuid 
+		FILE_TYPE.CN_USER_FILES =  $concat(pStruct-&gt;in-&gt;Component, ";", pStruct-&gt;in-&gt;GridName)   
+		FILE_NAME.CN_USER_FILES = FILE_ID.CN_USER_FILES
+	endif
+	FILE.CN_USER_FILES = $encode("BASE64", pStruct -&gt;in-&gt;GridOptions)
+	store/e "CN_USER_FILES"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		commit
+	else
+		rollback 
+		pStruct-&gt;out-&gt;OK = "F"	
+	endif
+
+end
+ 
+
+operation LoadState 
+params
+	struct pStruct : INOUT
+endparams  
+variables
+	string vWebParams , JSONString 
+endvariables 
+	vWebParams = $webinfo("usercontext")
+	clear/e "CN_USER_FILES"
+	COMPANY_ID.CN_USER_FILES = $item("compcode",vWebParams)
+	PARENT_ID.CN_USER_FILES =  $item("parentcode",vWebParams)
+	USER_ID.CN_USER_FILES =  $concat("&uEQ;", pStruct-&gt;in-&gt;UserID)
+	FILE_TYPE.CN_USER_FILES =   $concat("&uEQ;", pStruct-&gt;in-&gt;Component, ";", pStruct-&gt;in-&gt;GridName)  
+	retrieve/e "CN_USER_FILES"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)   
+		;work around for extra A and C characters
+		JSONString = $replace($decode("BASE64", FILE.CN_USER_FILES), 1, "{A", "{", -1)  
+		JSONString  = $replace(JSONString  , 1, "{C", "}", -1)  
+		JSONString  = $replace(JSONString  , 1, "{B", "|", -1)  
+		pStruct-&gt;out-&gt;GridOptions = JSONString  
+;		filedump pStruct-&gt;out-&gt;GridOptions, "c:\test\q_ke_sa_core1_loadstate.txt"  
+	endif
+end 
+  
+
+operation RestoreState
+params
+	struct pStruct : INOUT
+endparams
+variables
+	string vWebParams
+endvariables   
+
+	vWebParams = $webinfo("usercontext")
+
+	pStruct-&gt;out-&gt;OK = "T"  
+
+	clear/e "CN_USER_FILES"
+	COMPANY_ID.CN_USER_FILES = $item("compcode",vWebParams)
+	PARENT_ID.CN_USER_FILES =  $item("parentcode",vWebParams)
+	USER_ID.CN_USER_FILES =  $concat("&uEQ;", pStruct-&gt;in-&gt;UserID)
+	FILE_TYPE.CN_USER_FILES =   $concat("&uEQ;", pStruct-&gt;in-&gt;Component, ";", pStruct-&gt;in-&gt;GridName)  
+	retrieve/e "CN_USER_FILES"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)  
+		remocc "CN_USER_FILES", 0
+		store/e "CN_USER_FILES"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			commit
+		else
+			rollback
+			pStruct-&gt;out-&gt;OK = "F"
+		endif	
+	endif
+end
+
+
+
+;--------------------------------
+; Contract 
+;--------------------------------
+operation Q_FR_DA_CNTRCT1
+	variables
+		string vWebParams, vModels, vUser,  vModelItem, vContractUUID, vMessage
+		numeric vModelCount, vCounter	
+		boolean vIsOk
+	endvariables
+	
+	vIsOk = "T"
+	vMessage = "Data successfully saved."
+
+	vWebParams= $webInfo("input")
+	vUser = $item("saveparams[usercode]", vWebParams)
+	
+	;Parse Model 
+	vModels = $item("models", vWebParams )    
+	vCounter = 1
+	if ($scan(vModels,"},{") &gt; 0)
+		vModels = $replace(vModels, 1, "},{", "&uSEP;", -1 )
+		vModelCount = $itemcount(vModels)
+		vModelItem = $itemnr(1,vModels)
+	else
+		vModelItem = vModels
+		vModelCount = 1
+	endif
+	
+	while(vCounter &lt;= vModelCount)
+		vModelItem = lpParseModel(vModelItem)
+		vContractUUID = $item("D_CONTRACTUUID",vModelItem)
+		delitem/id vModelItem, "D_CONTRACTUUID"
+		
+		clear/e "CN_CONTRACTS"
+		CONTRACT_UUID.CN_CONTRACTS = vContractUUID
+		retrieve/e "CN_CONTRACTS"
+		if($procerror = &lt;UACT_SUCCESS&gt;)
+
+			;before proceeding with saving, validate if dates are overlapping
+
+			if (vIsOk )
+				TRADE_LANE.CN_CONTRACTS = $item("D_TRADELANE",vModelItem)
+				BUYER_CODE.CN_CONTRACTS = $item("D_BUYERCODE",vModelItem)			
+				SELLER_CODE.CN_CONTRACTS = $item("D_SELLERCODE",vModelItem)				
+				LAST_UPDATED_BY.CN_CONTRACTS = vUser 
+				LAST_UPDATED.CN_CONTRACTS = $datim
+				store/e "CN_CONTRACTS"
+				if ($procerror = &lt;UACT_SUCCESS&gt;)
+					commit
+				else
+					rollback
+					vIsOk = "F"
+					vMessage = "Save Failed."
+				endif
+			endif			
+		endif
+
+		vCounter = vCounter + 1
+		vModelItem = $itemnr(vCounter,vModels)
+	endwhile
+	if (vIsOk) vMessage = "Data Saved."
+	call lpSendResponseWithMsg(vIsOk, vMessage)
+end
+</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXGROUP" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,1" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_BORD" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DBMS" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_UPD" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINL" seqno="11" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXL" seqno="12" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINR" seqno="13" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXR" seqno="14" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLGINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INTF" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="17" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="GETOCC" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="PUTOCC" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="DELOCC" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="LCK" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UNLOCK" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="GETSEGM" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ADDOCC" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DELOCCR" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="CREOCC" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="FINDOCC" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="FLIST" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="BREAK" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="VLDE" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDK" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="UISBCLASS" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UISASSOC" seqno="43" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_OBJSVC" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="U_SVCUSE" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTPROP" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_TABTYPE" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_B" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_E" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTCLASS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="U_GLAB" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UEOINTERFACE" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UECINTERFACE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="UEOOPERS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="UECOPERS" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="UEOTRIGGERS" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="UECTRIGGERS" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETTYPE" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETCREATE" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="PRLO" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="PSLO" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="PRSO" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="PSSO" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="UPARENT" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETTYPE" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F2,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETCREATE" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-05T14:12:07.00</DAT>
+<DAT name="ULABEL">CN_CHARGE_TYPE</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-18T12:28:59.00</DAT>
+<DAT name="ULABEL">CN_CLIENT</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>if ($order_by$ = "")
+	read
+else
+	read order by $order_by$
+endif
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-06T11:32:16.00</DAT>
+<DAT name="ULABEL">CN_CLIENT_CONTRACTS</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-08-09T11:16:55.00</DAT>
+<DAT name="ULABEL">CN_CLIENT_MARKUPS</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-02-28T12:40:47.00</DAT>
+<DAT name="ULABEL">CN_CLIENT_MARKUPS_TOSUBURB</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-15T11:51:29.00</DAT>
+<DAT name="ULABEL">CN_CLIENT_PARTY</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-01-18T14:24:33.00</DAT>
+<DAT name="ULABEL">CN_COMPANY</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>if ($order_by$ = "")
+	read
+else
+	read order by $order_by$
+endif
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-10-28T14:57:43.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_CODE</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read u_where (COMPANY_ID.CN_COMPANY_CODE = COMPANY_ID.CN_COMPANY)</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-16T15:23:01.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_PORT</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-15T13:08:31.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_RELATIONSHIP</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-13T16:23:24.00</DAT>
+<DAT name="ULABEL">CN_CONTRACTS</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-22T21:46:08.00</DAT>
+<DAT name="ULABEL">CN_COUNTRY</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-08-03T18:25:50.00</DAT>
+<DAT name="ULABEL">CN_MARKUPS</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-22T22:11:16.00</DAT>
+<DAT name="ULABEL">CN_PORT</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>if($serverpaging$)
+	read options "maxhits=%%$PageSize$%%%&uSEP;offset=%%$Skip$%%%" order by "NAME"	
+else
+	read order by "NAME,PORT_TYPE"	
+endif
+
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-01T18:31:51.00</DAT>
+<DAT name="ULABEL">CN_ROUTE</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-30T14:11:53.00</DAT>
+<DAT name="ULABEL">CN_TIERS</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-25T13:23:37.00</DAT>
+<DAT name="ULABEL">CN_USER</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-03-10T09:50:53.00</DAT>
+<DAT name="ULABEL">CN_USER_DEFAULTS</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-03-28T15:16:08.00</DAT>
+<DAT name="ULABEL">CN_USER_FILES</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-06T12:23:37.00</DAT>
+<DAT name="ULABEL">CN_WORLD_AREA</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-01T18:59:45.00</DAT>
+<DAT name="ULABEL">COMPANYLIST</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-05T16:40:03.00</DAT>
+<DAT name="ULABEL">CONTAINERDUM</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-09T12:22:03.00</DAT>
+<DAT name="ULABEL">CR_NOTES</DAT>
+<DAT name="UBASE">CRM_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read
+
+if ($procerror = &lt;UACT_SUCCESS&gt;)
+selectcase NOTE_PRIVACY.CR_NOTES
+		case "I"
+			D_PRIVACY.CR_NOTES = "Internal"
+		case "P"
+			D_PRIVACY.CR_NOTES = "Private"
+		elsecase 
+			D_PRIVACY.CR_NOTES = "Public"
+endselectcase
+endif</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-06-29T15:40:18.00</DAT>
+<DAT name="ULABEL">DUMMY</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-30T14:30:36.00</DAT>
+<DAT name="ULABEL">D_CARRIER</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-30T14:28:56.00</DAT>
+<DAT name="ULABEL">D_DROPDOWN</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-30T14:29:53.00</DAT>
+<DAT name="ULABEL">D_PORT</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-03-24T16:15:51.00</DAT>
+<DAT name="ULABEL">FR_ARBITRARY_DETAIL</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read u_where (ARBITRARY_CODE.FR_ARBITRARY_DETAIL = ARBITRARY_CODE.FR_ARBITRARY_HEADER)</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-03-24T16:14:47.00</DAT>
+<DAT name="ULABEL">FR_ARBITRARY_HEADER</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-10-31T12:40:18.00</DAT>
+<DAT name="ULABEL">FR_CONTAINERS</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-02-10T09:45:38.00</DAT>
+<DAT name="ULABEL">FR_FREIGHT_DETAIL</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-06-22T17:18:17.00</DAT>
+<DAT name="ULABEL">FR_FREIGHT_HEADER</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-07T19:12:20.00</DAT>
+<DAT name="ULABEL">FR_PORT_CHARGE_DETAIL</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read u_where (pc_uuid.fr_port_charge_detail = port_charge_uuid.fr_port_charge_header)</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-07T16:48:00.00</DAT>
+<DAT name="ULABEL">FR_PORT_CHARGE_HEADER</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXFIELD" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="GRP" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UBASE" seqno="4" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UFORM" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="3" ufocc="0" mandatory="yes" idxnum="1,2,3" idxsnr="104,3,1" />
+<FLD name="U_TLAB" seqno="6" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="8" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="9" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLLAY" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LAYOUTMOD" seqno="12" type="S" level="2" pack="0" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLSYN" seqno="13" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="SYNTAXMOD" seqno="14" type="S" level="2" pack="0" scale="0" length="192"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="INTERFACEMOD" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TABSTOP" seqno="17" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WIDGETTYPE" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="19" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="20" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="STARTMOD" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="NEXTFLD" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="PREVFLD" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="ENCRYPT" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DECRYPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="UFORMAT" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="DEFORMAT" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GETFOCUS" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="VCHANGED" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="WIDGETCREATE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="VALLAB" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="INITVALUE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="VLDF" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="UISOBJID" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HTML_FLDPROP" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="HTML_CTRLTYPE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_M" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_FLDCLASS" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLCLASS" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="UFOPERS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="UFTRIGGERS" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="UFORMATS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="WEBWIDGETTYPE" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="WEBWIDGETCREATE" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-30T14:30:52.00</DAT>
+<DAT name="ULABEL">CARRIERID</DAT>
+<DAT name="GRP">D_CARRIER</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C100</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-30T14:31:00.00</DAT>
+<DAT name="ULABEL">CARRIERVAL</DAT>
+<DAT name="GRP">D_CARRIER</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C200</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-05T16:12:24.00</DAT>
+<DAT name="ULABEL">CHARGE_CODE</DAT>
+<DAT name="GRP">DUMMY</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-01T21:20:27.00</DAT>
+<DAT name="ULABEL">COMPID</DAT>
+<DAT name="GRP">COMPANYLIST</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-01T21:20:37.00</DAT>
+<DAT name="ULABEL">COMPVAL</DAT>
+<DAT name="GRP">COMPANYLIST</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-03-06T11:00:48.00</DAT>
+<DAT name="ULABEL">CONSORTIUM</DAT>
+<DAT name="GRP">FR_FREIGHT_HEADER</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="SYNTAXMOD">UPC</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-05T16:40:24.00</DAT>
+<DAT name="ULABEL">CONTAINERID</DAT>
+<DAT name="GRP">CONTAINERDUM</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-05T16:40:40.00</DAT>
+<DAT name="ULABEL">CONTAINERVAL</DAT>
+<DAT name="GRP">CONTAINERDUM</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-05T14:35:06.00</DAT>
+<DAT name="ULABEL">CONTAINER_CODE</DAT>
+<DAT name="GRP">DUMMY</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-30T15:31:44.00</DAT>
+<DAT name="ULABEL">DROPDOWNID</DAT>
+<DAT name="GRP">D_DROPDOWN</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C50</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-30T14:29:29.00</DAT>
+<DAT name="ULABEL">DROPDOWNVAL</DAT>
+<DAT name="GRP">D_DROPDOWN</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C200</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-25T13:25:10.00</DAT>
+<DAT name="ULABEL">D_NOTE_USER</DAT>
+<DAT name="GRP">CR_NOTES</DAT>
+<DAT name="UBASE">CRM_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C200</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-09T12:20:36.00</DAT>
+<DAT name="ULABEL">D_PRIVACY</DAT>
+<DAT name="GRP">CR_NOTES</DAT>
+<DAT name="UBASE">CRM_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C15</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-08T15:30:09.00</DAT>
+<DAT name="ULABEL">NOTE_CLIENT_ID</DAT>
+<DAT name="GRP">CR_NOTES</DAT>
+<DAT name="UBASE">CRM_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-08T15:30:09.00</DAT>
+<DAT name="ULABEL">NOTE_ID</DAT>
+<DAT name="GRP">CR_NOTES</DAT>
+<DAT name="UBASE">CRM_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-09T12:23:45.00</DAT>
+<DAT name="ULABEL">NOTE_PRIVACY</DAT>
+<DAT name="GRP">CR_NOTES</DAT>
+<DAT name="UBASE">CRM_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-08T15:30:09.00</DAT>
+<DAT name="ULABEL">NOTE_TEXT</DAT>
+<DAT name="GRP">CR_NOTES</DAT>
+<DAT name="UBASE">CRM_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-09-08T15:30:09.00</DAT>
+<DAT name="ULABEL">NOTE_USER</DAT>
+<DAT name="GRP">CR_NOTES</DAT>
+<DAT name="UBASE">CRM_SYSTEM</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-30T14:30:10.00</DAT>
+<DAT name="ULABEL">PORTID</DAT>
+<DAT name="GRP">D_PORT</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C100</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-30T14:30:19.00</DAT>
+<DAT name="ULABEL">PORTVAL</DAT>
+<DAT name="GRP">D_PORT</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="INTERFACEMOD">C200</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-30T14:12:33.00</DAT>
+<DAT name="ULABEL">TIER</DAT>
+<DAT name="GRP">DUMMY</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-05T15:12:12.00</DAT>
+<DAT name="ULABEL">TRANSIT_TYPE</DAT>
+<DAT name="GRP">DUMMY</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-19T13:09:05.00</DAT>
+<DAT name="ULABEL">VALIDITY</DAT>
+<DAT name="GRP">DUMMY</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-06T11:41:19.00</DAT>
+<DAT name="ULABEL">WORLD_AREA</DAT>
+<DAT name="GRP">DUMMY</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">Q_KE_SA_CORE1</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXREGS" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_STAT" seqno="2" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_TYPE" seqno="3" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_FORMLIB" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,3" idxsnr="101,1" />
+<FLD name="U_NAME" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_LAYOUT" seqno="9" type="S" level="2" pack="0" scale="0" length="46"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DOC" seqno="10" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-18T12:29:05.00</DAT>
+<DAT name="U_FORMLIB">Q_KE_SA_CORE1</DAT>
+<DAT name="U_NAME">ORDER_BY</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-01T19:07:40.00</DAT>
+<DAT name="U_FORMLIB">Q_KE_SA_CORE1</DAT>
+<DAT name="U_NAME">PAGE</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-01T19:07:40.00</DAT>
+<DAT name="U_FORMLIB">Q_KE_SA_CORE1</DAT>
+<DAT name="U_NAME">PAGESIZE</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-30T15:46:24.00</DAT>
+<DAT name="U_FORMLIB">Q_KE_SA_CORE1</DAT>
+<DAT name="U_NAME">SERVERPAGING</DAT>
+<DAT name="U_DTYP">B</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-01T19:07:40.00</DAT>
+<DAT name="U_FORMLIB">Q_KE_SA_CORE1</DAT>
+<DAT name="U_NAME">SKIP</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-01T19:07:40.00</DAT>
+<DAT name="U_FORMLIB">Q_KE_SA_CORE1</DAT>
+<DAT name="U_NAME">TAKE</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-01T19:07:40.00</DAT>
+<DAT name="U_FORMLIB">Q_KE_SA_CORE1</DAT>
+<DAT name="U_NAME">TOTAL</DAT>
+<DAT name="U_DTYP">N</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

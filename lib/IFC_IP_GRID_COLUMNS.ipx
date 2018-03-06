@@ -1,0 +1,333 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="ULIBR" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULIBRARY" seqno="1" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="2" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTIMESTAMP" seqno="3" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="ULIBRARY">IFC</DAT>
+<DAT name="UDESCR" xml:space='preserve'>IFC Library</DAT>
+<DAT name="UTIMESTAMP">2014-01-21T10:22:41.00</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOURCE" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USTAT" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUB" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="ULABEL" seqno="6" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="ULAN" seqno="7" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="MSGTYPE" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="AUTHORIZ" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCLASS" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LOCREF" seqno="17" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCONFIRM" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UAUDIO" seqno="19" type="N" level="2" pack="10" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UTEXT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,1,\1E,0,0,0,,0,0,0,," />
+<FLD name="UWLEVEL" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-04T09:05:50.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">IFC</DAT>
+<DAT name="ULABEL">IP_GRID_COLUMNS</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Column Settings</DAT>
+<DAT name="UTEXT" xml:space='preserve'>operation RestoreState 
+public web
+params
+	string pGridName : IN    
+	string pInstancename : IN
+endparams
+variables
+	struct vStruct 
+	string vUserParams, vUserCode
+	boolean vIsOK
+endvariables
+	vUserParams = $webinfo("usercontext")
+	vUserCode = $item("usercode", vUserParams )
+	
+	#include IFC:initStructParam
+	vStruct-&gt;in-&gt;UserID = vUserCode 
+	;vStruct-&gt;in-&gt;Component = $instancename	    
+	vStruct-&gt;in-&gt;Component = pInstancename 	
+	vStruct-&gt;in-&gt;GridName = pGridName 	 
+	activate "Q_KE_SA_CORE1".RestoreState(vStruct)
+	vIsOK = vStruct-&gt;out-&gt;OK
+	if(vIsOK)
+		webactivate $instancename.setDivMessage("success","Success!","ok-sign","Grid State successfully restored to default. Please refresh page or retrieve data to view changes.")
+		;webactivate $instancename.LoadGrid()
+	else
+		webactivate $instancename.setDivMessage("","","","Grid State failed to restore to default.")
+	endif   
+	return (0)
+end 
+     
+operation SaveState
+public web
+params  
+	string pGridName : IN  
+	string pInstancename : IN
+	string pGridOptions: IN
+endparams
+variables
+	struct vStruct 
+	string vUserParams, vUserCode
+	boolean vIsOK
+endvariables
+	vUserParams = $webinfo("usercontext")
+	vUserCode = $item("usercode", vUserParams )
+  
+
+	#include IFC:initStructParam
+	vStruct-&gt;in-&gt;UserID = vUserCode 
+	;vStruct-&gt;in-&gt;Component = $instancename	  
+	vStruct-&gt;in-&gt;Component = pInstancename  
+	vStruct-&gt;in-&gt;GridOptions = pGridOptions
+	vStruct-&gt;in-&gt;GridName = pGridName 	
+	activate "Q_KE_SA_CORE1".SaveState(vStruct)
+	vIsOK = vStruct-&gt;out-&gt;OK  
+	if(vIsOK)
+		webactivate $instancename.setDivMessage("success","Success!","ok-sign","Grid State successfully saved.")
+	else
+		webactivate $instancename.setDivMessage("","","","Grid State failed to save.")
+	endif  
+
+	return (0)
+end
+  
+
+operation LoadState  
+public web
+params
+	string pGridName : IN  
+	string pInstancename : IN  
+	string pUncheckedList : IN
+	string pCheckedList : IN
+	string pEditorList : IN
+endparams
+variables
+	numeric i
+	struct vStruct , vStructOptions, vFieldName
+	string vUserParams, vUserCode, pGridOptions, vGridNameNoHash, vItem, vEditorListArr, vEditorSimple
+	string vUncheckedList, vCheckedList
+	boolean vIsOK
+endvariables  
+	vUserParams = $webinfo("usercontext")
+	vUserCode = $item("usercode", vUserParams )  
+	vGridNameNoHash = $replace(pGridName , 1, "#", "", -1)  
+
+	pUncheckedList = $replace(pUncheckedList , 1, ",", "&uSEP;", -1)
+	pCheckedList = $replace(pCheckedList, 1, ",", "&uSEP;", -1)  
+	vEditorListArr = $replace(pEditorList, 1, ",", "&uSEP;", -1 )
+
+
+	
+	;turn unchecked and checked list into an associative list for easy checking
+	forlist vItem in pUncheckedList 
+		putitem/id vUncheckedList, vItem , vItem 
+	endfor 
+	forlist vItem in pCheckedList 
+		putitem/id vCheckedList , vItem , vItem 
+	endfor 
+	
+
+	#include IFC:initStructParam
+	vStruct-&gt;in-&gt;UserID = vUserCode 
+	;vStruct-&gt;in-&gt;Component = $instancename  
+	vStruct-&gt;in-&gt;Component = pInstancename   
+	vStruct-&gt;in-&gt;GridName = vGridNameNoHash 		 
+	activate "Q_KE_SA_CORE1".LoadState(vStruct)  
+	pGridOptions  = vStruct-&gt;out-&gt;GridOptions      
+
+	if(pGridOptions  != "") 
+		jsontostruct vStructOptions, pGridOptions 	
+   		
+		while(i &lt;= vStructOptions-&gt;columns-&gt;$memberCount )   
+			vFieldName = vStructOptions-&gt;columns-&gt;*{i}-&gt;field     
+
+			if ($item(vFieldName,vEditorListArr) != "")
+				vStructOptions-&gt;columns-&gt;*{i}-&gt;editor = $item(vFieldName,vEditorListArr) 
+				vStructOptions-&gt;dataSource-&gt;fields-&gt;*{i}-&gt;editor = $item(vFieldName,vEditorListArr)   
+				putitem vEditorSimple, -1, (i-1)
+			endif
+			
+
+			;change json values for checked and unchecked columns   
+			if ($itemcount(pUncheckedList) &gt; 0 | $itemcount(pCheckedList) &gt; 0)
+				if ($item(vFieldName , vUncheckedList) != "")
+					vStructOptions-&gt;columns-&gt;*{i}-&gt;hidden = "true" 
+					vStructOptions-&gt;columns-&gt;*{i}-&gt;headerAttributes-&gt;style = "display:none"  
+					vStructOptions-&gt;columns-&gt;*{i}-&gt;attributes-&gt;style = "display:none"  
+					vStructOptions-&gt;columns-&gt;*{i}-&gt;footerAttributes-&gt;style = "display:none"  
+				
+					vStructOptions-&gt;dataSource-&gt;fields-&gt;*{i}-&gt;hidden = "true" 
+					vStructOptions-&gt;dataSource-&gt;fields-&gt;*{i}-&gt;headerAttributes-&gt;style = "display:none"    
+					vStructOptions-&gt;dataSource-&gt;fields-&gt;*{i}-&gt;attributes-&gt;style = "display:none"  
+					vStructOptions-&gt;dataSource-&gt;fields-&gt;*{i}-&gt;footerAttributes-&gt;style = "display:none" 
+				endif
+				if ($item(vFieldName , vCheckedList) != "")
+					vStructOptions-&gt;columns-&gt;*{i}-&gt;hidden = ""  
+					vStructOptions-&gt;columns-&gt;*{i}-&gt;headerAttributes-&gt;style = ""
+					vStructOptions-&gt;columns-&gt;*{i}-&gt;attributes-&gt;style = ""  
+					vStructOptions-&gt;columns-&gt;*{i}-&gt;footerAttributes-&gt;style = ""  				
+				
+					vStructOptions-&gt;dataSource-&gt;fields-&gt;*{i}-&gt;hidden = ""  
+					vStructOptions-&gt;dataSource-&gt;fields-&gt;*{i}-&gt;headerAttributes-&gt;style = ""  
+					vStructOptions-&gt;dataSource-&gt;fields-&gt;*{i}-&gt;attributes-&gt;style = ""  
+					vStructOptions-&gt;dataSource-&gt;fields-&gt;*{i}-&gt;footerAttributes-&gt;style = "" 
+				endif
+			endif
+				
+		i += 1
+		endwhile
+
+		structtoJSON pGridOptions, vStructOptions
+		vEditorSimple = $replace(vEditorSimple, 1, "&uSEP;", ",", -1)
+		
+		webactivate $instancename.SetSate(pGridName,pGridOptions,vEditorSimple)
+	endif  
+	return (0)
+end     
+  
+weboperation Alerttest
+params
+	string pGridOptions : IN
+endparams
+javascript
+	alert(pGridOptions);
+endjavascript
+end 
+
+weboperation SetSate
+params 
+	string pGridName : IN
+	string pGridOptions : IN  
+	string pEditorSimple : IN
+endparams
+javascript      
+	
+	var vGridOptionsJSON = JSON.parse(pGridOptions)
+ 	
+	//;kee : preserve toolbar function by deleting it in options
+	delete vGridOptionsJSON["toolbar"];
+	vGridOptionsJSON.editable = true;
+	//;kee
+	if (pEditorSimple  != ""){
+		var name = "" ;
+		var vEditorArr= pEditorSimple.split(",");  
+		//;console.log(vEditorArr);
+		for (i = 0; i &lt; vEditorArr.length; i++) { 
+			name  = vEditorArr[i];   
+			var vEditorObj =  vGridOptionsJSON["columns"][name]["editor"];   
+			//;console.log(vEditorObj ) ;
+			vGridOptionsJSON["columns"][name]["editor"] = window[vEditorObj]; 
+			vGridOptionsJSON["dataSource"]["fields"][name]["editor"] = window[vEditorObj]; 
+		}
+
+	}
+	var grid = $(pGridName).data("kendoGrid"); 
+	grid.setOptions(vGridOptionsJSON);
+
+	//;temporarily set grid editable to "false"
+	grid.options.editable = "popup";
+endjavascript
+end 
+  
+
+weboperation setDivMessage
+params 
+	string pSeverity : IN
+	string pTitle : IN
+	string pIcon : IN
+	string pMessage : IN
+endparams
+javascript
+	 if (pSeverity == "") pSeverity = "danger";
+	 if (pTitle == "") pTitle = "Danger!";
+	 if (pIcon == "") pIcon = "exclamation-sign";
+	 if (pMessage == "") pMessage = "Procedure Failed. Plese Contact the Administrator.";
+
+	$("#errordiv" ).html('&lt;div class="alert alert-' + pSeverity + 
+	'"&gt;&lt;span class="glyphicon glyphicon-' + pIcon + '" aria-hidden="true"&gt;&lt;/span&gt;' +
+	'&amp;nbsp;&lt;strong&gt;' +
+	pTitle + '&lt;/strong&gt;&amp;nbsp;&amp;nbsp;' + pMessage + '&lt;/div&gt;')
+endjavascript
+end  
+
+;=============================================
+
+weboperation toggleDiv
+params
+	string pID : IN
+	string pWillShow: IN
+endparams
+javascript
+
+	if (pWillShow == "T"){
+		$("#" + pID).show();
+	}else{
+		$("#" + pID).hide();
+	}
+
+endjavascript
+end
+
+;=============================================  
+
+weboperation toggleModal
+params
+	string pModalID : IN
+	string pAction : IN
+endparams
+javascript
+	$('#' + pModalID).modal(pAction);
+endjavascript
+end ; closeModal
+
+;========================================================
+
+</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

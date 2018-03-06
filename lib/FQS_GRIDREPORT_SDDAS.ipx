@@ -1,0 +1,672 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="ULIBR" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULIBRARY" seqno="1" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="2" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTIMESTAMP" seqno="3" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="ULIBRARY">FQS</DAT>
+<DAT name="UDESCR" xml:space='preserve'>FQS System</DAT>
+<DAT name="UTIMESTAMP">2016-03-20T16:36:31.00</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOURCE" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USTAT" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUB" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="ULABEL" seqno="6" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="ULAN" seqno="7" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="MSGTYPE" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="AUTHORIZ" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCLASS" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LOCREF" seqno="17" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCONFIRM" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UAUDIO" seqno="19" type="N" level="2" pack="10" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UTEXT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,1,\1E,0,0,0,,0,0,0,," />
+<FLD name="UWLEVEL" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-05T14:16:51.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">FQS</DAT>
+<DAT name="ULABEL">GRIDREPORT_SDDAS</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UTEXT" xml:space='preserve'>
+operation BuildReportData ; Builds all Json for KendoUI
+public web
+	params
+		String pListOptions     : In
+		String pDateTimeFormat    : In
+		String pEntityType        : In
+		string pOuterEntity        : IN
+		string pInnerEntity        : IN
+		string pPosition        : IN
+		numeric	pGridNo : IN
+		string	pTitle : IN
+	endparams
+	variables
+		string vFieldList,        vField,            vDateString
+		String    vOuterEntity,    vJFormedField,    vHeaderList,    vOutput,            vTitle, vList, vFld
+		String     vJsonField,        vCellList,        vCellType,        vDateFormat,     vFieldCol, vTemplate, vHidden
+		numeric     w,     x,                 y,                 z,                 i
+		string    vOuterList, vInnerList
+	endvariables
+	
+	;********************************************************************************************
+	;Build Painted Fields List based on first outer entity
+	;        vOuterEntity     = $componentinfo("","OUTERENTITIES")
+	;  delitem vOuterEntity, 1 ; R.emove controls entity 
+	vOuterEntity      = pOuterEntity
+	vFieldList        = $entinfo(vOuterEntity,"PAINTEDFIELDS")
+	vOuterList        = $entinfo(vOuterEntity,"PAINTEDFIELDS")
+	if (pGridNo = "")
+		pGridNo = 1
+	endif
+	vCellList = "{"
+	x = $itemcount(vFieldList)
+	forList vField, i in vfieldList
+		vCellType = $fieldinfo(vField,"DATATYPE")
+		selectcase vCellType
+			case "Numeric"
+				vCellType = "number"
+			case "String"
+				vCellType = "string"
+			case "Date"
+				vCellType = "date"
+			case "Datetime"
+				vCellType = "date"
+				;Paul
+			case "Time"
+				vCellType = "date"
+				;Paul
+		endselectcase
+		vCellList = $concat(vCellList,$concat('"',vField,'"'),":",'{"type": ',$concat('"',vCellType,'"}'))
+		if (i != x)
+			vCellList     = $concat(vCellList,",")
+		endif
+	endfor  
+	
+	if (pInnerEntity != "")
+		z=1
+		w = 0
+		forentity pInnerEntity
+			w = w + 1
+			forlist vField, x in pInnerEntity
+				
+				vList = ""
+				y = 1
+				while y &lt;= $itemcount($entinfo(vField,"PAINTEDFIELDS"))
+					getitem(vFld,$entinfo(vField,"PAINTEDFIELDS"),y)
+					putitem vList, -1, $concat(vFld,w)
+					vCellType = $fieldinfo(vFld,"DATATYPE")
+					selectcase vCellType
+						case "Numeric"
+							vCellType = "number"
+						case "String"
+							vCellType = "string"
+						case "Date"
+							vCellType = "date"
+						case "Datetime"
+							vCellType = "date"
+							;Paul
+						case "Time"
+							vCellType = "date"
+							;Paul
+					endselectcase
+					vCellList     = $concat(vCellList,",")
+					vCellList = $concat(vCellList,$concat('"',vField,'"'),":",'{"type": ',$concat('"',vCellType,'"}'))
+					y += 1
+				endwhile
+				putitem vFieldList, -1, vList
+				if (z=1)
+					putitem vInnerList, -1, $entinfo(vField,"PAINTEDFIELDS")
+					z=0
+				endif
+			endfor        
+		endfor
+	endif
+	
+	vCellList = $concat(vCellList,"}")
+	;********************************************************************************************
+	;(Re)Initialise Variables
+	vField = ""
+	x=0
+	y=0
+	i=0
+	;********************************************************************************************
+	;Set the Kendo date format
+	selectcase pDateTimeFormat
+		case "FDF"
+			vDateFormat    = "{0:dd-MMM-yyyy hh:mm:ss tt}"
+		case "SDF"
+			vDateFormat    = "{0:dd-MMM-yyyy}"
+		case "TFO"
+			vDateFormat    = "{0:hh:mm:ss tt}"
+	endselectcase
+	;********************************************************************************************
+	;Build the Kendo column formats
+	x = $itemcount(vFieldList)    
+	vHeaderList     = "["
+	forList vField, i in vfieldList
+		if (pListOptions != "") vTitle = $concat(',','"title":"',$itemnr(i,pListOptions),'"')
+		if ($scan($uppercase($fieldInfo(vField,"SYNTAX")), "HID") &gt; 0) 
+			vHidden = ",%%"hidden%%":%%"true%%""
+		else
+			vHidden = ""
+		endif
+		selectcase $fieldInfo(vField,"DATATYPE") 
+			case "Date"
+				vTemplate = $concat(",%%"template%%":%%"&lt;span style ='text-transform: uppercase;'&gt;#= ",vField," != null ? kendo.toString(",vField,", 'dd-MMM-yyyy') : '' #&lt;/span&gt;%%"")
+				vHeaderList     = $concat(vHeaderList,'{"field":"',vField,'","format":"{0:dd-MMM-yyyy}"',$concat(vTemplate,vHidden ,vTitle,'}'))            
+			case "Datetime"
+				vTemplate = $concat(",%%"template%%":%%"&lt;span style ='text-transform: uppercase;'&gt;#= ",vField," != null ? kendo.toString(",vField,", 'dd-MMM-yyyy HH:MM') : '' #&lt;/span&gt;%%"")
+;				vHeaderList     = "%%vHeaderList%%%{%%"field%%":%%"%%vField%%%%%",%%"format%%":%%"{0:dd-MMM-yyyy hh:mm:ss tt}%%", %%"parseFormats%%": [%%"MMM yyyy%%",%%"hh:mm%%"]%%vTemplate%%%%%vHidden%%%%%vTitle%%%}"            
+				vHeaderList     = $concat(vHeaderList,'{"field":"',vField,'","format":"{0:dd-MMM-yyyy}"',$concat(vTemplate,vHidden ,vTitle,'}'))            
+			case "Time"
+				vHeaderList     = $concat(vHeaderList,'{"field":','"',vField,$concat('","format":"{0:hh:mm:ss tt}"',vTitle,vHidden,'}'))
+				;Paul
+			case "Boolean"    
+				vHeaderList = $concat(vHeaderList,'{"field":','"',vField,$concat('"',vTitle,vHidden))
+				vHeaderList = $concat(vHeaderList, $concat(',"template":','"',"&lt;input type='checkbox' /&gt;",'"','}'))
+			case "Numeric"
+				vTemplate = $concat(",%%"template%%":%%"&lt;span style ='float: right;'&gt;#= ",vField," != null ? kendo.toString(",vField,", 'n0') : '' #&lt;/span&gt;%%"")
+				vHeaderList = $concat(vHeaderList,'{"field":','"',vField,$concat('"',vTemplate,vHidden,vTitle,'}'))            
+			case "Float"
+				vTemplate = $concat(",%%"template%%":%%"&lt;span style ='float: right;'&gt;#= ",vField," != null ? kendo.toString(",vField,", 'n') : '0' #&lt;/span&gt;%%"")
+				vHeaderList = $concat(vHeaderList,'{"field":','"',vField,$concat('"',vTemplate,vHidden,vTitle,'}'))            
+			case "String"
+				vTemplate = ""
+				vHeaderList = $concat(vHeaderList,'{"field":','"',vField,$concat('"',vTemplate,vHidden,vTitle,'}'))            
+			elsecase
+				filedump/append $fieldInfo(vField,"DATATYPE"),"Grid.txt"
+				vTemplate = ""
+				vHeaderList = $concat(vHeaderList,'{"field":','"',vField,$concat('"',vTemplate,vHidden,vTitle,'}'))            
+		endselectcase
+		if (i != x)
+			vHeaderList = $concat(vHeaderList,",")
+		endif
+	endfor
+	vHeaderList     = $concat(vHeaderList,"]")
+	;***************************.*****************************************************************
+	;(Re)Initialise Variables
+	vField = ""
+	x=0
+	y=0
+	i=0
+	;********************************************************************************************
+	;{Retrieve data from database and} build grid
+;	if (pEntityType = "DBE") retrieve/e vOuterEntity
+	forentity vOuterEntity
+		i += 1
+		if (x = 0) 
+			vOutput = $concat(vOutput,"{")
+		else
+			vOutput = $concat(vOutput,",{")
+		endif
+		
+		forList vField, y in vOuterList
+			selectcase $fieldInfo(vField,"DATATYPE")
+				case "String"
+					vJsonField = $concat('"',@vField,'"')
+				case "Numeric"
+					vJsonField = @vfield
+				case "Date"
+					vJsonField = $concat('"',@vField,'"')
+				case "datetime"
+					vJsonField = $concat('"',@vField,'"')
+					;Paul
+				case "Time"
+					vJsonField = $concat('"',@vField,'"')
+					;Paul
+				case "boolean"
+					vJsonField = $concat('"',@vField,'"')
+			endselectcase
+			
+			
+			vJFormedField = $concat('"',vField,'"')
+			if (y = 1)
+				if ($fieldInfo(vField,"DATATYPE") = "String")
+					vOutput    = $concat(vOutput,vJFormedField,":",$concat('"',$replace(@vField,1,'"','\"',-1),'"'))
+				elseif ($fieldInfo(vField,"DATATYPE") = "Date")
+					vDateString    = $concat(@vField[5:2],"/",@vField[7:2],$concat("/",@vField[1:4]))
+					vOutput    = $concat(vOutput,vJFormedField,":",$concat('"',vDateString,'"'))
+				elseif ($fieldInfo(vField,"DATATYPE") = "Datetime")
+					vDateString    = $concat(@vField[5:2],"/",@vField[7:2],$concat("/",@vField[1:4]))
+					vOutput = $concat(vOutput,vJFormedField,":",$concat('"',vDateString,'"'))
+				elseif ($fieldInfo(vField,"DATATYPE") = "Boolean")
+					if (@vField    = "T") 
+						vOutput = $concat(vOutput,vJFormedField,":%%"true%%"")
+					else
+						vOutput = $concat(vOutput,vJFormedField,":%%"false%%"")
+					endif
+				else
+					if (@vField    = "") @vField = 'null'
+					vOutput = $concat(vOutput,vJFormedField,":",@vField)
+				endif
+			else
+				if ($fieldInfo(vField,"DATATYPE") = "String")
+					vOutput = $concat(vOutput,",",vJFormedField,$concat(":",'"',$replace(@vField,1,'"','\"',-1),'"'))
+				elseif ($fieldInfo(vField,"DATATYPE") = "Date")
+					vDateString = $concat(@vField[5:2],"/",@vField[7:2],$concat("/",@vField[1:4]))
+					vOutput = $concat(vOutput,",",vJFormedField,$concat(":",'"',vDateString,'"'))
+				elseif ($fieldInfo(vField,"DATATYPE") = "Datetime")
+					vDateString =     $concat(@vField[1:4],                                 %\
+					$concat("-",@vField[5:2],                             %\
+					$concat("-",@vField[7:2]),                         %\
+					$concat("T",@vField[9:2],":",@vField[11:2]),        %\
+					$concat(":",@vField[13:2],".",@vField[15:2])))
+					vOutput = $concat(vOutput,",",vJFormedField,$concat(":",'"',vDateString,'"'))
+					;Paul
+				elseif ($fieldInfo(vField,"DATATYPE") = "Time")
+					if (@vField = "")
+						vOutput = $concat(vOutput,",",vJFormedField,":",$concat('"',"//T::.",'"'))
+					else
+						vDateString =     $concat("1900-01-01",                                 %\
+						$concat("T",@vField[9:2],":",@vField[11:2]),        %\
+						$concat(":",@vField[13:2],".",@vField[15:2]))
+						vOutput = $concat(vOutput,",",vJFormedField,$concat(":",'"',vDateString,'"'))
+					endif
+					;Paul
+				elseif ($fieldInfo(vField,"DATATYPE") = "Boolean")
+					if (@vField    = "T") 
+						vOutput = $concat(vOutput,",",vJFormedField,":%%"true%%"")
+					else
+						vOutput = $concat(vOutput,",",vJFormedField,":%%"false%%"")
+					endif
+				else
+					if (@vField = "") @vField = 'null'
+					vOutput = $concat(vOutput,",",vJFormedField,":",@vField)
+				endif
+			endif
+		endfor
+		
+		if (pInnerEntity != "")
+			w = 0 
+			forentity pInnerEntity
+				w += 1
+				forList vField, z in vInnerList
+					selectcase $fieldInfo(vField,"DATATYPE")
+						case "Numeric"
+							vJsonField = @vfield
+						elsecase 
+							vJsonField = $concat('"',@vField,'"')
+					endselectcase
+					
+					vJFormedField = $concat('"',vField,w,'"')
+					if ($fieldInfo(vField,"DATATYPE") = "String")
+						vOutput = $concat(vOutput,",",vJFormedField,$concat(":",'"',$replace(@vField,1,'"','\"',-1),'"'))
+					elseif ($fieldInfo(vField,"DATATYPE") = "Date")
+						vDateString = $concat(@vField[5:2],"/",@vField[7:2],$concat("/",@vField[1:4]))
+						vOutput = $concat(vOutput,",",vJFormedField,$concat(":",'"',vDateString,'"'))
+					elseif ($fieldInfo(vField,"DATATYPE") = "Datetime")
+						vDateString =     $concat(@vField[1:4],                                 %\
+						$concat("-",@vField[5:2],                             %\
+						$concat("-",@vField[7:2]),                         %\
+						$concat("T",@vField[9:2],":",@vField[11:2]),        %\
+						$concat(":",@vField[13:2],".",@vField[15:2])))
+						vOutput = $concat(vOutput,",",vJFormedField,$concat(":",'"',vDateString,'"'))
+						;Paul
+					elseif ($fieldInfo(vField,"DATATYPE") = "Time")
+						if (@vField = "")
+							vOutput = $concat(vOutput,",",vJFormedField,":",$concat('"',"//T::.",'"'))
+						else
+							vDateString =     $concat("1900-01-01",                                 %\
+							$concat("T",@vField[9:2],":",@vField[11:2]),        %\
+							$concat(":",@vField[13:2],".",@vField[15:2]))
+							vOutput = $concat(vOutput,",",vJFormedField,$concat(":",'"',vDateString,'"'))
+						endif
+						;Paul
+					elseif ($fieldInfo(vField,"DATATYPE") = "Boolean")
+						if (@vField    = "T") 
+							vOutput = $concat(vOutput,",",vJFormedField,":%%"true%%"")
+						else
+							vOutput = $concat(vOutput,",",vJFormedField,":%%"false%%"")
+						endif
+					else
+						if (@vField = "") @vField = 'null'
+						vOutput = $concat(vOutput,",",vJFormedField,":",@vField)
+					endif
+				endfor            
+			endfor
+		endif        
+		if (pEntityType = "DBE")
+			if (i = $hits(vOuterEntity))
+				vOutput = $concat(vOutput,"}")
+			else
+				vOutput = $concat(vOutput,"},")
+			endif
+		else
+			if (i = $totocc(vOuterEntity))
+				vOutput = $concat(vOutput,"}")
+			else
+				vOutput = $concat(vOutput,"},")
+			endif
+		endif
+	endfor
+	vOutput = $concat("[",vOutput,"]")
+	vOutput = $replace (vOutput,1,"%%^","",-1)
+	;********************************************************************************************
+	;Send Data To Grid
+	if($logical("ENV") = "IFCFSCDEV")
+		;        webactivate $instancename.console(vOutput)
+		;        webactivate $instancename.console(vHeaderList)
+		;        webactivate $instancename.console(vCellList)
+	endif
+	if (vOutput = "" | vHeaderList = "" | vCellList = "")
+		$collHandle(MESSAGELINE)-&gt;showMessage("error","Error:","Unable to generate data for grid",1,0)
+	else
+		webactivate $instancename.BuildMyReportGrid(vOutput,vHeaderList,vCellList, pPosition,pGridNo,pTitle)
+	endif
+end ;BuildTableData
+;#######################################################################################################
+
+
+
+weboperation BuildMyReportGrid
+params
+	String pJsonData    : In
+	String pTableHeader : In
+	String pFields      : In
+	string pPosition        : IN
+	numeric	pGrid : IN
+	string pTitle : IN
+endparams
+javascript
+
+console.log(pTableHeader);
+console.log(pJsonData);
+console.log(pFields);
+
+var GridName = '#grid' + pGrid
+var GridName2 = 'grid' + pGrid
+
+if (!jQuery.contains(document, $(GridName)[0])) {
+	$(pPosition).append("&lt;div id='"+ GridName2 + "'&gt;&lt;/div&gt;")
+}
+
+
+
+var gridData     = $.parseJSON(pJsonData);
+var headerList     = $.parseJSON(pTableHeader);
+var fieldList     = $.parseJSON(pFields);
+var opt_sortable = false;
+window.init = false;
+
+$(GridName).kendoGrid({       
+
+	toolbar: '&lt;a download="ReportExtract.xlsx" class="k-button" id="exportexcel"&gt;Export to Excel&lt;/a&gt;',
+	columns: headerList ,
+	dataSource:{ 
+		data: gridData,
+		schema: {    
+			model: {
+				fields: fieldList 
+			}
+		}
+	},
+	height:             "100%",
+	scrollable:       false,
+	selectable:         true,
+	sortable:             true,
+	groupable:            true,
+	filterable :         true,
+	reorderable:         true,
+	resizable:             true,
+	pageable: {
+		pageSize: 20,
+		pageSizes: [10, 20, 50, 100, 500, "ALL"]
+	},
+		dataBound: function(e) {
+
+    		var that = this;
+   		$(that.tbody).on("click", "tr", function (e) {
+        		var rowData = that.dataItem(this);
+				if (rowData.D_ROW != null) {
+	        		var url = rowData.D_ROW;
+					window.location.href = url;
+				}
+			});
+
+
+			$("td").each(function() {	
+				if ($(this).text() == "*HIDE") {
+					$(this).next("td").addClass("hidden")
+				}
+			});
+			$("th").each(function() {	
+				if ($(this).text() == "*HIDE") {
+					$(this).next("th").addClass("hidden")
+				}
+			});
+
+			$("td").each(function() {	
+				if ($(this).text() == "A") {
+					$(this).next("td").addClass("fscgreen")
+				}
+			});
+
+			$("td").each(function() {	
+				if ($(this).text() == "*Wet") {
+					$(this).next("td").addClass("fscblue fsccolhighlight")
+				}
+			});
+
+			$("td").each(function() {	
+				if ($(this).text() == "*OK") {
+					$(this).next("td").addClass("fscgreen fsccolhighlight")
+				}
+			});
+
+			$("td").each(function() {	
+				if ($(this).text() == "*Warn") {
+					$(this).next("td").addClass("fscorange fsccolhighlight")
+				}
+			});
+
+			$("td").each(function() {	
+				if ($(this).text() == "*Error") {
+					$(this).next("td").addClass("fscred fsccolhighlight")
+				}
+			});
+	
+		$("td").each(function() {
+			if ($(this).text() == "P") {
+				$(this).next("td").addClass("fscred")
+			}
+		});
+
+
+
+                dataView = this.dataSource.view();
+                for (var i = 0; i &lt; dataView.length; i++) {
+                    if (dataView[i].D_ROW!=null) {
+                        var uid = dataView[i].uid;
+                        $(GridName + " tbody").find("tr[data-uid=" + uid + "]").addClass(dataView[i].D_ROW);  //alarm's in my style and we call uid for each row
+                    }
+                }
+
+		if ($(GridName).data("kendoGrid").dataSource.data().length) {
+		} else {
+		};
+
+
+
+
+		if (window.init == false){
+			window.init = true;
+	//		$(GridName).data("kendoGrid").refresh()
+		};
+	}
+}).on("click", "#exportexcel", excel);
+
+if($(GridName).find("gridh1").length &lt; 1) {
+	$(".k-grid-toolbar", GridName).append("&lt;gridh1&gt;&amp;nbsp;&amp;nbsp;" + pTitle + "&lt;/gridh1&gt;");
+};
+
+function excel() {
+	var grid = $(GridName).data("kendoGrid");
+	var data = grid.dataSource.data();
+	var file = {
+
+		worksheets: [{
+			data: [] 
+		}],
+		creator: 'FSC', 
+		created: new Date('8/16/2012'),
+		lastModifiedBy: 'FSC Reports', 
+		modified: new Date(),
+		activeWorksheet: 0
+	};
+
+	var worksheetData = file.worksheets[0].data;
+	var worksheetDataHeader = [];
+ 	var stylesheet = file.getStyleSheet();
+
+	worksheetData.push(worksheetDataHeader);
+
+	for (var ci = 0; ci &lt; grid.columns.length; ci++) {
+		var title = grid.columns[ci].title || grid.columns[ci].field;
+		worksheetDataHeader.push({
+			value: title,
+			autoWidth: true
+		});
+	}
+	
+	var x = 0;
+	for (var di = 0; di &lt; data.length; di++) {
+		var dataItem = data[di];
+		var worksheetDataItem = [];
+		var red = "#B74446";
+		var _red = stylesheet.createFormat({
+        font: {
+            color: red
+        }
+    	});
+		var green = "#428841";
+		var _green = stylesheet.createFormat({
+        font: {
+            color: green
+        }
+    	});
+		
+		for (ci = 0; ci &lt; grid.columns.length; ci++) {
+			var column = grid.columns[ci];
+			if (dataItem.get(column.field) == "A") {
+				worksheetDataItem.push({
+					value: dataItem.get(column.field),
+					metadata: {style: _green.id}
+				});
+			};
+			if (dataItem.get(column.field) == "P") {
+				worksheetDataItem.push({
+					value: dataItem.get(column.field),
+					metadata: {style: _red.id}
+				});
+			};
+		}
+			
+		worksheetData.push(worksheetDataItem);
+	}
+			
+	var result = xlsx(file);
+			
+	if (navigator.msSaveBlob) {
+		var blob = new Blob([base64DecToArr(result.base64)]);
+			
+		navigator.msSaveBlob(blob, this.getAttribute("download"));
+	} else {
+		this.href = result.href();
+	}
+}
+			
+function b64ToUint6 (nChr) {
+	return nChr &gt; 64 &amp;&amp; nChr &lt; 91 ?
+	nChr - 65
+	: nChr &gt; 96 &amp;&amp; nChr &lt; 123 ?
+	nChr - 71
+	: nChr &gt; 47 &amp;&amp; nChr &lt; 58 ?
+	nChr + 4
+	: nChr === 43 ?
+	62
+	: nChr === 47 ?
+	63
+:
+	0;
+}
+			
+function base64DecToArr (sBase64, nBlocksSize) {
+			
+	var
+	sB64Enc = sBase64.replace(/[^A-Za-z0-9\+\/]/g, ""), nInLen = sB64Enc.length,
+	nOutLen = nBlocksSize ? Math.ceil((nInLen * 3 + 1 &gt;&gt; 2) / nBlocksSize) * nBlocksSize : nInLen * 3 + 1 &gt;&gt; 2, taBytes = new Uint8Array(nOutLen);
+			
+	for (var nMod3, nMod4, nUint24 = 0, nOutIdx = 0, nInIdx = 0; nInIdx &lt; nInLen; nInIdx++) {
+		nMod4 = nInIdx &amp; 3;
+		nUint24 |= b64ToUint6(sB64Enc.charCodeAt(nInIdx)) &lt;&lt; 18 - 6 * nMod4;
+		if (nMod4 === 3 || nInLen - nInIdx === 1) {
+			for (nMod3 = 0; nMod3 &lt; 3 &amp;&amp; nOutIdx &lt; nOutLen; nMod3++, nOutIdx++) {
+				taBytes[nOutIdx] = nUint24 &gt;&gt;&gt; (16 &gt;&gt;&gt; nMod3 &amp; 24) &amp; 255;
+			}
+			nUint24 = 0;
+		}
+	}
+				
+	return taBytes;
+}
+					
+					
+endjavascript    
+end
+				
+weboperation console
+	params
+		string pIn : In
+	endparams
+		javascript
+		console.log(pIn)
+endjavascript
+end</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

@@ -1,0 +1,221 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="ULIBR" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULIBRARY" seqno="1" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="2" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTIMESTAMP" seqno="3" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="ULIBRARY">IFC</DAT>
+<DAT name="UDESCR" xml:space='preserve'>IFC Library</DAT>
+<DAT name="UTIMESTAMP">2014-01-21T10:22:41.00</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOURCE" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USTAT" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUB" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="ULABEL" seqno="6" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="ULAN" seqno="7" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="MSGTYPE" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="AUTHORIZ" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCLASS" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LOCREF" seqno="17" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCONFIRM" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UAUDIO" seqno="19" type="N" level="2" pack="10" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UTEXT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,1,\1E,0,0,0,,0,0,0,," />
+<FLD name="UWLEVEL" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-06T14:54:32.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">IFC</DAT>
+<DAT name="ULABEL">IP_GRID_HEADRLST</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Grid HeaderList</DAT>
+<DAT name="UTEXT" xml:space='preserve'>
+operation BuildGridHeader
+params
+	struct pStruct : INOUT
+endparams
+variables
+	string vHeaderList,vFieldList,vField, vFld, vAnchorOpen, vAnchorClose, vWidthTemplate, vWidth, vTemplate, vHidden, vTitle, vEditor, vFormat, vDataType
+	string  vGridFields, vOpenField, vListOptions, vWidthList, vColumnSyntax, vEditorList , vEditors, pTemplate, vAttribute, vUncheckedColList
+	numeric  x, i
+endvariables
+
+
+	vFieldList = pStruct-&gt;in-&gt;pFieldList 
+	vGridFields = pStruct-&gt;in-&gt;pGridFields
+	vOpenField =  pStruct-&gt;in-&gt;pOpenField
+	vListOptions = pStruct-&gt;in-&gt;pListOptions 
+	vWidthList=  pStruct-&gt;in-&gt;pWidthList
+	vColumnSyntax = pStruct-&gt;in-&gt;pColumnSyntax
+	vUncheckedColList = pStruct-&gt;in-&gt;pUncheckedColList 
+	vEditors = pStruct-&gt;in-&gt;pEditors
+	
+	pTemplate = pStruct-&gt;in-&gt;pTemplate ;an associative list containing fieldnames and their display templates. 
+
+	vHeaderList     = "["
+	if (vGridFields = "")
+		vGridFields = vFieldList
+	endif
+	x = $itemcount(vGridFields) 
+	forList vField, i in vGridFields 
+		
+		if (vOpenField != "" &amp; vOpenField = vField)
+			vAnchorOpen = "&lt;a style='cursor:pointer;' onclick='openPopup(this);'&gt;"
+			vAnchorClose = "&lt;/a&gt;"
+		else
+			vAnchorOpen = ""
+			vAnchorClose = ""
+		endif 
+	
+		if (vListOptions != "") vTitle = $concat(',','"title":"',$itemnr(i,vListOptions),'"')
+		
+		;hide columns with HID in column syntax or columns that are not selected if selection is available
+		if (($scan($uppercase($item(vField,vColumnSyntax)), "HID") &gt; 0) | ($item(vField, vUncheckedColList) != "")) 
+			vHidden = ",%%"hidden%%":true"
+		else
+			vHidden = ""
+		endif
+				
+		;for float numeric type
+		if ($scan($uppercase($item(vField,vColumnSyntax)), "FRT") &gt; 0) 
+			vFormat = $concat(', "format": "{', $item(vField,vColumnSyntax)[$scan($uppercase($item(vField,vColumnSyntax)), 'FRT') + 4] ,'}"')
+		else	
+			vFormat = ""
+		endif
+		;--------------------------------------------------------------
+		if ($scan($uppercase($item(vField,vColumnSyntax)), "NED") &gt; 0) 			
+			vAttribute = ""			
+		else
+			vAttribute = ', "attributes": { "class": "editable-cell" }'
+		endif		 
+		;--------------------------------------------------------------
+	
+		vFld = $replace(vField,1, $syntax("#*") ,"", -1)
+		
+		if ($item(vField, vWidthList) != "")
+			vWidth = $item(vField , vWidthList)
+			vWidthTemplate= ",%%"width%%":%%"%%vWidth%%%px%%""
+		elseif ($item(vFld, vWidthList) != "")
+			vWidth = $item(vFld , vWidthList)
+			vWidthTemplate= ",%%"width%%":%%"%%vWidth%%%px%%""
+		else
+			vWidthTemplate = ""
+		endif
+		
+		vEditor = ""
+		if ($item(vField, vEditors) != "")
+			vEditor = $item(vField, vEditors)
+			vEditor = $concat(",%%"editor%%":%%"",vEditor ,"%%"")
+			if (vEditorList  != "") vEditorList = $concat(vEditorList , "|&amp;|")
+			vEditorList  = $concat(vEditorList,vField)
+		elseif ($item(vFld, vEditors) != "")
+			vEditor = $item(vFld, vEditors)
+			vEditor = $concat(",%%"editor%%":%%"",vEditor ,"%%"")
+			if (vEditorList  != "") vEditorList = $concat(vEditorList , "|&amp;|")
+			vEditorList  = $concat(vEditorList,vField)
+		endif
+	
+		vDataType = $fieldInfo($concat(vFld,".", pStruct-&gt;in-&gt;pOuterEntity),"DATATYPE")
+		if (vDataType = "") 
+			vDataType = $fieldInfo($concat(vFld,".", pStruct-&gt;in-&gt;pInnerEntity),"DATATYPE")
+		endif
+		selectcase vDataType
+			case "Date"
+				vTemplate = $concat(",%%"template%%":%%"&lt;span style ='text-transform: uppercase;'&gt;#=",vField," != null ? kendo.toString(",vField,", 'dd-MMM-yyyy') : ' ' #&lt;/span&gt;%%"")
+				vHeaderList     = $concat(vHeaderList,'{"field":"',vField,'","format":"{0:dd-MMM-yyyy}"',$concat(vTemplate,vHidden,vTitle,vEditor ,$concat(vWidthTemplate, vAttribute, '}')))             
+			case "Datetime",  "LinearDatetime"
+				vTemplate = $concat(",%%"template%%":%%"&lt;span style ='text-transform: uppercase;'&gt;#=",vField," != null ? kendo.toString(",vField,", 'dd-MMM-yyyy HH:MM') : ' ' #&lt;/span&gt;%%"")
+;				vHeaderList     = "%%vHeaderList%%%{%%"field%%":%%"%%vField%%%%%",%%"format%%":%%"{0:dd-MMM-yyyy hh:mm:ss tt}%%", %%"parseFormats%%": [%%"MMM yyyy%%",%%"hh:mm%%"]%%vTemplate%%%%%vHidden%%%%%vTitle%%%}"            
+				vHeaderList     = $concat(vHeaderList,'{"field":"',vField,'","format":"{0:dd-MMM-yyyy}"',$concat(vTemplate,vHidden ,vTitle,vEditor ,$concat(vWidthTemplate, vAttribute,'}')))             
+			case "Time"
+				vHeaderList     = $concat(vHeaderList,'{"field":','"',vField,$concat('","format":"{0:hh:mm:ss tt}"',vTitle,vHidden,vEditor ,$concat(vWidthTemplate,vAttribute,'}')))
+				;Paul
+			case "Boolean"    
+				vHeaderList = $concat(vHeaderList,'{"field":','"',vField,$concat('"',vTitle,vHidden,vEditor,vWidthTemplate ))
+				vHeaderList = $concat(vHeaderList, $concat(',"template":','"',"&lt;input type='checkbox' /&gt;",'"') , vAttribute,'}')
+			case "Numeric"
+				if ($item(vField, pTemplate) != "")
+					vTemplate = $concat(',"template":"', $item(vField, pTemplate) ,'"')
+				else 
+					vTemplate = $concat(",%%"template%%":%%"&lt;span style ='float: right;'&gt;#=",vField," != null ? kendo.toString(",vField,", '0.00') : '0' #&lt;/span&gt;%%"")
+				endif
+				if (vEditor = "")
+					vEditor = ',"editor":"numDefaultEditor"'
+				endif
+				vHeaderList = $concat(vHeaderList,'{"field":','"',vField,$concat('"',vTemplate,vHidden,vTitle,$concat(vEditor ,vWidthTemplate,vFormat,vAttribute,'}')))            
+			case "Float"
+				vTemplate = $concat(",%%"template%%":%%"&lt;span style ='float: right;'&gt;#=",vField," != null ? kendo.toString(",vField,", 'n') : '0' #&lt;/span&gt;%%"")
+				if (vEditor = "")
+					vEditor = ',"editor":"numDefaultEditor"'
+				endif
+				vHeaderList = $concat(vHeaderList,'{"field":','"',vField,$concat('"',vTemplate,vHidden,vTitle,$concat(vEditor,vWidthTemplate ,vAttribute,'}')))              
+			elsecase
+				if ($item(vField, pTemplate) != "")
+					vTemplate = $concat(',"template":"', $item(vField, pTemplate) ,'"')
+				else 
+					vTemplate = $concat(",%%"template%%":%%"&lt;span&gt;",vAnchorOpen, "#=",vField,$concat("#",vAnchorClose ,"&lt;/span&gt;%%""))
+				endif
+				vHeaderList = $concat(vHeaderList,'{"field":','"',vField,$concat('"',vTemplate,vHidden,vTitle,$concat(vEditor ,vWidthTemplate,vFormat,vAttribute,'}')))            
+		endselectcase
+		if (i != x)
+			vHeaderList = $concat(vHeaderList,",")
+		endif
+	endfor
+	vHeaderList     = $concat(vHeaderList,"]")
+	
+	
+	;=====================================================
+	;return struct out param
+	pStruct-&gt;out-&gt;pHeaderList = vHeaderList
+	pStruct-&gt;out-&gt;pEditorList = vEditorList
+	;=====================================================
+	
+	
+end ;BuildGridHeader</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

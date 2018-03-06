@@ -1,0 +1,927 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="ULIBR" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULIBRARY" seqno="1" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="2" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTIMESTAMP" seqno="3" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="ULIBRARY">FQS</DAT>
+<DAT name="UDESCR" xml:space='preserve'>FQS System</DAT>
+<DAT name="UTIMESTAMP">2016-03-20T16:36:31.00</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOURCE" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USTAT" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUB" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="ULABEL" seqno="6" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="ULAN" seqno="7" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="MSGTYPE" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="AUTHORIZ" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCLASS" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LOCREF" seqno="17" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCONFIRM" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UAUDIO" seqno="19" type="N" level="2" pack="10" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UTEXT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,1,\1E,0,0,0,,0,0,0,," />
+<FLD name="UWLEVEL" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-05T14:09:15.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">FQS</DAT>
+<DAT name="ULABEL">GRID</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>IFC Grid</DAT>
+<DAT name="UTEXT" xml:space='preserve'>operation BuildTableData ; Builds all Json for KendoUI
+public web
+	params
+		string pListOptions       : In
+		string pDateTimeFormat 	  : In
+		string pEntityType        : In
+	endparams
+	variables
+		string     vEntityList,vFieldList,vField,vDateString
+		string     vOuterEntity,vJFormedField,vHeaderList,vOutput,vTitle
+		string     vJsonField,vCellList,vCellType,vDateFormat, vFieldCol, vTemplate, vHidden,vFldSyntax, vInnerDetail
+		string     vModel,vControlEntity,vToolbar,vKendoGridId,vEditMode,vDataFld, vListBox, vComboBox
+		numeric    x, y, i
+	endvariables
+	;********************************************************************************************
+	;Build Painted Fields List based on first outer entity
+	vOuterEntity     	= $componentinfo("","OUTERENTITIES")
+	delitem vOuterEntity, 1 ; Remove controls entity 
+	vFieldList        	= $entinfo(vOuterEntity,"PAINTEDFIELDS")
+	
+	;Inner Entities
+	#ifundefined InnerDetailID 
+		vEntityList     	= $entinfo(vOuterEntity,"INNER")
+		forlist vField, x in vEntityList
+			putitem vFieldList, -1, $entinfo(vField,"PAINTEDFIELDS")
+		endfor  
+	#endif
+	
+	#ifdefined InnerDetailID 
+		activate $instancename.BuildCustomInnerTable()
+	#endif
+	;********************************************************************************************
+	;Build Kendo model
+	x = $itemcount(vFieldList)
+	vCellList = "{ "
+	vKendoGridId = ""
+	#ifdefined kendoGridId
+		vCellList = $concat(vCellList,'"',&lt;kendoGridId&gt;,'": { "editable": "false", "nullable": "true", "hidden" : "true"},')
+		vKendoGridId = &lt;kendoGridId&gt;
+	#endif
+	forList vField, i in vfieldList		
+		if (vField != vKendoGridId)		
+			vCellType = $fieldinfo(vField,"DATATYPE")
+			
+			vFldSyntax = ""
+			if ($scan($uppercase($fieldInfo(vField,"SYNTAX")), "NED") &gt; 0) 
+				vFldSyntax = $concat(vFldSyntax,",%%"editable%%":false")			
+			endif
+				
+			selectcase vCellType
+				case "Numeric"
+					vCellType = "number"
+				case "String"
+					vCellType = "string"
+				case "Date"
+					vCellType = "date"
+				case "Datetime"
+					vCellType = "date"
+					;Paul
+				case "Time"
+					vCellType = "date"
+					;Paul
+			endselectcase
+			
+			vTemplate = ""
+			#ifdefined ListBoxes
+				getitem/id $1, &lt;ListBoxes&gt;, vField
+				if ($status &gt; 0)
+					vCellType = "{}"
+				endif
+			#endif
+			
+			vCellList = $concat(vCellList, $concat('"',vField,'"'),":", $concat('{ "type" : ', $concat('"',vCellType,'"'), vFldSyntax,vTemplate) ,"}")
+			if (i != x)
+				vCellList = $concat(vCellList,",")
+			endif
+		endif
+	endfor
+	vCellList = $concat(vCellList,"}")
+		
+	;********************************************************************************************
+	;(Re)Initialise Variables
+	vField = ""
+	x=0
+	y=0
+	i=0
+	;********************************************************************************************
+	;Set the Kendo date format
+	selectcase pDateTimeFormat
+		case "FDF"
+			vDateFormat    = "{0:dd-MMM-yyyy hh:mm:ss tt}"
+		case "SDF"
+			vDateFormat    = "{0:dd-MMM-yyyy}"
+		case "TFO"
+			vDateFormat    = "{0:hh:mm:ss tt}"
+	endselectcase
+	;********************************************************************************************
+	
+	;Build the Kendo column formats
+	x = $itemcount(vFieldList)    
+	vHeaderList     = "["
+	forList vField, i in vfieldList
+		
+		if (pListOptions != "") vTitle = $concat(',','"title":"',$itemnr(i,pListOptions),'"')
+
+		vHidden = ""
+		if ($scan($uppercase($fieldInfo(vField,"SYNTAX")), "HID") &gt; 0) 
+			vHidden = ",%%"hidden%%":%%"true%%""			
+		endif
+		vTemplate = ""	
+		selectcase $fieldInfo(vField,"DATATYPE") 
+			case "Date"
+				vTemplate = $concat(",%%"template%%":%%"&lt;span style ='text-transform: uppercase;'&gt;#= ",vField," != null ? kendo.toString(",vField,", 'dd-MMM-yyyy') : '' #&lt;/span&gt;%%"")
+				vHeaderList = $concat(vHeaderList,'{"field":"',vField,'","format":"{0:dd-MMM-yyyy}"',$concat(vTemplate,vHidden ,vTitle,'}'))            
+			case "Datetime"
+				vHeaderList = $concat(vHeaderList,'{"field":','"',vField,$concat('","format":"',$concat(vDateFormat,'"',vHidden),%\
+				$concat(',"parseFormats":','["',"F",'"]',$concat(vTitle,'}'))))        
+				;Paul
+			case "Time"
+				vHeaderList = $concat(vHeaderList,'{"field":','"',vField,$concat('","format":"{0:hh:mm:ss tt}"',vTitle,vHidden,'}'))
+				;Paul
+			case "Boolean"    
+				vHeaderList = $concat(vHeaderList,'{"field":','"',vField,$concat('"',vTitle,vHidden))
+				vHeaderList = $concat(vHeaderList,',"editor": "checkboxEditor" ')
+				
+				vTemplate = $concat(",%%"template%%":%%"&lt;input type='checkbox' #=",vField," ? checked='checked' : '' # disabled='disabled' /&gt; %%"",", %%"width%%": %%"110%%" }")
+				#ifdefined enableFldBtn
+					if(&lt;enableFldBtn&gt; = vField)
+						 vTemplate = $concat(",%%"template%%":%%"&lt;input type='button' class='k-button enable' name='enable' value='#=",vField," ? 'Deactivate' : 'Activate    ' #' /&gt; %%" }")
+					endif				
+				#endif
+				vHeaderList = $concat(vHeaderList, vTemplate) 
+			elsecase  
+				vTemplate = ""
+				#ifdefined ListBoxes
+					getitem/id $1, &lt;ListBoxes&gt;, vField
+					if ($status &gt; 0)
+						vTemplate = $concat(',"template":"getMultiDropDownDisp"',',"editor":"MultidropDownEditor"')
+					endif
+				#endif
+				#ifdefined ComboBoxes
+					getitem/id $1, &lt;ComboBoxes&gt;, vField
+					if ($status &gt; 0)
+						vTemplate = $concat(',"template":"getDropDownDisp"',',"editor":"dropDownEditor"')
+					endif
+				#endif
+				vHeaderList = $concat(vHeaderList,'{"field":','"',vField,$concat('"',vTemplate,vHidden,vTitle,'}'))            
+		endselectcase
+		
+		
+		
+	if (i != x)
+		vHeaderList = $concat(vHeaderList,",")
+	endif
+	endfor
+	;---- add headerlist with command button
+	#ifdefined headerCommand
+		vHeaderList =  $concat(vHeaderList,&lt;headerCommand&gt;)	
+	#endif
+
+	vHeaderList = $concat(vHeaderList,']')
+	
+	
+	;********************************************************************************************
+	;(Re)Initialise Variables
+	vField = ""
+	x=0
+	y=0
+	i=0
+	;********************************************************************************************
+	;{Retrieve data from database and} build grid
+	if (pEntityType = "DBE") retrieve/e vOuterEntity
+	forentity vOuterEntity
+		i += 1
+		if (x = 0) 
+			vOutput = $concat(vOutput,"{")
+			x += 1
+		else
+			vOutput = $concat(vOutput,",{")
+		endif
+		
+		#ifdefined kendoGridIdGenValue
+			vOutput = $concat(vOutput,$concat('"',&lt;kendoGridId&gt;,'": "',i,'",'))
+		#endif
+		
+		forList vField, y in vfieldList
+					
+			selectcase $fieldInfo(vField,"DATATYPE")
+				case "String"
+					vJsonField = $concat('"',@vField,'"')
+				case "Numeric"
+					vJsonField = @vfield
+				case "Date"
+					vJsonField = $concat('"',@vField,'"')
+				case "datetime"
+					vJsonField = $concat('"',@vField,'"')
+					;Paul
+				case "Time"
+					vJsonField = $concat('"',@vField,'"')
+					;Paul
+				case "boolean"
+					vJsonField = $concat('"',@vField,'"')
+			endselectcase
+		
+			vJFormedField = $concat('"',vField,'"')
+			
+			vTemplate = ""
+			#ifdefined ListBoxes
+				getitem/id $1, &lt;ListBoxes&gt;, vField
+				if ($status &gt; 0)
+					vTemplate = $concat("[", $replace(@vField,1,"&uSEP;",",",-1), "]")
+				endif
+			#endif
+			
+			if (y = 1)
+				if ($fieldInfo(vField,"DATATYPE") = "String")
+					if (vTemplate != "")
+						vOutput    = $concat(vOutput,vJFormedField,":",vTemplate)
+					else
+						vOutput    = $concat(vOutput,vJFormedField,":",$concat('"',$replace(@vField,1,'"','\"',-1),'"'))
+					endif
+				elseif ($fieldInfo(vField,"DATATYPE") = "Date")
+					vDateString    = $concat(@vField[5:2],"/",@vField[7:2],$concat("/",@vField[1:4]))
+					vOutput    = $concat(vOutput,vJFormedField,":",$concat('"',vDateString,'"'))
+				elseif ($fieldInfo(vField,"DATATYPE") = "Datetime")
+					vDateString    = $concat(@vField[5:2],"/",@vField[7:2],$concat("/",@vField[1:4]))
+					vOutput = $concat(vOutput,vJFormedField,":",$concat('"',vDateString,'"'))
+				elseif ($fieldInfo(vField,"DATATYPE") = "Boolean")
+					if (@vField    = 1) 
+						vOutput = $concat(vOutput,vJFormedField,":true")
+					else
+						vOutput = $concat(vOutput,vJFormedField,":false")
+					endif
+				else
+					if (@vField    = "") @vField = 'null'
+					vOutput = $concat(vOutput,vJFormedField,":",@vField)
+				endif
+			else
+				if ($fieldInfo(vField,"DATATYPE") = "String")
+					if (vTemplate != "")
+						vOutput    = $concat(vOutput,",",vJFormedField,":",vTemplate)
+					else
+						vOutput = $concat(vOutput,",",vJFormedField,$concat(":",'"',$replace(@vField,1,'"','\"',-1),'"'))
+					endif
+				elseif ($fieldInfo(vField,"DATATYPE") = "Date")
+					vDateString = $concat(@vField[5:2],"/",@vField[7:2],$concat("/",@vField[1:4]))
+					vOutput = $concat(vOutput,",",vJFormedField,$concat(":",'"',vDateString,'"'))
+				elseif ($fieldInfo(vField,"DATATYPE") = "Datetime")
+					vDateString =     $concat(@vField[1:4],                                 %\
+					$concat("-",@vField[5:2],                             %\
+					$concat("-",@vField[7:2]),                         %\
+					$concat("T",@vField[9:2],":",@vField[11:2]),        %\
+					$concat(":",@vField[13:2],".",@vField[15:2])))
+					vOutput = $concat(vOutput,",",vJFormedField,$concat(":",'"',vDateString,'"'))
+					;Paul
+				elseif ($fieldInfo(vField,"DATATYPE") = "Time")
+					if (@vField = "")
+						vOutput = $concat(vOutput,",",vJFormedField,":",$concat('"',"//T::.",'"'))
+					else
+						vDateString =     $concat("1900-01-01",                                 %\
+						$concat("T",@vField[9:2],":",@vField[11:2]),        %\
+						$concat(":",@vField[13:2],".",@vField[15:2]))
+						vOutput = $concat(vOutput,",",vJFormedField,$concat(":",'"',vDateString,'"'))
+					endif
+					;Paul
+				elseif ($fieldInfo(vField,"DATATYPE") = "Boolean")
+					if (@vField    = 1) 
+						vOutput = $concat(vOutput,",",vJFormedField,":true")
+					else
+						vOutput = $concat(vOutput,",",vJFormedField,":false")
+					endif
+				else
+					if (@vField = "") @vField = 'null'
+					vOutput = $concat(vOutput,",",vJFormedField,":",@vField)
+				endif
+			endif
+		endfor
+		
+		if (pEntityType = "DBE")
+			if (i = $hits(vOuterEntity))
+				vOutput = $concat(vOutput,"}")
+			else
+				vOutput = $concat(vOutput,"},")
+			endif
+		else
+			if (i = $totocc(vOuterEntity))
+				vOutput = $concat(vOutput,"}")
+			else
+				vOutput = $concat(vOutput,"},")
+			endif
+		endif
+		
+	endfor
+	vOutput = $concat("[",vOutput,"]")
+	vOutput = $replace (vOutput,1,"%%^","",-1)	
+	
+	;********************************************************************************************
+	#ifdefined gridUpdate
+		vModel = &lt;model&gt;
+		vControlEntity = &lt;controlEntity&gt;
+		vToolbar = &lt;kendoToolBar&gt;
+		vEditMode = &lt;kendoEditMode&gt;
+		vDataFld = &lt;dataFld&gt;
+		#ifdefined ListBoxes			
+			vListBox = &lt;ListBoxes&gt;
+		#endif
+		#ifdefined ComboBoxes			
+			vComboBox = &lt;ComboBoxes&gt;
+		#endif
+		#ifdefined InnerDetailID 
+			vInnerDetail = &lt;InnerDetailID&gt;
+		#endif
+		webactivate $instancename.BuildGridUpdatable(vOutput,vHeaderList,vCellList,vModel,vControlEntity,vToolbar,vKendoGridId,vEditMode,vDataFld,vListBox,vComboBox,vInnerDetail)
+	#else
+		webactivate $instancename.BuildMyGrid(vOutput,vHeaderList,vCellList)
+	#endif
+	
+	;Send Data To Grid
+	if($logical("ENV") = "IFCFSCDEV")
+		webactivate $instancename.console(vCellList)
+		webactivate $instancename.console(vHeaderList)
+		webactivate $instancename.console(vOutput)		
+	endif
+	
+end ;BuildTableData
+
+
+;########################################################################################################
+weboperation BuildGridUpdatable
+params
+	String pJsonData        : In
+	String pTableHeader     : In
+	String pFields        : In
+	String pModel : In
+	string pControlEntity : In
+	string pToolBar : In
+	string pKendoId : In
+	string pEditMode : In
+	string pDataFld : In
+	string pListBox : In
+	string pComboBox : In
+	string pDetailID : In
+endparams
+javascript
+	
+	$("#grid").html('');
+	
+	/* process parameters */
+	
+	var gridData     = $.parseJSON(pJsonData);
+	var headerList   = $.parseJSON(pTableHeader);
+	var fieldList    = $.parseJSON(pFields);
+	
+	var unifaceInstance = uniface.getInstance(pModel);
+	var controlEntity = unifaceInstance.getEntity(pControlEntity);
+	var occEntity = controlEntity.getOccurrence(0);
+	
+	var detailTableFunction;
+	/* if detail table exists, initialize function otherwise leave blank */
+	if (pDetailID != "") {
+		detailTableFunction = "detailInit"
+	}
+	
+	
+	var vListBoxHash = {};
+	if (pListBox != "") {
+		var item, 
+		vListArr = pListBox.split("&uSEP;");
+		for (var i = 0; i &lt; vListArr.length ; i++){
+			item = vListArr[i].split("=");
+			vListBoxHash[item[0]] = item[1];
+		}
+	}
+	
+	var vComboBoxHash = {};
+	if (pComboBox != "") {
+		var item, 
+		vListArr = pComboBox.split("&uSEP;");
+		for (var i = 0; i &lt; vListArr.length ; i++){
+			item = vListArr[i].split("=");
+			vComboBoxHash[item[0]] = item[1];
+		}
+	}
+	
+	//end of process parameters	
+	
+	// global vars
+	var dpDataSource;
+	var gbField = []; 
+	var fieldbk = [];
+	if (occEntity.getField("JSDROPDOWN") != null) {
+		dpDataSource = $.parseJSON(occEntity.getField("JSDROPDOWN").getValue());
+	}
+		
+	// functions
+    function checkboxEditor(container, options) {
+		//create input element and add the validation attribute
+		 var input = $('&lt;input type="checkbox" name="' + options.field + '" /&gt;');
+		 //append the editor
+		 input.appendTo(container);
+	}
+		
+	
+	function MultidropDownEditor(container, options) {
+		var dropdownDataSource = "dpDataSource." + vListBoxHash[options.field];
+		$("&lt;select multiple='multiple' name='" + options.field + "' data-bind='value : " + options.field + "' /&gt;").appendTo(container).kendoMultiSelect({
+			dataTextField : "text",
+			dataValueField: "id",
+			dataSource    :  eval(dropdownDataSource) 
+		});
+	}
+	
+	function dropDownEditor(container, options) {		
+		var dropdownDataSource = "dpDataSource." + vComboBoxHash[options.field];
+		$("&lt;select name='" + options.field + "' data-bind='value : " + options.field + "' /&gt;").appendTo(container).kendoDropDownList({
+			dataTextField : "text",
+			dataValueField: "id",
+			dataSource    :  eval(dropdownDataSource) 
+		});
+	}
+	
+	function getMultiDropDownDisp(data) {					
+		var res = [];
+		if (gbField.length == 0) { 
+		   gbField = fieldbk;	
+		   fieldbk = []; // re-initialize
+	   }
+		var key = gbField[0]; // extract just the first field in order	
+		
+		$.each(vListBoxHash, function (listkey, listdata) {			
+			if (listkey == key) {
+				var _datasource = eval("dpDataSource." + listdata);
+				if (_datasource != null &amp;&amp; _datasource != undefined) {	
+					var _selectedList = eval("data." + listkey);	
+					var selectedArr = [];
+					if (_selectedList != null &amp;&amp; _selectedList != undefined) {
+						if (_selectedList instanceof Object) {
+							selectedArr = _selectedList;
+						} else {
+							var delimiter = (_selectedList.indexOf(";") &gt; 0) ? ";" : ",";
+							selectedArr = _selectedList.split(delimiter)
+						}
+						$.each(selectedArr, function (idx, elem) {
+							if (elem instanceof Object) {
+								res.push(_datasource[elem.id].text);
+							} else {
+								res.push(_datasource[elem].text);
+							}						
+						});					
+					}
+				}
+			}
+		});
+		gbField.splice(0,1); //remove from global var the processed field
+		fieldbk.push(key);
+		return res.join(", ");			
+	}
+	
+	function getDropDownDisp(data) {	
+	   
+	   if (gbField.length == 0) { 
+		   gbField = fieldbk;	
+		   fieldbk = []; // re-initialize
+	   }
+	   
+	   var key = gbField[0]; // extract just the first field in order	
+	   var res;
+	   $.each(vComboBoxHash, function (listkey,listdata) {		
+			if (listkey == key) {
+				var _datasource = eval("dpDataSource." + listdata);
+				if (_datasource != null &amp;&amp; _datasource != undefined) {	
+					var selected = eval("data." + listkey);
+					$.each(_datasource, function (idx, elem) {
+						if (elem.id == selected){ 
+							res = elem.text;
+						}
+					});					
+				}
+			}
+	   });
+	   gbField.splice(0,1); //remove from global var the processed field
+	   fieldbk.push(key);
+	   return res;
+	}
+	
+	function detailInit(e) {
+		var gridDetailData,fieldDetailList,detailColumnList,filterData;
+		
+		//load data
+		gridDetailData = $.parseJSON(occEntity.getField("JSDATA_VALUEDTL").getValue());
+		fieldDetailList = $.parseJSON(occEntity.getField("JSDATA_CELLDTL").getValue());
+		detailColumnList = $.parseJSON(occEntity.getField("JSDATA_HEADERDTL").getValue());
+		filterData = $.parseJSON(occEntity.getField("JSDATA_FILTERDTL").getValue());
+		
+		$("&lt;div/&gt;").appendTo(e.detailCell).kendoGrid({
+			dataSource: {
+				transport: {
+					read: function (e) {
+						// on success
+						e.success(gridDetailData);
+					},
+					create: function (e) {   
+						e.data.ID = gridDetailData.length + 1;						
+						gridDetailData.push(e.data);
+						// on success
+						e.success(e.data);
+					},
+					update: function (e) {
+						// on success
+						e.success();
+					},
+					destroy: function (e) {		
+						// on success
+						e.success();
+					}
+				},
+				schema: {
+					model: {
+						fields: fieldDetailList 
+					}
+				},
+				serverFiltering: true,
+				filter: filterData 
+			},
+			scrollable:   false,
+			selectable:   true,
+			sortable:     true,
+			columns: 	detailColumnList
+		});	
+	}
+	
+	// end functions
+			
+	$(document).ready(function() {
+		//correcting JSON to recognize editor and template function call
+		var func; 
+		$.each(headerList, function(i, item) {
+			if (item.editor != null) {
+				func = item.editor;
+				headerList[i].editor = eval(func);
+			} 
+			if (item.template != null) {
+				var regex = /(&amp;nbsp;|&lt;([^&gt;]+)&gt;)/ig;
+				if(!regex.test(item.template)) {
+					func = item.template;
+					gbField.push(item.field);
+					headerList[i].template = eval(func);
+				}
+			} 
+		});			
+		
+		
+		
+		$("#grid").kendoGrid({        
+			toolbar: [pToolBar],
+			columns: headerList,
+			dataSource:{ 
+				transport: {
+						read: function (e) {
+							// on success
+							e.success(gridData);
+						},
+						create: function (e) {   
+							e.data.ID = gridData.length + 1;						
+							gridData.push(e.data);
+							// on success
+							e.success(e.data);
+						},
+						update: function (e) {
+							// on success
+							e.success();
+						},
+						destroy: function (e) {		
+							// on success
+							e.success();
+						}
+					},
+				schema: {
+					model: {
+						id: pKendoId,
+						fields: fieldList 
+					}
+				}
+			},
+			height:             "100%",
+			scrollable:         false,
+			selectable:         true,
+			sortable:           true,
+			reorderable:        true,
+			resizable:          true,
+			pageable: {
+						pageSize: 10,
+						pageSizes: true
+			},
+			editable : { 
+				mode : pEditMode,
+				confirmation: true,
+				confirmDelete: "Yes"
+			},
+			detailInit: eval(detailTableFunction),
+			dataBound: function(e) {
+					$(".spinner").fadeOut("slow");  
+					if ($("#grid").data("kendoGrid").dataSource.data().length) {
+						$("#grid").removeClass("hidden")
+					} else {
+						modalPopup("EmptyTable","No records found?","No data available for current criteria selected or too many records to return.  Please try reducing your selection criteria.")
+					};
+					if (window.init == false){
+						window.init = true;
+						$("#grid").data("kendoGrid").refresh()
+					};
+					if (typeof pDetailID === "function") {
+						this.expandRow(this.tbody.find("tr.k-master-row").first());
+					}
+				},
+			save: function(e) {			
+				$.each(vListBoxHash, function (listkey, listdata) {
+					if (eval("e.model." + listkey) instanceof Object) {
+						var arr = [];
+						$.each(eval("e.model." + listkey), function(i, item) {
+							if (item instanceof Object) {
+								arr.push(item.id);
+							} else {
+								arr.push(item);
+							}			
+						}); 
+						e.model[listkey] = arr.join(";");
+					} else {
+						delete eval("e.model." + listkey + ".text");
+					}
+				});
+			
+				occEntity.getField(pDataFld).setValue(kendo.stringify(e.model));
+						
+				// weboperation CreateOcc and UpdateOcc must be defined in uniface component
+				unifaceInstance.activate("UpdateOcc");	
+				
+				$("#grid").data("kendoGrid").refresh();
+			},
+			remove: function(e){
+				occEntity.getField(pDataFld).setValue(kendo.stringify(e.model));
+				
+				// weboperation DeleteOcc must be defined in uniface component
+				unifaceInstance.activate("DeleteOcc");
+			 }
+
+		});		
+
+		$(".enable").bind("click", function() {
+			var row = $(this).closest("tr");
+			var item = $("#grid").data("kendoGrid").dataItem(row);		
+			var text;
+			
+			item.ENABLED = !item.ENABLED;
+			
+			occEntity.getField(pDataFld).setValue(kendo.stringify(item));		
+			unifaceInstance.activate("UpdateOcc");
+			
+			text = ((item.ENABLED) ? "Deactivate" : "Activate    ");
+			$(this).val(text);
+		});
+	});	
+	
+					
+endjavascript    
+end
+
+;########################################################################################################
+weboperation BuildMyGrid
+params
+	String pJsonData        : In
+	String pTableHeader     : In
+	String pFields        : In
+endparams
+javascript
+	
+	$(".k-grid").remove();
+	if ($("#grid").length &lt; 1){
+		$("body").append("&lt;div id='grid'&gt;&lt;/div&gt;")
+	}
+	
+	//$("#grid").append("&lt;table id='grid'&gt;&lt;/table&gt;");
+	
+	var gridData     = $.parseJSON(pJsonData);
+	var headerList   = $.parseJSON(pTableHeader);
+	var fieldList    = $.parseJSON(pFields);
+	var opt_sortable = false;
+	
+	$("#grid").kendoGrid({        
+		toolbar: '&lt;a download="ReportExtract.xlsx" class="k-button" id="exportexcel"&gt;Export to Excel&lt;/a&gt;',
+		columns: headerList ,
+		dataSource:{ 
+			data: gridData,
+			schema: {
+				model: {
+					fields: fieldList 
+				}
+			}
+		},
+		height:             "100%",
+		scrollable:         false,
+		selectable:         true,
+		sortable:           true,
+		groupable:          true,
+		filterable :        true,
+		reorderable:        true,
+		resizable:          true,
+		pageable: {
+					pageSize: 10,
+					pageSizes:     true
+		},
+		dataBound: function(e) {
+				
+				$("td").each(function() {
+					if ($(this).text() == "A") {
+						$(this).next("td").addClass("fscgreen")
+					}
+				});
+				$("td").each(function() {
+					if ($(this).text() == "P") {
+						$(this).next("td").addClass("fscred")
+					}
+				});
+				$(".spinner").fadeOut("slow");  
+				if ($("#grid").data("kendoGrid").dataSource.data().length) {
+					$("#grid").removeClass("hidden")
+				} else {
+					modalPopup("EmptyTable","No records found?","No data available for current criteria selected or too many records to return.  Please try reducing your selection criteria.")
+				};
+				if (window.init == false){
+					window.init = true;
+					$("#grid").data("kendoGrid").refresh()
+				};
+			}
+
+		}).on("click", "#exportexcel", excel);
+	
+	// -------------------------------------------------------------------------------------------
+	function excel() {
+		var grid = $("#grid").data("kendoGrid");
+
+		// use grid.dataSource.view() to export current page view
+		var data = grid.dataSource.data();
+
+		var file = {
+			worksheets: [{
+			data: [] 
+			}],
+			creator: 'FSC', 
+			created: new Date('8/16/2012'),
+			lastModifiedBy: 'FSC Reports', 
+			modified: new Date(),
+			activeWorksheet: 0
+		};
+
+		var worksheetData = file.worksheets[0].data;
+		var worksheetDataHeader = [];
+
+		worksheetData.push(worksheetDataHeader);
+
+		for (var ci = 0; ci &lt; grid.columns.length; ci++) {
+			var title = grid.columns[ci].title || grid.columns[ci].field;
+			worksheetDataHeader.push({
+				value: title,
+				autoWidth: true
+				});
+		}
+	
+		for (var di = 0; di &lt; data.length; di++) {
+			var dataItem = data[di];
+			var worksheetDataItem = [];
+		
+			for (ci = 0; ci &lt; grid.columns.length; ci++) {
+				var column = grid.columns[ci];
+				
+				worksheetDataItem.push({
+				value: dataItem.get(column.field)
+				});
+			}
+			
+			worksheetData.push(worksheetDataItem);
+		}
+			
+		var result = xlsx(file);
+		
+		if (navigator.msSaveBlob) {
+			var blob = new Blob([base64DecToArr(result.base64)]);
+			navigator.msSaveBlob(blob, this.getAttribute("download"));
+		} else {
+			this.href = result.href();
+		}
+	}
+	
+	// -------------------------------------------------------------------------------------------	
+	function b64ToUint6 (nChr) {
+		return nChr &gt; 64 &amp;&amp; nChr &lt; 91 ?
+			nChr - 65 : nChr &gt; 96 &amp;&amp; nChr &lt; 123 ?
+			nChr - 71 : nChr &gt; 47 &amp;&amp; nChr &lt; 58 ?
+			nChr + 4: nChr === 43 ? 62 : nChr === 47 ?	63 : 0;			
+	}
+    // -------------------------------------------------------------------------------------------
+	function base64DecToArr (sBase64, nBlocksSize) {
+		var	sB64Enc = sBase64.replace(/[^A-Za-z0-9\+\/]/g, ""), nInLen = sB64Enc.length,
+			nOutLen = nBlocksSize ? Math.ceil((nInLen * 3 + 1 &gt;&gt; 2) / nBlocksSize) * nBlocksSize : nInLen * 3 + 1 &gt;&gt; 2, taBytes = new Uint8Array(nOutLen);
+			
+		for (var nMod3, nMod4, nUint24 = 0, nOutIdx = 0, nInIdx = 0; nInIdx &lt; nInLen; nInIdx++) {
+			nMod4 = nInIdx &amp; 3;
+			nUint24 |= b64ToUint6(sB64Enc.charCodeAt(nInIdx)) &lt;&lt; 18 - 6 * nMod4;
+			if (nMod4 === 3 || nInLen - nInIdx === 1) {
+				for (nMod3 = 0; nMod3 &lt; 3 &amp;&amp; nOutIdx &lt; nOutLen; nMod3++, nOutIdx++) {
+					taBytes[nOutIdx] = nUint24 &gt;&gt;&gt; (16 &gt;&gt;&gt; nMod3 &amp; 24) &amp; 255;
+				}
+				nUint24 = 0;		
+			}
+		}
+					
+		return taBytes;
+	}
+					
+					
+endjavascript    
+end
+
+;########################################################################################################
+
+weboperation gridRollBack
+javascript
+	// function call on server error
+	
+	var grid = $("#grid").data("kendoGrid");
+	grid.cancelChanges();
+	console.log("Inside rollback");
+	
+endjavascript    
+end
+
+
+			
+weboperation console
+params
+	string pIn : In
+endparams
+
+	javascript
+	console.log(pIn);
+	endjavascript
+end 
+
+</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

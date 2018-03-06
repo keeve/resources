@@ -1,0 +1,415 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="ULIBR" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULIBRARY" seqno="1" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="2" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTIMESTAMP" seqno="3" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="ULIBRARY">FQS</DAT>
+<DAT name="UDESCR" xml:space='preserve'>FQS System</DAT>
+<DAT name="UTIMESTAMP">2016-03-20T16:36:31.00</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOURCE" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USTAT" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUB" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="ULABEL" seqno="6" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="ULAN" seqno="7" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="MSGTYPE" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="AUTHORIZ" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCLASS" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LOCREF" seqno="17" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCONFIRM" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UAUDIO" seqno="19" type="N" level="2" pack="10" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UTEXT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,1,\1E,0,0,0,,0,0,0,," />
+<FLD name="UWLEVEL" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-10-05T13:46:53.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">FQS</DAT>
+<DAT name="ULABEL">EXCEL_READ</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Readind xls, xlsm</DAT>
+<DAT name="UTEXT" xml:space='preserve'>;XlCorruptLoad Enumeration
+;https://msdn.microsoft.com/en-us/library/office/ff193596.aspx
+entry lpOpenExcel
+returns boolean
+params
+	string pFilePath : IN
+endparams
+
+	if (pFilePath != "")		
+		;debug : filedump/append $concat("File Path ", pFilePath , "%%^"), "c:\test\keeve.txt"
+		;debug : putmess $concat("File Path ", pFilePath , "%%^")
+
+		; create instance of Excel
+		newinstance "APPLICATION",$ExcelHandle$
+		if ($procerror &lt; &lt;UACT_SUCCESS&gt;)
+			filedump/append $concat("Error in creating new APPLICATION instance ", $procerrorcontext, "%%^"), "c:\test\keeve.txt"
+			return "F"
+		endif
+		;set before open
+		$ExcelHandle$-&gt;SET_AUTOMATIONSECURITY(3)
+		$ExcelHandle$-&gt;SET_DISPLAYALERTS(0)		
+		;debug : filedump/append $concat("New APPLICATION instance created ", $procerrorcontext, "%%^"), "c:\test\keeve.txt"
+		;debug : putmess $concat("New APPLICATION instance created ", $procerrorcontext, "%%^")
+
+		; execute Workbooks.get -- creates handle WorkBooks for more manipulations
+		$ExcelHandle$-&gt;GET_WORKBOOKS($WorkBooks$)
+		
+		;debug : filedump/append $concat("Get_WorkBooks dump ", $procerror, $WorkBooks$, "%%^"), "c:\test\keeve.txt"
+
+		; open spread sheet named in pFilePath  
+		; Note: parameter "-" indicates optional param not included  as a place holder
+		; omitted “optional” parameters require a dash (-) as a place holder	
+		$WorkBooks$-&gt;Open("UT_OPTIONAL", pFilePath, "0", -, -, -, -, -, -, -, -, -, -, -, -,"1")	
+		if ($procerror = &lt;UACT_SUCCESS&gt;)			   
+			return "T"
+		endif
+		filedump/append $concat("Open Workbook ", $procerrorcontext, "%%^"), "c:\test\keeve.txt"
+		;debug filedump/append $concat("WorkBook open dump ", $procerrorcontext," --- ", pFilePath, "%%^"), "c:\test\keeve.txt"
+	endif
+	
+	return "F"
+	
+end 
+
+entry lpGetActiveWorkSheet
+params
+	string pSheetName : IN
+endparams
+variables
+	handle vSheets
+endvariables
+
+	; create handle to active workbook
+	$ExcelHandle$-&gt;GET_ACTIVEWORKBOOK($ActiveWorkBook$)	
+	
+	; get specific worksheet and set it as active sheet	
+	if (pSheetName != "")
+		$ActiveWorkBook$-&gt;GET_SHEETS(vSheets)
+		vSheets-&gt;GET_ITEM($Activesheet$,pSheetName)
+		$Activesheet$-&gt;ACTIVATE()
+	else
+		;get the active sheet
+		$ActiveWorkBook$-&gt;GET_ACTIVESHEET($Activesheet$)
+	endif
+	
+	return(0)
+end
+
+
+entry lpGetNextCellAddress
+returns string
+params
+	struct pStruct : IN
+endparams
+variables
+	handle vNextcell, vCellRange
+	string vCellAddress
+endvariables
+	
+	$Activesheet$-&gt;GET_RANGE(vCellRange, pStruct-&gt;in-&gt;CellLoc , -)		
+	selectcase pStruct-&gt;in-&gt;Direction
+	case "UP"
+		vCellRange-&gt;GET_OFFSET(vNextcell,-1,0)
+	case "DOWN"
+		vCellRange-&gt;GET_OFFSET(vNextcell,1,0)
+	case "LEFT"
+		vCellRange-&gt;GET_OFFSET(vNextcell,0,-1)
+	elsecase
+		;default to right if not set
+		vCellRange-&gt;GET_OFFSET(vNextcell,0,1)	
+	endselectcase
+	
+	vNextCell-&gt;GET_ADDRESS(vCellAddress,1,1,1,-,-) ;XlReferenceStyle 1 = A1-style reference
+	vCellAddress = $replace(vCellAddress, 1,"$","",-1)	
+	
+	return vCellAddress
+end
+
+
+entry lpGetMergedAddress
+returns string
+params
+	string pCellStartLoc : IN
+endparams
+variables
+	handle vRange, vCellRange
+	string vCellAddress
+endvariables
+
+	$Activesheet$-&gt;GET_RANGE(vCellRange, pCellStartLoc , -)	
+	vCellRange-&gt;GET_MERGEAREA(vRange)
+	vRange-&gt;GET_ADDRESS(vCellAddress,1,1,1,-,-) ;XlReferenceStyle 1 = A1-style reference
+	vCellAddress= $replace(vCellAddress, 1,"$","",-1)
+	
+	return vCellAddress
+end
+
+
+entry lpGetCellValue
+returns string
+params
+	string pCell : IN
+endparams
+variables
+	handle vActivecell
+	string vCellValue
+endvariables
+
+	; p_activesheet-&gt;GET_RANGE(p_activecell, p_nmrangestart, -)
+	$Activesheet$-&gt;GET_RANGE(vActivecell, pCell , -)
+	; Get content of active cell (range)
+	vActivecell-&gt;GET_VALUE2(vCellValue)
+
+	return vCellValue
+end
+
+
+entry lpGetDateValue
+returns date
+params
+	string pCell : IN
+endparams
+variables
+	handle vActivecell
+	string vCellValue, vDateFormula
+	date vCellDate
+endvariables
+
+	;Reserve cell BA1 (change if necessary) for date formatting
+	$Activesheet$-&gt;GET_RANGE(vActivecell, "BA1" , -)
+	vDateFormula = $concat('=TEXT(',pCell,',"dd-mm-yyyy")')
+	vActivecell-&gt;SET_FORMULA(vDateFormula)
+	
+	vActivecell-&gt;GET_VALUE2(vCellValue)
+	vCellDate = $date(vCellValue)
+	return vCellDate
+end
+
+entry lpCheckHiddenRow
+params
+	struct pStruct : INOUT
+endparams
+variables
+	handle vCellRange, vRange
+	string vIsHidden
+endvariables
+
+	$Activesheet$-&gt;GET_RANGE(vCellRange, pStruct-&gt;in-&gt;StartLoc , pStruct-&gt;in-&gt;EndLoc)	
+	vCellRange-&gt;GET_ENTIREROW(vRange)
+	vRange-&gt;GET_HIDDEN(vIsHidden)
+	
+	pStruct-&gt;out-&gt;IsHidden = vIsHidden
+	return (0)
+end
+
+
+entry lpCheckHiddenColumn
+params
+	struct pStruct : INOUT
+endparams
+variables
+	handle vCellRange, vRange
+	string vIsHidden
+endvariables
+
+	$Activesheet$-&gt;GET_RANGE(vCellRange, pStruct-&gt;in-&gt;StartLoc , pStruct-&gt;in-&gt;EndLoc)	
+	vCellRange-&gt;GET_ENTIRECOLUMN(vRange)
+	vRange-&gt;GET_HIDDEN(vIsHidden)
+	
+	pStruct-&gt;out-&gt;IsHidden = vIsHidden
+	return (0)
+end
+
+;Requires header location
+;XlRangeValueDataType Enumeration : https://msdn.microsoft.com/en-us/library/office/ff837565.aspx
+entry lpGetValuePerRow
+params
+	struct pStruct : INOUT
+endparams
+variables
+	handle vActivecell, vCellRange
+	struct vOutStruct, vRowStruct
+	string pStartLoc, pEndLoc, vCellAddress, vTempOutput, vRowName, vRowValue, vRowValueList
+	numeric vColCount, vCounter
+endvariables
+
+	pStartLoc = pStruct-&gt;in-&gt;StartLoc
+	pEndLoc = pStruct-&gt;in-&gt;EndLoc
+
+	if (pStruct-&gt;ColCount = "")
+		;needs pStruct-&gt;in-&gt;HeaderStartLoc
+		call lpGetHeaderColumnCount(pStruct)
+	endif
+	vColCount = pStruct-&gt;ColCount
+	
+	if (pEndLoc = "")
+		$Activesheet$-&gt;GET_RANGE(vCellRange, pStartLoc , -)		
+		vCellRange-&gt;GET_END(vActivecell, -4161) ;XlDirection -4161 = To right.
+		vActivecell-&gt;GET_ADDRESS(vCellAddress,1,1,1,-,-) ;XlReferenceStyle 1 = A1-style reference
+		pEndLoc = $replace(vCellAddress, 1,"$","",-1)
+	endif
+	
+	;get entire row 
+	$Activesheet$-&gt;GET_RANGE(vCellRange, pStartLoc , pEndLoc)	
+	vCellRange-&gt;GET_VALUE(vTempOutput,12) ;XlRangeValueDataType 12 = XML format.
+	;convert XML return to struct
+	xmlToStruct vOutStruct, vTempOutput
+	;get values
+	vRowStruct = vOutStruct-&gt;xml-&gt;PivotCache-&gt;data-&gt;row
+	vCounter = 1
+	while (vCounter &lt;= vColCount)
+		vRowValue = ""
+		vRowValue = vRowStruct-&gt;*{vCounter}
+		vRowName = vRowStruct-&gt;*{vCounter}-&gt;$name
+		;Access vRowName as Col1 ... Col{nth} corresponding to header column index
+		putitem/id vRowValueList, vRowName, vRowValue
+		
+		vCounter = vCounter + 1
+	endwhile
+	
+	;set return list
+	pStruct-&gt;out-&gt;ValueList = vRowValueList
+	
+	return (0)
+end
+
+;XlDirection Enumeration : https://msdn.microsoft.com/en-us/library/office/ff820880.aspx
+;this will return the index of the last row with value
+;param StartLoc must be the cell of the first row with value (e.g B5)
+entry lpGetLastRowIndex
+params
+	struct pStruct : INOUT
+endparams
+variables
+	handle vActivecell, vCellRange
+	string pStartLoc
+	numeric vRowCount
+endvariables
+
+	pStartLoc = pStruct-&gt;in-&gt;StartLoc
+
+	;get header last row index [ specify header with no blank cell in row ]
+	$Activesheet$-&gt;GET_RANGE(vActivecell, pStartLoc , -)		
+	vActivecell-&gt;GET_END(vCellRange, -4121) ;XlDirection -4121 = Down.	
+	;get row count
+	vCellRange-&gt;GET_ROW(vRowCount)
+		
+	pStruct-&gt;RowCount = vRowCount
+	return (0)
+end
+
+;use this method if there blank rows in between data-
+;note check against blank row during processing
+entry lpGetLastUsedRow
+params
+	struct pStruct : INOUT
+endparams
+variables
+	handle vActivecell, vCellRange
+	numeric vRowCount
+endvariables
+
+	$Activesheet$-&gt;GET_USEDRANGE(vCellRange)
+	vCellRange-&gt;GET_ROWS(vActivecell)
+	vActivecell-&gt;GET_COUNT(vRowCount)
+	
+	pStruct-&gt;RowCount = vRowCount
+	return (0)
+end
+
+
+;XlDirection Enumeration : https://msdn.microsoft.com/en-us/library/office/ff820880.aspx
+;XlReferenceStyle Enumeration : https://msdn.microsoft.com/en-us/library/office/ff821207.aspx
+entry lpGetHeaderColumnCount
+params
+	struct pStruct : INOUT
+endparams
+variables
+	handle vActivecell, vCellRange
+	string pHeaderStartLoc, pHeaderEndLoc, vCellAddress, vTempOutput
+	numeric vColCount
+endvariables
+
+	pHeaderStartLoc = pStruct-&gt;in-&gt;HeaderStartLoc
+	pHeaderEndLoc = pStruct-&gt;in-&gt;HeaderEndLoc
+
+	;get header last column index
+	if (pHeaderEndLoc = "")
+		$Activesheet$-&gt;GET_RANGE(vCellRange, pHeaderStartLoc , -)		
+		vCellRange-&gt;GET_END(vActivecell, -4161) ;XlDirection -4161 = To right.
+		vActivecell-&gt;GET_ADDRESS(vCellAddress,1,1,1,-,-) ;XlReferenceStyle 1 = A1-style reference
+		pHeaderEndLoc = $replace(vCellAddress, 1,"$","",-1)
+		
+		;set header last column in struct 
+		pStruct-&gt;in-&gt;HeaderEndLoc = pHeaderEndLoc
+	endif	
+	
+	;get column count
+	$Activesheet$-&gt;GET_RANGE(vCellRange, pHeaderStartLoc , pHeaderEndLoc)
+	vCellRange-&gt;GET_COUNT(vTempOutput)
+	vColCount = $number(vTempOutput)
+	
+	pStruct-&gt;ColCount = vColCount
+	return (0)
+end
+
+
+entry lpCloseExcel	
+	$ActiveWorkBook$-&gt;Close(0,-,1)
+	deleteinstance $ActiveWorkBook$
+	$WorkBooks$-&gt;Close()
+	DeleteInstance $WorkBooks$
+	$ExcelHandle$-&gt;Quit()
+	DeleteInstance $ExcelHandle$
+	
+	return (0)
+end</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

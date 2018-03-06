@@ -1,0 +1,898 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="ULIBR" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULIBRARY" seqno="1" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="2" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTIMESTAMP" seqno="3" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="ULIBRARY">IFC</DAT>
+<DAT name="UDESCR" xml:space='preserve'>IFC Library</DAT>
+<DAT name="UTIMESTAMP">2014-01-21T10:22:41.00</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOURCE" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USTAT" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUB" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="ULABEL" seqno="6" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="ULAN" seqno="7" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="MSGTYPE" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="AUTHORIZ" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCLASS" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LOCREF" seqno="17" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCONFIRM" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UAUDIO" seqno="19" type="N" level="2" pack="10" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UTEXT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,1,\1E,0,0,0,,0,0,0,," />
+<FLD name="UWLEVEL" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-06-01T15:51:41.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">IFC</DAT>
+<DAT name="ULABEL">IP_GRID_POPDET</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Grid popup with detail</DAT>
+<DAT name="UTEXT" xml:space='preserve'>#include IFC:IP_GRID_FIELDLST
+#include IFC:IP_GRID_HEADRLST
+#include IFC:IP_GRID_DATAOUT
+#include IFC:IP_GRID_COLUMNS
+
+weboperation StopSpinner
+javascript
+$(".spinner").fadeOut("fast");  
+endjavascript
+end
+
+weboperation StartSpinner
+javascript
+$(".spinner").fadeIn("fast");  
+$(".k-grid").remove();
+endjavascript
+end
+
+operation BuildTablePopup ; Builds all Json for KendoUI
+public web
+	params
+		struct pStruct : IN
+	endparams
+	variables
+		string vHeaderList,    vOutput,  vTitle, vCellList,  vCellType,  pPosition, pTitle, pSaveURL,pReadURL, pSaveParams,pToolBar,pErrorDiv , vManValArr, vLenValArr, vItemID, vItem 		      
+		string vSaveParams , pReadParams ,vReadParams ,pInstanceName , pPopupFields,pPopupCreateFields,pExcel, vDateField, pExtraLine, pEditTemplate, pValueMapper , pGridName, pNoLoadState 
+		string pPageSize, pPageSizes,pColMenuInit, pHiddenColumns , pSavedCols, vUserParams, vUserCode, pUncheckedColList , pCheckColList,pShowInExcel,pHideInExcel, pSelectFunction 
+		string pIDList       
+		numeric pGridNo   
+		boolean pServerPaging, pRemoteData, pColMenu, pWithColFunc
+		struct vStruct
+	endvariables
+
+	; Parameters
+	;---------------------------------------------------------------------------------------------	
+	pPosition  = pStruct-&gt;in-&gt;pPosition  
+	pGridNo = pStruct-&gt;in-&gt;pGridNo 
+	pGridName = pStruct-&gt;in-&gt;pGridName
+	pTitle = pStruct-&gt;in-&gt;pTitle       ; Title of the grid/report  	
+	pSaveURL = pStruct-&gt;in-&gt;pSaveURL   ;URL Which handles save and server validation 
+	pReadURL = pStruct-&gt;in-&gt;pReadURL
+	pSaveParams = pStruct-&gt;in-&gt;pSaveParams ;associative list for save parameters ex compcode=2AANDA will be converted to "conpcode":"2AANDA"
+	pReadParams = pStruct-&gt;in-&gt;pReadParams
+	pToolBar = pStruct-&gt;in-&gt;pToolBar ;Optional - Json string for toolbar 
+	pErrorDiv = pStruct-&gt;in-&gt;pErrorDiv ;Optional - div for success and error messages default is #errordiv
+	pInstanceName = pStruct-&gt;in-&gt;pInstanceName 
+	pExtraLine = pStruct-&gt;in-&gt;pExtraLine;
+	pExcel =  pStruct-&gt;in-&gt;pExcel ;Excel FileName (optional)
+	pEditTemplate = pStruct-&gt;in-&gt;pEditTemplate;
+	pValueMapper=  pStruct-&gt;in-&gt;pValueMapper 
+	pServerPaging = pStruct-&gt;in-&gt;pServerPaging 
+	pRemoteData = pStruct-&gt;in-&gt;pRemoteData
+	pColMenu = pStruct-&gt;in-&gt;EnableColMenu
+	pColMenuInit = pStruct-&gt;in-&gt;ColMenuInit
+	pPageSize = pStruct-&gt;in-&gt;pPageSize 
+	pPageSizes = pStruct-&gt;in-&gt;pPageSizes 
+	pWithColFunc = pStruct-&gt;in-&gt;pWithColFunc 
+	pHiddenColumns =  pStruct-&gt;in-&gt;pHiddenColumns   
+	pNoLoadState = pStruct-&gt;in-&gt;pNoLoadState    
+	pUncheckedColList = pStruct-&gt;in-&gt;pUncheckedColList 
+	pCheckColList = pStruct-&gt;in-&gt;pCheckColList 
+	pShowInExcel = pStruct-&gt;in-&gt;pShowInExcel
+	pHideInExcel = pStruct-&gt;in-&gt;pHideInExcel
+	pSelectFunction = pStruct-&gt;in-&gt;pSelectFunction 
+	pIDList = pStruct-&gt;in-&gt;pIDList       
+
+	pPageSizes = $replace(pPageSizes, 1, "&uSEP;",",", -1)
+
+	;Associative list containing fields and certain properties to create a popup template
+	;&lt;WID&gt;&lt;/WID&gt; = widget type DROP/CHECK. if none textbox is assumed
+	;&lt;SHOW&gt;&lt;/SHOW&gt; = name of boolean field to assign visibility ex FIELDNAME=?FIELDNAME1/? fieldname1 dictates fieldname's visibility true is shown
+	;&lt;LAB&gt;&lt;/LAB&gt; = label of field
+	;&lt;TYPE&gt;&lt;/TYPE&gt; = field type
+	;ex "FIELDNAME=&lt;WID&gt;DROP&lt;/WID&gt;&lt;SHOW&gt;BFIELD&lt;/SHOW&gt;&uSEP;FIELDNAME2=&uSEP;FIELDNAME3=&lt;WID&gt;CHECK&lt;/WID&gt;" 
+	pPopupFields = pStruct-&gt;in-&gt;pPopupFields 
+	pPopupCreateFields = pStruct-&gt;in-&gt;pPopupCreateFields
+	
+	pPopupFields = $replace(pPopupFields ,1,"&uSEP;", "|&amp;|", -1)
+	pPopupCreateFields = $replace(pPopupCreateFields,1,"&uSEP;", "|&amp;|", -1)  
+
+	vUserParams = $webinfo("usercontext")
+	vUserCode = $item("usercode",vUserParams )
+	
+	
+	if (pGridNo = "")
+		pGridNo = 1
+	endif
+	
+	if (pGridName = "")
+		pGridName = "grid"
+	endif
+	
+	if (pEditTemplate = "")
+		pEditTemplate = "#edittemplate"
+	endif
+	
+	if (pSaveParams = "")
+		pSaveParams = '"Params":"none"'
+	else
+		forlist/id vItemID, vItem in pSaveParams 
+			if (vSaveParams != "") vSaveParams = $concat(vSaveParams, ",")
+			vSaveParams = $concat(vSaveParams , '"',vItemID,'":"', $concat(vItem ,'"'))                                     
+		endfor
+		pSaveParams = vSaveParams 
+	endif
+	pSaveParams = $concat("{",pSaveParams ,"}")
+
+	if (pReadParams = "")
+		pReadParams = '"Params":"none"'
+	else
+		forlist/id vItemID, vItem in pReadParams 
+			if (vReadParams != "") vReadParams = $concat(vReadParams , ",")
+			vReadParams = $concat(vReadParams , '"',vItemID,'":"', $concat(vItem ,'"'))                                     
+		endfor
+		pReadParams = vReadParams 
+	endif
+	pReadParams = $concat("{",pReadParams ,"}")
+
+	;Local / remote data
+	if (pRemoteData = "" | pRemoteData = "F")
+		activate $instancename.BuildGridFieldList(pStruct)
+		activate $instancename.BuildGridHeader(pStruct)
+		activate $instancename.BuildGridData(pStruct)	
+		
+		vOutput= $concat('{"data":', (pStruct-&gt;out-&gt;pOutput) , ',"total":', (pStruct-&gt;out-&gt;pTotal), "}")
+	else  
+		;this to make sure that local data generation won't fail if data will come from remote service
+		vOutput = '{"data": [] }'
+	endif
+	
+	vCellList = pStruct-&gt;out-&gt;pCellList
+	vHeaderList = pStruct-&gt;out-&gt;pHeaderList
+	
+		
+	vManValArr = pStruct-&gt;out-&gt;pManValArr
+	vLenValArr = pStruct-&gt;out-&gt;pLenValArr
+	vDateField = pStruct-&gt;out-&gt;pDateField 
+	
+	vDateField = $replace(vDateField,1,"&uSEP;",",",-1)	
+	if (vOutput = "" | vHeaderList = "" | vCellList = "")
+		$collHandle(MESSAGELINE)-&gt;showMessage("error","Error:","Unable to generate data for grid",1,0)
+	else 
+		vOutput = $replace(vOutput,1, "&uSEP;", ",", -1) ;need to replace for json parse 
+
+		;if (pWithColFunc)
+	;		pHiddenColumns = pStruct-&gt;in-&gt;pHiddenColumns 
+	       
+			;get saved columns 
+	;		#include IFC:initStructParam
+	;		vStruct-&gt;in-&gt;UserID = vUserCode 
+	;		vStruct-&gt;in-&gt;Component = $instancename
+	;		activate "Q_KE_SA_CORE1".GetSavedColumns(vStruct)
+	;		pSavedCols = vStruct-&gt;out-&gt;SavedCols 
+	;	endif
+		
+		pHiddenColumns = $replace(pHiddenColumns,1 ,"&uSEP;" ,"," , -1)
+		pUncheckedColList = $replace(pUncheckedColList ,1 ,"&uSEP;" ,"," , -1)  
+		pCheckColList  = $replace(pCheckColList  ,1 ,"&uSEP;" ,"," , -1)    
+		pShowInExcel = $replace(pShowInExcel,1 ,"&uSEP;" ,"," , -1)   
+		pHideInExcel = $replace(pHideInExcel,1 ,"&uSEP;" ,"," , -1)   
+		
+
+		webactivate $instancename.BuildGridPopup(vOutput,vHeaderList,vCellList, pPosition,pGridName,pGridNo,pTitle,vLenValArr,vManValArr , %\
+		pSaveURL,pReadURL,pSaveParams,pReadParams,pToolBar,pErrorDiv,pInstanceName,pPopupFields,pPopupCreateFields,pExcel, vDateField,pExtraLine, %\
+		pEditTemplate, pValueMapper,pServerPaging,pColMenu,pColMenuInit,pPageSize,pPageSizes, pHiddenColumns, pSavedCols,pNoLoadState,pUncheckedColList,pCheckColList,pShowInExcel, %\
+		pHideInExcel,pSelectFunction,pIDList)
+	endif
+end ;BuildDataPopup
+;#######################################################################################################
+   
+
+weboperation BuildGridPopup
+params
+	String pJsonData    : In
+	String pTableHeader : In
+	String pFields      : In
+	string pPosition    : IN
+	string pGridName	: IN
+	numeric	pGrid : IN
+	string pTitle : IN
+	string pLenValArr : IN  ;An Array consisting of fields with length validation
+	string pManValArr : IN
+	string pSaveURL : IN
+	string pReadURL : IN
+	string pSaveParams : IN 
+	string pReadParams : IN
+	string pToolBar : IN
+	string pErrorDiv : IN
+	string pInstanceName  : IN
+	string pPopupFields : IN
+	string pPopupCreateFields : IN
+	string pExcel : IN
+	string pDateField : IN
+	string pExtraLine : IN
+	string pEditTemplate : IN
+	string pValueMapper: IN
+	string pServerPaging : IN
+	string pColMenu : IN
+	string pColMenuInit : IN
+	string pPageSize : IN
+	string pPageSizes : IN
+	string pHiddenColumns : IN
+	string pSavedCols : IN 
+	string pNoLoadState : IN
+	string pUncheckedColList : IN  
+	string pCheckColList  : IN
+	string pShowInExcel : IN
+	string pHideInExcel : IN
+	string pSelectFunction : IN
+	string pIDList : IN
+endparams
+javascript
+
+	//;console.log(pTableHeader);
+	//;console.log(pJsonData);
+	//;console.log(pFields);
+	//;console.log(pSaveParams);
+	//;console.log(pSaveURL);
+
+	var GridName = '#' + pGridName + pGrid;
+	var GridName2 = pGridName + pGrid;
+
+	if (!jQuery.contains(document, $(GridName)[0])) {
+		$(pPosition).append("&lt;div id='"+ GridName2 + "'&gt;&lt;/div&gt;")
+	}
+   
+	//; preserve newlines, etc - use valid JSON
+	pJsonData = pJsonData.replace(/\\n/g, "\\n")  
+               .replace(/\\'/g, "\\'")
+               .replace(/\\"/g, '\\"')
+               .replace(/\\&amp;/g, "\\&amp;")
+               .replace(/\\r/g, "\\r")
+               .replace(/\\t/g, "\\t")
+               .replace(/\\b/g, "\\b")
+               .replace(/\\f/g, "\\f");
+	//; remove non-printable and other non-valid JSON chars
+	pJsonData = pJsonData.replace(/[\u0000-\u0019]+/g,"") 
+				 .replace(/|/g, ""); 
+
+	var data    = $.parseJSON(pJsonData);
+	var headerList     = $.parseJSON(pTableHeader);
+	var fieldList     = $.parseJSON(pFields);
+	var vSaveParams = $.parseJSON(pSaveParams);
+	var vReadParams = $.parseJSON(pReadParams);
+	var vSaveURL = pSaveURL; 
+	var vReadURL = pReadURL;
+	var vErrorDiv = pErrorDiv;
+	var vInstanceName = pInstanceName ; 
+	var vServerPaging = false;
+	var vColMenu = false;
+
+	if (pPageSize == ""){
+		var  vPageSize = 50;
+	}else{
+		var vPageSize = parseInt(pPageSize);
+	}
+
+	if (pPageSizes == ""){
+		var vPageSizes = $.parseJSON('[10, 20, 50, 100, 500, "ALL"]');
+	}else{
+		var vPageSizes = $.parseJSON('[' + pPageSizes + ']');
+	}
+
+	if (pServerPaging == "T"){
+		vServerPaging = true;
+	}
+	
+	if (pColMenu == "T") {
+		vColMenu = true;
+	}
+
+
+	if (pToolBar == ""){
+		//pToolBar = '[{"template":"&lt;a download=\'ReportExtract.xlsx\' class=\btn btn-md btexport\' id=\'exportexcel\'&gt;Export to Excel&lt;/a&gt;"}]'
+		pToolBar = '[{"name":"excel", "text":" Export"}]';
+	}  
+
+
+	vToolBar =  $.parseJSON(pToolBar );  
+	if (pNoLoadState == "T"){ 
+		vToolBar.push({"template":"&amp;nbsp;&lt;button class=\'btn btn-md btrestorestate\' id=\'BtnRestCols\'    type=\'button\' onclick=\'restorestatecust();\' &gt;&lt;/button&gt;&amp;nbsp;&lt;button type=\'button\'     class=\'btn btn-md btsavestate\' id=\'BtnSaveCols\' onclick=\'savestatecust();\'&gt;&lt;/button&gt;"});
+	}else if(pNoLoadState == "F"){
+	}else{
+		vToolBar.push({"template":"&amp;nbsp;&lt;button class=\'btn btn-md btrestorestate\' id=\'BtnRestCols\'    type=\'button\' onclick=\'restoreState(this);\' &gt;&lt;/button&gt;&amp;nbsp;&lt;button type=\'button\'     class=\'btn btn-md btsavestate\' id=\'BtnSaveCols\' onclick=\'saveState(this);\'&gt;&lt;/button&gt;"});
+	}
+	
+	
+       
+	if (vSaveURL == ""){
+		vSaveURL = "save";
+	}   
+
+	if (vErrorDiv == ""){
+		vErrorDiv = "#errordiv";
+	}
+
+	if (pExcel == ""){
+		pExcel = "Report Extract"
+	}
+
+
+	var opt_sortable = false;
+	window.init = false;
+
+
+	if (pLenValArr != ""){
+	var name = "" , vLen = "";
+	var vLenArray = pLenValArr.split("|&amp;|");
+	vLenValues = [];
+	for (i = 0; i &lt; vLenArray.length; i++) { 
+		name  = vLenArray[i];
+		vLen = fieldList["fields"][name]["validation"]["lengthvalidation"];
+		vLenValues[name] = vLen; 
+		fieldList["fields"][name]["validation"]["lengthvalidation"] = function (input){
+				var vField = input.attr("name");
+				var vLength = vLenValues[vField];
+				if (input.val().length &gt; vLength ){
+					input.attr("data-lengthvalidation-msg", "Field too large. Max(" + vLength + " characters)");
+					return false;
+				} return true;
+			};
+		}
+	}
+
+	//;clear template
+	$("body").find($("#edittemplate")).remove();
+	//;build kendo grid popup template string
+	var editPopupTemplate = createCreateEditTemplate(pPopupFields); //;this is for edit mode
+	var createPopupTemplate = createCreateEditTemplate(pPopupCreateFields); //;this is for create mode
+	var extraLine = (pExtraLine != "") ? " &lt;br /&gt;" + pExtraLine : "";
+	
+	var vPopup = '&lt;script type="text/x-kendo-template" id="edittemplate"&gt;' + 
+				 ' # if(data.isNew()) { # ' +
+				 '&lt;table width="550" id="tblCreate" style=" margin-left:25px;margin-right:25px;"&gt;&lt;tbody&gt;' + createPopupTemplate + '&lt;/tbody&gt;&lt;/table&gt;' +	
+				 ' # } else { # ' +
+				 '&lt;table width="550" id="tblEdit" style=" margin-left:25px;margin-right:25px;"&gt;&lt;tbody&gt;' + editPopupTemplate + '&lt;/tbody&gt;&lt;/table&gt;' +	
+				 ' # } #' + 			 
+				 '&lt;/script&gt;';	
+	$("body").append(vPopup);
+	
+	openPopup = function (element){
+		var row = $(element).closest("tr");
+		var gridId = $(element).closest(".k-grid").attr("id");
+		$("#" + gridId).data("kendoGrid").editRow(row);
+	}  
+
+var menuglobal;			   								
+$(GridName).empty();
+$(GridName).kendoGrid({       
+	toolbar: vToolBar  ,
+	excel: {
+	fileName: pExcel + ".xlsx",
+	allPages: true,
+	proxyURL: "C_KE_SA_CORE1.ProxyExcel",
+	forceProxy: true
+	},
+	columns: headerList ,
+	dataSource:{ 
+		serverPaging: vServerPaging ,
+		type: "json",
+		transport: {
+            read: readTransport,
+            create: saveTransport,
+			update: saveTransport
+	    },		
+		batch: true,
+		schema: { 	
+			data: "data",
+			total: "total",	  
+			model: fieldList
+		}
+	},  
+	height:           "100%",
+	scrollable:       true,
+	selectable:       true,
+	sortable:         true,
+	groupable:        true,
+	filterable :      true,
+	reorderable:      true,
+	resizable:        true,
+	columnMenu: true ,    
+	columnMenuInit: function(e) {  
+		menuglobal = e.container;   
+		var menu = e.container; 
+		var popup = e.container.data().kendoPopup;
+	
+	    var vLenArray ;    
+		var vHiddenColumnsArr = [];
+		if (pHiddenColumns != ""){
+			vHiddenColumnsArr =pHiddenColumns.split(",");
+		}
+				 		
+		e.container.find(".k-item &gt; span &gt; input").each(function(i, item) {							
+	  		if (vHiddenColumnsArr.indexOf($(item).attr("data-field")) &gt;= 0) {
+				$(item).parent().parent().remove();
+			}  
+			if (pUncheckedColList != ""){					
+				var vUnCheckedArray = pUncheckedColList.split(",");
+				if (vUnCheckedArray.indexOf(this.getAttribute("data-field")) &gt;= 0){	
+					if ($(this).prop('checked') == true){
+						this.click();
+					}
+				}	
+ 			}  
+			if (pCheckColList != ""){					
+				var vCheckedArray = pCheckColList.split(",");
+				if (vCheckedArray.indexOf(this.getAttribute("data-field")) &gt;= 0){	
+					if ($(this).prop('checked') == false){
+						this.click();
+					}
+				}	
+ 			}
+	
+		});	  
+	
+    },
+	pageable: {
+		pageSize: vPageSize ,
+		pageSizes: vPageSizes 
+	},
+	detailTemplate: kendo.template($("#griddettemplate").html()),
+	editable: {
+				mode: "popup",
+				template: $(pEditTemplate).html()
+			},
+			edit: function (e) 
+			{
+				
+				var editWindow = this.editable.element.data("kendoWindow");
+				editWindow.wrapper.css({ width: 600 , "left": "50%", "margin-left": "-300px"});
+				if (e.model.isNew()) {
+					$('.k-window-title').text("Create Details");
+				} else {				
+					$('.k-window-title').text("Modify Details");
+				}
+				
+				$(".k-window").find("div.k-window-titlebar").removeClass("k-window-titlebar").addClass("k-popup-modal-header");			
+				$(".k-window").find(".k-window-actions").remove();
+				$('.k-edit-form-container').css({width: 600 });
+				
+				$(".k-edit-buttons").find("a.k-grid-cancel").removeClass("k-button k-button-icontext").addClass("btn btn-md btclose");
+				$(".k-edit-buttons").find("a.k-grid-update").removeClass("k-primary k-button k-button-icontext").addClass("btn btn-md btsave");
+				$(".k-edit-buttons").find("a").find("span").remove();
+				$(".k-edit-buttons").find("a").html("");
+			},
+			cancel: function(e) {
+       		 	uniface.getInstance(vInstanceName).activate("LoadGrid");
+   			 },
+	change: onChange,
+	dataBound: function(e) {
+			   
+			$("td").each(function() {	
+				if ($(this).text() == "*HIDE") {
+					$(this).next("td").addClass("hidden")
+				}
+			});
+			$("th").each(function() {	
+				if ($(this).text() == "Hide?") {
+					$(this).next("th").addClass("hidden")
+				}
+			});
+			$("td").each(function() {	
+				if ($(this).text() == "A") {
+					$(this).next("td").addClass("fscgreen")
+				}
+			});	
+			$("td").each(function() {
+				if ($(this).text() == "P") {
+					$(this).next("td").addClass("fscred")
+				}
+			});   
+
+			var dataView = this.dataSource.view();
+			for (var i = 0; i &lt; dataView.length; i++) {
+				if (dataView[i].D_ROW!=null) {
+					var uid = dataView[i].uid;
+					$(GridName + " tbody").find("tr[data-uid=" + uid + "]").addClass(dataView[i].D_ROW);  //alarm's in my style and we call uid for each row
+				}
+			}
+	
+		if ($(GridName).data("kendoGrid").dataSource.data().length &gt; 0) {	
+			$(GridName).removeClass("hidden");		
+		} else {
+			//$(GridName).addClass("hidden");	
+			//modalPopup("EmptyTable","No records found?","No data available for current criteria selected or too many records to return.  Please try reducing your selection criteria.")  
+
+			$(GridName  + ".k-update").parent().hide();
+			$("#kendoDelete").hide();
+			var grid = e.sender;
+			var colCount = grid.columns.length;
+			$(e.sender.wrapper)
+			.find('tbody')
+			.append('&lt;tr class="kendo-data-row"&gt;&lt;td colspan="' + colCount + '" class="no-data"&gt;&lt;div class="subHeader" style="margin-top:20px;margin-bottom:20px;color:gray;font-size:15px;text-align:center;"&gt;No Records Found&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;');
+		};
+
+
+		$(".spinner").fadeOut("fast");  
+		if (window.init == false){
+			window.init = true;
+			$(GridName).data("kendoGrid").refresh()
+		}     
+		
+	}
+});
+
+//;export customization code
+//;NOTE! Only show columns that are hidden and only hide columns that are supposed to be shown otherwise leave as is
+var exportFlag = false;
+var ShowInExArr = pShowInExcel.split(",");   
+var HideInExArr = pHideInExcel.split(",");  
+$(GridName).data("kendoGrid").bind("excelExport", function (e) {
+    if (!exportFlag) {  
+		e.sender.showColumn("CARTAGE_CODE");
+        
+		for (var i = 0; i &lt; ShowInExArr.length ; i++) {
+   			e.sender.showColumn(ShowInExArr[i]);
+		}
+
+		for (var i = 0; i &lt; HideInExArr.length ; i++) {
+   			e.sender.hideColumn(HideInExArr[i]);
+		}
+
+        e.preventDefault();
+        exportFlag = true;
+        setTimeout(function () {
+            e.sender.saveAsExcel();
+        });
+    } else {
+       for (var i = 0; i &lt; ShowInExArr.length ; i++) {
+   			e.sender.hideColumn(ShowInExArr[i]);
+		}
+
+		for (var i = 0; i &lt; HideInExArr.length ; i++) {
+   			e.sender.showColumn(HideInExArr[i]);
+		}
+        exportFlag = false;
+    }
+});
+
+if($(GridName).find("h1").length &lt; 1) {
+	$(".k-grid-toolbar", GridName).append("&lt;h1&gt;" + pTitle + "&lt;/h1&gt;");
+};    
+
+if (pUncheckedColList != "" || pCheckColList != ""){$(GridName).data("kendoGrid").thead.find("[data-index=1]&gt;.k-header-column-menu").click();}
+if (pNoLoadState != "T" || pNoLoadState != "F"){
+	uniface.getInstance(vInstanceName).activate("LoadState", GridName, vInstanceName, pUncheckedColList ,pCheckColList,"");   
+} 
+
+
+
+restoreState = function(button){      
+	var name = $(button).parent().parent()["0"]["id"]; 
+	uniface.getInstance(vInstanceName).activate("RestoreState", name, vInstanceName);
+	return false;
+}   
+
+saveState = function(button){    
+	var name = $(button).parent().parent()["0"]["id"];   
+	var grid = $("#" + name).data("kendoGrid");      
+
+	uniface.getInstance(vInstanceName).activate("SaveState", name, vInstanceName, kendo.stringify(grid.getOptions()));
+	return false;
+}   
+
+restorestatecust = function(){  
+	uniface.getInstance(vInstanceName).activate("RestoreStateCust");  
+	return false
+}   
+
+savestatecust = function(){  
+	
+	uniface.getInstance(vInstanceName).activate("SaveStateCust");  
+	return false
+}
+  
+	function readTransport(options) {
+		if (vReadURL == "") {
+			options.success(data);
+		} else {
+			$(".spinner").fadeIn("fast");  
+			$.ajax({
+			  url: vReadURL  ,
+			  dataType:"json",
+			  data: { 
+						take:options.data.take,
+						skip:options.data.skip,
+						page:options.data.page,
+						pageSize:options.data.pageSize,  
+						readparams: vReadParams 
+					} ,
+					complete: function(result) {		
+						var content = result.responseText;
+						//;console.log(content);
+						data = $.parseJSON(content);
+						options.success(data);		
+						
+						if (typeof data["coltoshow"] !== 'undefined') {
+							var showCol = data["coltoshow"];
+							var columns = showCol.split(",");
+							var grid = $(GridName).data("kendoGrid");
+							for (var i = 0; i&lt;= columns.length; i++) {
+								grid.showColumn(columns[i]);
+							}							
+						}
+						$(".spinner").fadeOut("fast");  
+					}
+			});
+		}
+	}
+   
+
+function onChange(arg) {
+       var selected = $.map(this.select(), function(item) {
+           return item;
+        });
+
+		var dataItem = $(GridName).data("kendoGrid").dataItem(selected);
+
+		if (pSelectFunction != ""){
+			$(".spinner").fadeIn("fast"); 
+			var idlist = pIDList.split(",");
+			var dataArr = {};
+			for (i = 0; i &lt; idlist.length; i++) { 
+				var name = idlist[i];
+    			dataArr[name] = dataItem[name];
+			}			       
+			
+			uniface.getInstance(vInstanceName).activate(pSelectFunction,JSON.stringify(dataArr));
+		}
+
+}
+
+function saveTransport(options) {
+		var dt = "";
+		$.each(options.data.models, function (index, elem) {
+			$.each(elem, function(id, val) {
+				if (pDateField.indexOf(id) &gt;= 0) {
+					dt = new Date(val);
+					elem[id] = kendo.toString(new Date(dt), "dd-MM-yyyy");
+				}
+			});
+			
+		});
+		$.ajax( {
+		  url: vSaveURL  ,
+		  dataType:"json",
+		  data: {
+			  models: kendo.stringify(options.data.models), saveparams: vSaveParams
+		  },
+		  success: function(result) {
+			options.success(result);
+			console.log(result);
+			 var vSeverity = result.severity;
+			 var vTitle = result.title;
+			 var vIcon= result.icon;
+			 var vMessage = result.message;
+
+			 if (vSeverity == "") vSeverity = "danger";
+			 if (vTitle == "") vTitle = "Danger!";
+			 if (vIcon == "") vIcon = "exclamation-sign";
+			 if (vMessage == "") vMessage = "Procedure Failed. Plese Contact the Administrator.";
+
+			$(vErrorDiv ).html('&lt;div class="alert alert-' + vSeverity + 
+			'"&gt;&lt;span class="glyphicon glyphicon-' + vIcon  + '" aria-hidden="true"&gt;&lt;/span&gt;' +
+			'&amp;nbsp;&lt;strong&gt;' +
+			vTitle  + '&lt;/strong&gt;&amp;nbsp;&amp;nbsp;' + vMessage  + '&lt;/div&gt;')
+			$(".spinner").fadeIn("fast"); 
+			uniface.getInstance(vInstanceName).activate("LoadGrid");
+					
+		  },
+		  
+		});
+ }
+
+function createCreateEditTemplate(popupFields){
+
+	console.log(popupFields);
+	var vManValArr = pManValArr.split("|&amp;|")
+
+	var vPopupFields = popupFields.split("|&amp;|");
+	var vInnerPopup = "", vElement = "", vElemOuter = "", vField = "", vName = "", vLabel = "", vType= "", vRequired = "";
+	var vToggleFld = "", vWid ="";
+	
+	for (i = 0; i &lt; vPopupFields.length; i++) {
+		vField = vPopupFields[i];
+		if (vField != ""){
+		
+			vName = vField.substring(0,vField.search("="));
+			vElement="";
+			vLabel = "";
+			vRequired = "";
+
+			if (vManValArr.indexOf(vName) &gt;= 0){ 
+				vRequired = "required"
+			}
+
+			if (vField.search("&lt;LAB&gt;") &gt;= 0 )	{
+				vLabel = vField.substring(vField.search("&lt;LAB&gt;") + 5, vField.search("&lt;/LAB&gt;")); 
+			}
+			if (vField.search("&lt;TYPE&gt;") &gt;= 0 )	{
+				vType= 'data-type="' + vField.substring(vField.search("&lt;TYPE&gt;") + 6, vField.search("&lt;/TYPE&gt;")) + '"';
+			}
+			
+			vWid = vField.substring(vField.search("&lt;WID&gt;") + 5, vField.search("&lt;/WID&gt;"));
+			
+			//;Build Element
+			if (vField.search("&lt;WID&gt;") &gt;= 0 ) {
+				//; dropbox
+				if ( vWid.search("DROP") &gt;= 0){
+						var DropParams = vWid.split(",");
+						var Datasource = DropParams[1];
+						vElement = "&lt;tr&gt;&lt;td width='230'&gt;" + vLabel  + "&lt;/td&gt;" + 
+										"&lt;td width='320'&gt;" +		
+											'&lt;input  ' + vRequired + '  class="k-input" style="width:320px;" name="' + vName + '" ' +
+												'data-bind="value:' + vName + '" ' + 
+												'data-value-field="' + vName + 'ID" ' +
+												'data-text-field="' + vName + 'VAL" ' +
+												'data-source="' + Datasource + '" ' + 
+												'data-role="dropdownlist" /&gt;'	+	
+									"&lt;/td&gt;&lt;/tr&gt;";
+				}else if ( vWid.search("DRPVIR") &gt;= 0){
+					var DropParams = vWid.split(",");
+						var Datasource = DropParams[1];
+						var vAlternateName = DropParams[2];
+						if (typeof vAlternateName === 'undefined') {
+							vAlternateName = vName;
+						}
+
+						var vDataVirtual = 'data-virtual = "{itemHeight: 26,valueMapper: function(options) {options.success()}}" '
+						if (pValueMapper != ""){
+							vDataVirtual ='data-virtual = "{itemHeight: 26,valueMapper: function(options) { $.ajax({ url: \'' + pValueMapper + '\', type: \'GET\',dataType: \'json\', data:{fieldname: \'' + vName + '\' ,value:options.value},success: function (data) {options.success(data);}}) } }" '
+						}
+
+						vElement = "&lt;tr&gt;&lt;td width='230'&gt;" + vLabel  + "&lt;/td&gt;" + 
+										"&lt;td width='320'&gt;" +		
+											'&lt;input ' + vRequired + ' class="k-input" style="width:320px;" name="' + vName + '" ' +
+												'data-bind="value:' + vName + '" ' + 
+												'data-value-field="' + vAlternateName + 'ID" ' +
+												'data-text-field="' + vAlternateName + 'VAL" ' +
+												'data-source="' + Datasource + '" ' + 
+												'data-filter = "contains" ' + 
+												 vDataVirtual  +
+												'data-role="dropdownlist" /&gt;'	+	
+									"&lt;/td&gt;&lt;/tr&gt;";
+
+				//; checkbox	
+				}else if ( vWid.search("SWITCH") &gt;= 0){
+					vElement = "&lt;tr&gt;&lt;td width='40%'&gt;" + vLabel  + "&lt;/td&gt;" +
+									'&lt;td &gt;&lt;div class="onoffswitch" &gt;' + 
+									'&lt;input type="checkbox"  class="onoffswitch-checkbox" id="' + vName + 
+									'" name="' + vName + '" data-bind="value:' + vName + '" /&gt;' +
+									'&lt;label class="onoffswitch-label" for="' + vName + '" &gt;' +
+											'&lt;span class="onoffswitch-inner"&gt;&lt;/span&gt;' +
+											'&lt;span class="onoffswitch-switch"&gt;&lt;/span&gt;' +
+										'&lt;/label&gt;' +
+								"&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;";
+						
+				}else if ( vWid.search("CHECK") &gt;= 0){
+					vElement =   "&lt;tr&gt;&lt;td width='40%'&gt;" + vLabel  + "&lt;/td&gt;" +
+								"&lt;td &gt;" + 				
+									'&lt;input type="checkbox"  class="k-input" name="' + vName + '" data-bind="value:' + vName + '" style="height:25px;"&gt;' + 
+								"&lt;/td&gt;&lt;/tr&gt;";
+						
+				}else if ( vWid.search("TEXTREAD") &gt;= 0){
+					vElement =   "&lt;tr&gt;&lt;td width='40%'&gt;" + vLabel  +  "&lt;/td&gt;" +
+								'&lt;td width="60%"&gt;&lt;input ' + vRequired + ' type="text" class="k-input k-textbox" name="' + vName + '" ' + 
+								vType  + ' data-bind="value:' + vName + '" style="width:100%;" readonly/&gt;' + 
+						   "&lt;/td&gt;&lt;/tr&gt;";
+					
+				} else if (vWid.search("DATEPICKER") &gt;= 0) {
+					vElement =   "&lt;tr&gt;&lt;td width='40%'&gt;" + vLabel  +  "&lt;/td&gt;" +
+								'&lt;td width="60%"&gt;&lt;input ' + vRequired + ' type="text" class="k-input k-textbox" name="' + vName + '" ' + 
+								vType  + ' data-bind="value:' + vName + '" data-role="datepicker" data-format="{0:dd-MMM-yyyy}" style="width:100%;" /&gt;' + 
+								"&lt;/td&gt;&lt;/tr&gt;";
+				} else if (vWid.search("NUMERIC") &gt;= 0) {
+					vElement =   "&lt;tr&gt;&lt;td width='40%'&gt;" + vLabel  +  "&lt;/td&gt;" +
+								'&lt;td width="60%"&gt;&lt;input ' + vRequired + ' type="text" class="k-input k-textbox" name="' + vName + '" ' + 
+								vType  + ' data-bind="value:' + vName + '" data-role="numerictextbox" style="width:100%;" /&gt;' + 
+								"&lt;/td&gt;&lt;/tr&gt;";
+				} else if (vWid.search("STATIC") &gt;= 0) {
+					var vStatParams = vWid.split(",");
+					var vText = vStatParams[1];
+					vElement =   "&lt;tr&gt;&lt;td width='40%'&gt;" + vLabel  +  "&lt;/td&gt;" +
+								"&lt;td width='60%'&gt;" + vText  + 
+								"&lt;/td&gt;&lt;/tr&gt;";
+				}		
+			}else{
+				//;textbox element
+				vElement = "&lt;tr&gt;&lt;td width='40%'&gt;" + vLabel  +  "&lt;/td&gt;" +
+								'&lt;td width="60%"&gt;&lt;input ' + vRequired + ' type="text" class="k-input k-textbox" id="' + vName +  '" name="' + vName + '" ' + 
+								vType  + ' data-bind="value:' + vName + '" style="width:100%;"/&gt;' + 
+						   "&lt;/td&gt;&lt;/tr&gt;";
+				
+			}
+			//;Apply Javascript for element visibility
+			if (vField.search("&lt;SHOW&gt;") &gt;= 0 ) {
+				vToggleFld = vField.substring(vField.search("&lt;SHOW&gt;") + 6, vField.search("&lt;/SHOW&gt;")); 
+				vElement = '# if (' + vToggleFld + ' == true){#' + vElement + '# } #';	
+			}
+
+			vInnerPopup = vInnerPopup + vElement ;
+		}
+	}
+
+	console.log(vInnerPopup);
+	return vInnerPopup;
+}
+								
+endjavascript    
+end
+				
+weboperation console
+	params
+		string pIn : In
+	endparams
+javascript
+		console.log(pIn)
+endjavascript
+end 
+</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

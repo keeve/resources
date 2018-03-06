@@ -1,0 +1,223 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="ULIBR" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULIBRARY" seqno="1" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="2" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTIMESTAMP" seqno="3" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="ULIBRARY">IFC</DAT>
+<DAT name="UDESCR" xml:space='preserve'>IFC Library</DAT>
+<DAT name="UTIMESTAMP">2014-01-21T10:22:41.00</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOURCE" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="500" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USTAT" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUB" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="ULABEL" seqno="6" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="ULAN" seqno="7" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="MSGTYPE" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="9" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="10" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="AUTHORIZ" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCLASS" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LOCREF" seqno="17" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCONFIRM" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UAUDIO" seqno="19" type="N" level="2" pack="10" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UTEXT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,1,\1E,0,0,0,,0,0,0,," />
+<FLD name="UWLEVEL" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2014-10-27T14:09:11.00</DAT>
+<DAT name="USUB">I</DAT>
+<DAT name="UVAR">IFC</DAT>
+<DAT name="ULABEL">DATETIMEFUNCS</DAT>
+<DAT name="ULAN">P</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Date/Time type conv.</DAT>
+<DAT name="UTEXT" xml:space='preserve'>entry lfDateToString
+returns string
+params
+	date		pDateConv	: IN
+	boolean	pSep			: IN
+	boolean	pReverse		: IN
+endparams
+variables
+	string	vStrDate, vSep
+endvariables
+	if (pDateConv = "")
+		return()
+	endif
+
+	if (pSep)
+		vSep = "/"
+	else
+		vSep = ""
+	endif
+
+	if (pReverse)
+		vStrDate = $concat(pDateConv[Y],vSep)
+
+		if (pDateConv[M] &lt; 10)
+			vStrDate = $concat(vStrDate, "0", pDateConv[M], vSep)
+		else
+			vStrDate = $concat(vStrDate, pDateConv[M], vSep)
+		endif
+
+		if (pDateConv[D] &lt; 10)
+			vStrDate = $concat(vStrDate, "0", pDateConv[D])
+		else
+			vStrDate = $concat(vStrDate, pDateConv[D])
+		endif
+	else
+		if (pDateConv[D] &lt; 10)
+			vStrDate = $concat(vStrDate, "0", pDateConv[D], vsep)
+		else
+			vStrDate = $concat(vStrDate, pDateConv[D], vsep)
+		endif
+
+		if (pDateConv[M] &lt; 10)
+			vStrDate = $concat(vStrDate, "0", pDateConv[M], vSep)
+		else
+			vStrDate = $concat(vStrDate, pDateConv[M], vSep)
+		endif
+
+		vStrDate = $concat(vStrDate, pDateConv[Y])
+
+	endif
+
+	return(vStrDate)
+
+end ;entry lfDateToString
+
+entry lfTimeToString
+returns string
+params
+	time		pTimeConv	: IN
+	boolean	pSep			: IN
+endparams
+variables
+	string	vStrTime, vSep
+endvariables
+
+	if (pTimeConv = "")
+		return()
+	endif
+
+	if (pSep)
+		vSep = ":"
+	else
+		vSep = ""
+	endif
+
+	if (pTimeConv[H] &lt; 10)
+		vStrTime = $concat("0", pTimeConv[H], vSep)
+	else
+		vStrTime = $concat(pTimeConv[H], vSep)
+	endif
+
+	if (pTimeConv[N] &lt; 10)
+		vStrTime = $concat(vStrTime, "0", pTimeConv[N], vSep)
+	else
+		vStrTime = $concat(vStrTime, pTimeConv[N], vSep)
+	endif
+
+	if (pTimeConv[S] &lt; 10)
+		vStrTime = $concat(vStrTime, "0", pTimeConv[S])
+	else
+		vStrTime = $concat(vStrTime, pTimeConv[S])
+	endif
+
+	return(vStrTime)
+
+end ;entry lfTimeToString
+
+entry lfFormatDatim
+returns string
+params
+	string		pStrDatim		: IN
+endparams
+variables
+	date		vDateIn
+	string		vFomatDatim, vYear
+	time		vTimeIn
+endvariables
+
+	if (pStrDatim = "")
+		return("")
+	endif
+
+	vDateIn = $date(pStrDatim[1:8])
+	vTimeIn = $clock(pStrDatim[9:6])
+
+	if (vDateIn[D] &lt; 10)
+		vFomatDatim = $concat("0", vDateIn[D], "-")
+	else
+		vFomatDatim = $concat(vDateIn[D], "-")
+	endif
+
+	vYear = vDateIn[Y]
+	vFomatDatim = $concat(vFomatDatim, vDateIn[mmm], "-", vYear[3:2])
+
+	if (vTimeIn[H] &lt; 10)
+		vFomatDatim = $concat(vFomatDatim, "0", vTimeIn[H], ":")
+	else
+		vFomatDatim = $concat(vFomatDatim, vTimeIn[H], ":")
+	endif
+
+	if (vTimeIn[N] &lt; 10)
+		vFomatDatim = $concat(vFomatDatim, "0", vTimeIn[N], ":")
+	else
+		vFomatDatim = $concat(vFomatDatim, vTimeIn[N], ":")
+	endif
+
+	if (vTimeIn[S] &lt; 10)
+		vFomatDatim = $concat(vFomatDatim, "0", vTimeIn[S])
+	else
+		vFomatDatim = $concat(vFomatDatim, vTimeIn[S])
+	endif
+
+	return(vFomatDatim)
+
+end ;entry lfFormatDatim</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

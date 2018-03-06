@@ -1,0 +1,1326 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="USUBS" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUBSYSTEM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UVERS" seqno="3" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="4" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPARENT" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UCOMMENT" seqno="6" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2011-11-02T17:50:42.00</DAT>
+<DAT name="USUBSYSTEM">C</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:49:14.00</DAT>
+<DAT name="USUBSYSTEM">COM_OUTLOOK</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:24:25.00</DAT>
+<DAT name="USUBSYSTEM">COM_WORD</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2002-03-26T15:40:21.00</DAT>
+<DAT name="USUBSYSTEM">DISYSWEB</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2004-12-17T10:27:45.00</DAT>
+<DAT name="USUBSYSTEM">MSEXCEL</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">1998-04-01T15:03:13.00</DAT>
+<DAT name="USUBSYSTEM">USYS</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2002-01-21T09:04:27.00</DAT>
+<DAT name="USUBSYSTEM">VOA8</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2012-05-21T10:28:19.00</DAT>
+<DAT name="USUBSYSTEM">WIN32API</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2003-06-23T16:48:22.00</DAT>
+<DAT name="USUBSYSTEM">WINAPI</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2006-01-26T15:40:49.00</DAT>
+<DAT name="USUBSYSTEM">WINSIG</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:55:03.00</DAT>
+<DAT name="USUBSYSTEM">WIN_API</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USSPEC" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="3" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="4" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECID" seqno="6" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUBSYSTEM" seqno="7" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDEFIMPLNAM" seqno="8" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDEFPATH" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USYNCALLOWED" seqno="10" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USCOPE" seqno="11" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UEXECDEF" seqno="12" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USELFCONT" seqno="13" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UNOSTATE" seqno="14" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANS" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSATTR" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UMWATTR" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UHIDDDATA" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="URESDATA" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UHIDCDATA" seqno="21" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-18T16:03:39.00</DAT>
+<DAT name="USPECNAM">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="UDESCR">Glossary</DAT>
+<DAT name="UVAR">SYSTEM_LIBRARY</DAT>
+<DAT name="USPECID">ID2017071816033920</DAT>
+<DAT name="UDEFIMPLNAM">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="UDEFPATH">DSP</DAT>
+<DAT name="USCOPE">PUB</DAT>
+<DAT name="UEXECDEF">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOPER" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UOPERNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UDESCR" seqno="4" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USCOPE" seqno="6" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USELFCONT" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UEXECTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UNOSTATE" seqno="9" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPRE" seqno="10" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UPOST" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="URETVAL" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-18T16:03:39.00</DAT>
+<DAT name="USPECNAM">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="UOPERNAM">ACCEPT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-18T16:03:39.00</DAT>
+<DAT name="USPECNAM">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="UOPERNAM">EXEC</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-18T16:03:39.00</DAT>
+<DAT name="USPECNAM">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="UOPERNAM">QUIT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIMPL" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="2" idxsnr="1" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UDESCR" seqno="5" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLID" seqno="7" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLSUB" seqno="8" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCNTXT" seqno="9" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USET" seqno="10" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERSCHECKING" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UTRANSATTR" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UIMPLATTR" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-18T16:03:39.00</DAT>
+<DAT name="USPECNAM">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="UIMPLNAM">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="UPATH">DSP</DAT>
+<DAT name="UIMPLID">ID2017071816033920</DAT>
+<DAT name="UCNTXT">F</DAT>
+<DAT name="UVERSCHECKING">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIOPER" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="2" idxsnr="1" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UOPERNAM" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULITOPERNAM" seqno="8" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="URETVAL" seqno="9" type="N" level="2" pack="7" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCNTXT" seqno="10" type="N" level="2" pack="7" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLEMENTED" seqno="11" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBODY" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UEXCEPT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="UOPERATTR" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="URETTYPE" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-18T16:03:39.00</DAT>
+<DAT name="USPECNAM">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="UIMPLNAM">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="UPATH">DSP</DAT>
+<DAT name="UOPERNAM">ACCEPT</DAT>
+<DAT name="ULITOPERNAM">ACCEPT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-18T16:03:39.00</DAT>
+<DAT name="USPECNAM">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="UIMPLNAM">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="UPATH">DSP</DAT>
+<DAT name="UOPERNAM">EXEC</DAT>
+<DAT name="ULITOPERNAM">EXEC</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-18T16:03:39.00</DAT>
+<DAT name="USPECNAM">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="UIMPLNAM">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="UPATH">DSP</DAT>
+<DAT name="UOPERNAM">QUIT</DAT>
+<DAT name="ULITOPERNAM">QUIT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UFORM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="3" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="FTYP" seqno="4" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="FHEAD" seqno="7" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VMAAT" seqno="8" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HMAAT" seqno="9" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOLOR" seqno="10" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="CLRSCRN" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBORDER" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBIN" seqno="17" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBOT" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="MOVABLE" seqno="19" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOINVERSE" seqno="20" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBRIGHT" seqno="21" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOUNLINE" seqno="22" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBLINK" seqno="23" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPANEL" seqno="24" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="POSPANEL" seqno="25" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPULL" seqno="26" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HIDESTACK" seqno="27" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="28" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UINHERIT" seqno="29" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LIBRAR" seqno="30" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSACT" seqno="31" type="S" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="CONSTRAINTS" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="INIT" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="CLEAR" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="RETRIEVE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="RECORD" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="STORE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DELET" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ACCEPT" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="QUIT" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="INTKEY" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="SPRINT" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="EPRINT" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ASYNC" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="FORMPIC" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="HEADER" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="LISTING" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="PERF" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="PROTO" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="TITLE" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="WINPROP" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="FRLF" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="FRGF" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="SFUNC" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="HTMLPROP" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USCONTAINED" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="UEXECDEF" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="UML_DATA" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPPROP" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="HTML_FORMAT" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_STYLES" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_H" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_BODYHOOK" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPCLASS" seqno="70" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="GETSTATE" seqno="71" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="SETSTATE" seqno="72" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UNOSTATE" seqno="73" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="CMP_EXT" seqno="74" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UCTRIGGERS" seqno="75" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="UACCESSPATH" seqno="76" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="USPLITPROP" seqno="77" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL2" seqno="78" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="USTATEMANAGEDBY" seqno="79" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="HTMLSKELETON" seqno="80" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-20T14:21:38.00</DAT>
+<DAT name="UCOMPSTAMP">2018-03-06T10:42:12.00</DAT>
+<DAT name="ULABEL">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="UDESCR">Glossary</DAT>
+<DAT name="WVPOS">4</DAT>
+<DAT name="WHPOS">4</DAT>
+<DAT name="WVSIZ">29</DAT>
+<DAT name="WHSIZ">98</DAT>
+<DAT name="CLRSCRN">N</DAT>
+<DAT name="UBORDER">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="LIBRAR">IFC</DAT>
+<DAT name="UTRANSACT">7</DAT>
+<DAT name="TPLACTUAL" xml:space='preserve'>
+#Comment ----------------------------------------------
+#Comment start_of_references
+#ifdefined TEMPLATENAME
+#info symbol TEMPLATENAME is already or also defined as a global or local constant
+#endif
+#define TEMPLATENAME=
+#Comment 
+
+#Comment end_of_references
+
+
+#Comment ----------------------------------------------
+#Comment start_of_mappings
+#Comment end_of_mappings
+
+
+#Comment ----------------------------------------------
+#Comment start_of_symbols
+#Comment end_of_symbols
+
+
+#Comment ----------------------------------------------
+</DAT>
+<DAT name="INIT" xml:space='preserve'>public web</DAT>
+<DAT name="CLEAR">clear</DAT>
+<DAT name="RETRIEVE" xml:space='preserve'>retrieve
+if ($status &lt;0)
+   message $text(1762) ;error
+endif
+</DAT>
+<DAT name="RECORD" xml:space='preserve'>retrieve
+if ($status &lt;0)
+   message $text(1765) ;error
+endif
+</DAT>
+<DAT name="STORE" xml:space='preserve'>store
+if ($status &lt;0)
+   message $text(1500) ;error
+   rollback
+else
+   if ($status = 1)
+      message $text(1723) ;no change
+   else
+      commit
+      if ($status &lt; 0)
+         rollback
+      else
+         message $text(1805) ;OK
+      endif
+   endif
+endif
+</DAT>
+<DAT name="DELET" xml:space='preserve'>erase
+if ($status &lt;0)
+   message $text(1763) ;error
+   rollback
+else
+   if ($status = 1)
+      message $text(1634) ;not allowed
+   else
+      message $text(1806) ;OK
+      commit
+   endif
+endif
+</DAT>
+<DAT name="FORMPIC" xml:space='preserve'>
+ &uFRM;TYP=E&uSEP;NAM=DUM.IFCSYSTEM&uSEP;WID=25&uSEP;HEI=3&uSEP;HOC=25&uSEP;VOC=3&uFRM;
+  &uFRM;TYP=F&uSEP;NAM=BROWSER&uSEP;WID=20&uSEP;HEI=1&uFRM;</DAT>
+<DAT name="TITLE" xml:space='preserve'>FQS Home Page</DAT>
+<DAT name="SFUNC" xml:space='preserve'>weboperation keys
+params
+endparams
+javascript
+$(document).keypress(function(e){
+if (e.which == 13){
+document.getElementById("ufld:D_LOGON.DUM_LOGON.DUMMY:&lt;$componentName&gt;.1").click();
+}
+});
+endjavascript
+end
+
+;=============================================================
+
+weboperation DoSpinner
+javascript
+$(".spinner").fadeIn("fast");  
+endjavascript
+end
+
+;=============================================================
+
+weboperation StopSpinner
+javascript
+$(".spinner").fadeOut("fast");  
+endjavascript
+end
+</DAT>
+<DAT name="HTMLPROP">EDITOR=TEXT</DAT>
+<DAT name="USCONTAINED">1</DAT>
+<DAT name="GETSTATE" xml:space='preserve'>variables
+  string  WebServerContext, Cookie, Session, UserContext, sOuter
+  numeric i
+endvariables
+
+; =======================================================================================
+; Get state
+; ----------------------------------------------
+; The constants noState, byCookie and byStateManagerComponent are assumed to be defined in the Component Defines Trigger.
+#if ("&lt;$cmpStateManagedBy&gt;" = "&lt;noState&gt;")
+  ; Insert your code...
+#elsif ("&lt;$cmpStateManagedBy&gt;" = "&lt;byCookie&gt;")
+  getitem/id Cookie, $webinfo("COOKIESIN"), "MY_VARLIST_COOKIE"
+  getlistitems/id /component Cookie
+  ; Insert your code...
+#elsif ("&lt;$cmpStateManagedBy&gt;" = "&lt;byStateManagerComponent&gt;")
+  WebServerContext = $webinfo("WEBSERVERCONTEXT")
+  getitem/id Session, WebServerContext, "SESSION"
+  UserContext = ""
+  activate "USYSSTAT".GetState(Session, $instancename, UserContext)
+  getlistitems/id /component UserContext
+  ; Insert your code...
+#endif ; &lt;$cmpStateManagedBy&gt;
+
+; When using the State Manager Component:
+; Use the following activates to delete an occurrence in your state table or cleanup your state table (USTATE.STATE).
+;
+;   activate "USYSSTAT".DELETESTATE(SessionId, $instancename)
+;   operation DELETESTATE
+;   params
+;      string SessionId    : IN
+;      string InstanceName : IN
+;   endparams
+;
+;   activate "USYSSTAT".CLEANUPSTATE(TimeStamp)
+;   operation CLEANUPSTATE
+;   params
+;      datetime TimeStamp   : IN
+;   endparams
+;   When TimeStamp = '0' or 'empty' all occurrences will be removed.
+;   When you specify a particular 'datetime' all occurrences before 'datetime' will 
+;   be removed.
+; =======================================================================================
+
+
+
+; =======================================================================================
+; Parse request
+; ----------------------------------------------
+selectcase $webrequesttype
+case "DYNAMIC"
+  webload                         ; Get Data
+  if ($procerror &lt; 0)
+    $webinfo("OUTPUT") = lfHtmlMessage("WEBLOAD Failed", $procerrorcontext)
+    return -1
+  endif
+
+  i = 1
+  getitem sOuter, $componentinfo($instancename, "OUTERENTITIES"), i
+  while ($status &gt; 0)
+    reconnect "%%sOuter%%%"    ; Reconnect Data
+    if ($procerror &lt; 0)
+      $webinfo("OUTPUT") = lfHtmlMessage("RECONNECT Failed", $procerrorcontext)
+      return -1
+    elseif ($status != 0)
+      $webinfo("OUTPUT") = lfHtmlMessage("RECONNECT Failed", "$status=%%$status%%%&uSEP;ENTITY=%%sOuter%%%")
+      return -1
+    endif
+    i = i + 1
+    getitem sOuter, $componentinfo($instancename, "OUTERENTITIES"), i
+  endwhile
+
+  websetocc                       ; Set Occurrence Context
+  if ($procerror &lt; 0)
+    $webinfo("OUTPUT") = lfHtmlMessage("WEBSETOCC Failed", $procerrorcontext)
+    return -1
+  endif
+endselectcase
+; =======================================================================================
+
+
+
+; =======================================================================================
+; Execution ok
+; ----------------------------------------------
+return (0)
+; =======================================================================================
+
+
+; Error page
+entry lfHtmlMessage
+returns string
+params
+  string pHeader      : IN
+  string pContextList : IN
+endparams
+variables
+  string vMessage, VadditionalList
+endvariables
+  vMessage = $replace($htmlmessage, 1, "__HEADER__", pHeader)
+  VadditionalList = $item("ADDITIONAL", pContextList)
+  delitem/id pContextList, "ADDITIONAL"
+  pContextList = $concat(pContextList, "&uSEP;&uSEP;Additional:&uSEP;", VadditionalList)
+  pContextList = $replace(pContextList, 1, "COMPONENT", "DSP_INSTANCE=%%$instancename%%%&uSEP;COMPONENT")
+  vMessage = $replace(vMessage, 1, "__MESSAGE__", $replace(pContextList, 1, "&uSEP;", "&lt;br /&gt;", -1))
+;   vMessage = $concat(vMessage, "&lt;br/ &gt;Additional:&lt;br /&gt;", $replace(vAdditional, 1, "&uSEP;", "&lt;br /&gt;", -1))
+  return vMessage
+
+htmlmessage:blockdata ~
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+  &lt;meta name="Default" content="Uniface 9" /&gt;
+  &lt;link rel="stylesheet" type="text/css" href="../css/udsp.css" /&gt;
+&lt;/head&gt;
+&lt;body style="color: rgb(0, 0, 0); background-color: orange;" alink="#000099" link="#000099" vlink="#990099"&gt;
+  &lt;span style="font-weight: bold;"&gt;__HEADER__&lt;/span&gt;&lt;br /&gt;
+  &lt;hr style="width: 100%; height: 2px;" /&gt;
+  __MESSAGE__&lt;br /&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+~
+
+end
+</DAT>
+<DAT name="SETSTATE" xml:space='preserve'>variables
+  string WebServerCntxt, SessionId, Varlist
+endvariables
+
+$10="NOMENU"
+; =======================================================================================
+; Generate response
+; ----------------------------------------------
+selectcase $webresponsetype
+case "UPDATE"         ; Update page
+  websave               ; Generate data
+  if ($procerror &lt; 0)
+    webmessage/error "websave failed (Set State)%%^$procerror = %%$procerror%%%"
+    return (0)
+  endif
+case "FULLPAGE"       ; Initial page
+  weblayout             ; Generate layout
+  if ($procerror &lt; 0)
+    webmessage/error "weblayout failed (Set State)%%^$procerror = %%$procerror%%%"
+    return ($status)
+  endif
+
+  webdefinitions        ; Generate component definitions
+  if ($procerror &lt; 0)
+    webmessage/error "webdefinitions failed (Set State)%%^$procerror = %%$procerror%%%"
+    return ($status)
+  endif
+
+  websave               ; Generate data
+  if ($procerror &lt; 0)
+    webmessage/error "websave failed (Set State)%%^$procerror = %%$procerror%%%"
+    return (0)
+  endif
+endselectcase
+; =======================================================================================
+
+
+
+; =======================================================================================
+; Set state
+; ----------------------------------------------
+; The constants noState, byCookie and byStateManagerComponent are assumed
+; to be defined in the Component Defines Trigger.
+#if ("&lt;$cmpStateManagedBy&gt;" = "&lt;noState&gt;")
+  ; Insert your code...
+#elsif ("&lt;$cmpStateManagedBy&gt;" = "&lt;byCookie&gt;")
+  ; Initialize Varlist with all component variables.
+  Varlist = $componentinfo($instancename, "VARIABLES")
+  ; Add the current values of the component variables to Varlist.
+  putlistitems/id /component Varlist
+  ; Insert your code...
+  putitem/id $webinfo("COOKIESOUT"), "MY_VARLIST_COOKIE", Varlist
+#elsif ("&lt;$cmpStateManagedBy&gt;" = "&lt;byStateManagerComponent&gt;")
+  WebServerCntxt = $webinfo("WEBSERVERCONTEXT")
+  getitem/id SessionId, WebServerCntxt, "SESSION"
+  ; Initialize Varlist with all component variables.
+  Varlist = $componentinfo($instancename, "VARIABLES")
+  ; Add the current values of the component variables to Varlist.
+  putlistitems/id /component Varlist
+  ; Insert your code...
+  activate "USYSSTAT".SetState(SessionId, $instancename, Varlist)
+#endif
+; =======================================================================================
+
+
+
+; =======================================================================================
+; Execution ok
+; ----------------------------------------------
+return (0)
+; =======================================================================================
+</DAT>
+<DAT name="USTATEMANAGEDBY">0</DAT>
+<DAT name="HTMLSKELETON" xml:space='preserve'>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8" /&gt;
+&lt;meta content="width=device-width, initial-scale=1.0" name="viewport" /&gt;
+&lt;meta content="" name="description" /&gt;
+&lt;meta content="" name="author" /&gt;
+&lt;!--[if IE]&gt;
+        &lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"&gt;
+        &lt;![endif]--&gt;
+&lt;meta name="Default" content="Uniface 9"&gt;
+&lt;link rel="icon" href="../common/Icons/fqsfavicon.ico" /&gt;
+&lt;title&gt;freightQUOTES | Welcome&lt;/title&gt;
+&lt;link rel=stylesheet href='../css/FQS.css'&gt;
+&lt;link rel=stylesheet href='../css/FQS_Welcome.css'&gt;
+&lt;link rel=stylesheet href='../css/cssparallax.css'&gt;
+&lt;link rel="stylesheet" href="../css/font-awesome/css/font-awesome.css" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class="main"&gt; 
+  
+  &lt;!-- Start Navigation --&gt;
+  &lt;div class="cctop" &gt;
+    &lt;div class="main"  &gt;
+      &lt;ul id="nav" &gt;
+        &lt;li&gt;&lt;a href="Q_SY_DA_WELCOME"&gt;HOME&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="Q_SY_DA_SOFTWARE"&gt;HOW&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="Q_SY_DA_INDUSTRY"&gt;WHO&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="Q_SY_DA_QUOTE"&gt;DO&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="Q_SY_DA_ABOUT"&gt;ABOUT&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;img  id="fqslogo" src="../common/Icons/FQS_logo_long2.png"/&gt; &lt;a class="btn-login" href="Q_SY_DA_LOGIN"&gt;&lt;i class="fa fa-arrow-right" aria-hidden="true"&gt;&lt;/i&gt; Log In&lt;/a&gt; &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- End Navigation --&gt;
+  
+  &lt;div class="wrapper"&gt; 
+    
+    &lt;!-- TOP SECTION --&gt;
+    &lt;div class="plax ccparallax ccparallax-one" style="height:750px;"&gt;
+      &lt;div class="container"&gt;
+        &lt;div class="headlines"&gt; &lt;br /&gt;
+          &lt;br /&gt;
+          &lt;br /&gt;
+          &lt;br /&gt;
+          &lt;h1 style="font-size:60px !important;"&gt;End-to-end shipping prices&lt;/h1&gt;
+          &lt;h2&gt;For enterprise shippers, from vendor to store&lt;/h2&gt;
+          &lt;br /&gt;
+          &lt;h2&gt;Freight forwarders and overseas agents&lt;/h2&gt;
+          &lt;br /&gt;
+          &lt;h2&gt;And all other parties to the supply chain&lt;/h2&gt;
+          &lt;br /&gt;
+          &lt;br /&gt;
+          &lt;br /&gt;
+          &lt;br /&gt;
+          &lt;br /&gt;
+          &lt;h1 style="font-size:60px !important;"&gt;&lt;span style="font-weight:normal;color:#4ABDAC"&gt;quote&amp;nbsp;&amp;nbsp;&lt;/span&gt;.&lt;span style="font-weight:normal;color:#FC4A1A"&gt;&amp;nbsp;&amp;nbsp;book&amp;nbsp;&amp;nbsp;&lt;/span&gt;.&lt;span style="font-weight:normal;color:#F7B733"&gt;&amp;nbsp;&amp;nbsp;track&lt;/span&gt;&lt;/h1&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;br /&gt;
+
+	  &lt;table class="container"&gt;
+	    &lt;tr valign="top"&gt;&lt;td width="250px"&gt;&lt;b&gt;Air Waybill&lt;/b&gt;&lt;/td&gt;&lt;td&gt;a non-negotiable contract for Carriage of air transportation between an air carrier and a shipper.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;All - Risk Management&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The broadest form of coverage available, providing protection against all risk of physical loss or damage from any external cause.  Does not cover loss or damage due to delay, inherent vice, inadequate packaging, or loss of market.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;BAF (Bunker Adjustment Factor)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;An adjustment in shipping charges to offset price fluctuations in the cost of fuel.  Also known as Bunker Surcharge (B/S).  The word Bunker refers to fuel storage containers on a vessel.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Bill of Lading (B/L)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A document issued by a common carrier to a shipper that serves as:&lt;br&gt;
+1. A receipt for the goods delivered to the carrier for shipment&lt;br&gt;
+2. A definition of the contract of carriage of the goods&lt;br&gt;
+3. A document of Title to the goods described therein&lt;br&gt;
+4. This document is generally not negotiable unless consigned "to order"&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Bill of Lading, On Board&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A bill of lading acknowledging that the relative goods have been received on board a specific vessel.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Bill of Lading, Order&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A negotiable bill of lading there are two types:&lt;br&gt;
+1. A bill drawn on to the order of the named party, enabling him to endorse the bill to a third party&lt;br&gt;
+2. A bill of lading drawn to the "order of the shipper" and endorsed by him to either "in blank" or to a named consignee.  The purpose of the latter bill is to protect the shipper against the buyer's obtaining the merchandise before he is paid or accepted the relative draft. &lt;i&gt;(see also endorsement in blank)&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Bonded Warehouse&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A warehouse authorized by Customs for storage of goods on which payment of duties is deferred until the goods are removed.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Break Bulk Vessel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A vessel designed to handle large or oversized cargo; generally cargo unsuitable for container stowage.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Bulk Cargo&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Loose cargo that is loaded directly into a ship's hold.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Bulk Carrier&lt;/b&gt;&lt;/td&gt;&lt;td&gt;There are two types of bulk carriers, the dry-bulk carrier and the liquid-bulk carrier, better known as a tanker.  Bulk cargo is a shipment such as oil, grain, or one which is not packaged, bundled, bottled, or otherwise packed and is loaded without counting or marking.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;CAD (Cash Against Documents)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A method of payment for goods in which documents transferring title are given to the buyer upon payment of cash to an intermediary acting for the seller.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;CAF (Currency Adjustment Factor)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A surcharge on freight charges by carrier to offset currency fluctuations.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Cargo Insurance&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Insurance to protect the financial interest of the owner of the cargo in the event of a loss during transportation.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Carnet&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A Customs document permitting the holder to carry or send merchandise temporarily into a certain foreign countries without paying duties or posting bonds.  All of the goods travelling under a Carnet must be returned to the origin country to avoid penalities.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Carrier&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Any person who, through a contract of carriage, undertakes to perform or procure the performance of carriage by rail, road, sea, air, inland waterway, or by a combination of modes.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Certificate of Manufacture&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A document used under the letter of credit containing an affidavit that goods have been manufactured and are being held for the account and risk of the buyer.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Certificate of Origin&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A document containing an affidavit to prove the origin of imported goods.  It is used for Customs or foreign exchange purposes or both.  Certificates of Origin are commonly certified by an official organization in the country of origin such as a consular office or a chamber of commerce.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;CFS (Container Freight Station)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The term CFS at loading port means the location designated by carriers for the receiving of cargo to be loaded into containers by the carrier.  At discharge or destination ports, the term CFS means the bonded location designated by carriers for the devanning of containerized cargo.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;CFS/CFS (Pier to Pier)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The term CFS/CFS refers to cargo delivered at origin and less-than-containerload quantities to a container freight station (CFS) to be loaded into containers and to be unloaded from the container at a destination CFS.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Chargeable Weight&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Rate for airfreight goods where the dimensional weight exceeds the actual weight of the cargo.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Chassis&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A rectangular steel frame, supported by springs and wheeled axles constructed to accept mounting of containers for over-the-road transport.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Commercial Invoice&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Receipt for goods purchased (invoice) indicating the shipper or seller and the consignee or the purchaser.  A commercial invoice should contain an itemized and detailed list of the merchandise with the complete description of goods, their unit value and extended total value.  Depending on the Customs laws in the destination country, there may be additional requirements, statement or clauses that must apper as well
+&uBS;.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Confirmed Letter of Credit&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;i&gt;(see letter of credit, confirmed)&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Consignee&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The individual or company to whom a seller or shipper sends merchandise and who, upon presentation of necessary documents, is recognized as the merchandise receiver for the purpose of declaring and paying Customs duties.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Consolidated Shipment&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A method of shipping whereby an agent (freight forwarder or consolidator) combines the individual cosignments from various shippers into one shipment sent to a destination agent, for the benefit of reduced transportation rates.  The consolidation (also called a "groupage") is then de-consolidated by the destination agent into it's original individual consignments and made available to various consignees.  Conso
+&uBS;lidation provides shippers access to better rates than would be otherwise available directly from a carrier.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Consolidator&lt;/b&gt;&lt;/td&gt;&lt;td&gt;An agent who brings together a number of shipments to qualify for reduced transportation rates.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Consular Documents&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Special forms or certifications signed by the Consulate of a country to which cargo is destined.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;DDC (Destination Delivery Charge)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;This is part of the ocean carrier's tariffs and has nothing to do with the actual delivery of cargo to the consignee.  There may be a delivery charges in addition to this fee, for delivery of the cargo.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;DDP (Delivery Duty Paid)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Also known as "free domicile" or "free house".  Cargo is delivered to the consignee's door, and all clearance charges/fees and Customs duties are paid by the shipper or some third-party.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;DDU (Delivered Duty Unpaid)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Same as DDP except the duties paid by the consignee.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Deck Cargo&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Cargo carried on deck rather than stowed under deck.  On-deck carriage is required for cetain commodities, such as explosives.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Demurrage&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A penalty for exceeding free time allowed for picking up cargo at a pier or freight terminal.  Also a charge for undo detention of transportation equipment (containers), while loading or unloading.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Density&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Generally refers to "heavy" cargo or cargo which is rated based on weight instead of volume.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Dim Weight (Dimensional Weight)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;An airfreight term used to describe the results of computing the chargeable weight from the measurement of a shipment.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Draft&lt;/b&gt;&lt;/td&gt;&lt;td&gt;An unconditional order in writing from one person (the Drawer) to another (the Drawee), directing the drawee to pay a specified amount on the presentation or on a fixed date.  This document will generally be transmitted through banking institutions.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Drawee&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The individual or firm on who a draft is drawn and who owes the stated amount to the drawer.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;EDI or EDIFACT (Electronic Data Intercahnge for Administration, Commerce and Transport)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;From the United Nations-backed electronic data interchange standards body, this is a set of standards that are used to define data sets in certain documents to standardize them for electronic transmission from one format to another.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Endorsed in Blank&lt;/b&gt;&lt;/td&gt;&lt;td&gt;1. Commonly used on a bank check, an endorsement in blank is an endorsement to the bearer.  It contains only the name of the endorser and specifies no particular payee.&lt;br&gt;
+2. Also, a common means of endorsing bills of lading drawn to the order of the shipper.  The bills are then "blank endorsed", or endorsed to a named holder or consignee.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Export Licence&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A document secured from a government, authorizing a shipper to export a specific quantity of a particular commodity to a certain country.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;FCL&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Full Container Load, Full Car Load.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;FMC (Federal Maritime Commission)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The US Federal agency responsible for overseeing Ocean Carriers, Conferences, NVOCC's, and Ocean Freight Forwarders (now called OTI's - Ocean Transport Intermediaries).&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Feeder Vessel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A vessel that connects with a "mother" vessel to service a smaller port not directly serviced by that vessel.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;FEU (Forty Foot Equivalent)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Term normally used in ocean freight rate negotitations referring to the equivalent of a forty foot ocean container.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;FIATA&lt;/b&gt;&lt;/td&gt;&lt;td&gt;International Federation of Freight Forwarders Associations.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Flat Rack&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A platform designed with flexibility to carry oversized cargo on board container vessels.  It can be loaded from the sides and top, usually having adjustable or removeable bulkheads at the front and back.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Force Majeure&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The title of a standard clause found in maritime contracts for carriage exempting the parties from fulfilment of their obligations by reasons of occurrences beyond their control, such as earthquakes, floods, hurricanes, or war.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;FTZ (Foreign Trade Zone)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;An area designated by the government for duty-free entry of any non prohibited goods.  Merchandise may be stored, displayed, and further manufactured within the zone and re-exported without duties being paid.  Duties are imposed only when the original goods or items manufactured from those goods pass from the zone into an area of the country subject to Customs authority.  &lt;i&gt;Also called a Free-Trade Zo
+&uBS;ne&lt;/i&gt;.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Forwarder, Freight Forwarder, Foreign Freight Forwarder&lt;/b&gt;&lt;/td&gt;&lt;td&gt;An independent business that arranges the transport of shipments for exporters.  The form may ship by land, air, or sea, or it may specialize in one of these.  Usually it handles all the services connected with an export shipment, including preparation of documents, booking of space, warehousing, pier delivery, and export clearance.  The firm may also handle banking and insuran
+&uBS;ce services on behalf of the exporter.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;FPA (Free Particular Average)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A marine insurance clause relating to the recoverability of total losses from "perils at sea."&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Freeport&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A port which is a Foreign Trade Zone open to all traders on equal terms, or more specifically a port where merchanise may be stored duty-free pending re-export or sale within that country.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Free Trade Zone&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;i&gt;(See Foreign Trade Zone)&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;GATT (General Agreement on Tariffs and Trade)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A multilateral treaty intended to help reduce trade barriers and promote tariff concessions.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;GR Wt./GW (Gross Weight)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The full weight of a shipment, including cartons and packaging materials.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Harmonized Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;An internationally accepted and uniform system for classifying goods for Customs, statistical, and other trade purposes.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Harmonized System (HS)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A key provision of the international trade bill, effective January 1, 1989, that established international uniformity for classifying goods under a single commodity code.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Hi (or Hight) Cube&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Any container exceeding 102 inches in height.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;HAWB (House Air Waybill)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;An air waybill issued by an airfreight consolidator.  &lt;i&gt;(see also air waybill)&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;IATA&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Internation Air Transport Association.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;ICC (International Chamber of Commerce)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A non-governmental organization serving as a policy advocate on world business.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Igloo&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A contoured structural container designed for use on main-deck carriage on aircraft.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Import License&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A certificate issued by countries exercising import controls that permit importation of the article stated in the license.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;In-Bond&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A term used to describe the movement of cargo from the first US port of unlading to another Customs port for clearance and entry purposes.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;INCOTERMS&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The set of international standards for the uniform interpretation of common contract clauses in international trade.  INCOTERMS 2000, formulated in concert with many international entities, comprises the latest revisions and should now be used exclusively.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Inspection Certificate&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A document certifying that merchandise was in good condition, or in accordance with certain specifications, immediately prior to shipment.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Interline&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A mutual agreement between airlines to link their route network.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Intermodal&lt;/b&gt;&lt;/td&gt;&lt;td&gt;This refers to the capacity to go from ship to train to truck or the like.  The term generally referes to containerized shipping or the capacity to handle containers across different modes of transport.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;ISO 9000/9002&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A series of voluntary international quality standards.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Knot, Nautical&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The unit of speed equivalent to one nautical mile: 6,080.20 feet per hour or 1.85 Kilometers per Hour.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;LCL&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Less than Container Load; Less than Car load.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;LTL (Less-Than-Truckload)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Rates applicable when the quantity of freight is less than the volume or truckload.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;L/C (Letter of Credit)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A document issued by a bank, at the request of the buyer of goods, which assures payment to the seller, if the terms and conditions are met.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Letter of Credit, Confirmed&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A letter of credit in which the advising bank in the country of beneficiary guarantees payment to the seller, provided the seller's documentation is in accordance with the terms of the letter of credit.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Load Factor&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Capacity used as against capacity available and expressed as a percentage.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Logistics Management&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The efficient and cost-effective management of the physical movement of goods from supply points to final sale and the associated transfer and holding of such goods at various intermediate storage points.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Measurement Ton&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The measurement ton is a space measurement, usually 40 cubic feet or 1 cubic meter.  Cargo is assessed a rate for every 40 cubic feet or 1 cubic meter it occupies.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;M/T (Metric Ton)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;1,000 kilos or 2,240 pounds.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;NAFTA (North American Free Trade Agreement)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A Free Trade Agreement comprising the USA, Canada, and Mexico.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Net Weight (Actual Net Weight)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The weight of goods alone without any shipping cartons or packages.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Net/Net Weight&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The weight of only the product itself, without any wrapping, packaging, etc.  As an example, the weight of a garment, excluding tissues, pins (used in folding), poly bags, etc.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;NES&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Not Elsewhere Specificed.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;NOS&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Not Otherwise Specified.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;NVOCC (Non-Vessel Operating Common Carrier)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;In the United States, a term for FMC - licensed cargo consolidator offering services in ocean transport.  An NVOCC generally arranges or performs consolidation and containerization functions.  In trade lanes that do not include the USA, NVOCC's operate under different rules and governmental licensing may not be a requirement.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Open Account&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A term of sale in which goods are shipped to a foreign buyer without guarantee of payment such as a note, L/C, or other formal written evidence of indebtedness.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Open Policy&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A cargo insurance policy that is an open contract; providing protection for all shipments in transit within a specific geographic trade area.  It is referred to as "open" because it does not require reporting of individual shipments prior to shipment movement.  Summary or group reporting requirements vary with different policies.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Perishables&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Any cargo that loses considerable value, or will "perish", if it is delayed in transit.  This usually refers to products, which are kept under certain temperature restraints such as fresh fruits, fresh fish or meat, vegetables, etc.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Phytosanitary Inspection Certificate&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A certificate issued by an exporting countries' Department of Agriculture indicating that a shipment has been inspected and is free of harmful pests and plant diseases.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Pilferage&lt;/b&gt;&lt;/td&gt;&lt;td&gt;As used in maritime insurance policies, the term denotes petty thievery - the taking of small parts of the shipment - as opposed to the theft of a whole shipment or large unit.  Many ordinary marine insurance policies do not cover pilferage, and when this coverage is desired it must be added to the policy.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Port of Discharge&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The port where cargo was discharged from the vessel.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Port of Entry&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A port at which foreign goods are entered into the commerce and admitted into the receiving country.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Port of Loading&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A port where cargo is loaded aboard the vessel or aircraft.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Prepaid Freight&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Freight charges, both in ocean and air transport, maybe prepaid in the currency of the country of export.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;POD (Proof Of Delivery)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The delivery receipt copy of a freight bill or bill of lading indicating the name of the person who signed for a shipment with the date and time of delivery.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Reefer&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A refrigerated container, trailer or trailcar for transporting perishables.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Ro/Ro (Roll-On/Roll-Off) Vessel&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A ship designed to accommodate cargo that is rolled on and rolled off.  Many Ro/Ro vessels can also accommodate conatiners and/or break-bulk cargo.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Ship's Manifest&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A document containing a list of the shipments constituting the entire ship's cargo.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Shipment&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Freight tendered to a carrier by a shipper for delivery to a consignee as designated in the bill of lading or air waybill.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Shipper&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Term used to describe the person or firm who contracts with the carrier for movement of goods (usually the seller).&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Sight Draft&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A draft payable upon presentation to the drawee &lt;i&gt;(Compare with Date Draft and Time Draft)&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Steamship Agent&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A duly appointed and authorized representative in a specified territory acting on behalf of the steamship line and attending to all matters relating to the vessels owned by his principles.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Steamship Line&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A company who owns (or leases) it's own vessels and engages in the movement of goods by sea.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Stowage&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The loading of cargo in a vessel in such a manner as to provide the utmost safety and efficiency for the ships and the goods that carries.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;SR &amp; CC (Strikes, Riots and Civil Commotions)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;An insurance clause referring to loss or damage directy caused by strikers, locked-out workmen, labor disturbances, and riots of various kinds.  That ordinary marine insurance policy does not cover this risk.  Coverage against it is added by endorsement.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Tare Weight&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The weight of containers without the goods.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;TEU (Twenty Foot Equivalent)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Twenty foot equivalent unit.  A unit of measure for certain ocean containers.  A standard 40' container (FEU) equals 2 TEUs.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;THC (Terminal Handling Charge)&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A charge for handling services performed at terminals, either at origin or destination.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Time Draft&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A draft that matures in a certain number of days, either from the acceptance or from some other date, as specified therein.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Transshipment&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The transfer of a shipment from one carrier to another in international trade, most frequently from one shop to another.  Because the unloading and reloading of delicate merchandise may cause damage, transshipment should be avoided whenever possible.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Valuation Charges&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Additional charges assessed to shippers who declared "value of carriage" on the air waybill or bill of lading.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Volume Weight&lt;/b&gt;&lt;/td&gt;&lt;td&gt;An international airfreight term used to describe the results of computing the chargeable weight from the cubic measurement of a shipment.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;War Risk Insurance&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Insurance against war-like operation specifically described in the policy.  In the USA, war risk insurance is written in a separate policy from ordinary marine insurance or as an endorsement to the policy.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Warehouse Receipt&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A receipt of commodities deposited in a warehouse identifying the goods deposited.  It is non-negotiable, permitting delivery only to a specific person or firm, but is negotiable if made out to the order of a person or firm or to a bearer.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Warehouse-to-Warehouse&lt;/b&gt;&lt;/td&gt;&lt;td&gt;A clause and marine insurance policies whereby the underwriter agrees to cover the goods while in transit between the initial point of shipment (the shipper's door) and the point of destination with certain limitations (the consignee's door).&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Weight - Gross&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The weight of goods including packaging, wrappers, or containers, both internal and external.  The total weight as shipped.  It does not include the weight of the carrier's ocean or air container.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Weight - Net&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The weight of the goods themselves without inclusion of any packages or cartons.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Weight - Tare&lt;/b&gt;&lt;/td&gt;&lt;td&gt;The weight of the packaging or container.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Weight - Measurement Ton&lt;/b&gt;&lt;/td&gt;&lt;td&gt;In many cases, a rate is shown per weight/measurement ton (or W/M), carrier option.  This means the rate will be assessed on either a weight ton or a measurement ton basis, whichever will yield the carrier the greater revenue.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Weight - Ton&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Metric measure equals 1,000 kilograms; in English measure a short ton is 2,000 pounds, a long ton is 2,240 pounds.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+	    &lt;tr valign="top"&gt;&lt;td&gt;&lt;b&gt;Weight - W/M&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Weight and/or Measurement.&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;!-- Start FOOTER --&gt;
+&lt;div class="fqs-footer transparent"&gt;
+  &lt;table width="960px" align="center"&gt;
+    &lt;tr valign="center"&gt;
+      &lt;td&gt;&lt;p style="color:white;font-size:10px;"&gt;Copyright 2014-2016 &lt;b&gt;Cloud Logistics Solutions Pty Ltd&lt;/b&gt;&lt;br&gt;
+          All rights reserved&lt;br&gt;
+          &lt;br&gt;
+        &lt;/p&gt;&lt;/td&gt;
+      &lt;td align="right"&gt;&lt;p&gt; &lt;i class="fa fa-facebook-square fa-3x" style="color:white;" aria-hidden="true"&gt;&lt;/i&gt; &amp;nbsp; &lt;i class="fa fa-youtube-square fa-3x" style="color:white;" aria-hidden="true"&gt;&lt;/i&gt; &amp;nbsp; &lt;i class="fa fa-twitter-square fa-3x" style="color:white;" aria-hidden="true"&gt;&lt;/i&gt; &amp;nbsp; &lt;i class="fa fa-linkedin-square fa-3x" style="color:white;" aria-hidden="true"&gt;&lt;/i&gt; &amp;nbsp; &lt;i class="fa fa-google-plus-square fa-3x" st
+&uBS;yle="color:white;" aria-hidden="true"&gt;&lt;/i&gt; &lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+&lt;/div&gt;
+&lt;!-- End FOOTER --&gt;
+
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXGROUP" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,1" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_BORD" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DBMS" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_UPD" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINL" seqno="11" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXL" seqno="12" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINR" seqno="13" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXR" seqno="14" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLGINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INTF" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="17" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="GETOCC" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="PUTOCC" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="DELOCC" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="LCK" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UNLOCK" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="GETSEGM" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ADDOCC" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DELOCCR" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="CREOCC" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="FINDOCC" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="FLIST" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="BREAK" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="VLDE" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDK" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="UISBCLASS" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UISASSOC" seqno="43" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_OBJSVC" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="U_SVCUSE" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTPROP" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_TABTYPE" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_B" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_E" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTCLASS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="U_GLAB" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UEOINTERFACE" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UECINTERFACE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="UEOOPERS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="UECOPERS" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="UEOTRIGGERS" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="UECTRIGGERS" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETTYPE" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETCREATE" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="PRLO" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="PSLO" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="PRSO" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="PSSO" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="UPARENT" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETTYPE" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F2,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETCREATE" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-25T14:47:20.00</DAT>
+<DAT name="ULABEL">DUM</DAT>
+<DAT name="UBASE">IFCSYSTEM</DAT>
+<DAT name="UFORM">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+<DAT name="HTML_ENTPROP" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXFIELD" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="GRP" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UBASE" seqno="4" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UFORM" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="3" ufocc="0" mandatory="yes" idxnum="1,2,3" idxsnr="104,3,1" />
+<FLD name="U_TLAB" seqno="6" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="8" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="9" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLLAY" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LAYOUTMOD" seqno="12" type="S" level="2" pack="0" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLSYN" seqno="13" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="SYNTAXMOD" seqno="14" type="S" level="2" pack="0" scale="0" length="192"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="INTERFACEMOD" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TABSTOP" seqno="17" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WIDGETTYPE" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="19" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="20" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="STARTMOD" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="NEXTFLD" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="PREVFLD" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="ENCRYPT" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DECRYPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="UFORMAT" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="DEFORMAT" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GETFOCUS" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="VCHANGED" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="WIDGETCREATE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="VALLAB" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="INITVALUE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="VLDF" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="UISOBJID" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HTML_FLDPROP" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="HTML_CTRLTYPE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_M" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_FLDCLASS" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_LBLCLASS" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="UFOPERS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="UFTRIGGERS" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="UFORMATS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="WEBWIDGETTYPE" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="WEBWIDGETCREATE" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-25T14:47:20.00</DAT>
+<DAT name="ULABEL">BROWSER</DAT>
+<DAT name="GRP">DUM</DAT>
+<DAT name="UBASE">IFCSYSTEM</DAT>
+<DAT name="UFORM">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="U_INDB">N</DAT>
+<DAT name="SYNTAXMOD">HID</DAT>
+<DAT name="INTERFACEMOD">C40</DAT>
+<DAT name="WIDGETTYPE">EDITBOX</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UISOBJID">F</DAT>
+<DAT name="HTML_CTRLTYPE">U_INPUT</DAT>
+<DAT name="WEBWIDGETTYPE">EDITBOX</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXREGS" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_STAT" seqno="2" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_TYPE" seqno="3" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_FORMLIB" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,3" idxsnr="101,1" />
+<FLD name="U_NAME" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_LAYOUT" seqno="9" type="S" level="2" pack="0" scale="0" length="46"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DOC" seqno="10" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-25T14:47:20.00</DAT>
+<DAT name="U_FORMLIB">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="U_NAME">AGENT</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-25T14:47:20.00</DAT>
+<DAT name="U_FORMLIB">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="U_NAME">APP_CONTEXT</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-25T14:47:20.00</DAT>
+<DAT name="U_FORMLIB">Q_SY_DA_GLOSSARY</DAT>
+<DAT name="U_NAME">SERVER_VARS</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>

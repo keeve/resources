@@ -1,0 +1,3153 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="9.7" xmlengine="2.0">
+<TABLE>
+<DSC name="UFORM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMPSTAMP" seqno="2" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="3" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="FTYP" seqno="4" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="FHEAD" seqno="7" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VMAAT" seqno="8" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HMAAT" seqno="9" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOLOR" seqno="10" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHPOS" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHSIZ" seqno="14" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="CLRSCRN" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBORDER" seqno="16" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBIN" seqno="17" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBOT" seqno="18" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="MOVABLE" seqno="19" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOINVERSE" seqno="20" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBRIGHT" seqno="21" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOUNLINE" seqno="22" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBLINK" seqno="23" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPANEL" seqno="24" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="POSPANEL" seqno="25" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPULL" seqno="26" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HIDESTACK" seqno="27" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="28" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UINHERIT" seqno="29" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LIBRAR" seqno="30" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSACT" seqno="31" type="S" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="CONSTRAINTS" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="INIT" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="CLEAR" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="RETRIEVE" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="RECORD" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="STORE" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="DELET" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ACCEPT" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="QUIT" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="INTKEY" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="SPRINT" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="EPRINT" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ASYNC" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="FORMPIC" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="HEADER" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="LISTING" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="PERF" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="PROTO" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="TITLE" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="WINPROP" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="FRLF" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="FRGF" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="SFUNC" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="HTMLPROP" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USCONTAINED" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="UEXECDEF" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="UML_DATA" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPPROP" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="HTML_FORMAT" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_STYLES" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_H" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_B" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_HOOK_E" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_BODYHOOK" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_CMPCLASS" seqno="70" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="GETSTATE" seqno="71" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="SETSTATE" seqno="72" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UNOSTATE" seqno="73" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="CMP_EXT" seqno="74" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UCTRIGGERS" seqno="75" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="UACCESSPATH" seqno="76" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="USPLITPROP" seqno="77" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL2" seqno="78" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="USTATEMANAGEDBY" seqno="79" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="HTMLSKELETON" seqno="80" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:27:15.00</DAT>
+<DAT name="UCOMPSTAMP">2018-03-06T10:41:52.00</DAT>
+<DAT name="ULABEL">C_AD_SA_COMPANY1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Company Operations</DAT>
+<DAT name="WVPOS">6</DAT>
+<DAT name="WHPOS">17</DAT>
+<DAT name="WVSIZ">10</DAT>
+<DAT name="WHSIZ">40</DAT>
+<DAT name="CLRSCRN">N</DAT>
+<DAT name="UBORDER">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="LIBRAR">IFC</DAT>
+<DAT name="UTRANSACT">1</DAT>
+<DAT name="TPLACTUAL" xml:space='preserve'>
+#Comment ----------------------------------------------
+#Comment start_of_references
+#ifdefined TEMPLATENAME
+#info symbol TEMPLATENAME is already or also defined as a global or local constant
+#endif
+#define TEMPLATENAME=
+#Comment 
+
+#Comment end_of_references
+
+
+#Comment ----------------------------------------------
+#Comment start_of_mappings
+#Comment end_of_mappings
+
+
+#Comment ----------------------------------------------
+#Comment start_of_symbols
+#Comment end_of_symbols
+
+
+#Comment ----------------------------------------------
+</DAT>
+<DAT name="CLEAR">clear</DAT>
+<DAT name="RETRIEVE" xml:space='preserve'>retrieve
+if ($status &lt;0)
+   message $text(1762) ;error
+endif
+</DAT>
+<DAT name="RECORD" xml:space='preserve'>retrieve
+if ($status &lt;0)
+   message $text(1765) ;error
+endif
+</DAT>
+<DAT name="STORE" xml:space='preserve'>store
+if ($status &lt;0)
+   message $text(1500) ;error
+   rollback
+else
+   if ($status = 1)
+      message $text(1723) ;no change
+   else
+      commit
+      if ($status &lt; 0)
+         rollback
+      else
+         message $text(1805) ;OK
+      endif
+   endif
+endif
+</DAT>
+<DAT name="DELET" xml:space='preserve'>erase
+if ($status &lt;0)
+   message $text(1763) ;error
+   rollback
+else
+   if ($status = 1)
+      message $text(1634) ;not allowed
+   else
+      message $text(1806) ;OK
+      commit
+   endif
+endif
+</DAT>
+<DAT name="FORMPIC" xml:space='preserve'>
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_NOTES.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_DEFAULT_SCREENS.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_TYPE.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_FILES.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_DEFAULTS.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_CONTAINERS.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=FR_CONTAINERS.FQS_SYSTEM&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_CLIENT.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_PORT.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY.CONFIG&uSEP;WID=25&uSEP;HEI=5&uSEP;HOC=25&uSEP;VOC=5&uFRM;
+  &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_ADDRESS.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+  &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_SERVICES.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_RELATIONSHIP.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_CODE.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_CLIENT_DEFAULTS.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_TEAM.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_TEAM.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_CLIENT_TEAM.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_COMPANY_CHARGE_CODES.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;
+
+ &uFRM;TYP=E&uSEP;NAM=CN_DOCUMENT_GROUPS_TYPES.CONFIG&uSEP;WID=25&uSEP;HEI=3&uSEP;HOC=25&uSEP;VOC=3&uFRM;
+  &uFRM;TYP=E&uSEP;NAM=CN_DOCUMENT_GROUPS.CONFIG&uSEP;WID=20&uSEP;HEI=1&uSEP;HOC=20&uSEP;VOC=1&uFRM;</DAT>
+<DAT name="LISTING" xml:space='preserve'>17-JUN-16	PRB	1004596	New copied from SY_SA_COMPANY01
+					New operation - companyNameMatch</DAT>
+<DAT name="PERF">#DEF</DAT>
+<DAT name="WINPROP">ATTACHED=F</DAT>
+<DAT name="SFUNC" xml:space='preserve'>;================================================
+operation getCompanyValrep
+	params
+		struct pStruct : IN
+	endparams
+	$order_by$ = "COMPANY_NAME"
+	clear/e "CN_COMPANY"
+	retrieve/e "CN_COMPANY"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		putlistitems/id pStruct-&gt;out-&gt;List, COMPANY_ID.CN_COMPANY, COMPANY_NAME.CN_COMPANY
+	endif    
+end 
+
+;================================================
+operation getCompanyInfo
+params
+	struct     pStruct : IN
+endparams
+variables	
+	string vAddressOcc, vInfoOcc
+endvariables	
+	if (pStruct-&gt;in-&gt;UUID = "" )
+		return(0)
+	endif
+	
+	clear/e "CN_COMPANY"
+	COMPANY_ID.CN_COMPANY = pStruct-&gt;in-&gt;UUID
+	retrieve/e "CN_COMPANY"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		pStruct-&gt;out-&gt;Enabled      = ENABLED.CN_COMPANY
+		pStruct-&gt;out-&gt;CompanyType  = "0"
+		pStruct-&gt;out-&gt;CompanyName  = COMPANY_NAME.CN_COMPANY  
+		putlistitems/occ vInfoOcc, "CN_COMPANY"
+		putlistitems/occ vAddressOcc, "CN_COMPANY_ADDRESS"
+		
+		pStruct-&gt;out-&gt;Address = vAddressOcc  
+		pStruct-&gt;out-&gt;Info = vInfoOcc
+	else
+		pStruct-&gt;out-&gt;Enabled      = ""
+		pStruct-&gt;out-&gt;CompanyType  = ""
+		pStruct-&gt;out-&gt;CompanyName  = ""
+	endif
+	
+	if (pStruct-&gt;in-&gt;GetShortName = "T" &amp; pStruct-&gt;in-&gt;ParentId != "")
+		clear/e "CN_COMPANY_RELATIONSHIP"
+		PARENT_ID.CN_COMPANY_RELATIONSHIP = pStruct-&gt;in-&gt;ParentId
+		COMPANY_ID.CN_COMPANY_RELATIONSHIP = pStruct-&gt;in-&gt;UUID
+		retrieve/e "CN_COMPANY_RELATIONSHIP"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			pStruct-&gt;out-&gt;ShortName = SHORT_NAME.CN_COMPANY_RELATIONSHIP
+		else
+			pStruct-&gt;out-&gt;ShortName = ""
+		endif
+	endif
+	
+	return(0)
+end
+
+;================================================
+
+
+operation getClientInfo
+	params
+		struct     pStruct : IN
+	endparams
+	
+	if (pStruct-&gt;in-&gt;UUID = "" | pStruct-&gt;in-&gt;ParentUUID = "")
+		return(0)
+	endif
+
+	clear/e "CN_CLIENT"
+	CLIENT_ID.CN_CLIENT = pStruct-&gt;in-&gt;UUID
+	PARENT_ID.CN_CLIENT = pStruct-&gt;in-&gt;ParentUUID
+	retrieve/e "CN_CLIENT"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		pStruct-&gt;out-&gt;Enabled      = ENABLED.CN_CLIENT
+		pStruct-&gt;out-&gt;CompanyType  = "0"
+		pStruct-&gt;out-&gt;CompanyName  = COMPANY_NAME.CN_CLIENT
+	endif
+	
+	return(0)
+end
+
+;================================================
+
+operation getClientDefaults
+	params
+		struct     pStruct : IN
+	endparams
+	
+	if (pStruct-&gt;in-&gt;UUID = "" | pStruct-&gt;in-&gt;ParentUUID = "" | pStruct-&gt;in-&gt;DefaultCode = "")
+		return(0)
+	endif
+	
+	clear/e "CN_CLIENT_DEFAULTS"
+	PARENT_ID.CN_CLIENT_DEFAULTS    = pStruct-&gt;in-&gt;ParentUUID
+	CLIENT_ID.CN_CLIENT_DEFAULTS    = pStruct-&gt;in-&gt;UUID
+	DEFAULT_CODE.CN_CLIENT_DEFAULTS = pStruct-&gt;in-&gt;DefaultCode
+	retrieve/e "CN_CLIENT_DEFAULTS"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		pStruct-&gt;out-&gt;Default = DEFAULT_VALUE.CN_CLIENT_DEFAULTS
+	endif	
+	return(0)
+end
+
+;================================================
+
+operation getCompanyDefaults
+params
+	struct     pStruct : IN
+endparams
+	
+	if (pStruct-&gt;in-&gt;UUID = "" | pStruct-&gt;in-&gt;DefaultCode = "")
+		return(0)
+	endif
+	
+	clear/e "CN_COMPANY_DEFAULTS"
+	COMPANY_ID.CN_COMPANY_DEFAULTS   = pStruct-&gt;in-&gt;UUID
+	DEFAULT_CODE.CN_COMPANY_DEFAULTS = pStruct-&gt;in-&gt;DefaultCode
+	retrieve/e "CN_COMPANY_DEFAULTS"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		pStruct-&gt;out-&gt;Default = DEFAULT_VALUE.CN_COMPANY_DEFAULTS
+	endif	
+	return(0)
+end
+
+;================================================
+
+operation getCompanyNotes
+params
+	struct  pStruct : INOUT
+endparams
+	
+	if (pStruct-&gt;in-&gt;CompanyID = "" | pStruct-&gt;in-&gt;ParentID = "" | pStruct-&gt;in-&gt;Category = "")
+		return(0)
+	endif
+	
+	clear/e "CN_COMPANY_NOTES"
+	PARENT_ID.CN_COMPANY_NOTES = pStruct-&gt;in-&gt;ParentID 
+	COMPANY_ID.CN_COMPANY_NOTES = pStruct-&gt;in-&gt;CompanyID
+	CATEGORY.CN_COMPANY_NOTES = pStruct-&gt;in-&gt;Category
+	retrieve/e "CN_COMPANY_NOTES"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		pStruct-&gt;out-&gt;Note = NOTE.CN_COMPANY_NOTES 
+	endif	
+	
+	return(0)
+
+end
+
+;================================================
+
+operation getCompanyDefaultList
+params
+	struct  pStruct : INOUT
+endparams
+variables
+	string vList
+endvariables
+	if (pStruct-&gt;in-&gt;CompanyID = "")
+		return(0)
+	endif
+	clear/e "CN_COMPANY_DEFAULTS"
+	COMPANY_ID.CN_COMPANY_DEFAULTS   = pStruct-&gt;in-&gt;CompanyID
+	retrieve/e "CN_COMPANY_DEFAULTS"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_COMPANY_DEFAULTS"		
+			putitem/id vList, DEFAULT_CODE.CN_COMPANY_DEFAULTS, DEFAULT_VALUE.CN_COMPANY_DEFAULTS
+		endfor
+	endif
+	pStruct-&gt;out-&gt;DefaultList = vList
+
+end
+
+;================================================
+
+operation getCompanyFiles
+params
+	struct     pStruct : IN
+endparams
+variables
+	string vFileOcc
+endvariables
+
+	if (pStruct-&gt;in-&gt;ParentCode = "" | pStruct-&gt;in-&gt;CompCode = "" | pStruct-&gt;in-&gt;FileType = "")
+		return(0)
+	endif
+	
+	clear/e "CN_COMPANY_FILES"
+	PARENT_ID.CN_COMPANY_FILES   = pStruct-&gt;in-&gt;ParentCode
+	COMPANY_ID.CN_COMPANY_FILES = pStruct-&gt;in-&gt;CompCode
+	FILE_TYPE.CN_COMPANY_FILES = pStruct-&gt;in-&gt;FileType
+
+	if (pStruct-&gt;in-&gt;FileGroup != "")
+		GROUP.CN_COMPANY_FILES = pStruct-&gt;in-&gt;FileGroup
+	endif
+	retrieve/e "CN_COMPANY_FILES"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		putlistitems/occ vFileOcc, "CN_COMPANY_FILES"
+		pStruct-&gt;out-&gt;Files = vFileOcc
+	endif	
+	return(0)
+end
+
+;================================================
+
+operation getCompanyDestPorts
+	params
+		struct    pParams        : INOUT
+	endparams
+	variables
+		string    vValRep, vPortCode, vPortName, vCompID
+		struct  vStruct
+	endvariables
+	
+	#include IFC:INITSTRUCTPARAM
+	
+	vCompID = pParams-&gt;in-&gt;CompanyID
+	
+	clear/e "CN_COMPANY_PORT"
+	COMPANY_ID.CN_COMPANY_PORT = pParams-&gt;in-&gt;CompanyID
+	retrieve/e "CN_COMPANY_PORT" 
+	
+	forentity "CN_COMPANY_PORT"
+		vPortCode = $concat(COUNTRY_CODE.CN_COMPANY_PORT,"-",PORT_CODE.CN_COMPANY_PORT)
+		vStruct-&gt;in-&gt;CountryCode     = COUNTRY_CODE.CN_COMPANY_PORT
+		vStruct-&gt;in-&gt;PortCode         = PORT_CODE.CN_COMPANY_PORT 
+		vStruct-&gt;in-&gt;PortType         = PORT_TYPE.CN_COMPANY_PORT
+		
+		activate "C_AD_SA_PORT1".getPortName(vStruct)
+		
+		vPortName = vStruct-&gt;out-&gt;Name
+		vPortName = $concat("(",vPortCode,") ",vPortName)
+		
+		putitem/id vValRep, vPortCode, vPortName
+	endfor
+	
+	pParams-&gt;out-&gt;ValRep = vValRep
+	
+	return(0)
+end
+
+
+;================================================
+
+operation deleteCompanyContainer
+	params
+		struct pStruct : INOUT
+	endparams
+
+	if (pStruct-&gt;in-&gt;CompanyID = "") return ()
+	
+	clear/e "CN_COMPANY_CONTAINERS"
+	COMPANY_ID.CN_COMPANY_CONTAINERS     = pStruct-&gt;in-&gt;CompanyID
+	CONT_CODE.CN_COMPANY_CONTAINERS	  = pStruct-&gt;in-&gt;ContCode
+	retrieve/e  "CN_COMPANY_CONTAINERS"     
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		remocc "CN_COMPANY_CONTAINERS" , 0
+		store/e "CN_COMPANY_CONTAINERS"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			commit
+			pStruct-&gt;out-&gt;Success = "T"
+		else
+			rollback
+			pStruct-&gt;out-&gt;Success = "F"
+		endif
+	endif
+end 
+
+;================================================
+
+;==============================================================
+; BELOW THIS LINE IS OLD STUFF THAT NEEDS CHECKING
+;==============================================================
+
+;;;; revisit if systransport has been changed to ??....
+operation getTransCompanyList
+	params
+		struct     pStruct : INOUT
+	endparams
+	variables 
+		string vList, vFilter
+	endvariables
+	clear
+	
+	vFilter = pStruct-&gt;in-&gt;CompanyName
+	
+	clear/e "CN_COMPANY_RELATIONSHIP"
+	;                COMPANY_ID.CN_COMPANY_RELATIONSHIP = COMPANY_ID.CN_COMPANY_CODE
+	filedump $concat("%%^Tracomp:",pStruct-&gt;in-&gt;CompanyID,"%%^"), "db.txt"
+	PARENT_ID.CN_COMPANY_RELATIONSHIP = pStruct-&gt;in-&gt;CompanyID
+	ENABLED.CN_COMPANY_RELATIONSHIP = 1
+	COMPANY_TYPE.CN_COMPANY_RELATIONSHIP = 8
+	retrieve/e "CN_COMPANY_RELATIONSHIP"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		filedump "got my transport companies%%^", "db.txt"
+		forentity "CN_COMPANY_RELATIONSHIP"
+			clear/e "CN_COMPANY"
+			COMPANY_ID.CN_COMPANY = COMPANY_ID.CN_COMPANY_RELATIONSHIP
+			filedump "got transport companies%%^", "db.txt"
+			retrieve/e "CN_COMPANY"
+			if ($procerror = &lt;UACT_SUCCESS&gt;)
+				if (ENABLED.CN_COMPANY = 1)
+					if (vFilter != "")
+						if ($scan(COMPANY_NAME.CN_COMPANY,$concat("&uALL;",vFilter,"&uALL;")) &gt; 0)
+							putitem/id vList, COMPANY_ID.CN_COMPANY, COMPANY_NAME.CN_COMPANY
+						endif
+					else
+						putitem/id vList, COMPANY_ID.CN_COMPANY, COMPANY_NAME.CN_COMPANY
+					endif
+				endif
+			endif
+		endfor
+	endif
+	
+	sort/list vList, "A"
+	
+	pStruct-&gt;out-&gt;List = vList
+	
+end
+
+
+;================================================
+
+operation getTransDestPort
+	params
+		struct pStruct : INOUT
+	endparams
+	variables
+		string vList, vCountryCode, vPortCode, vPorts, vName,vcode, vFilter, vPortCodeDD
+		numeric  vctr, vIndex
+		struct vStruct
+	endvariables
+	
+	#include IFC:INITSTRUCTPARAM
+	
+	vFilter = pStruct-&gt;in-&gt;PortName
+	
+	
+	clear/e "CN_COMPANY_PORT"
+	COMPANY_ID.CN_COMPANY_PORT = pStruct-&gt;in-&gt;CompanyID
+	retrieve/e "CN_COMPANY_PORT"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_COMPANY_PORT"
+			vStruct-&gt;in-&gt;CountryCode     = COUNTRY_CODE.CN_COMPANY_PORT
+			vStruct-&gt;in-&gt;PortCode         = PORT_CODE.CN_COMPANY_PORT
+			vStruct-&gt;in-&gt;PortType         = "1"
+			activate "C_AD_SA_PORT1".getPortName(vStruct)
+			vPortCodeDD = $concat(COUNTRY_CODE.CN_COMPANY_PORT,"-",PORT_CODE.CN_COMPANY_PORT)                
+			vName = vStruct-&gt;out-&gt;Name
+			
+			if (vStruct-&gt;out-&gt;status = 0)
+				putitem/id vList, vPortCodeDD, $concat("( ",vPortCodeDD," ) ",vName)
+			endif
+		endfor
+	endif
+	
+	pStruct-&gt;out-&gt;List = vList
+	
+	return
+	
+end 
+
+
+;Mantis 1004596 - start
+operation companyNameMatch
+	params
+		struct    pParams        : INOUT
+	endparams
+	variables
+		struct    vNode
+	endvariables
+	
+	if (pParams-&gt;in-&gt;Name = "" | pParams-&gt;in-&gt;ParentID = "")
+		pParams-&gt;out-&gt;Status = "Failed"
+		return(0)
+	endif
+	
+	clear/e "CN_COMPANY"
+	COMPANY_NAME.CN_COMPANY   =    pParams-&gt;in-&gt;Name
+	retrieve/e "CN_COMPANY"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_COMPANY"
+			clear/e "CN_COMPANY_RELATIONSHIP"
+			COMPANY_ID.CN_COMPANY_RELATIONSHIP = COMPANY_ID.CN_COMPANY
+			PARENT_ID.CN_COMPANY_RELATIONSHIP = pParams-&gt;in-&gt;ParentID
+			retrieve/e "CN_COMPANY_RELATIONSHIP"
+			if ($procerror = &lt;UACT_SUCCESS&gt;)
+				if ((pParams-&gt;in-&gt;Type != "" &amp; COMPANY_TYPE.CN_COMPANY_RELATIONSHIP = pParams-&gt;in-&gt;Type) | (pParams-&gt;in-&gt;Type = ""))
+					vNode = $newstruct
+					vNode-&gt;Code = COMPANY_ID.CN_COMPANY
+					vNode-&gt;Name = COMPANY_NAME.CN_COMPANY
+					vNode-&gt;Type = COMPANY_TYPE.CN_COMPANY_RELATIONSHIP
+					pParams-&gt;out-&gt;Companies{-1} = vNode
+					pParams-&gt;out-&gt;Status = "Exact"
+				endif
+			endif
+		endfor
+	else
+		clear/e "CN_COMPANY"
+		COMPANY_NAME.CN_COMPANY= $concat("&uALL;", pParams-&gt;in-&gt;Name, "&uALL;")
+		retrieve/e "CN_COMPANY"
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			forentity "CN_COMPANY"
+				clear/e "CN_COMPANY_RELATIONSHIP"
+				COMPANY_ID.CN_COMPANY_RELATIONSHIP = COMPANY_ID.CN_COMPANY
+				PARENT_ID.CN_COMPANY_RELATIONSHIP = pParams-&gt;in-&gt;ParentID
+				retrieve/e "CN_COMPANY_RELATIONSHIP"
+				if ($procerror = &lt;UACT_SUCCESS&gt;)
+					if ((pParams-&gt;in-&gt;Type != "" &amp; COMPANY_TYPE.CN_COMPANY_RELATIONSHIP = pParams-&gt;in-&gt;Type) | (pParams-&gt;in-&gt;Type = ""))
+						vNode = $newstruct
+						vNode-&gt;Code = COMPANY_ID.CN_COMPANY
+						vNode-&gt;Name = COMPANY_NAME.CN_COMPANY
+						vNode-&gt;Type = COMPANY_TYPE.CN_COMPANY_RELATIONSHIP
+						pParams-&gt;out-&gt;Companies{-1} = vNode
+						pParams-&gt;out-&gt;Status = "Part"
+					endif
+				endif
+			endfor
+		else
+			pParams-&gt;out-&gt;Status = "Failed"
+		endif
+	endif
+
+	return (0)
+	
+end
+
+
+
+;mantis 1004611 - start 
+operation getCompanyPerType
+	params
+		struct pStruct : INOUT
+	endparams
+	variables
+		numeric vCompType 
+		string vList, vParentCode
+	endvariables
+	
+	vCompType = pStruct-&gt;in-&gt;Type
+	;mantis 1020617 
+	vParentCode = pStruct-&gt;in-&gt;ParentCode
+	if (vCompType = "" | vParentCode = "") return (0)
+	
+	clear/e "CN_COMPANY_RELATIONSHIP"
+	PARENT_ID.CN_COMPANY_RELATIONSHIP = vParentCode
+	COMPANY_TYPE.CN_COMPANY_RELATIONSHIP = vCompType 
+	ENABLED.CN_COMPANY_RELATIONSHIP = 1
+	retrieve/e "CN_COMPANY_RELATIONSHIP"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_COMPANY_RELATIONSHIP"
+			clear/e "CN_COMPANY"
+			COMPANY_ID.CN_COMPANY = COMPANY_ID.CN_COMPANY_RELATIONSHIP
+			retrieve/e "CN_COMPANY"
+			if (COMPANY_NAME.CN_COMPANY != "") putitem/id vList, COMPANY_ID.CN_COMPANY_RELATIONSHIP , COMPANY_NAME.CN_COMPANY
+		endfor
+		sort/list vList, "A"
+	endif 
+	
+	
+	pStruct-&gt;out-&gt;List = vList
+end ;getCompanyPerType
+
+operation getTeamsperFFCode
+	params
+		struct pStruct : INOUT
+	endparams
+	variables
+		string vList, vFFCode
+	endvariables
+	
+	vFFCode= pStruct-&gt;in-&gt;FFCode
+	if (vFFCode= "") return ()
+	
+	clear/e "CN_TEAM"
+	COMPANY_ID.CN_TEAM = vFFCode
+	retrieve/e "CN_TEAM"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_TEAM"
+			putitem/id vList, TEAMID.CN_TEAM , TEAMDESC.CN_TEAM
+		endfor
+	endif 
+	
+	pStruct-&gt;out-&gt;List = vList
+end ;getCompanyPerType
+
+operation getTeamsperImp
+	params
+		struct pStruct : INOUT
+	endparams
+	variables
+		string vList, vFFCode, vImpCode, vSQL, vRecord, vTeamID, vTeamDesc
+	endvariables
+	
+	vFFCode= pStruct-&gt;in-&gt;FFCode
+	vImpCode = pStruct-&gt;in-&gt;ImpCode
+	
+	if (vFFCode= "" | vImpCode = "") return ()
+	
+	if (pStruct-&gt;in-&gt;Exists = "F")
+		vSQL = "select distinct teamid, teamdesc from cn_team a  %\
+		where not exists (select 1 from cn_company_team where  %\
+		ffcode = a.ffcode and teamid  = a.teamid and ffcode = '%%vFFCode%%%' and  %\
+		compcode = '%%vImpCode%%%')" 
+	else    
+		vSQL = "select distinct a.teamid, b.teamdesc from cn_company_team a %\
+		inner join cn_team b on a.ffcode = b.ffcode and a.teamid = b.teamid %\
+		where a.ffcode = '%%vFFCode%%%' and a.compcode = '%%vImpCode%%%'"
+	endif
+	
+	sql/data vSQL, "DEF"
+	forlist vRecord in $result
+		getitem vTeamID, vRecord, 1
+		getitem vTeamDesc, vRecord, 2
+		
+		putitem/id vList, vTeamID, vTeamDesc
+	endfor
+	
+	pStruct-&gt;out-&gt;List = vList
+end ;getCompanyPerType
+
+
+operation getTeamDesc
+	params
+		string pTeamID : IN
+		string pTeamDesc : OUT
+	endparams
+	if (pTeamID = "") return ()
+
+	clear/e "CN_TEAM"
+	TEAMID.CN_TEAM = pTeamID
+	retrieve/e "CN_TEAM"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		pTeamDesc = TEAMDESC.CN_TEAM
+	endif
+end ;getTeamDesc
+; mantis 1004611 -end
+
+
+operation getTeamsValrep
+	params
+		struct pStruct : INOUT
+	endparams
+	variables
+		string vComp, vlist
+	endvariables
+	
+	if (pStruct-&gt;in-&gt;COMPANY_ID = "") return ()
+	vComp = pStruct-&gt;in-&gt;COMPANY_ID
+		
+
+	clear/e "CN_TEAM"
+	COMPANY_ID.CN_TEAM = pStruct-&gt;in-&gt;COMPANY_ID
+	retrieve/e "CN_TEAM"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		putlistitems/id pStruct-&gt;out-&gt;List, TEAMID.CN_TEAM , TEAMDESC.CN_TEAM
+	endif 
+	
+	vlist = pStruct-&gt;out-&gt;List
+
+	return (0)
+
+end 
+
+
+operation getClientTeamsValrep
+	params
+		struct pStruct : INOUT
+	endparams
+	variables
+		string vTeamDesc, vList,vID
+	endvariables
+	
+	if (pStruct-&gt;in-&gt;COMPANY_ID = "") return ()
+	
+	clear/e "CN_COMPANY_TEAM"
+	COMPANY_ID.CN_COMPANY_TEAM = pStruct-&gt;in-&gt;COMPANY_ID
+	retrieve/e "CN_COMPANY_TEAM"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_COMPANY_TEAM"
+			vID = TEAMID.CN_COMPANY_TEAM
+			activate "C_AD_SA_COMPANY1".getTeamDesc(TEAMID.CN_COMPANY_TEAM,vTeamDesc)
+			putitem/id vList, TEAMID.CN_COMPANY_TEAM , vTeamDesc
+			;    putlistitems/id pStruct-&gt;out-&gt;List, TEAMID.CN_TEAM , TEAMDESC.CN_TEAM
+		endfor
+	endif 
+	
+	pStruct-&gt;out-&gt;List = vList
+	
+end 
+
+
+operation getCompanyServices
+	params
+		struct pStruct : INOUT
+	endparams
+	variables
+		string vServiceListDB, vServiceList 
+	endvariables
+	
+	if (pStruct-&gt;in-&gt;COMPANY_ID = "") return()
+	vServiceList = "FQS=Freight Quote System&uSEP;FSC=Freight Supply Chain&uSEP;SEA=Offers SEA Freight Rates&uSEP;AIR=Offers AIR Freight Rates"
+	
+	clear/e "CN_COMPANY"
+	COMPANY_ID.CN_COMPANY = pStruct-&gt;in-&gt;COMPANY_ID 
+	retrieve/e "CN_COMPANY"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_COMPANY_SERVICES"
+			putitem vServiceListDB, -1, $item(SERVICE.CN_COMPANY_SERVICES,vServiceList)      
+		endfor
+		
+		pStruct-&gt;out-&gt;List =vServiceListDB
+		
+	endif
+	
+end 
+
+operation checkServiceForCompany
+	params
+		struct pStruct : INOUT
+	endparams
+	if (pStruct-&gt;in-&gt;COMPANY_ID = "" | pStruct-&gt;in-&gt;SERVICE = "") return (0)
+	
+	$order_by$ = "COMPANY_NAME"
+	pStruct-&gt;out-&gt;Exists = "F"
+	
+	clear/e "CN_COMPANY"
+	COMPANY_ID.CN_COMPANY = pStruct-&gt;in-&gt;COMPANY_ID 
+	retrieve/e "CN_COMPANY"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		
+		SERVICE.CN_COMPANY_SERVICES = pStruct-&gt;in-&gt;SERVICE 
+		retrieve/e "CN_COMPANY_SERVICES"
+		
+		if ($procerror = &lt;UACT_SUCCESS&gt;)
+			pStruct-&gt;out-&gt;Exists = "T"    
+		endif
+	endif
+end
+
+
+operation getCompanyListPerType
+	params
+		struct pStruct : INOUT
+	endparams
+	variables
+		string vList,vOccList,vOcc, vParentCode,vCompType
+	endvariables
+	
+	vCompType = pStruct-&gt;in-&gt;Type
+	;mantis 1020617 
+	vParentCode = pStruct-&gt;in-&gt;ParentCode
+	
+	if (vCompType = "" | vParentCode = "") return (0)
+	
+	clear/e "CN_COMPANY_RELATIONSHIP"
+	PARENT_ID.CN_COMPANY_RELATIONSHIP = vParentCode
+	COMPANY_TYPE.CN_COMPANY_RELATIONSHIP = vCompType 
+	ENABLED.CN_COMPANY_RELATIONSHIP = 1
+	retrieve/e "CN_COMPANY_RELATIONSHIP"
+	
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_COMPANY_RELATIONSHIP"
+			putitem  vList, -1, COMPANY_ID.CN_COMPANY_RELATIONSHIP
+			putlistitems/occ vOcc, "CN_COMPANY_RELATIONSHIP"
+			putitem/id vOccList, COMPANY_ID.CN_COMPANY_RELATIONSHIP, vOcc
+		endfor
+	endif 
+	
+	pStruct-&gt;out-&gt;List = vList
+	pStruct-&gt;out-&gt;CompOcc = vOccList
+end ;getCompanyListPerType
+
+
+operation getCompanyContainers
+params
+	struct pStruct : INOUT
+endparams
+variables
+	string vValRep, vCodeList
+endvariables
+	
+	clear/e "CN_COMPANY_CONTAINERS"  
+	COMPANY_ID.CN_COMPANY_CONTAINERS = pStruct-&gt;in-&gt;CompanyID
+	CONT_TYPE.CN_COMPANY_CONTAINERS = pStruct-&gt;in-&gt;ContType
+	ENABLED.CN_COMPANY_CONTAINERS = 1
+	retrieve/e "CN_COMPANY_CONTAINERS"
+
+	if ($procerror = &lt;UACT_SUCCESS&gt;)	
+		forentity "CN_COMPANY_CONTAINERS"
+			putitem vCodeList, -1 ,CONT_CODE.CN_COMPANY_CONTAINERS
+			putitem/id vValRep, CONT_CODE.CN_COMPANY_CONTAINERS, CONT_CODE.CN_COMPANY_CONTAINERS			
+		endfor		
+	endif  
+	pStruct-&gt;out-&gt;ValRep = vValRep
+	pStruct-&gt;out-&gt;ContList = vCodeList
+	return(0)
+end
+
+
+operation getCompanyChargeCodes
+params
+	struct pStruct : INOUT
+endparams
+variables
+	string vValRep
+endvariables
+	clear/e  "CN_COMPANY_CHARGE_CODES"  
+	COMPANY_ID.CN_COMPANY_CHARGE_CODES = pStruct-&gt;in-&gt;CompanyID 
+	CHARGE_TYPE.CN_COMPANY_CHARGE_CODES = pStruct-&gt;in-&gt;ChargeType 
+	CHARGE_CODE.CN_COMPANY_CHARGE_CODES =  pStruct-&gt;in-&gt;ChargeCode 
+	ENABLED.CN_COMPANY_CHARGE_CODES = 1
+	retrieve/e "CN_COMPANY_CHARGE_CODES"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)  
+		putlistitems/id vValRep, CHARGE_CODE.CN_COMPANY_CHARGE_CODES, CHARGE_DESC.CN_COMPANY_CHARGE_CODES
+	endif
+	pStruct-&gt;out-&gt;ValRep = vValRep
+end
+
+operation getCompanyType
+params
+	struct pStruct : INOUT
+endparams
+	clear/e "CN_COMPANY_RELATIONSHIP"
+	PARENT_ID.CN_COMPANY_RELATIONSHIP = $concat("&uEQ;",pStruct-&gt;in-&gt;PARENTID)
+	COMPANY_ID.CN_COMPANY_RELATIONSHIP= $concat("&uEQ;",pStruct-&gt;in-&gt;COMPID)
+	retrieve/e "CN_COMPANY_RELATIONSHIP"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		pStruct-&gt;out-&gt;COMPTYPE = COMPANY_TYPE.CN_COMPANY_RELATIONSHIP 
+	endif
+end
+
+operation getFileGroups
+params
+	struct pStruct : INOUT
+endparams
+variables
+	struct vStruct
+	string vGroupCodeList , vGroupIDList
+endvariables	
+	#include IFC:initStructParam
+	vStruct-&gt;in-&gt;PARENTID = pStruct-&gt;in-&gt;PARENTID
+	vStruct-&gt;in-&gt;COMPID = pStruct-&gt;in-&gt;COMPID
+	activate "C_AD_SA_COMPANY1".getCompanyType(vStruct)
+
+	clear/e "CN_DOCUMENT_GROUPS_TYPES"
+	COMPANY_TYPE.CN_DOCUMENT_GROUPS_TYPES = $concat("&uEQ;", vStruct-&gt;out-&gt;COMPTYPE )
+	ACCESS_TYPE.CN_DOCUMENT_GROUPS_TYPES = "&uNOT;="
+	retrieve/e "CN_DOCUMENT_GROUPS_TYPES"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_DOCUMENT_GROUPS_TYPES"
+			forentity "CN_DOCUMENT_GROUPS"
+				putitem/id vGroupCodeList, GROUP_CODE.CN_DOCUMENT_GROUPS, GROUP_DESC.CN_DOCUMENT_GROUPS
+				putitem/id vGroupIDList, GROUP_UUID.CN_DOCUMENT_GROUPS, GROUP_DESC.CN_DOCUMENT_GROUPS
+			endfor
+		endfor	
+	endif
+
+	
+	sort/list vGroupCodeList, "A"
+	sort/list vGroupIDList, "A"
+
+	pStruct-&gt;out-&gt;CODEVALREP = vGroupCodeList
+	pStruct-&gt;out-&gt;UUIDVALREP = vGroupIDList
+	
+end
+
+operation getClientFileGroups
+params
+	struct pStruct : INOUT
+endparams
+variables
+	struct vStruct
+	string vGroupCodeList , vGroupIDList
+endvariables	
+	clear/e "CN_DOCUMENT_GROUPS_TYPES"
+	COMPANY_TYPE.CN_DOCUMENT_GROUPS_TYPES = 99
+	ACCESS_TYPE.CN_DOCUMENT_GROUPS_TYPES = "&uNOT;="
+	retrieve/e "CN_DOCUMENT_GROUPS_TYPES"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_DOCUMENT_GROUPS_TYPES"
+			forentity "CN_DOCUMENT_GROUPS"
+				putitem/id vGroupCodeList, GROUP_CODE.CN_DOCUMENT_GROUPS, GROUP_DESC.CN_DOCUMENT_GROUPS
+				putitem/id vGroupIDList, GROUP_UUID.CN_DOCUMENT_GROUPS, GROUP_DESC.CN_DOCUMENT_GROUPS
+			endfor
+		endfor	
+	endif
+
+			
+	sort/list vGroupCodeList, "A"
+	sort/list vGroupIDList, "A"
+
+	pStruct-&gt;out-&gt;CODEVALREP = vGroupCodeList
+	pStruct-&gt;out-&gt;UUIDVALREP = vGroupIDList
+	
+end
+
+
+operation getClientList
+params
+	struct 		pStruct		: INOUT
+endparams
+
+	clear/e "CN_CLIENT"
+	retrieve/e "CN_CLIENT"
+	forentity "CN_CLIENT"
+		putitem/id pStruct-&gt;out-&gt;CLIENTLIST, client_id.cn_client, company_name.cn_client
+	endfor
+
+
+
+end ;getClientList
+
+;================================================
+
+operation getCompTypeList
+	params
+		struct 		pStruct : INOUT
+	endparams
+
+	clear/e "CN_COMPANY_TYPE"
+	retrieve/e "CN_COMPANY_TYPE"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_COMPANY_TYPE"
+			putitem/id pStruct-&gt;out-&gt;LIST, company_type.cn_company_type, company_type_desc.cn_company_type
+		endfor
+	endif
+
+end ;getCompTypeList
+
+
+;================================================
+
+operation getScreenList
+	params
+		struct 		pStruct : INOUT
+	endparams
+
+	clear/e "CN_DEFAULT_SCREENS"
+	retrieve/e "CN_DEFAULT_SCREENS"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_DEFAULT_SCREENS"
+			putitem/id pStruct-&gt;out-&gt;LIST, screen.cn_default_screens, name.cn_default_screens
+		endfor
+	endif
+
+end ;getScreenList
+
+
+;================================================
+
+operation getCompanyName
+	params
+		struct 		pStruct	: INOUT
+	endparams
+
+	$order_by$ = "COMPANY_NAME"
+	clear/e "CN_COMPANY"
+	company_id.cn_company	= pStruct-&gt;in-&gt;COMPID	
+	retrieve/e "CN_COMPANY"
+	if ($procerror = &lt;UACT_SUCCESS&gt;)
+		forentity "CN_COMPANY"
+			pStruct-&gt;out-&gt;NAME	= company_name.cn_company
+		endfor
+	endif
+
+end ;getCompanyName</DAT>
+<DAT name="USCONTAINED">0</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXGROUP" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="1000" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,1" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_BORD" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DBMS" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_UPD" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINL" seqno="11" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXL" seqno="12" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINR" seqno="13" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXR" seqno="14" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLGINTF" seqno="15" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INTF" seqno="16" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="17" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="18" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="GETOCC" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="PUTOCC" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="DELOCC" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="LCK" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UNLOCK" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="GETSEGM" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="ADDOCC" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="DELOCCR" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="CREOCC" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="FINDOCC" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="FLIST" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="BREAK" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="VLDE" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDK" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="UISBCLASS" seqno="42" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UISASSOC" seqno="43" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_OBJSVC" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="U_SVCUSE" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTPROP" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="HTML_TABTYPE" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_B" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTHK_E" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_B" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="HTML_OCCHK_E" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HTML_ENTCLASS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="U_GLAB" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UEOINTERFACE" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UECINTERFACE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="UEOOPERS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="UECOPERS" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="UEOTRIGGERS" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="UECTRIGGERS" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="UGEOMETRY" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETTYPE" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="UWIDGETCREATE" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="PRLO" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+<FLD name="PSLO" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EE,0,0,0,,0,0,0,," />
+<FLD name="PRSO" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EF,0,0,0,,0,0,0,," />
+<FLD name="PSSO" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F0,0,0,0,,0,0,0,," />
+<FLD name="UPARENT" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F1,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETTYPE" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F2,0,0,0,,0,0,0,," />
+<FLD name="UWEBWIDGETCREATE" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\F3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-09T14:10:04.00</DAT>
+<DAT name="ULABEL">CN_CLIENT</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>;read order by "company_name"
+
+read u_where (enabled.cn_client) order by "company_name"
+
+
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-10-19T15:47:37.00</DAT>
+<DAT name="ULABEL">CN_CLIENT_DEFAULTS</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-17T11:53:30.00</DAT>
+<DAT name="ULABEL">CN_CLIENT_TEAM</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-14T17:43:10.00</DAT>
+<DAT name="ULABEL">CN_COMPANY</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>if ($order_by$ = "")
+	read
+else
+	read order by "COMPANY_NAME"
+endif 
+
+</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-05-17T09:42:57.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_ADDRESS</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read u_where (COMPANY_ID.CN_COMPANY_ADDRESS = COMPANY_ID.CN_COMPANY)</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-04-27T10:42:43.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_CHARGE_CODES</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-02T12:21:44.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_CODE</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-05-03T15:48:20.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_CONTAINERS</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-05-09T14:16:58.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_DEFAULTS</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-05-17T09:52:28.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_FILES</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-27T16:24:38.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_MILESTONES</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-08-25T09:58:28.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_NOTES</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-11T15:32:38.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_PORT</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-02T12:28:05.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_RELATIONSHIP</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-06T17:04:52.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_SERVICES</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read u_where (COMPANY_ID.CN_COMPANY_SERVICES = COMPANY_ID.CN_COMPANY)</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-17T18:54:22.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_TEAM</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-28T17:44:30.00</DAT>
+<DAT name="ULABEL">CN_COMPANY_TYPE</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read u_where(enabled.cn_company_type)</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-31T13:54:12.00</DAT>
+<DAT name="ULABEL">CN_DEFAULT_SCREENS</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-20T15:34:06.00</DAT>
+<DAT name="ULABEL">CN_DOCUMENT_GROUPS</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read u_where GROUP_UUID.CN_DOCUMENT_GROUPS = GROUP_UUID.CN_DOCUMENT_GROUPS_TYPES  &amp; ENABLED.CN_DOCUMENT_GROUPS = 1 &amp; GROUP_AREA.CN_DOCUMENT_GROUPS = "CL"</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-07-20T10:10:13.00</DAT>
+<DAT name="ULABEL">CN_DOCUMENT_GROUPS_TYPES</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="GETOCC" xml:space='preserve'>read u_where ENABLED.CN_DOCUMENT_GROUPS_TYPES = 1</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-07-14T13:35:43.00</DAT>
+<DAT name="ULABEL">CN_TEAM</DAT>
+<DAT name="UBASE">CONFIG</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-05-03T15:28:15.00</DAT>
+<DAT name="ULABEL">FR_CONTAINERS</DAT>
+<DAT name="UBASE">FQS_SYSTEM</DAT>
+<DAT name="UFORM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="FLIST">*</DAT>
+<DAT name="UISBCLASS">F</DAT>
+<DAT name="UISASSOC">F</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXREGS" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_STAT" seqno="2" type="S" level="2" pack="0" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_TYPE" seqno="3" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_FORMLIB" seqno="4" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,3" idxsnr="101,1" />
+<FLD name="U_NAME" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_LAYOUT" seqno="9" type="S" level="2" pack="0" scale="0" length="46"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DOC" seqno="10" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-12-07T13:46:59.00</DAT>
+<DAT name="U_FORMLIB">C_AD_SA_COMPANY1</DAT>
+<DAT name="U_NAME">CLIENTID</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2016-11-14T17:43:15.00</DAT>
+<DAT name="U_FORMLIB">C_AD_SA_COMPANY1</DAT>
+<DAT name="U_NAME">ORDER_BY</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USUBS" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUBSYSTEM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UVERS" seqno="3" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="4" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPARENT" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UCOMMENT" seqno="6" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2011-11-02T17:50:42.00</DAT>
+<DAT name="USUBSYSTEM">C</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:49:14.00</DAT>
+<DAT name="USUBSYSTEM">COM_OUTLOOK</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:24:25.00</DAT>
+<DAT name="USUBSYSTEM">COM_WORD</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2002-03-26T15:40:21.00</DAT>
+<DAT name="USUBSYSTEM">DISYSWEB</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2004-12-17T10:27:45.00</DAT>
+<DAT name="USUBSYSTEM">MSEXCEL</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">1998-04-01T15:03:13.00</DAT>
+<DAT name="USUBSYSTEM">USYS</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2002-01-21T09:04:27.00</DAT>
+<DAT name="USUBSYSTEM">VOA8</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2012-05-21T10:28:19.00</DAT>
+<DAT name="USUBSYSTEM">WIN32API</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2003-06-23T16:48:22.00</DAT>
+<DAT name="USUBSYSTEM">WINAPI</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2006-01-26T15:40:49.00</DAT>
+<DAT name="USUBSYSTEM">WINSIG</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2001-03-19T15:55:03.00</DAT>
+<DAT name="USUBSYSTEM">WIN_API</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USSPEC" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UDESCR" seqno="3" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="4" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVAR" seqno="5" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECID" seqno="6" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USUBSYSTEM" seqno="7" type="S" level="2" pack="0" scale="0" length="16"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDEFIMPLNAM" seqno="8" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDEFPATH" seqno="9" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USYNCALLOWED" seqno="10" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USCOPE" seqno="11" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UEXECDEF" seqno="12" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USELFCONT" seqno="13" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UNOSTATE" seqno="14" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANS" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSATTR" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UMWATTR" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UHIDDDATA" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="URESDATA" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UHIDCDATA" seqno="21" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Company Mainteance</DAT>
+<DAT name="UVAR">SYSTEM_LIBRARY</DAT>
+<DAT name="USPECID">ID2017092610103873</DAT>
+<DAT name="UDEFIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UDEFPATH">SVC</DAT>
+<DAT name="USCOPE">PUB</DAT>
+<DAT name="UEXECDEF">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USOPER" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,1" />
+<FLD name="UOPERNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UDESCR" seqno="4" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="5" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USCOPE" seqno="6" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USELFCONT" seqno="7" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UEXECTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UNOSTATE" seqno="9" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPRE" seqno="10" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UPOST" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="URETVAL" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">ACCEPT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">CHECKSERVICEFORCOMPANY</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">COMPANYNAMEMATCH</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">DELETECOMPANYCONTAINER</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">EXEC</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCLIENTDEFAULTS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCLIENTFILEGROUPS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCLIENTINFO</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCLIENTLIST</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCLIENTTEAMSVALREP</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYCHARGECODES</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYCONTAINERS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYDEFAULTLIST</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYDEFAULTS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYDESTPORTS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYFILES</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYINFO</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYLISTPERTYPE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYNAME</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYNOTES</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYPERTYPE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYSERVICES</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYTYPE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYVALREP</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPTYPELIST</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETFILEGROUPS</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETSCREENLIST</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETTEAMDESC</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETTEAMSPERFFCODE</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETTEAMSPERIMP</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETTEAMSVALREP</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETTRANSCOMPANYLIST</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETTRANSDESTPORT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">QUIT</DAT>
+<DAT name="USCOPE">G</DAT>
+<DAT name="UEXECTYP">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USPARM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UOPERNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UPARMNAM" seqno="4" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UDESCR" seqno="5" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPSEQ" seqno="7" type="N" level="2" pack="7" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_PTYP" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDIREC" seqno="9" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="10" type="S" level="2" pack="0" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_VLAB" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_TLAB" seqno="12" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UOBJNAM" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="USCOPE" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UHINTERFACE" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">CHECKSERVICEFORCOMPANY</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">COMPANYNAMEMATCH</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">DELETECOMPANYCONTAINER</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCLIENTDEFAULTS</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCLIENTFILEGROUPS</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCLIENTINFO</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCLIENTLIST</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCLIENTTEAMSVALREP</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYCHARGECODES</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYCONTAINERS</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYDEFAULTLIST</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYDEFAULTS</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYDESTPORTS</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYFILES</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYINFO</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYLISTPERTYPE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYNAME</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYNOTES</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYPERTYPE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYSERVICES</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYTYPE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPANYVALREP</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETCOMPTYPELIST</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETFILEGROUPS</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETSCREENLIST</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETTEAMDESC</DAT>
+<DAT name="UPARMNAM">PTEAMDESC</DAT>
+<DAT name="UPSEQ">2</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">O</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETTEAMDESC</DAT>
+<DAT name="UPARMNAM">PTEAMID</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">I</DAT>
+<DAT name="U_DTYP">S</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETTEAMSPERFFCODE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETTEAMSPERIMP</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETTEAMSVALREP</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETTRANSCOMPANYLIST</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UOPERNAM">GETTRANSDESTPORT</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UPSEQ">1</DAT>
+<DAT name="U_PTYP">B</DAT>
+<DAT name="UDIREC">B</DAT>
+<DAT name="U_DTYP">w</DAT>
+<DAT name="USCOPE">BYREF</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIMPL" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="2" idxsnr="1" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UDESCR" seqno="5" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="6" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLID" seqno="7" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLSUB" seqno="8" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCNTXT" seqno="9" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USET" seqno="10" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERSCHECKING" seqno="11" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UTRANSATTR" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UIMPLATTR" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UIMPLID">ID2017092610103873</DAT>
+<DAT name="UCNTXT">F</DAT>
+<DAT name="UVERSCHECKING">S</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIOPER" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="2" idxsnr="1" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UOPERNAM" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULITOPERNAM" seqno="8" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="URETVAL" seqno="9" type="N" level="2" pack="7" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCNTXT" seqno="10" type="N" level="2" pack="7" scale="0" length="2"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIMPLEMENTED" seqno="11" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBODY" seqno="12" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UEXCEPT" seqno="13" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="UOPERATTR" seqno="14" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="URETTYPE" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">ACCEPT</DAT>
+<DAT name="ULITOPERNAM">ACCEPT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">CHECKSERVICEFORCOMPANY</DAT>
+<DAT name="ULITOPERNAM">CHECKSERVICEFORCOMPANY</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">COMPANYNAMEMATCH</DAT>
+<DAT name="ULITOPERNAM">COMPANYNAMEMATCH</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">DELETECOMPANYCONTAINER</DAT>
+<DAT name="ULITOPERNAM">DELETECOMPANYCONTAINER</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">EXEC</DAT>
+<DAT name="ULITOPERNAM">EXEC</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTDEFAULTS</DAT>
+<DAT name="ULITOPERNAM">GETCLIENTDEFAULTS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTFILEGROUPS</DAT>
+<DAT name="ULITOPERNAM">GETCLIENTFILEGROUPS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTINFO</DAT>
+<DAT name="ULITOPERNAM">GETCLIENTINFO</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTLIST</DAT>
+<DAT name="ULITOPERNAM">GETCLIENTLIST</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTTEAMSVALREP</DAT>
+<DAT name="ULITOPERNAM">GETCLIENTTEAMSVALREP</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYCHARGECODES</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYCHARGECODES</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYCONTAINERS</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYCONTAINERS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYDEFAULTLIST</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYDEFAULTLIST</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYDEFAULTS</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYDEFAULTS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYDESTPORTS</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYDESTPORTS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYFILES</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYFILES</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYINFO</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYINFO</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYLISTPERTYPE</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYLISTPERTYPE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYNAME</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYNAME</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYNOTES</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYNOTES</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYPERTYPE</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYPERTYPE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYSERVICES</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYSERVICES</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYTYPE</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYTYPE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYVALREP</DAT>
+<DAT name="ULITOPERNAM">GETCOMPANYVALREP</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPTYPELIST</DAT>
+<DAT name="ULITOPERNAM">GETCOMPTYPELIST</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETFILEGROUPS</DAT>
+<DAT name="ULITOPERNAM">GETFILEGROUPS</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETSCREENLIST</DAT>
+<DAT name="ULITOPERNAM">GETSCREENLIST</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTEAMDESC</DAT>
+<DAT name="ULITOPERNAM">GETTEAMDESC</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTEAMSPERFFCODE</DAT>
+<DAT name="ULITOPERNAM">GETTEAMSPERFFCODE</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTEAMSPERIMP</DAT>
+<DAT name="ULITOPERNAM">GETTEAMSPERIMP</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTEAMSVALREP</DAT>
+<DAT name="ULITOPERNAM">GETTEAMSVALREP</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTRANSCOMPANYLIST</DAT>
+<DAT name="ULITOPERNAM">GETTRANSCOMPANYLIST</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTRANSDESTPORT</DAT>
+<DAT name="ULITOPERNAM">GETTRANSDESTPORT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">QUIT</DAT>
+<DAT name="ULITOPERNAM">QUIT</DAT>
+<DAT name="URETVAL">-1</DAT>
+<DAT name="UCNTXT">0</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="USIPARM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="USPECNAM" seqno="2" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" mandatory="yes" />
+<FLD name="UIMPLNAM" seqno="3" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UPATH" seqno="4" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UOPERNAM" seqno="5" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="103" />
+<FLD name="UPARMNAM" seqno="6" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="104" />
+<FLD name="UVERS" seqno="7" type="S" level="2" pack="0" scale="0" length="12"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UDESCR" seqno="8" type="S" level="2" pack="0" scale="0" length="25"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INTF" seqno="9" type="S" level="2" pack="0" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UARRAYSIZ" seqno="10" type="N" level="2" pack="10" scale="0" length="4"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TPLINTF" seqno="11" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCTYP" seqno="12" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULITPARMNAM" seqno="13" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_GLAB" seqno="14" type="S" level="2" pack="0" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UIPATTR" seqno="15" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UDTYPQUALIF" seqno="16" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UCOMMENT" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="USDATA" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">CHECKSERVICEFORCOMPANY</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">COMPANYNAMEMATCH</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">DELETECOMPANYCONTAINER</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTDEFAULTS</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTFILEGROUPS</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTINFO</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTLIST</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCLIENTTEAMSVALREP</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYCHARGECODES</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYCONTAINERS</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYDEFAULTLIST</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYDEFAULTS</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYDESTPORTS</DAT>
+<DAT name="UPARMNAM">PPARAMS</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYFILES</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYINFO</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYLISTPERTYPE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYNAME</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYNOTES</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYPERTYPE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYSERVICES</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYTYPE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPANYVALREP</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETCOMPTYPELIST</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETFILEGROUPS</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETSCREENLIST</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTEAMDESC</DAT>
+<DAT name="UPARMNAM">PTEAMDESC</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTEAMDESC</DAT>
+<DAT name="UPARMNAM">PTEAMID</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTEAMSPERFFCODE</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTEAMSPERIMP</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTEAMSVALREP</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTRANSCOMPANYLIST</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-26T10:10:38.00</DAT>
+<DAT name="USPECNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UIMPLNAM">C_AD_SA_COMPANY1</DAT>
+<DAT name="UPATH">SVC</DAT>
+<DAT name="UOPERNAM">GETTRANSDESTPORT</DAT>
+<DAT name="UPARMNAM">PSTRUCT</DAT>
+<DAT name="UARRAYSIZ">0</DAT>
+<DAT name="UCTYP">BSC</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>
